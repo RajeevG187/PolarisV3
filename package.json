@@ -1,0 +1,14 @@
+{
+  "name": "polaris",
+  "version": "1.0.0",
+  "description": "This is a website for Student Mentorship Program by the students and for the students.",
+  "main": "home.php",
+  "scripts": {
+    "compile": "sass public/sass/main.scss public/css/style.css -w"
+  },
+  "author": "Students of IIT Bhilai",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.64.1"
+  }
+}

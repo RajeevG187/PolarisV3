@@ -1,0 +1,71 @@
+// .clubs__text,
+// .outreach__text {
+//     text-align: justify;
+//     font-size: 1.7rem;
+//     word-spacing: 3px;
+//     font-weight: 300;
+// }
+
+// .clubs span,
+// .outreach span {
+//     font-weight: 700;
+// }
+
+// .outreach {
+//     width: 90%;
+//     margin: 7rem auto;
+// }
+
+// .outreach__photo {
+//     width: 100%;
+// }
+
+// .outreach__link {
+//     text-decoration: none;
+//     color: #3498db;
+//     font-weight: 700;
+// }
+
+.sports {
+
+    &__text {
+        text-align: justify;
+        font-size: $font-size-primary;
+        word-spacing: 3px;
+        font-weight: 300;
+    }
+
+    span {
+        font-weight: 700;
+    }
+}
+
+.sports {
+    width: 90%;
+    margin: 7rem auto;
+
+    &__photo {
+        width: 100%;
+    }
+}
+// .clubs__text,
+// .sports__text {
+//     text-align: justify;
+//     font-size: 1.7rem;
+//     word-spacing: 3px;
+//     font-weight: 300;
+// }
+
+// .clubs span,
+// .sports span {
+//     font-weight: 700;
+// }
+
+// .sports {
+//     width: 90%;
+//     margin: 7rem auto;
+// }
+
+// .sports__photo {
+//     width: 100%;
+// }

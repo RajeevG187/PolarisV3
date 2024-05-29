@@ -1,0 +1,147 @@
+// $color_1: #333;
+// $color-grey-dark: #333;
+
+// $color_2: #7cacff;
+// $color-primary-light: #7cacff;
+
+// $color_3: #3498db;
+// $color-primary-dark: #3498db;
+
+// $color_4: #fff;
+// $color-white: #fff;
+// all colors were found in variables
+
+// $font-family_1: 'Lato', sans-serif;
+// $font-family_2: 'Bitter', serif;
+// these font family variables are not used anywhere, lato and bitter are used directly
+// $background-color_1: #3498db;
+
+.intro,.fractal,.grade,.intro-cse,
+.intro-ee,
+.intro-me,.common{
+    &__text{
+        text-align: justify;
+        font-size: $font-size-primary;
+        word-spacing: 0.5rem;
+        font-weight: 300;
+    }
+    &__table{
+        th, td{
+            text-align: center;
+        }
+    }
+}
+
+// body{
+// 	font-family:$font-family_1;
+// 	font-weight:400;
+// 	line-height:1.7;
+// 	color: $color_1;
+// }
+
+// .heading-secondary{
+// 	font-size: 4rem;
+// 	color: $color_2;
+// 	font-family: $font-family_2;
+// 	margin-bottom: 5rem;
+// 	span{
+// 		font-size: 5rem;
+// 		color: $color_3;
+// 	}
+// }
+
+// .heading-tertiary{
+// 	font-size: 2rem;
+// 	font-family: $font-family_2;
+// }
+
+// .table{
+// 	border-collapse: collapse;
+// 	width: 80%;
+// 	margin: 2rem auto;
+// 	th{
+// 		border: 1px solid #333;
+// 		padding: 1rem;
+// 		font-size: 1.7rem;
+// 		word-spacing: 3px;
+// 		font-weight: 300;
+// 		text-align: center;
+// 		background-color: $color-primary-dark;
+// 		color: $color-white;
+// 	}
+// 	td{
+// 		border: 1px solid #333;
+// 		padding: 1rem;
+// 		font-size: 1.7rem;
+// 		word-spacing: 3px;
+// 		font-weight: 300;
+// 	}
+// }
+
+// below the whole thing found in home.scss
+// .info{
+// 	width: 90%;
+// 	margin: 0 auto;
+// 	&:not(:last-child){
+// 		margin-bottom: 2rem;
+// 	}
+// }
+
+// .info__text{
+// 	text-align: justify;
+// 	font-size: 1.7rem;
+// 	word-spacing: 3px;
+// 	font-weight: 300;
+// }
+
+// .info__list{
+// 	width: 80%;
+// 	margin: 2rem auto;
+// }
+
+// .info__item{
+// 	font-size: 1.7rem;
+// 	font-weight: 300;
+// }
+
+
+// below whole thing found in mixin.scss
+// the page works perfectly even after commenting all these out
+// @media(max-width:1024px){
+// 	html{
+// 		font-size: 50%;
+// 	}
+// }
+
+// @media(max-width:1200px){
+// 	.container{
+// 		margin:0 5rem;
+// 	}
+// 	.heading-secondary{
+// 		font-size:3rem;
+// 	}
+// }
+
+// @media(max-width: 1200px){
+// 	.heading-primary{
+// 		font-size: 4rem;
+// 		line-height: 1.35;
+// 		margin: 0 5rem;
+// 	}
+// 	.heading-subtitle{
+// 		font-size: 1.5rem;
+// 		margin: 1.5rem 5rem;
+// 	}
+// 	.heading-secondary{
+// 		span{
+// 			font-size: 4rem;
+// 		}
+// 	}
+// }
+
+// @media(max-width:600px){
+// 	.table__scroll{
+// 		overflow-x: scroll;
+// 		overflow-y: hidden;
+// 	}
+// }

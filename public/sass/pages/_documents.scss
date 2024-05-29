@@ -1,0 +1,38 @@
+.section-documents {
+    padding-top: 8rem;
+
+    .documents {
+        &__text {
+            padding-top: 8rem;
+            text-align: justify;
+            font-size: $font-size-primary;
+            word-spacing: 3px;
+            font-weight: 300;
+        }
+
+        // &__photo {
+        //     width: 100%;
+        // }
+    }
+}
+
+.section-fee {
+    .fee {
+
+        .sublist {
+            width: 80%;
+            margin: 0 auto;
+            text-align: justify;
+            font-size: $font-size-primary;
+            word-spacing: 3px;
+            font-weight: 300;
+        }
+
+        &__text {
+            text-align: justify;
+            font-size: $font-size-primary;
+            word-spacing: 3px;
+            font-weight: 300;
+        }
+    }
+}
