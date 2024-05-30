@@ -94,247 +94,255 @@
     },
     "mentors-ug": {
         "heading": "Mentors-UG",
-        "members": [
-            [
-                {
-                    "name": "Aditya Bajpai",
-                    "image": "images/mentors/Aditya Bajpai.jpg",
-                    "email": "mailto:adityabajpai@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/adityaexe?igshid=ZDdkNTZiNTM=",
-                    "phone": "6394390409"
-                },
-                {
-                    "name": "Arpan Goswami",
-                    "image": "images/mentors/ArpanGoswami.jpg",
-                    "email": "mailto:arpang@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/arpangoswami462?igshid=ZDdkNTZiNTM=",
-                    "phone": "7439247046"
-                },
-                {
-                    "name": "Arpit Bhardwaj",
-                    "image": "images/mentors/Arpit Bhardwaj.jpg",
-                    "email": "mailto:arpitb@iitbhilai.ac.in",
-                    "instagram": "",
-                    "phone": "9934961336"
-                },
-                {
-                    "name": "Bhavya Jain",
-                    "image": "images/mentors/Bhavya Jain.jpg",
-                    "email": "mailto:bhavyaj@iitbhilai.ac.in",
-                    "instagram": "",
-                    "phone": "9306368542"
-                }
-            ],
-            [
-                {
-                    "name": "Chetan",
-                    "image": "images/mentors/Chetan.jpg",
-                    "email": "mailto:chetan@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/chetan_iit_bhilai?igshid=YmMyMTA2M2Y=",
-                    "phone": "9355844091"
-                },
-                {
-                    "name": "Dhananjay Abbot",
-                    "image": "images/mentors/Dhananjay Abbot.jpg",
-                    "email": "mailto:arpang@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/forshronnnn?igshid=ZDdkNTZiNTM=",
-                    "phone": "8882700586"
-                },
-                {
-                    "name": "Kaki Venkata Vaneesha",
-                    "image": "images/mentors/Kaki Venkata Vaneesha.jpg",
-                    "email": "mailto:kakivenk@iitbhilai.ac.in",
-                    "instagram": "",
-                    "phone": "9390093783"
-                },
-                {
-                    "name": "Khushi Dutta",
-                    "image": "images/mentors/Khushi Dutta.jpg",
-                    "email": "mailto:khushid@iitbhilai.ac.in",
-                    "instagram": "",
-                    "phone": "7903642798"
-                }
-            ],
-            [
-                {
-                    "name": "Kirtiraj Jamnotiya",
-                    "image": "images/mentors/Kirtiraj Jamnotiya.jpg",
-                    "email": "mailto:kirtiraj@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/kirtiraj_jamnotiya?igshid=ZDdkNTZiNTM=",
-                    "phone": "9270865999"
-                },
-                {
-                    "name": "Kriti Arora",
-                    "image": "images/mentors/Kriti Arora.jpg",
-                    "email": "mailto:kritia@iitbhilai.ac.in",
-                    "instagram": "",
-                    "phone": "9109623503"
-                },
-                {
-                    "name": "Manopriya Mondal",
-                    "image": "images/mentors/Manopriya.jpg",
-                    "email": "mailto:manopriyam@iitbhilai.ac.in",
-                    "instagram": "",
-                    "phone": "7595807122"
-                },
-                {
-                    "name": "Mohit Thakre",
-                    "image": "images/mentors/Mohit Thakre.jpg",
-                    "email": "mailto:mohitt@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/mohit_thakre13?igshid=ZDdkNTZiNTM=",
-                    "phone": "8767249195"
-                }
-            ],
-            [
-                {
-                    "name": "Nishchay Rajput",
-                    "image": "images/devs/NISHCHAY_RAJPUT.JPG",
-                    "email": "mailto:nishchayr@iitbhilai.ac.in",
-                    "instagram": "https://www.instagram.com/__nishchay__rajput__/",
-                    "phone": "9770552422"
-                },
-                {
-                    "name": "Ojus Goel",
-                    "image": "images/devs/Ojus.jpg",
-                    "email": "mailto:ojusg@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/ojus_goel123?igshid=OTJhZDVkZWE=",
-                    "phone": "8708943859"
-                },
-                {
-                    "name": "Omendra Kumar Upadhyay",
-                    "image": "images/mentors/OMENDRA.jpg",
-                    "email": "mailto:omendrak@iitbhilai.ac.in",
-                    "instagram": "https://www.instagram.com/omendra_up_369/?utm_source=qr",
-                    "phone": "8247589701"
-                },
-                {
-                    "name": "Piyush Chandrakar",
-                    "image": "images/devs/Piyush_Chandrakar.jpg",
-                    "email": "mailto:piyushc@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/piyush_c38?igshid=ZDdkNTZiNTM=",
-                    "phone": "9179932361"
-                } 
-            ],
-            [
-                {
-                    "name": "Priyanshu Kishore",
-                    "image": "images/mentors/Priyanshu Kishore.jpg",
-                    "email": "mailto:priyanshuk@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/priyanshu_kishore4?igshid=ZDdkNTZiNTM=",
-                    "phone": "7363971979"
-                },
-                {
-                    "name": "Puneti Hemanth Kumar Reddy",
-                    "image": "images/mentors/Puneti Hemanth Kumar Reddy.jpg",
-                    "email": "mailto:punetihemanth@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/hemanth__asp?igshid=ZDdkNTZiNTM=",
-                    "phone": "9398481212"
-                },
-                {
-                    "name": "Raj Mohammad",
-                    "image": "images/mentors/Raj Mohammad.jpg",
-                    "email": "mailto:rajmohammad@iitbhilai.ac.in",
-                    "instagram": "",
-                    "phone": "7985378709"
-                },
-                {
-                    "name": "Rajeev Goel",
-                    "image": "images/devs/Rajeev_Goel.jpg",
-                    "email": "mailto:rajeevg@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/rajeevgoel187?igshid=ZDdkNTZiNTM=",
-                    "phone": "9307304394"
-                }
-            ],
-            [
-                {
-                    "name": "Shivam",
-                    "image": "images/mentors/Shivam.jpg",
-                    "email": "mailto:shivam@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/shivam_27_lth?igshid=ZDdkNTZiNTM=",
-                    "phone": "6207694066"
-                },
-                {
-                    "name": "Shivangi Gaur",
-                    "image": "images/mentors/Shivangi_Gaur.jpg",
-                    "email": "mailto:shivangig@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/shivangi_.15?igshid=ZDdkNTZiNTM=",
-                    "phone": "9571068884"
-                },
-                {
-                    "name": "Shubham Mahajan",
-                    "image": "images/mentors/Shubham_Mahajan.jpg",
-                    "email": "mailto:shubhamy@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/__shubham_mahajan__?igshid=YmMyMTA2M2Y=",
-                    "phone": "8879466601"
-                },
-                {
-                    "name": "Shweta Kesharwani",
-                    "image": "images/mentors/Shweta Kesharwani_.jpg",
-                    "email": "mailto:shwetak@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/shweta_k611?igshid=ZDdkNTZiNTM=",
-                    "phone": "6232562932"
-                }
-            ],
-            [
-                {
-                    "name": "Soni Kumari",
-                    "image": "images/mentors/Soni Kumari.jpg",
-                    "email": "mailto:sonik@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/soni_rajput1711?igshid=ZDdkNTZiNTM=",
-                    "phone": "6200816214"
-                },
-                {
-                    "name": "Sourabh Thakur",
-                    "image": "images/mentors/Sourabh Thakur.jpg",
-                    "email": "mailto:sourabht@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/ghasita_the_great_?igshid=ZDdkNTZiNTM=",
-                    "phone": "7880003650"
-                },
-                {
-                    "name": "Sreya Chitluru",
-                    "image": "images/mentors/Sreya_Chitluru.jpg",
-                    "email": "mailto:chitlurus@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/sreyac04?igshid=YmMyMTA2M2Y=",
-                    "phone": "7981671616"
-                },
-                {
-                    "name": "Sumit Kumar Pathak",
-                    "image": "images/devs/Sumit_Pathak.jpg",
-                    "email": "mailto:sumitkum@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/skp_pathak_?igshid=ZDdkNTZiNTM=",
-                    "phone": "8306312679"
-                }
-            ]
-        ],
-        "three-membered": [
-            [
-                {
-                    "name": "Talla Sai Surya",
-                    "image": "images/mentors/SAI_SURYA_TALLA.jpg",
-                    "email": "mailto:tallasai@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/tallasaisurya?igshid=ZDdkNTZiNTM=",
-                    "phone": "9346870117"
-                },
-                {
-                    "name": "Uday bhardwaj",
-                    "image": "images/mentors/Uday bhardwaj.jpg",
-                    "email": "mailto:udayb@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/uday_bhardwaj_2008?igshid=ZDdkNTZiNTM=",
-                    "phone": "7668310017"
-                },
-                {
-                    "name": "Vedansh Sharma",
-                    "image": "images/mentors/Vedansh_Sharma_jpg.jpg",
-                    "email": "mailto:vedanshs@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/vedansh_._sharma?igshid=ZDdkNTZiNTM=",
-                    "phone": "9799994323"
-                }
-            ]
+        "members":[
+            {
+                "members-4": [
+                    [
+                        {
+                            "name": "Aditya Bajpai",
+                            "image": "images/mentors/Aditya Bajpai.jpg",
+                            "email": "mailto:adityabajpai@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/adityaexe?igshid=ZDdkNTZiNTM=",
+                            "phone": "6394390409"
+                        },
+                        {
+                            "name": "Arpan Goswami",
+                            "image": "images/mentors/ArpanGoswami.jpg",
+                            "email": "mailto:arpang@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/arpangoswami462?igshid=ZDdkNTZiNTM=",
+                            "phone": "7439247046"
+                        },
+                        {
+                            "name": "Arpit Bhardwaj",
+                            "image": "images/mentors/Arpit Bhardwaj.jpg",
+                            "email": "mailto:arpitb@iitbhilai.ac.in",
+                            "instagram": "",
+                            "phone": "9934961336"
+                        },
+                        {
+                            "name": "Bhavya Jain",
+                            "image": "images/mentors/Bhavya Jain.jpg",
+                            "email": "mailto:bhavyaj@iitbhilai.ac.in",
+                            "instagram": "",
+                            "phone": "9306368542"
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Chetan",
+                            "image": "images/mentors/Chetan.jpg",
+                            "email": "mailto:chetan@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/chetan_iit_bhilai?igshid=YmMyMTA2M2Y=",
+                            "phone": "9355844091"
+                        },
+                        {
+                            "name": "Dhananjay Abbot",
+                            "image": "images/mentors/Dhananjay Abbot.jpg",
+                            "email": "mailto:arpang@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/forshronnnn?igshid=ZDdkNTZiNTM=",
+                            "phone": "8882700586"
+                        },
+                        {
+                            "name": "Kaki Venkata Vaneesha",
+                            "image": "images/mentors/Kaki Venkata Vaneesha.jpg",
+                            "email": "mailto:kakivenk@iitbhilai.ac.in",
+                            "instagram": "",
+                            "phone": "9390093783"
+                        },
+                        {
+                            "name": "Khushi Dutta",
+                            "image": "images/mentors/Khushi Dutta.jpg",
+                            "email": "mailto:khushid@iitbhilai.ac.in",
+                            "instagram": "",
+                            "phone": "7903642798"
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Kirtiraj Jamnotiya",
+                            "image": "images/mentors/Kirtiraj Jamnotiya.jpg",
+                            "email": "mailto:kirtiraj@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/kirtiraj_jamnotiya?igshid=ZDdkNTZiNTM=",
+                            "phone": "9270865999"
+                        },
+                        {
+                            "name": "Kriti Arora",
+                            "image": "images/mentors/Kriti Arora.jpg",
+                            "email": "mailto:kritia@iitbhilai.ac.in",
+                            "instagram": "",
+                            "phone": "9109623503"
+                        },
+                        {
+                            "name": "Manopriya Mondal",
+                            "image": "images/mentors/Manopriya.jpg",
+                            "email": "mailto:manopriyam@iitbhilai.ac.in",
+                            "instagram": "",
+                            "phone": "7595807122"
+                        },
+                        {
+                            "name": "Mohit Thakre",
+                            "image": "images/mentors/Mohit Thakre.jpg",
+                            "email": "mailto:mohitt@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/mohit_thakre13?igshid=ZDdkNTZiNTM=",
+                            "phone": "8767249195"
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Nishchay Rajput",
+                            "image": "images/devs/NISHCHAY_RAJPUT.JPG",
+                            "email": "mailto:nishchayr@iitbhilai.ac.in",
+                            "instagram": "https://www.instagram.com/__nishchay__rajput__/",
+                            "phone": "9770552422"
+                        },
+                        {
+                            "name": "Ojus Goel",
+                            "image": "images/devs/Ojus.jpg",
+                            "email": "mailto:ojusg@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/ojus_goel123?igshid=OTJhZDVkZWE=",
+                            "phone": "8708943859"
+                        },
+                        {
+                            "name": "Omendra Kumar Upadhyay",
+                            "image": "images/mentors/OMENDRA.jpg",
+                            "email": "mailto:omendrak@iitbhilai.ac.in",
+                            "instagram": "https://www.instagram.com/omendra_up_369/?utm_source=qr",
+                            "phone": "8247589701"
+                        },
+                        {
+                            "name": "Piyush Chandrakar",
+                            "image": "images/devs/Piyush_Chandrakar.jpg",
+                            "email": "mailto:piyushc@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/piyush_c38?igshid=ZDdkNTZiNTM=",
+                            "phone": "9179932361"
+                        } 
+                    ],
+                    [
+                        {
+                            "name": "Priyanshu Kishore",
+                            "image": "images/mentors/Priyanshu Kishore.jpg",
+                            "email": "mailto:priyanshuk@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/priyanshu_kishore4?igshid=ZDdkNTZiNTM=",
+                            "phone": "7363971979"
+                        },
+                        {
+                            "name": "Puneti Hemanth Kumar Reddy",
+                            "image": "images/mentors/Puneti Hemanth Kumar Reddy.jpg",
+                            "email": "mailto:punetihemanth@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/hemanth__asp?igshid=ZDdkNTZiNTM=",
+                            "phone": "9398481212"
+                        },
+                        {
+                            "name": "Raj Mohammad",
+                            "image": "images/mentors/Raj Mohammad.jpg",
+                            "email": "mailto:rajmohammad@iitbhilai.ac.in",
+                            "instagram": "",
+                            "phone": "7985378709"
+                        },
+                        {
+                            "name": "Rajeev Goel",
+                            "image": "images/devs/Rajeev_Goel.jpg",
+                            "email": "mailto:rajeevg@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/rajeevgoel187?igshid=ZDdkNTZiNTM=",
+                            "phone": "9307304394"
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Shivam",
+                            "image": "images/mentors/Shivam.jpg",
+                            "email": "mailto:shivam@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/shivam_27_lth?igshid=ZDdkNTZiNTM=",
+                            "phone": "6207694066"
+                        },
+                        {
+                            "name": "Shivangi Gaur",
+                            "image": "images/mentors/Shivangi_Gaur.jpg",
+                            "email": "mailto:shivangig@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/shivangi_.15?igshid=ZDdkNTZiNTM=",
+                            "phone": "9571068884"
+                        },
+                        {
+                            "name": "Shubham Mahajan",
+                            "image": "images/mentors/Shubham_Mahajan.jpg",
+                            "email": "mailto:shubhamy@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/__shubham_mahajan__?igshid=YmMyMTA2M2Y=",
+                            "phone": "8879466601"
+                        },
+                        {
+                            "name": "Shweta Kesharwani",
+                            "image": "images/mentors/Shweta Kesharwani_.jpg",
+                            "email": "mailto:shwetak@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/shweta_k611?igshid=ZDdkNTZiNTM=",
+                            "phone": "6232562932"
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Soni Kumari",
+                            "image": "images/mentors/Soni Kumari.jpg",
+                            "email": "mailto:sonik@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/soni_rajput1711?igshid=ZDdkNTZiNTM=",
+                            "phone": "6200816214"
+                        },
+                        {
+                            "name": "Sourabh Thakur",
+                            "image": "images/mentors/Sourabh Thakur.jpg",
+                            "email": "mailto:sourabht@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/ghasita_the_great_?igshid=ZDdkNTZiNTM=",
+                            "phone": "7880003650"
+                        },
+                        {
+                            "name": "Sreya Chitluru",
+                            "image": "images/mentors/Sreya_Chitluru.jpg",
+                            "email": "mailto:chitlurus@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/sreyac04?igshid=YmMyMTA2M2Y=",
+                            "phone": "7981671616"
+                        },
+                        {
+                            "name": "Sumit Kumar Pathak",
+                            "image": "images/devs/Sumit_Pathak.jpg",
+                            "email": "mailto:sumitkum@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/skp_pathak_?igshid=ZDdkNTZiNTM=",
+                            "phone": "8306312679"
+                        }
+                    ]
+                ],
+                "members-3": [
+                    [
+                        {
+                            "name": "Talla Sai Surya",
+                            "image": "images/mentors/SAI_SURYA_TALLA.jpg",
+                            "email": "mailto:tallasai@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/tallasaisurya?igshid=ZDdkNTZiNTM=",
+                            "phone": "9346870117"
+                        },
+                        {
+                            "name": "Uday bhardwaj",
+                            "image": "images/mentors/Uday bhardwaj.jpg",
+                            "email": "mailto:udayb@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/uday_bhardwaj_2008?igshid=ZDdkNTZiNTM=",
+                            "phone": "7668310017"
+                        },
+                        {
+                            "name": "Vedansh Sharma",
+                            "image": "images/mentors/Vedansh_Sharma_jpg.jpg",
+                            "email": "mailto:vedanshs@iitbhilai.ac.in",
+                            "instagram": "https://instagram.com/vedansh_._sharma?igshid=ZDdkNTZiNTM=",
+                            "phone": "9799994323"
+                        }
+                    ]
+                ],
+                "members-2": []
+            }
         ]
     },
     "mentors-pg": {
         "heading": "Mentors-PG",
-        "three-membered": [
+        "members":[
+            {
+                "members-4": [],
+        "members-3": [
             [
                 {
                     "name": "Adarsh Tiwari",
@@ -359,7 +367,7 @@
                 }
             ]
         ],
-        "two-membered" : [
+        "members-2" : [
             [
                 {
                     "name": "Nidhish Thawarey",
@@ -376,6 +384,8 @@
                     "phone": "9584179777"
                 }
             ]
+        ]
+            }
         ]
     }
 }
