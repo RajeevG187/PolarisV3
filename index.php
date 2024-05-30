@@ -1,3 +1,23 @@
+<?php
+// Define the path to the JSON file
+$jsonFilePath = 'C:\Users\r9307\Desktop\PolarisV3\PolarisV3\src\json\index.json';
+
+// Check if the JSON file exists and is readable
+if (!file_exists($jsonFilePath) || !is_readable($jsonFilePath)) {
+    die('Error: JSON file not found or not readable.');
+}
+
+// Read JSON file
+$json = file_get_contents($jsonFilePath);
+
+// Decode JSON data to PHP associative array
+$data = json_decode($json, true);
+
+// Check if JSON data is valid
+if (json_last_error() !== JSON_ERROR_NONE) {
+    die('Error: Invalid JSON data. ' . json_last_error_msg());
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -106,8 +126,8 @@
     <header class="header header__home">
         <div class="container">
             <div class="header__hero-box">
-                <h1 class="heading-primary">Student Mentorship Program</h1>
-                <p class="heading-subtitle">Of the Student, By the Student, For the Student</p>
+            <h1 class="heading-primary"><?php echo $data['header']['head']; ?></h1>
+            <p class="heading-subtitle"><?php echo $data['header']['text']; ?></p>
                 <a href="../public/pdfs/brochure_2023.pdf" class="btn btn-download" download>Brochure 2023&nbsp; <i class="fas fa-download"></i></a><br />
                 <!-- <a href="javascript:void(0);" class="btn btn-download">Brochure 2023 will be uploaded soon.&nbsp; <i class="fas fa-download"></i></a><br/> -->
                 <!-- <a href="#" class="btn btn-live" id="modalBtn">Live Updates &nbsp; <i class="fas fa-sync"></i></a> -->
@@ -155,8 +175,8 @@
     <section class="section">
         <div class="container">
             <div class="introduction">
-                <h2 class="heading-secondary">Welcome to <br><span>Indian Institute of Technology Bhilai</span></h2>
-                <p class="introduction__text">A hearty "Congratulations!!" to all the incoming freshers as you begin an exciting and rewarding chapter in your life. Quench your curiosity by exploring this website and make yourself familiar with life at IIT Bhilai. We look forward to guide you in this journey of exploring your passion. Feel free to post any queries/doubts on "Queries" Page.</p>
+                <h2 class="heading-secondary">Welcome to <br><span><?php echo $data['introduction']['head']; ?></span></h2>
+                <p class="introduction__text"><?php echo $data['introduction']['text']; ?></p>
             </div>
         </div>
     </section>
@@ -164,74 +184,60 @@
     <div class="line-break"></div>
 
     <section class="section">
-        <div class="container">
-            <h2 class="heading-secondary">Student Mentorship Program</h2>
+    <div class="container">
+        <h2 class="heading-secondary"><?php echo $data['smp']['head']; ?></h2>
+        
+        <?php foreach ($data['smp']['sub-lists'] as $sublist): ?>
             <div class="info">
-                <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> Our Objective</h3>
-                <p class="info__text">A lot of things runs into a Freshie’s mind during his initial stay at the institute. We are here to clear those clouds of apprehensiveness. Here, we aim to provide info to all the freshers and give them insight to the life @iitbhilai. If you are more intrigued, then you can simply contact us and we would have your question answered in the best possible way.</p>
+                <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> <?php echo $sublist['title']; ?></h3>
+                <p class="info__text"><?php echo $sublist['text']; ?></p>
             </div>
-            <div class="info">
-                <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> About this website</h3>
-                <p class="info__text">This site is of the students, by the students and for the students of IIT Bhilai. Here you will get an intimate view of this institute and its people. If you are a fresher at IIT Bhilai, this site is the right place for you to know more and make yourself familiar with the institute.</p>
-            </div>
-            <div class="info">
-                <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> Who are the mentors?</h3>
-                <p class="info__text">They are a group of seniors who will be helping the juniors in exploring their options at the same time in progressing forward. This site is an online implementation of the mentorship scheme. An offline version of this will involve a senior being assigned as a mentor to a group of freshers to guide them in making well informed decisions through their life at IIT Bhilai.</p>
-            </div>
-        </div>
-    </section>
+        <?php endforeach; ?>
+    </div>
+</section>
+
 
     <div class="line-break"></div>
 
     <section class="section">
-        <div class="container">
-            <div class="message">
-                <h2 class="heading-secondary">Message from <br><span>Council of Student Affairs</span></h2>
-                <p class="message__text"><span>Hello everyone,</span> <br><br>
-                    On behalf of the Council of Student affairs (CoSA) I would like to welcome you all to this prestigious Institute. I can understand it was not easy and the past few years have been tough for you all but trust me this place will give you ample opportunities to live up to your dreams. The journey till now was a marathon between lakhs of aspirants preparing to get into the best of colleges and I would like to congratulate you all for making it through. But from now things will change, there won’t be any marathon but you racing with your dreams. Every student of this institute is special and will excel wherever he/she goes. Upto this point, the dream was to be here. From now on, the real challenge will start to select a career stream, work for it and finally achieve it. This is a place which will build that spark inside you to live your dreams to the fullest, whether it be sports, culturals or science and technology, you won’t be missing any opportunity at this place. So at last, congratulations to all of you and welcome to IIT Bhilai.
-                </p><br>
-                <p class="message__byline">With best wishes,<br>MV Kiran Sooraj</p>
-                <div class="row">
-                    <div class="dev">
-                        <div class="col-1-of-4">
-                            <figure class="dev__shape">
-                                <img src="../public/images/President.jpg" alt="MV Kiran Sooraj" class="dev__img dev__img--president">
-                                <figcaption class="dev__caption">MV Kiran Sooraj</figcaption>
-                            </figure>
-                            <div class="dev__name">President, CoSA</div>
-                            <a href="mailto:President_CoSA@iitbhilai.ac.in" class="dev__profile">
-                                <i class="far fa-envelope dev__profile--icon"></i>
-                            </a>
-                            <!--<a href="" class="dev__profile">
-                                    <i class="fab fa-facebook-f dev__profile--icon"></i>
-                                </a> -->
-                            <!-- <div class="dev__phone">
-                                    <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; 7470448887
-                                </div> -->
-                        </div>
+    <div class="container">
+        <div class="message">
+            <h2 class="heading-secondary">Message from <br><span><?php echo $data['cosa']['head']; ?></span></h2>
+            <p class="info__text"><span><?php echo $data['cosa']['text']; ?></span></p><br>
+            <p class="message__byline">With best wishes,<br><?php echo $data['cosa']['president']['name']; ?></p>
+            <div class="row">
+                <div class="dev">
+                    <div class="col-1-of-4">
+                        <figure class="dev__shape">
+                            <img src="../public/<?php echo $data['cosa']['president']['image']; ?>" alt="<?php echo $data['cosa']['president']['name']; ?>" class="dev__img dev__img--president">
+                            <figcaption class="dev__caption"><?php echo $data['cosa']['president']['name']; ?></figcaption>
+                        </figure>
+                        <div class="dev__name">President, CoSA</div>
+                        <a href="<?php echo $data['cosa']['president']['email']; ?>" class="dev__profile">
+                            <i class="far fa-envelope dev__profile--icon"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <div class="line-break"></div>
 
     <section class="section">
         <div class="container">
-            <h2 class="heading-secondary">Campus Tour</h2>
+            <h2 class="heading-secondary">
+                <?php echo $data['campustour']['head']; ?></h2>
         </div>
         <div class="row">
+            <?php foreach ($data['campustour']["youtube-links"] as $link): ?>
             <div class="col-1-of-2">
                 <div class="campus">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ukd0R6y6lq8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src=<?php echo $link['link']; ?> frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="col-1-of-2">
-                <div class="campus">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/25hhbQJ_NRw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-            </div>
+            <?php endforeach; ?>
         </div>
     </section>
 
@@ -241,34 +247,34 @@
 
     <section class="section">
         <div class="container">
-            <h2 class="heading-secondary">Explore Our Collage</h2>
+            <h2 class="heading-secondary"><?php echo $data["collage"]["head"]; ?></h2>
             <div class="collage">
                 <div class="collage_image image">
-                    <img src="../public/images/collage/n1.jpg" alt="error">
+                    <img src=<?php echo $data["collage"]["images"][0]["img"]; ?> alt="error">
                 </div>
                 <div class="collage__vStretch collage_image image">
-                    <img src="../public/images/collage/n2_1.jpg" alt="error">
+                    <img src=<?php echo $data["collage"]["images"][1]["img"]; ?> alt="error">
                 </div>
                 <div class="collage__hStretch collage_image image">
-                    <img src="../public/images/collage/n3.jpg" alt="error">
+                    <img src=<?php echo $data["collage"]["images"][2]["img"]; ?> alt="error">
                 </div>
                 <div class="collage_image image">
-                    <img src="../public/images/collage/n4.jpg" alt="error">
+                    <img src=<?php echo $data["collage"]["images"][3]["img"]; ?> alt="error">
                 </div>
                 <div class="collage_image image">
-                    <img src="../public/images/collage/n5.jpg" alt="error">
+                    <img src=<?php echo $data["collage"]["images"][4]["img"]; ?> alt="error">
                 </div>
                 <div class="collage__vStretch collage_image image">
-                    <img src="../public/images/collage/n6.jpg" alt="error">
+                    <img src=<?php echo $data["collage"]["images"][5]["img"]; ?> alt="error">
                 </div>
                 <div class="collage__bigStretch collage_image image">
-                    <img src="../public/images/collage/n7.jpg" alt="error">
+                    <img src=<?php echo $data["collage"]["images"][6]["img"]; ?> alt="error">
                 </div>
                 <div class="collage_image image">
-                    <img src="../public/images/collage/n8.jpg" alt="error">
+                    <img src=<?php echo $data["collage"]["images"][7]["img"]; ?> alt="error">
                 </div>
                 <div class="collage_image image">
-                    <img src="../public/images/collage/n9.jpg" alt="error">
+                    <img src=<?php echo $data["collage"]["images"][8]["img"]; ?> alt="error">
                 </div>
             </div>
 
@@ -284,19 +290,15 @@
 
     <section class="section">
         <div class="container">
-            <h2 class="heading-secondary">Gallery</h2>
+            <h2 class="heading-secondary"><?php echo $data["gallery"]["head"]; ?></h2>
             <div class="gallery">
                 <div class="siema">
-                    <img src="../public/images/gallery/n4.jpg" alt="1-min" />
-                    <img src="../public/images/gallery/n3.jpg" alt="2-min" />
-                    <img src="../public/images/gallery/n1.jpg" alt="3-min" />
-                    <img src="../public/images/gallery/g2.JPG" alt="4-min" />
-                    <img src="../public/images/gallery/g3.JPG" alt="5-min" />
-                    <img src="../public/images/gallery/g4.JPG" alt="6-min" />
-                    <img src="../public/images/gallery/g5.jpg" alt="7-min" />
-                    <img src="../public/images/gallery/g6.JPG" alt="8-min" />
-                    <img src="../public/images/gallery/g7.JPG" alt="8-min" />
-                    <img src="../public/images/gallery/n6.jpg" alt="8-min" />
+                    <?php foreach($data["gallery"]["images"] as $image): ?>
+
+                    <img src=<?php echo $image["url"]?> alt=<?php echo $image["alt"]?> />
+
+                    <?php endforeach; ?>
+                    
                 </div>
                 <div class="btn-siema">
                     <div class="btn-prev prev"><i class="fas fa-chevron-circle-left"></i></div>
@@ -313,410 +315,132 @@
 
     <section class="section">
         <div class="container">
-            <h2 class="heading-secondary">Developers</h2>
+            <h2 class="heading-secondary"><?php echo $data["developers"]["head"]; ?></h2>
         </div>
+        <?php foreach($data["developers"]["members"] as $members): ?>
 
-        <div class="row">
-            <div class="dev">
-                <div class="col-1-of-3">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/sharad.jpg" alt="Sharad Roy" class="dev__img">
-                        <figcaption class="dev__caption">Sharad Roy</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Sharad Roy</strong><br />Front-End Developer</div>
-                    <a href="mailto:sharadr@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-                    <a href="https://www.facebook.com/sharad.roy29" target="_blank" class="dev__profile">
-                        <i class="fab fa-facebook-f dev__profile--icon"></i>
-                    </a>
-                    <div class="dev__phone">
-                        &nbsp;
+            <?php for($i =0; $i < count($members["members-4"]); $i++): ?>
+
+                <div class="row">
+                    <div class="dev">
+
+                        <?php foreach($members["members-4"][$i] as $member): ?>
+                            <div class="col-1-of-4">
+                                    <figure class="dev__shape">
+                                        <img src=<?php echo $member["image"]; ?> alt=<?php echo $member["name"]; ?> class="dev__img">
+                                        <figcaption     class="dev__caption"><?php echo $member["name"]; ?></figcaption>
+                                    </figure>
+                                    <div    class="dev__name"><strong><?php echo $member["name"]; ?></strong><br /><?php echo $member["title"]; ?></div>
+                                    <a  href=<?php echo $member["email"]; ?> class="dev__profile">
+                                        <i class="far fa-envelope   dev__profile--icon"></i>
+                                    </a>
+
+                                    <?php if($member["instagram"]!=""): ?>
+                                        <a href=<?php echo $member["instagram"]; ?> target="_blank" class="dev__profile">
+                                        <i class="fab fa-instagram dev__profile--icon"></i>
+                                    </a>
+                                    <?php endif;?>
+                                    <?php if($member["linkedIn"]!=""): ?>
+                                        <a href=<?php echo $member["linkedIn"]; ?> target="_blank" class="dev__profile">
+                                        <i class="fab fa-linkedin-in dev__profile--icon"></i>
+                                    </a>
+                                    <?php endif;?>
+                                    <?php if($member["phone"]!=""): ?>
+                                        <div class="dev__phone">
+                                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; <?php echo $member["phone"]; ?>
+                                    </div>
+                                    <?php endif;?>
+                                    
+                            </div>                          
+
+                        <?php endforeach;?>
+
                     </div>
                 </div>
 
-                <div class="col-1-of-3">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/pramodh.jpeg" alt="Sri Pramodh" class="dev__img">
-                        <figcaption class="dev__caption">Sri Pramodh</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Sri Pramodh</strong><br />Back-End Developer</div>
-                    <a href="mailto:rachuris@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-                    <a href="https://www.facebook.com/pramodhrachuri" target="_blank" class="dev__profile">
-                        <i class="fab fa-facebook-f dev__profile--icon"></i>
-                    </a>
-                    <!--<div class="dev__phone">
-                            &nbsp; 
-                        </div>  -->
-                </div>
+            <?php endfor;?>            
+            <?php for($i =0; $i < count($members["members-3"]); $i++): ?>
 
-                <div class="col-1-of-3">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/ahaan.jpg" alt="Ahaan Dabholkar" class="dev__img">
-                        <figcaption class="dev__caption">Ahaan Dabholkar</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Ahaan Dabholkar</strong><br />Back-End Developer</div>
-                    <a href="mailto:ahaand@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-                    <a href="https://www.facebook.com/ahaan.dabholkar" target="_blank" class="dev__profile">
-                        <i class="fab fa-facebook-f dev__profile--icon"></i>
-                    </a>
-                    <div class="dev__phone">
-                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; 9473751641
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="dev">
-                <!-- <div class="col-1-of-4">&nbsp;</div> -->
+                <div class="row">
+                    <div class="dev">
 
-                <div class="col-1-of-3">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/aniket.jpg" alt="Aniket Raj" class="dev__img">
-                        <figcaption class="dev__caption">Aniket Raj</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Aniket Raj</strong><br />Content Writer</div>
-                    <a href="mailto:aniketr@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-                    <a href="https://www.facebook.com/profile.php?id=100010720866538" target="_blank" class="dev__profile">
-                        <i class="fab fa-facebook-f dev__profile--icon"></i>
-                    </a>
-                    <div class="dev__phone">
-                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; 9521205979
+                        <?php foreach($members["members-3"][$i] as $member): ?>
+                            <div class="col-1-of-3">
+                                    <figure class="dev__shape">
+                                        <img src=<?php echo $member["image"]; ?> alt=<?php echo $member["name"]; ?> class="dev__img">
+                                        <figcaption     class="dev__caption"><?php echo $member["name"]; ?></figcaption>
+                                    </figure>
+                                    <div    class="dev__name"><strong><?php echo $member["name"]; ?></strong><br /><?php echo $member["title"]; ?></div>
+                                    <a  href=<?php echo $member["email"]; ?> class="dev__profile">
+                                        <i class="far fa-envelope   dev__profile--icon"></i>
+                                    </a>
+
+                                    <?php if($member["instagram"]!=""): ?>
+                                        <a href=<?php echo $member["instagram"]; ?> target="_blank" class="dev__profile">
+                                        <i class="fab fa-instagram dev__profile--icon"></i>
+                                    </a>
+                                    <?php endif;?>
+                                    <?php if($member["linkedIn"]!=""): ?>
+                                        <a href=<?php echo $member["linkedIn"]; ?> target="_blank" class="dev__profile">
+                                        <i class="fab fa-linkedin-in dev__profile--icon"></i>
+                                    </a>
+                                    <?php endif;?>
+                                    <?php if($member["phone"]!=""): ?>
+                                        <div class="dev__phone">
+                                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; <?php echo $member["phone"]; ?>
+                                    </div>
+                                    <?php endif;?>
+                                    
+                            </div>                          
+
+                        <?php endforeach;?>
+
                     </div>
                 </div>
 
-                <div class="col-1-of-3">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/gaurav.jpg" alt="Gaurav Verma" class="dev__img">
-                        <figcaption class="dev__caption">Gaurav Verma</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Gaurav Verma</strong><br />Content Writer</div>
-                    <a href="mailto:gauravv@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-                    <a href="https://www.facebook.com/gv99gv" target="_blank" class="dev__profile">
-                        <i class="fab fa-facebook-f dev__profile--icon"></i>
-                    </a>
+            <?php endfor;?>
+            <?php for($i =0; $i < count($members["members-2"]); $i++): ?>
 
-                </div>
+                <div class="row">
+                    <div class="dev">
 
-                <div class="col-1-of-3">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/saksham.jpg" alt="Saksham Bhushan" class="dev__img">
-                        <figcaption class="dev__caption">Saksham Bhushan</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Saksham Bhushan</strong><br />Website Manager - 2019</div>
-                    <a href="mailto:sakshamb@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-                    <a href="https://www.facebook.com/saksham291" target="_blank" class="dev__profile">
-                        <i class="fab fa-facebook-f dev__profile--icon"></i>
-                    </a>
-                    <div class="dev__phone">
-                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; 8299278436
-                    </div>
-                </div>
-                <!-- <div class="col-1-of-4">&nbsp;</div> -->
-            </div>
-        </div>
+                        <?php foreach($members["members-2"][$i] as $member): ?>
+                            <div class="col-1-of-2">
+                                    <figure class="dev__shape">
+                                        <img src=<?php echo $member["image"]; ?> alt=<?php echo $member["name"]; ?> class="dev__img">
+                                        <figcaption     class="dev__caption"><?php echo $member["name"]; ?></figcaption>
+                                    </figure>
+                                    <div    class="dev__name"><strong><?php echo $member["name"]; ?></strong><br /><?php echo $member["title"]; ?></div>
+                                    <a  href=<?php echo $member["email"]; ?> class="dev__profile">
+                                        <i class="far fa-envelope   dev__profile--icon"></i>
+                                    </a>
 
-        <div class="row">
-            <div class="dev">
-                <!-- <div class="col-1-of-4">&nbsp;</div> -->
+                                    <?php if($member["instagram"]!=""): ?>
+                                        <a href=<?php echo $member["instagram"]; ?> target="_blank" class="dev__profile">
+                                        <i class="fab fa-instagram dev__profile--icon"></i>
+                                    </a>
+                                    <?php endif;?>
+                                    <?php if($member["linkedIn"]!=""): ?>
+                                        <a href=<?php echo $member["linkedIn"]; ?> target="_blank" class="dev__profile">
+                                        <i class="fab fa-linkedin-in dev__profile--icon"></i>
+                                    </a>
+                                    <?php endif;?>
+                                    <?php if($member["phone"]!=""): ?>
+                                        <div class="dev__phone">
+                                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; <?php echo $member["phone"]; ?>
+                                    </div>
+                                    <?php endif;?>
+                                    
+                            </div>                          
 
-                <div class="col-1-of-2">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/prachir.jpg" alt="Prachir Agrawal" class="dev__img">
-                        <figcaption class="dev__caption">Prachir Agrawal</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Prachir Agrawal</strong><br />Website Manager - 2020</div>
-                    <a href="mailto:prachira@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-                    <a href="https://www.facebook.com/prachir.agrawal.5" target="_blank" class="dev__profile">
-                        <i class="fab fa-facebook-f dev__profile--icon"></i>
-                    </a>
-                    <div class="dev__phone">
-                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; 8826678228
+                        <?php endforeach;?>
+
                     </div>
                 </div>
 
-                <div class="col-1-of-2">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/prakanshul.jpg" alt="Prakanshul Saxena" class="dev__img">
-                        <figcaption class="dev__caption">Prakanshul Saxena</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Prakanshul Saxena</strong><br />Website Manager - 2020</div>
-                    <a href="mailto:prakanshuls@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-                    <a href="https://www.facebook.com/prakanshul.saxena" target="_blank" class="dev__profile">
-                        <i class="fab fa-facebook-f dev__profile--icon"></i>
-                    </a>
-                    <div class="dev__phone">
-                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; 8319446110
-                    </div>
-                </div>
+            <?php endfor;?>
 
-
-                <!-- <div class="col-1-of-4">&nbsp;</div> -->
-            </div>
-        </div>
-
-
-
-        <div class="row">
-            <div class="dev">
-                <!-- <div class="col-1-of-4">&nbsp;</div> -->
-
-                <div class="col-1-of-2">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/nikhil.jpg" alt="Nikhil Chaudhary" class="dev__img">
-                        <figcaption class="dev__caption">Nikhil Chaudhary</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Nikhil Chaudhary</strong><br />Website Manager - 2021</div>
-                    <a href="mailto:nikhilch@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-
-                    <div class="dev__phone">
-                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; 8529781270
-                    </div>
-                </div>
-
-                <div class="col-1-of-2">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/vanisha.jpg" alt="Vanisha Agrawal" class="dev__img">
-                        <figcaption class="dev__caption">Vanisha Agrawal</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Vanisha Agrawal</strong><br />Website Manager - 2021</div>
-                    <a href="mailto:vanishaagrawal@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-                    <a href="https://www.facebook.com/vanisha.agrawal.3" target="_blank" class="dev__profile">
-                        <i class="fab fa-facebook-f dev__profile--icon"></i>
-                    </a>
-                    <div class="dev__phone">
-                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; 9981090998
-                    </div>
-                </div>
-
-
-                <!-- <div class="col-1-of-4">&nbsp;</div> -->
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="dev">
-                <!-- <div class="col-1-of-4">&nbsp;</div> -->
-
-                <div class="col-1-of-2">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/aditya.jpeg" alt="Aditya Sankhla" class="dev__img">
-                        <figcaption class="dev__caption">Aditya Sankhla</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Aditya Sankhla</strong><br />Website Manager - 2022</div>
-                    <a href="mailto:adityasa@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-                    <a href="https://www.instagram.com/adismort" target="_blank" class="dev__profile">
-                        <i class="fab fa-instagram dev__profile--icon"></i>
-                    </a>
-
-                    <div class="dev__phone">
-                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; 8369504378
-                    </div>
-                </div>
-
-                <div class="col-1-of-2">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/ravinder.jpg" alt="Ravinder Sharma" class="dev__img">
-                        <figcaption class="dev__caption">Ravinder Sharma</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Ravinder Sharma</strong><br />Website Manager - 2022</div>
-                    <a href="mailto:ravindersh@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-                    <a href="https://instagram.com/chief_ravinder/" target="_blank" class="dev__profile">
-                        <i class="fab fa-instagram dev__profile--icon"></i>
-                    </a>
-                    <div class="dev__phone">
-                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; 9717503220
-                    </div>
-                </div>
-
-
-                <!-- <div class="col-1-of-4">&nbsp;</div> -->
-            </div>
-        </div>
-        <div class="row">
-            <div class="dev">
-                <!-- <div class="col-1-of-4">&nbsp;</div> -->
-                <div class="col-1-of-2">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/tushar.jpg" alt="Tushar Bansal" class="dev__img">
-                        <figcaption class="dev__caption">Tushar Bansal</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Tushar Bansal</strong><br />Website Manager - 2022</div>
-                    <a href="mailto:tusharbansal@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-                    <div class="dev__phone">
-                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; 7048905680
-                    </div>
-                </div>
-                <div class="col-1-of-2">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/rohit.jpg" alt="Rohit Ashwani" class="dev__img">
-                        <figcaption class="dev__caption">Rohit Ashwani</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Rohit Ashwani</strong><br />Website Manager - 2023</div>
-                    <a href="mailto:rohitas@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-                    <a href="https://www.instagram.com/rohitashwani288/" target="_blank" class="dev__profile">
-                        <i class="fab fa-instagram dev__profile--icon"></i>
-                    </a>
-                    <div class="dev__phone">
-                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; 9260961237
-                    </div>
-                </div>
-
-                
-
-
-                <!-- <div class="col-1-of-4">&nbsp;</div> -->
-            </div>
-        </div>
-        <div class="row">
-            <div class="dev">
-                <!-- <div class="col-1-of-4">&nbsp;</div> -->
-
-                <div class="col-1-of-2">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/Roshan_Jha.jpg" alt="Roshan Jha" class="dev__img">
-                        <figcaption class="dev__caption">Roshan Jha</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Roshan Jha</strong><br />Website Manager - 2023</div>
-                    <a href="mailto:phoolrj@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-                    <a href="https://www.instagram.com/roshan.jha.007/" target="_blank" class="dev__profile">
-                        <i class="fab fa-instagram dev__profile--icon"></i>
-                    </a>
-                    <div class="dev__phone">
-                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; 7733884259
-                    </div>
-                </div>
-                <div class="col-1-of-2">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/Piyush_Chandrakar.jpg" alt="Piyush Chandrakar" class="dev__img">
-                        <figcaption class="dev__caption">Piyush Chandrakar</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Piyush Chandrakar</strong><br />Website Manager - 2023</div>
-                    <a href="mailto:piyushc@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-                    <a href="https://instagram.com/piyush_c38?igshid=ZDdkNTZiNTM=" target="_blank" class="dev__profile">
-                        <i class="fab fa-instagram dev__profile--icon"></i>
-                    </a>
-                    <div class="dev__phone">
-                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; 9179932361
-                    </div>
-                </div>
-
-
-                <!-- <div class="col-1-of-4">&nbsp;</div> -->
-            </div>
-        </div>
-        <div class="row">
-            <div class="dev">
-                <!-- <div class="col-1-of-4">&nbsp;</div> -->
-
-                <div class="col-1-of-2">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/NISHCHAY_RAJPUT.JPG" alt="Nishchay Rajput" class="dev__img">
-                        <figcaption class="dev__caption">Nishchay Rajput</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Nishchay Rajput</strong><br />Website Manager - 2023</div>
-                    <a href="mailto:nishchayr@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-                    <a href="https://www.instagram.com/__nishchay__rajput__/" target="_blank" class="dev__profile">
-                        <i class="fab fa-instagram dev__profile--icon"></i>
-                    </a>
-                    <div class="dev__phone">
-                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; 9770552422
-                    </div>
-                </div>
-                <div class="col-1-of-2">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/Rajeev_Goel.jpg" alt="Rajeev Goel" class="dev__img">
-                        <figcaption class="dev__caption">Rajeev Goel</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Rajeev Goel</strong><br />Website Manager - 2023</div>
-                    <a href="mailto:rajeevg@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-                    <a href="https://instagram.com/rajeevgoel187?igshid=ZDdkNTZiNTM=" target="_blank" class="dev__profile">
-                        <i class="fab fa-instagram dev__profile--icon"></i>
-                    </a>
-                    <div class="dev__phone">
-                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; 9307304394
-                    </div>
-                </div>
-
-
-                <!-- <div class="col-1-of-4">&nbsp;</div> -->
-            </div>
-        </div>
-        <div class="row">
-            <div class="dev">
-                <!-- <div class="col-1-of-4">&nbsp;</div> -->
-
-                <div class="col-1-of-2">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/Ojus.jpg" alt="Ojus Goel" class="dev__img">
-                        <figcaption class="dev__caption">Ojus Goel</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Ojus Goel</strong><br />Website Manager - 2023</div>
-                    <a href="mailto:ojusg@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-                    <a href="https://instagram.com/ojus_goel123?igshid=OTJhZDVkZWE=" target="_blank" class="dev__profile">
-                        <i class="fab fa-instagram dev__profile--icon"></i>
-                    </a>
-                    <div class="dev__phone">
-                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; 8708943859
-                    </div>
-                </div>
-                <div class="col-1-of-2">
-                    <figure class="dev__shape">
-                        <img src="../public/images/devs/Sumit_Pathak.jpg" alt="Sumit Kumar Pathak" class="dev__img">
-                        <figcaption class="dev__caption">Sumit Kumar Pathak</figcaption>
-                    </figure>
-                    <div class="dev__name"><strong>Sumit Kumar Pathak</strong><br />Website Manager - 2023</div>
-                    <a href="mailto:sumitkum@iitbhilai.ac.in" class="dev__profile">
-                        <i class="far fa-envelope dev__profile--icon"></i>
-                    </a>
-                    <a href="https://instagram.com/skp_pathak_?igshid=ZDdkNTZiNTM=" target="_blank" class="dev__profile">
-                        <i class="fab fa-instagram dev__profile--icon"></i>
-                    </a>
-                    <div class="dev__phone">
-                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; 8306312679
-                    </div>
-                </div>
-
-
-                <!-- <div class="col-1-of-4">&nbsp;</div> -->
-            </div>
-        </div>
+        <?php endforeach;?>
 
     </section>
 

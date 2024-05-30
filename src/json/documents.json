@@ -1,0 +1,62 @@
+{
+    "header": {
+        "head": "Important Documents\n\n",
+        "text": "All the documents you need...."
+    },
+
+    "registration_form": {
+        "head": "Registration Form\n",
+        "text": "The attached respective registration forms are necessary at the time of Registration.\nPlease download and fill the respective forms.\n",
+        "lists": [
+            {
+                "text":"Registration Form for BTech Students."
+                ,"url":".\\pdfs\\BTech_2023.pdf"
+            },
+            {
+                "text":"Registration Form for MTech Students.",
+                "url":".\\pdfs\\forms_update\\MTech_2023.pdf"
+            },
+            {
+                "text":"Registration Form for M.Sc Students.",
+                "url":".\\pdfs\\forms_update\\MSc_2023.pdf"
+            },
+            {
+                "text":"Registration Form for PhD Students.",
+                "url":".\\pdfs\\forms_update\\PhD_2023.pdf"
+            }
+        ]
+    } ,
+    "loan": {
+        "head": "Availing Loan Facility",
+        "text": "IIT Bhilai has a tie-up with Union Bank of India to provide education loans to the students of IIT Bhilai with the rate of interest @ 8.15% p.a. (floating) for this financial year 2023-24. \n Loan documents are available below.",
+        "lists": [
+            {
+                "text":"Education Loan Application Form with CheckList. ",
+                "url":".\\pdfs\\Education_Loan_Application_Form_with_Checklist.pdf"
+            }
+        ]
+    },
+    "fee": {
+        "head": "Regarding Fee Payment",
+        "text": "",
+        "lists": 
+            {
+                "text":"To see the detailed Fee Structure , please  ",
+                "url":"https://www.iitbhilai.ac.in/index.php?pid=fee_structure"
+            }
+    },
+    "payoptions": {
+        "text1":"No cash payment option will be available at the institute. As enquired for payment mode, following options are made available:",
+        "lists":[
+            {
+                "head":"Option 1 : ",
+                "text":" By choosing SBI Collect Net banking facility option published in SBI Collect payment options page."
+            },
+            {
+                "head":"Option 2 :",
+                "text":"Offline mode to pay in SBI (any branch):\n\nA student can choose SBI Branch option published in SBI Collect payment options page (at lower left corner) and can go to any SBI branch for paying the fee amount either in cash or otherwise acceptable by the bank."
+            }
+        ],
+        "text2":"Direct fund transfer through NEFT/RTGS/Bank transfer mode is discouraged due to reconciliation issue and accordingly institute bank details are not shared."
+    }
+} 

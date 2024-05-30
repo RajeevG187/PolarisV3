@@ -1,0 +1,78 @@
+{
+    "header": {
+        "head": "Motorsports",
+        "text": "Race Beyond the Horizon"
+    },
+
+    "introduction": {
+        "head": "Motorsports",
+        "sub-lists": [
+            {
+                "title": "Faculty Advisor",
+                "text": "Dr. Pravesh Chandra Shukla"
+            },
+            {
+                "title": "Team Captain",
+                "text": "Rohit Sidagam"
+            },
+            {
+                "title": "Vice Captain",
+                "text": "Nayan Jain"
+            }
+        ],
+        "intro_text": "IIT Bhilai Motorsports was founded in 2017, by a group of enthusiastic engineering students in IIT Bhilai, which aims to inculcate and promote automotive culture in the insti tute. It is a team fuelled by passion and driven by desire, one that has grown in strength ever since its inception.Currently, the team has 40+ members and comprises a core of 15 members. The team is all set to participate in Enduro Student India 2021",
+        "images": [
+            [
+                {
+                    "img": "../public/images/life/motorsports-1.JPG"
+                },
+                {
+                    "img": "../public/images/life/motorsports-2.JPG"
+                }
+            ]
+        ]
+        
+       
+    },
+
+    "topics": [
+        {
+            "head": "PAST ENDEAVOURS",
+            "paras": [
+                {
+                    "text": "IIT Bhilai Motorsports made its debut at Enduro Student India (ESI) 2019, being the only 3rd gen IIT to participate in this competition. A team of 17 members represented IIT Bhilai Motorsports at Pune in the competition along with more than 70 other teams."
+                },
+                {
+                    "text": "In July, 2019, our team made a debut in Virtual BAJA, the prelims of Mahindra SAEINDIA BAJA (Jan,2020) and bagged a position of 29th among 400+ participating teams (2nd position among participating UITS). The team has successfully competed in Mahindra SAEINDIA BAJA, India's largest ATV design competition held in Indore, an automobile event that is witnessed by 8000+ students and professionals."
+                }
+            ]
+        }
+    ],
+
+    "gallery": [
+        [
+            {
+                "img": "../public/images/life/motorsports-7.JPG"
+            },
+            {
+                "img": "../public/images/life/motorsports-8.JPG"
+            }
+        ],
+        [
+            {
+                "img": "../public/images/life/motorsports-4.JPG"
+            },
+            {
+                "img": "../public/images/life/motorsports-4.JPG"
+            }
+        ],
+        [
+            {
+                "img": "../public/images/life/motorsports-5.JPG"
+            },
+            {
+                "img": "../public/images/life/motorsports-6.JPG"
+            }
+        ]   
+    ]   
+}

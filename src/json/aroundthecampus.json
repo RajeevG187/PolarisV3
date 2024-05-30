@@ -1,0 +1,287 @@
+{
+    "header": {
+        "head": "Around the Campus",
+        "text": "Get to know what is where..."
+    },
+    "campus_location": [
+        {
+            "heading": "Campus Location (Permanent Campus)",
+            "link": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d374967.6056149059!2d81.317959!3d21.244257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a293d6791e5f399%3A0xfb39e72b5f4501f5!2sIIT%20Bhilai%20Permanent%20Campus!5e1!3m2!1sen!2sin!4v1689530217209!5m2!1sen!2sin"
+        },
+        {
+            "heading": "Campus Location (Transit Campus)",
+            "link": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDwxilx3FT8Oe4JCbm8elUIlqN66aMTUEU&q=IIT+Bhilai,Old+Dhamtari+Rd&maptype=satellite"
+        }
+    ],
+    "introduction": {
+        "head": "Indian Institute of Technology Bhilai",
+        "campus": [
+            {
+                "subheading": "About Permanent Campus",
+                "text": "The Permanent Campus of IIT Bhilai is located at Khapri, which is a suburb of Bhilai in the Durg district of Chhattisgarh, India. It is about 10 kilometers from the main city of Bhilai and is well connected through public transport to the railway station, airport, and Raipur City.",
+                "entry_points": {
+                    "head": [
+                        {
+                            "col": "Entry points to Durg"
+                        },
+                        {
+                            "col": "Distance (km)"
+                        },
+                        {
+                            "col": "Estimated Time"
+                        }
+                    ],
+                    "contents": [
+                        {
+                            "entry_points_to_durg": "Swami Vivekananda Airport",
+                            "distance": "54",
+                            "estimated_time": "1 to 1.5 hrs*"
+                        },
+                        {
+                            "entry_points_to_durg": "Durg Junction Railway Station",
+                            "distance": "7",
+                            "estimated_time": "30 to 40 min**"
+                        }
+                    ]
+                }
+            },
+            {
+                "subheading": "About Transit Campus",
+                "text": "Though the temporary campus is located in the town of Sejbahar, it has an excellent road connectivity with the main city. Once you reach Raipur, it won’t be much of a hassle to reach IIT Bhilai as the campus is well connected with the Airport as well as the Railway Station.",
+                "entry_points": {
+                    "head": [
+                        {
+                            "col": "Entry points to Raipur"
+                        },
+                        {
+                            "col": "Distance (km)"
+                        },
+                        {
+                            "col": "Estimated Time"
+                        }
+                    ],
+                    "contents": [
+                        {
+                            "entry_points_to_durg": "Swami Vivekananda Airport",
+                            "distance": "17",
+                            "estimated_time": "30 min*"
+                        },
+                        {
+                            "entry_points_to_durg": "Raipur Junction Railway Station",
+                            "distance": "12.5",
+                            "estimated_time": "40 to 45 min**"
+                        }
+                    ]
+                }
+            }
+        ],
+        "note": [
+            {
+                "para": "**The route is mostly wide roads with minimal traffic even at rush hours."
+            },
+            {
+                "para": "*The route goes through the city, hence time may be less or more depending on the traffic conditions."
+            }
+        ]
+    },
+    "transportation": {
+        "heading": "Transportation",
+        "text": "Your friends to take you to the main city will be the Auto-Rickshaws. They are easily available outside the campus premises, providing both sharing and single services. A good number of rickshaws are from Sejbahar itself, so even if you need a ride to the airport even at 4 in the morning, just give them a call in the previous evening and they will be ready with your ride at the specified time. If you need a cab, then you always have Ola."
+    },
+    "restaurants": {
+        "heading": "Restaurants",
+        "text": " \"Variety is the spice of life\"- Tired of Rajma on Friday or Chicken on Wednesday? Wanna celebrate the completion of a tough course? Well on such occasions these eateries come to our rescue. There are a couple of such places at a walking distance from the Campus. ",
+        "restaurants-lists": [
+            {
+                "title": "Tech Cafe",
+                "text": "The cafe is located inside the campus and provides variety of snacks and fast-foods such as Samosa, Pasta, Maggi among others.",
+                "link": "https://goo.gl/maps/iP6dv8zZGom"
+            },
+            {
+                "title": "GEC Cafe",
+                "text": "GEC Cafe is located inside the campus and offers fast-food like maggi, fried rice, chowmein.",
+                "link": "https://goo.gl/maps/jk5HiDraeBYL2uGA8"
+            }
+        ],
+        "subheading": "Street Food",
+        "subtext": "There are also a couple of Dhabhas and Street Food Vendors in the same radius as the above. Missing cheese bursts? Call Dominos and get your pizza within 30 minutes."
+    },
+    "entertainment": [
+        {
+            "head": "Entertainment Hubs (near Permanent Campus)",
+            "text": "Birthday Celebrations, “BHAI ki Nayi movie”, Marvel’s next flick or Shopping your favourite brands- we all eagerly wait for the m. Well that’s why the malls are here for. Just call a rick, and within half an hour you will be at your destination. The following are some high end shopping malls to explore:",
+            "entertainment-hubs": {
+                "head": [
+                    {
+                        "col": "Entertainment Hubs"
+                    },
+                    {
+                        "col": "Highlights"
+                    },
+                    {
+                        "col": "Distance from Campus"
+                    },
+                    {
+                        "col": "Google Map"
+                    }
+                ],
+                "contents": [
+                    {
+                        "entertainment_hubs": "Surya Treasure Island Mall",
+                        "highlights": "KFC, Dominos, Pizza Hut, PVR, Subway, CCD, Gamezone, Baskin Robins,TDS, Bowling Alley, VR Zone",
+                        "distance_from_campus": "4.7 km (10-15 min)",
+                        "google_map": "https://goo.gl/maps/8oeSxD7G7Rvj99zP7"
+                    },
+                    {
+                        "entertainment_hubs": "Civic Centre (CC)",
+                        "highlights": "Arjun Rath Park, Hariraj Family Restaurant, Nehru Art Gallery, Nanhe ki Chai, Grill Inn, Monument Park, Open Air Theatre, Choupati, Shaheed Udyaan, Kwality Spice Gallery, Juice Factory",
+                        "distance_from_campus": "10.3 km (20-25 min)",
+                        "google_map": "https://goo.gl/maps/CifkFyyuvekDcKcU8"
+                    },
+                    {
+                        "entertainment_hubs": "Sector 6 Market",
+                        "highlights": "For all sorts of shopping (sports, fashion, daily appliances, etc)",
+                        "distance_from_campus": "8.2 km (15-20 min)",
+                        "google_map": "https://goo.gl/maps/G837cCA9hF6iEWGY6"
+                    },
+                    {
+                        "entertainment_hubs": "Nehru Nagar (NN)",
+                        "highlights": "90’s Café, Mad Bakers, Shubham-K-Mart, TCQ Restaurant",
+                        "distance_from_campus": "5.9 km (15-20 min)",
+                        "google_map": "https://goo.gl/maps/yPhJJVaeg1TjP7si7"
+                    },
+                    {
+                        "entertainment_hubs": "Sector 5",
+                        "highlights": "Atal Park Light Show, Jayanti Stadium, Bhilai Club(Swimming Pool, Billiards, Gym ), Maitri Bagh Zoo",
+                        "distance_from_campus": "9.7 km (20-25 min)",
+                        "google_map": "https://goo.gl/maps/RgrXF6m4qoXiLvPn8"
+                    },
+                    {
+                        "entertainment_hubs": "Durg",
+                        "highlights": "Satyam Bakery, Flavours Restaurant, Paint Ball Warfare, Maze Space Game Zone",
+                        "distance_from_campus": "9.6 km (20-25 min)",
+                        "google_map": "https://goo.gl/maps/YQCNrijX9omYEj1dA"
+                    }
+                ]
+            }
+        },
+        {
+            "head": "Entertainment Hubs (near Transit Campus)",
+            "entertainment-hubs": {
+                "head": [
+                    {
+                        "col": "Mall"
+                    },
+                    {
+                        "col": "Highlights"
+                    },
+                    {
+                        "col": "Distance and Time"
+                    },
+                    {
+                        "col": "Google Map"
+                    }
+                ],
+                "contents": [
+                    {
+                        "entertainment_hubs": "Magneto The Mall",
+                        "highlights": "Barbeque Nation, KFC, McD, Subway, BigBazaar, PVR",
+                        "distance_from_campus": "14 km (25 to 30 min)",
+                        "google_map": "https://goo.gl/maps/1svTeUx3gGn"
+                    },
+                    {
+                        "entertainment_hubs": "City Centre Mall",
+                        "highlights": "Dominos, Gaming Alley, Cinemax, BigBazaar",
+                        "distance_from_campus": "13 km (30 to 40 min)",
+                        "google_map": "https://goo.gl/maps/ZKN5fBAZxeD2"
+                    },
+                    {
+                        "entertainment_hubs": "Colors Mall",
+                        "highlights": "Gaming Alley, Turf",
+                        "distance_from_campus": "9.2 km (25 to 30 min)",
+                        "google_map": "https://goo.gl/maps/4JcAhYvjmcv"
+                    },
+                    {
+                        "entertainment_hubs": "Ambuja Mall",
+                        "highlights": "Shoppers Stop, Inox, Chain Fast Foods",
+                        "distance_from_campus": "20 km (45 to 55 min)",
+                        "google_map": "https://goo.gl/maps/JokFNx6pP3z"
+                    }
+                ]
+            }
+        }
+    ],
+    "dailyneeds": {
+        "heading": "Daily Needs and General Stores",
+        "text": "Just outside the campus are various general purpose stores. These include:",
+        "stores": [
+            {
+                "item": "Medical Stores"
+            },
+            {
+                "item": "Mobile Recharge Stores"
+            },
+            {
+                "item": "Haircut salons"
+            },
+            {
+                "item": "General Grocery Stores"
+            },
+            {
+                "item": "Hardware Shops"
+            },
+            {
+                "item": "Cycle Repair Shops"
+            },
+            {
+                "item": "Stationary Shops"
+            },
+            {
+                "item": "Fruits and Vegetable"
+            },
+            {
+                "item": "Dairy Products"
+            }
+        ],
+        "markets": {
+            "intro": "Also apart from these if one needs a wider variety of stores, then he can visit the market of:",
+            "markets_lists": [
+                {
+                    "title": "Power House",
+                    "text": ", which is about 9 km from the permanent campus. It has gained prominence as a hub for various commercial activities and a shopping destination for  residents and visitors. From fresh products to electronics, clothing to household items, it offers a wide array of goods making it a one stop destination for shoppers.",
+                    "link": "https://goo.gl/maps/nkTLJkJPNwxHZrs99"
+                },
+                {
+                    "title": "Akash Ganga,Supela",
+                    "text": ", which is about 8 km from permanent campus. It has established itself as a popular shopping complex catering to the diverse needs and preference of visitors and residents.",
+                    "link": "https://goo.gl/maps/1MVYxwWvrjnaQNH77"
+                },
+                {
+                    "title": "Sector 6 Market",
+                    "text": ", which is about 8.2 km from the permanent campus. You can go there for all sorts of shopping needs, be it sports, fashion, daily appliances or anything else.",
+                    "link": "https://goo.gl/maps/d1t3SDBs497T9Btm8"
+                }
+            ]
+        }
+    },
+    "banksnatms": {
+        "heading": "Banks and ATMs",
+        "banksnatms_list": [
+            {
+                "item": "State Bank of India (SBI) Branch and ATM"
+            },
+            {
+                "item": "Canara Bank Branch and ATM"
+            },
+            {
+                "item": "Bank of India Branch and ATM"
+            },
+            {
+                "item": "IDBI Bank Branch and ATM (Located within the campus premises)"
+            },
+            {
+                "item": "Union Bank ATM"
+            }
+        ]
+    }
+}
