@@ -1,0 +1,345 @@
+{
+    "header": {
+        "head": "Student Mentorship Program",
+        "text": "Of the Student, By the Student, For the Student"
+    },
+
+    "latestupdate": {
+        "text": "Loan related documents are uploaded.",
+        "url" : "documents"
+    },
+
+    "introduction": {
+        "head": "Indian Institute of Technology Bhilai",
+        "text": "A hearty \"Congratulations!!\" to all the incoming freshers as you begin an exciting and rewarding chapter in your life. Quench your curiosity by exploring this website and make yourself familiar with life at IIT Bhilai. We look forward to guide you in this journey of exploring your passion. Feel free to post any queries/doubts on \"Queries\" Page."
+    },
+
+    "smp": {
+        "head": "Student Mentorship Program",
+        "sub-lists": [
+            {
+                "title": "Our Objective",
+                "text": "A lot of things runs into a Freshie’s mind during his initial stay at the institute. We are here to clear those clouds of apprehensiveness. Here, we aim to provide info to all the freshers and give them insight to the life @iitbhilai. If you are more intrigued, then you can simply contact us and we would have your question answered in the best possible way."
+            },
+            {
+                "title": "About this website",
+                "text": "This site is of the students, by the students and for the students of IIT Bhilai. Here you will get an intimate view of this institute and its people. If you are a fresher at IIT Bhilai, this site is the right place for you to know more and make yourself familiar with the institute."
+            },
+            {
+                "title": "Who are the mentors?",
+                "text": "They are a group of seniors who will be helping the juniors in exploring their options at the same time in progressing forward. This site is an online implementation of the mentorship scheme. An offline version of this will involve a senior being assigned as a mentor to a group of freshers to guide them in making well informed decisions through their life at IIT Bhilai."
+            }
+        ]
+    },
+
+    "cosa": {
+        "head": "Council of Student Affairs",
+        "text": "On behalf of the Council of Student affairs (CoSA) I would like to welcome you all to this prestigious Institute. I can understand it was not easy and the past few years have been tough for you all but trust me this place will give you ample opportunities to live up to your dreams. The journey till now was a marathon between lakhs of aspirants preparing to get into the best of colleges and I would like to congratulate you all for making it through. But from now things will change, there won’t be any marathon but you racing with your dreams. Every student of this institute is special and will excel wherever he/she goes. Upto this point, the dream was to be here. From now on, the real challenge will start to select a career stream, work for it and finally achieve it. This is a place which will build that spark inside you to live your dreams to the fullest, whether it be sports, culturals or science and technology, you won’t be missing any opportunity at this place. So at last, congratulations to all of you and welcome to IIT Bhilai.",
+        
+        "president": {
+            "name": "MV Kiran Sooraj",
+            "image": "images/President.jpg",
+            "email": "mailto:President_CoSA@iitbhilai.ac.in"
+        }
+        
+    },
+
+    "campustour": {
+        "head": "Campus Tour",
+        "youtube-links": [
+            {
+                "link": "https://www.youtube.com/embed/ukd0R6y6lq8"
+            },
+            {
+                "link": "https://www.youtube.com/embed/25hhbQJ_NRw"
+            }
+        ]
+    },
+
+    "collage": {
+        "head": "Explore Our College",
+        "images":[
+        {"img":"../public/images/collage/n1.jpg"},    
+        {"img":"../public/images/collage/n2_1.jpg"},
+        {"img":"../public/images/collage/n3.jpg"},
+        {"img":"../public/images/collage/n4.jpg"},
+        {"img":"../public/images/collage/n5.jpg"},
+        {"img":"../public/images/collage/n6.jpg"},
+        {"img":"../public/images/collage/n7.jpg"},
+        {"img":"../public/images/collage/n8.jpg"},
+        {"img":"../public/images/collage/n9.jpg"}
+        ]
+    },
+
+    "gallery": {
+        "head": "Gallery",
+        "images": [
+            { 
+                "url": "../public/images/gallery/n4.jpg",
+                "alt": "8-min" 
+            },
+            { 
+                "url": "../public/images/gallery/n3.jpg",
+                "alt": "1-min"
+            },
+            { 
+                "url": "../public/images/gallery/g1.JPG",
+                "alt": "1-min"
+            },
+            { 
+                "url": "../public/images/gallery/n1.jpg",
+                "alt": "8-min" 
+            },
+            { 
+                "url": "../public/images/gallery/g2.JPG",
+                "alt": "2-min" 
+            },
+            { 
+                "url": "../public/images/gallery/g3.JPG",
+                "alt": "3-min" 
+            },
+            { 
+                "url": "../public/images/gallery/g4.JPG",
+                "alt": "4-min" 
+            },
+            { 
+                "url": "../public/images/gallery/g5.jpg",
+                "alt": "5-min" 
+            },
+            { 
+                "url": "../public/images/gallery/g6.JPG",
+                "alt": "6-min" 
+            },
+            { 
+                "url": "../public/images/gallery/n5.jpg",
+                "alt": "7-min" 
+            },
+            { 
+                "url": "../public/images/gallery/g7.JPG",
+                "alt": "7-min" 
+            },
+            { 
+                "url": "../public/images/gallery/n6.jpg",
+                "alt": "8-min" 
+            }
+        ]
+    },
+
+    "developers": {
+        "head": "Developers",
+        "members":[
+            {
+                "members-4": [],
+                "members-3": [
+                    [
+                        {
+                            "name": "Sharad Roy",
+                            "image":"../public/images/devs/sharad.jpg",
+                            "email": "mailto:sharadr@iitbhilai.ac.in",
+                            "title": "Front-End Developer",
+                            "instagram": "",
+                            "linkedIn": "",
+                            "phone":""
+                        },
+                        {
+                            "name": "Sri Pramodh",
+                            "image":"../public/images/devs/pramodh.jpeg",
+                            "email": "mailto:rachuris@iitbhilai.ac.in",
+                            "title": "Back-End Developer",
+                            "instagram": "",
+                            "linkedIn": "",
+                            "phone":""
+                        },
+                        {
+                            "name": "Ahaan Dabholkar",
+                            "image":"../public/images/devs/ahaan.jpg",
+                            "email": "mailto:ahaand@iitbhilai.ac.in",
+                            "title": "Back-End Developer",
+                            "instagram": "",
+                            "linkedIn": "",
+                            "phone": "9473751641"
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Aniket Raj",
+                            "image":"../public/images/devs/aniket.jpg",
+                            "email": "mailto:aniketr@iitbhilai.ac.in",
+                            "title": "Content Writer",
+                            "instagram": "",
+                            "linkedIn": "",
+                            "phone": "9521205979"
+                        },
+                        {
+                            "name": "Gaurav Verma",
+                            "image":"../public/images/devs/gaurav.jpg",
+                            "email": "mailto:gauravv@iitbhilai.ac.in",
+                            "title": "Content Writer",
+                            "instagram": "",
+                            "linkedIn": "",
+                            "phone":""
+                        },
+                        {
+                            "name": "Saksham Bhushan",
+                            "image":"../public/images/devs/saksham.jpg",
+                            "email": "mailto:sakshamb@iitbhilai.ac.in",
+                            "title": "Website Manager - 2019",
+                            "instagram": "",
+                            "linkedIn": "",
+                            "phone": "8299278436"
+                        }
+                    ]
+                ],
+                "members-2": [
+                    [
+                        {
+                            "name": "Prachir Agrawal",
+                            "image":"../public/images/devs/prachir.jpg",
+                            "email": "mailto:prachira@iitbhilai.ac.in",
+                            "title": "Website Manager - 2020",
+                            "instagram": "",
+                            "linkedIn": "",                            
+                            "phone": "8826678228"
+                        },
+                        {
+                            "name": "Prakanshul Saxena",
+                            "image":"../public/images/devs/prakanshul.jpg",
+                            "email": "mailto:rachuris@iitbhilai.ac.in",
+                            "title": "Website Manager - 2020",
+                            "instagram": "",
+                            "linkedIn": "",
+                            "phone": "8319446110"
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Nikhil Chaudhary",
+                            "image":"../public/images/devs/nikhil.jpg",
+                            "email": "mailto:nikhilch@iitbhilai.ac.in",
+                            "title": "Website Manager - 2021",
+                            "instagram": "",
+                            "linkedIn": "",
+                            "phone": "8529781270"
+                        },
+                        {
+                            "name": "Vanisha Agrawal",
+                            "image":"../public/images/devs/vanisha.jpg",
+                            "email": "mailto:vanishaagrawal@iitbhilai.ac.in",
+                            "title": "Website Manager - 2021",
+                            "instagram": "",
+                            "linkedIn": "",
+                            "phone": "9981090998"
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Aditya Sankhla",
+                            "image":"../public/images/devs/aditya.jpeg",
+                            "email": "mailto:adityasa@iitbhilai.ac.in",
+                            "title": "Website Manager - 2022",
+                            "instagram": "https://www.instagram.com/adismort",
+                            "linkedIn": "",
+                            "phone": "8369504378"
+                        },
+                        {
+                            "name": "Ravinder Sharma",
+                            "image":"../public/images/devs/ravinder.jpg",
+                            "email": "mailto:ravindersh@iitbhilai.ac.in",
+                            "title": "Website Manager - 2022",
+                            "instagram": "https://instagram.com/chief_ravinder/",
+                            "linkedIn": "",
+                            "phone": "9717503220"
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Tushar Bansal",
+                            "image":"../public/images/devs/tushar.jpg",
+                            "email": "mailto:tusharbansal@iitbhilai.ac.in",
+                            "title": "Website Manager - 2022",
+                            "instagram": "",
+                            "linkedIn": "",
+                            "phone": "7048905680"
+                        },
+                        {
+                            "name": "Rohit Ashwani",
+                            "image":"../public/images/devs/rohit.jpg",
+                            "email": "mailto:rohitas@iitbhilai.ac.in",
+                            "title": "Website Manager - 2023",
+                            "instagram": "https://www.instagram.com/rohitashwani288/",
+                            "linkedIn": "",
+                            "phone": "9260961237"
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Roshan Jha",
+                            "image":"../public/images/devs/Roshan_Jha.jpg",
+                            "email": "mailto:phoolrj@iitbhilai.ac.in",
+                            "title": "Website Manager - 2023",
+                            "instagram": "https://www.instagram.com/roshan.jha.007/",
+                            "linkedIn": "",
+                            "phone": "7733884259"
+                        },
+                        {
+                            "name": "Piyush Chandrakar",
+                            "image":"../public/images/devs/Piyush_Chandrakar.jpg",
+                            "email": "mailto:piyushc@iitbhilai.ac.in",
+                            "title": "Website Manager - 2023",
+                            "instagram": "https://instagram.com/piyush_c38?igshid=ZDdkNTZiNTM=",
+                            "linkedIn": "",
+                            "phone": "9179932361"
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Nishchay Rajput",
+                            "image":"../public/images/devs/NISHCHAY_RAJPUT.JPG",
+                            "email": "mailto:nishchayr@iitbhilai.ac.in",
+                            "title": "Website Manager - 2023",
+                            "instagram": "https://www.instagram.com/__nishchay__rajput__/",
+                            "linkedIn": "",
+                            "phone": "9770552422"
+                        },
+                        {
+                            "name": "Rajeev Goel",
+                            "image":"../public/images/devs/Rajeev_Goel.jpg",
+                            "email": "mailto:rajeevg@iitbhilai.ac.in",
+                            "title": "Website Manager - 2023",
+                            "instagram": "https://instagram.com/rajeevgoel187?igshid=ZDdkNTZiNTM=",
+                            "linkedIn": "https://www.linkedin.com/in/rajeev-goel-176065229/",
+                            "phone": "9307304394"
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Ojus Goel",
+                            "image":"../public/images/devs/Ojus.jpg",
+                            "email": "mailto:ojusg@iitbhilai.ac.in",
+                            "title": "Website Manager - 2023",
+                            "instagram": "https://instagram.com/ojus_goel123?igshid=OTJhZDVkZWE=",
+                            "linkedIn": "",
+                            "phone": "8708943859"
+                        },
+                        {
+                            "name": "Sumit Kumar Pathak",
+                            "image":"../public/images/devs/Sumit_Pathak.jpg",
+                            "email": "mailto:sumitkum@iitbhilai.ac.in",
+                            "title": "Website Manager - 2023",
+                            "instagram": "https://instagram.com/skp_pathak_?igshid=ZDdkNTZiNTM=",
+                            "linkedIn": "",
+                            "phone": "8306312679"
+                        }
+                    ]      
+                ]
+            }
+        ]
+    },
+
+    "pop-up": {
+        "year": "2023",
+        "text": " BTech-2023 Orientation Schedule will be uploaded soon.",
+        "schedule-link":"pdfs/Report.pdf",
+        "session": "2023-24"
+    }
+} 

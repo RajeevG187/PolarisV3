@@ -1,0 +1,149 @@
+{
+    "heading": {
+        "head": "Academics",
+        "text": "One of it's kind...."
+    },
+    "intro": {
+        "head": "Introduction",
+        "text": [
+            {
+                "para": "IIT Bhilai fosters and encourages students to excel in their programs of study and recognises the same in several ways. IIT Bhilai follows semester system and allows the students to do many basic courses in different departments and specialised courses in greater depth."
+            },
+            {
+                "para": "Every course at IIT Bhilai generally runs for the entire semester (~ 14 weeks in case of a regular semester). A student registers for the courses that he/she wants to study and at the end of the semester a grade is awarded. On obtaining a pass grade, the student earns all the credits associated with the course while a fail grade does not get any credit."
+            },
+            {
+                "para": "Each course has a certain number of credit(s) or non-graded unit(s) assigned to it depending upon the L-T-P structure of the course."
+            }
+        ]
+    },
+    "branch_change": {
+        "head": "Branch Change Policy",
+        "text": "BTech students are eligible for a change of discipline. Discipline change guideline are as follows:",
+        "conditions": [
+            {
+                "points": "The discipline change option is given to the applicants purely based on the Cumulative Grade Point Average (CGPA) at the end of the second semester."
+            },
+            {
+                "points": "In case there is a tie, the grade distribution will be used to break the tie."
+            },
+            {
+                "points": "Discipline change takes place on a condition that the enrolled capacity of any discipline shall not reduce more than 20% and the total number of students of any discipline shall  not exceed 110% of the allotted capacity."
+            }
+        ],
+        "note": "Once the discipline change is made, no further change is possible"
+    },
+    "courses": {
+        "head": "Common Courses",
+        "text": "These courses that are common to all the branches of first year students: ",
+        "first_sem": {
+            "head": "First Semester",
+            "sub-lists": [
+                {
+                    "title": "Introduction to Programming"
+                },
+                {
+                    "title": "Chemistry Lab / Physics Lab"
+                },
+                {
+                    "title": "Mathematics-I"
+                },
+                {
+                    "title": "Applied Chemistry"
+                },
+                {
+                    "title": "Physics for Engineers"
+                },
+                {
+                    "title": "Environmental Science"
+                },
+                {
+                    "title": "Practices for Comprehensive wellbeing"
+                }
+            ]
+        },
+        "second_sem": {
+            "head": "Second Semester",
+            "sub-lists": [
+                {
+                    "title": "Digital Fabrication"
+                },
+                {
+                    "title": "Basic Electrical Engineering"
+                },
+                {
+                    "title": "Chemistry Lab / Physics Lab"
+                },
+                {
+                    "title": "Mathematics-II"
+                },
+                {
+                    "title": "Basic Electronics Engineering"
+                },
+                {
+                    "title": "Biology for Engineers"
+                },
+                {
+                    "title": "Professional Ethics"
+                }
+            ]
+        }
+    },
+    "grading": {
+        "head": "Grading Policy",
+        "text": "The following grade policy and grade values are adopted for evaluation process.",
+        "sub_text": "*Course description and grade policy for each course will be provided by the course instructor in the class."
+    },
+    "table": {
+        "head": {
+            "col-1": "Grades",
+            "col-2": "Grade Points"
+        },
+        "contents": [
+            {
+                "grade": "A+",
+                "points": "10"
+            },
+            {
+                "grade": "A",
+                "points": "10"
+            },
+            {
+                "grade": "A-",
+                "points": "9"
+            },
+            {
+                "grade": "B",
+                "points": "8"
+            },
+            {
+                "grade": "B-",
+                "points": "7"
+            },
+            {
+                "grade": "C",
+                "points": "6"
+            },
+            {
+                "grade": "C-",
+                "points": "5"
+            },
+            {
+                "grade": "D",
+                "points": "4"
+            },
+            {
+                "grade": "F",
+                "points": "Fail"
+            },
+            {
+                "grade": "FS",
+                "points": "Supplementary"
+            },
+            {
+                "grade": "I",
+                "points": "Incomplete"
+            }
+        ]
+    }
+}

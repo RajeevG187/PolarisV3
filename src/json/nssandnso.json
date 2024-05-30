@@ -1,0 +1,75 @@
+{
+    "header" : {
+        "head" : "NSS and NSO",
+        "text" : "Let's do something"
+    },
+
+    "nss" : {
+        "head" : "National Service Scheme",
+        "sec" : " Lakshmi Lasya Kata",
+        "sub-lists" : {
+            "about" : {
+                "title" : "About",
+                "text" : "The National Service Scheme (NSS) is a Central Sector Scheme of the Government of India, Ministry of Youth Affairs & Sports. We are a group of students who believe in building a better society. Working passionately towards this vision, we conduct simple yet effective voluntary activities that serve the society. It also helps students develop personality through community service. NSS at IIT Bhilai provides a platform for interaction between students and the population near IIT Bhilai where they can present their ideas for social welfare in less developed communities.The activites mentioned in the throwback video are held by NSS at regular intervals."
+            },
+            "motive" : {
+                "title" : "Motive",
+                "sub-lists" : [
+                    {
+                        "text" : "To understand the community in which we work."
+                    },
+                    {
+                        "text" : "To identify the needs and problems of the community and make a sincere attempt to solve the same."
+                    },
+                    {
+                        "text" : "To develop among ourselves a sense of social and civic responsibility."
+                    },
+                    {
+                        "text" : "To utilize our knowledge in finding practical solutions to individual and community problems."
+                    },
+                    {
+                        "text" : "To develop competence required for group-living and sharing of responsibilities."
+                    },
+                    {
+                        "text" : "To gain skills in mobilizing community participation, acquire leadership qualities and democratic attitudes develop capacity to meet emergencies and natural disasters."
+                    },
+                    {
+                        "text" : "To practice national integration and social harmony."
+                    }
+                ]
+            }
+        },
+
+        "images" : [
+            {
+                "path" : "/images/nsonss/nss1.jpg"
+            },
+            {
+                "path" : "/images/nsonss/nss2.jpg"
+            }
+        ]
+    },
+
+    "camp_tour" : {
+        "head" : "Campus Tour",
+        "youtube-links" : [
+            {
+                "link" : " https://www.youtube.com/embed/3Aaq_GqD7ZM"
+            }
+        ]
+    },
+
+    "nso" : {
+        "head" : "National Sports Organisation",
+        "sec" : "Anant Yadav and M Ramesh Naik",
+        "text" : "The National Sports Organisation is intended by the Government of India to promote the development of athletics and sporting activities of the nation's youth. It is included in the extra-curricular activities of many students of IIT Bhilai . Each student has to complete 120 hrs in eight semesters. NSO includes all the sports provided by the Institute and students can choose any sport they like. Proper incharge are provided in every field of NSO program. For those who were in their school sports team, here is the way back to get on the same track.The motto of organisation is health and fitness as we also have activities like morning exercise and gym. NSO activities encourage us to remove all the limitations and have a shot at IIT Bhilai's sports team.",
+        "images" : [
+            {
+                "path" : "/images/nsonss/nso1.jpg" 
+            },
+            {
+                "path" : "/images/nsonss/nso2.jpg"
+            }
+        ]
+    }
+}
