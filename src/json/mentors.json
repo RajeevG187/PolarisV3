@@ -9,7 +9,7 @@
             [
                 {
                     "name": "Dr. Vishwesh Jatala",
-                    "image": "images/mentors/Vishwesh Jatala.JPG",
+                    "image": "../public/images/mentors/Vishwesh Jatala.JPG",
                     "email": "mailto:vishwesh@iitbhilai.ac.in",
                     "title": "Chairman",
                     "facebook": "",
@@ -374,6 +374,7 @@
                     "image": "images/mentors/NIDHISH THAWAREY.jpg",
                     "email": "mailto:nidhishth@iitbhilai.ac.in",
                     "instagram": "https://instagram.com/nidhish_thawarey_?igshid=ZDdkNTZiNTM=",
+                    "linkedIn": "",
                     "phone": "7987760986"
                 },
                 {
