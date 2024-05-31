@@ -1,3 +1,24 @@
+<?php
+// Define the path to the JSON file
+$jsonFilePath = '../src/json/outreach.json';
+
+// Check if the JSON file exists and is readable
+if (!file_exists($jsonFilePath) || !is_readable($jsonFilePath)) {
+    die('Error: JSON file not found or not readable.');
+}
+
+// Read JSON file
+$json = file_get_contents($jsonFilePath);
+
+// Decode JSON data to PHP associative array
+$data = json_decode($json, true);
+
+// Check if JSON data is valid
+if (json_last_error() !== JSON_ERROR_NONE) {
+    die('Error: Invalid JSON data. ' . json_last_error_msg());
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,17 +61,17 @@
         <header class="header header__outreach">
             <div class="container">
                 <div class="header__hero-box">
-                    <h1 class="heading-primary">Outreach Clubs</h1>
-                    <p class="heading-subtitle">Find your true talent....</p>
+                    <h1 class="heading-primary"><?php echo $data["header"]["heading"]; ?></h1>
+                    <p class="heading-subtitle"><?php echo $data["header"]["subtitle"]; ?>.</p>
                 </div>
             </div>
         </header>
 
         <section class="section">
             <div class="container">
-                <h2 class="heading-secondary">Outreach Clubs</h2>
+                <h2 class="heading-secondary"><?php echo $data["header"]["heading"]; ?></h2>
                 <div class="clubs">
-                    <p class="clubs__text">We all, as a part of an elite league of institutes, aspire to work at the frontiers of human knowledge, innovate technology, initiate revolutions in science and propel national development to new heights. But often in such a competitive environment, work is stressed to the point of mania and this is when comes in the need of recreation. Rediscover your hobbies and explore new ones with Clubs at IIT Bhilai. Mind you there is absolutely no bound on anyone’s interest which also means that there is no bound on how many clubs you can be in – it is all up to you. Currently the following clubs are functional and conduct their respective activities at a regular basis:</p>
+                    <p class="clubs__text"><?php echo $data["clubs-text"]; ?></p>
                 </div>
 
                 <div class="outreach">
@@ -58,19 +79,14 @@
                     <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Secretary</span> Aryan Tiwari</p><br>
                     <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>About:</span> A team of dedicated individuals acting as the bridge for communication between the institute’s student community and other colleges, organizations or companies. We as a team under the Council of Student Affairs (CoSA) aim to help the student community of IIT Bhilai in all possible aspects whether it is placement stats, internship opportunities, promotions, etc.</p><br>
 
-                    <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>What's our work?</span></p>
+                    <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo $data["outreach"]["work"]; ?></span></p>
 
                     <ul class="info__list">
-                        <li class="info__item">Point of contact for other colleges/institutes (for fests, workshops, internships, or any other reason within the scope of Student Outreach)</li>
-                        <li class="info__item">Publishing in the media any notable student achievement or event/happening in our institute.</li>
-                        <li class="info__item">To create and establish alumni-relations with the alumni of IIT Bhilai for upliftment and development of our students.</li>
-                        <li class="info__item">Inviting well known personalities for guest lectures or for events in the institute.</li>
-                        <li class="info__item">Publishing the Yearbook  (consisting of all the memories and contributions) as a souvenir for the passing out batches.</li>
-                        <li class="info__item">Serving as a medium for sharing the placement stats and valuable experience shared by our senior most batch and alumni for reference by the (current) students.</li>
-                        <li class="info__item">The team plays a major role in the promotional activities of MERAZ.
-</li>
-<li class="info__item">Organizing tours to nearby popular tourist places and attractions to rejuvenate the body and souls.
-</li>
+
+                        <?php foreach ($data["outreach"]['info-list'] as $list_item): ?>
+                            <li class="info__item"><?php echo $list_item['a']; ?></li>
+
+                        <?php endforeach;?>
                     </ul>
                 </div>
 

@@ -18,10 +18,10 @@ if (json_last_error() !== JSON_ERROR_NONE) {
     die('Error: Invalid JSON data. ' . json_last_error_msg());
 }
 
-// Check if the required keys exist in the decoded data
-if (!isset($data['header'], $data['introduction'], $data['topics'], $data['gallery'])) {
-    die('Error: Missing required data in JSON.');
-}
+// // Check if the required keys exist in the decoded data
+// if (!isset($data['header'], $data['introduction'], $data['topics'], $data['gallery'])) {
+//     die('Error: Missing required data in JSON.');
+// }
 ?>
 
 <!DOCTYPE html>
