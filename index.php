@@ -1,6 +1,6 @@
 <?php
 // Define the path to the JSON file
-$jsonFilePath = 'C:\Users\r9307\Desktop\PolarisV3\PolarisV3\src\json\index.json';
+$jsonFilePath = '../PolarisV3/src/json/index.json';
 
 // Check if the JSON file exists and is readable
 if (!file_exists($jsonFilePath) || !is_readable($jsonFilePath)) {
