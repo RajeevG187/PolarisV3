@@ -75,9 +75,9 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                 </div>
 
                 <div class="outreach">
-                    <h3 class="heading-tertiary">Student Outreach Team</h3>
-                    <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Secretary</span> Aryan Tiwari</p><br>
-                    <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>About:</span> A team of dedicated individuals acting as the bridge for communication between the institute’s student community and other colleges, organizations or companies. We as a team under the Council of Student Affairs (CoSA) aim to help the student community of IIT Bhilai in all possible aspects whether it is placement stats, internship opportunities, promotions, etc.</p><br>
+                    <h3 class="heading-tertiary"><?php echo $data["outreach"]["heading"]; ?></h3>
+                    <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo $data["outreach"]["title"]; ?></span> <?php echo $data["outreach"]["name"]; ?></p><br>
+                    <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo $data["outreach"]["about"]["head"]; ?></span> <?php echo $data["outreach"]["about"]["content"]; ?></p><br>
 
                     <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo $data["outreach"]["work"]; ?></span></p>
 
