@@ -113,7 +113,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                 class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo "Keypoints:"; ?></span></p>
                         <?php foreach ($club['keypoints'] as $keypoint): ?>
                             <ul class="info__list">
-                                <li class="info__item"><?php echo "- " . $keypoint['text']; ?></li><br>
+                                <li class="info__item"><?php echo $keypoint['text']; ?></li><br>
                             </ul>
                         <?php endforeach; ?>
                     <?php endif; ?>
@@ -123,7 +123,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                         <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Objectives and
                                 Ideas:</span></p>
                         <ul class="info__list"><?php foreach ($club['objectives']['objective-list'] as $objective): ?>
-                                <li class="info__item"><?php echo "- " . $objective['text'] . "\n"; ?></li>
+                                <li class="info__item"><?php echo $objective['text'] . "\n"; ?></li>
                             <?php endforeach; ?>
                         </ul>
                     <?php endif; ?>
@@ -134,7 +134,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                         <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Activities planned for
                                 upcoming semester:</span></p>
                         <ul class="info__list"> <?php foreach ($club['activities']['activity-list'] as $activity): ?>
-                                <li class="info__item"> <?php echo "- " . $activity['text'] . "\n"; ?></li>
+                                <li class="info__item"> <?php echo$activity['text'] . "\n"; ?></li>
                             <?php endforeach; ?>
                         </ul>
                     <?php endif; ?>
@@ -145,8 +145,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                         <p class="outreach__text"><i
                                 class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo "Follow us:"; ?></span></p>
                         <?php foreach ($club['socialmedia'] as $socialmedia): ?>
-                            <p class="outreach__text"><?php echo "- " . $socialmedia['display'] . ": " . $socialmedia['url']; ?></p>
-                        <?php endforeach; ?>
+                            <p class="outreach__text"><a href="<?= $socialmedia['url'] ?>" class="outreach__link"><?php echo $socialmedia['display'];?> </a></p>
+                        <?php endforeach; ?>="
                     <?php endif; ?>
 
 
@@ -154,7 +154,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     <?php if (isset($club['images'])): ?>
                         <div class="row">
                             <?php foreach ($club['images'] as $image): ?>
-                                <div class="col-1-of-2"><?php echo "- " . $image['alt'] . ": " . $image['url']; ?></div>
+                                <div class="col-1-of-2"><img src="<?= $image['url'] ?>"alt="<?= $image['alt'] ?>"  class="scitech__photo"></div>
                             <?php endforeach; ?>
                         </div>
                     <?php endif; ?>
@@ -164,7 +164,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     <?php if (isset($club['image_epsilon'])): ?>
                         <div class="row">
                             <?php foreach ($club['image_epsilon'] as $image): ?>
-                                <div class="col-1-of-3"><?php echo "- " . $image['alt'] . ": " . $image['url']; ?></div>
+                                <div class="col-1-of-3"><img src="<?= $image['url'] ?>"alt="<?= $image['alt'] ?>"  class="scitech__photo"></div>
                             <?php endforeach; ?>
                         </div>
                     <?php endif; ?>
