@@ -1,14 +1,22 @@
 <?php
 // Define the path to the JSON file
-$jsonFilePath = 'github.com/RajeevG187/PolarisV3/src/json/scitech.json';
+$json_url = 'https://github.com/RajeevG187/PolarisV3/src/json/scitech.json';
 
+$curl = curl_init();
+
+curl_setopt_array($curl, [
+    CURLOPT_RETURNTRANSFER => 1,
+    CURLOPT_URL => $json_url
+]);
+
+$json_data = curl_exec($curl);
 // Check if the JSON file exists and is readable
-if (!file_exists($jsonFilePath) || !is_readable($jsonFilePath)) {
+if (!file_exists($json_url) || !is_readable($json_url)) {
     die('Error: JSON file not found or not readable.');
 }
 
 // Read JSON file
-$json = file_get_contents($jsonFilePath);
+$json = file_get_contents($json_url);
 
 // Decode JSON data to PHP associative array
 $data = json_decode($json, true);
