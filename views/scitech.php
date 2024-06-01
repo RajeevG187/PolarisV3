@@ -82,7 +82,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             <h2 class="heading-secondary"><?php echo $data['introduction']['title']; ?></h2>
             <div class="clubs">
                 <h3 class="heading-tertiary">General Secretary -
-                    <?php echo $data['introduction']['general_secretary']; ?></h3>
+                    <?php echo $data['introduction']['general_secretary']; ?>
+                </h3>
                 <p class="clubs__text"><?php echo $data['introduction']['text']; ?></p>
             </div>
 
@@ -93,17 +94,14 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
                     <?php if (isset($club['lead'])): ?>
                         <h3 class="heading-tertiary"><?php echo $club['title']; ?></h3>
-                        <p class="scitech__text"><?php echo "Lead: " . $club['lead']; ?></p><br>
-                        <p class="scitech__text"><?php echo "About: " . $club['about']; ?></p><br>
+                        <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Lead:</span><?php echo $club['lead']; ?></p><br>
+                        <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>About:</span><?php echo $club['about']; ?></p><br>
                     <?php endif; ?>
 
                     <?php if (isset($club['co-ordinator'])): ?>
                         <h3 class="heading-tertiary"><?php echo $club['title']; ?></h3>
-                        <p class="scitech__text"><i
-                                class="fas fa-arrow-circle-right"></i>&nbsp;<?php echo "Co-ordinator: " . $club['co-ordinator']; ?>
-                        </p><br>
-                        <p class="scitech__text"><i
-                                class="fas fa-arrow-circle-right"></i>&nbsp;<?php echo "About: " . $club['about']; ?></p><br>
+                        <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Co-ordinator:</span><?php echo$club['co-ordinator']; ?></p><br>
+                        <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>About:</span><?php echo$club['about']; ?></p><br>
                     <?php endif; ?>
 
 
@@ -134,7 +132,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                         <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Activities planned for
                                 upcoming semester:</span></p>
                         <ul class="info__list"> <?php foreach ($club['activities']['activity-list'] as $activity): ?>
-                                <li class="info__item"> <?php echo$activity['text'] . "\n"; ?></li>
+                                <li class="info__item"> <?php echo $activity['text'] . "\n"; ?></li>
                             <?php endforeach; ?>
                         </ul>
                     <?php endif; ?>
@@ -143,10 +141,11 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
                     <?php if (isset($club['socialmedia'])): ?>
                         <p class="outreach__text"><i
-                                class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo "Follow us:"; ?></span></p>
-                        <?php foreach ($club['socialmedia'] as $socialmedia): ?>
-                            <p class="outreach__text"><a href="<?= $socialmedia['url'] ?>" class="outreach__link"><?php echo $socialmedia['display'];?> </a></p>
-                        <?php endforeach; ?>="
+                                class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo "Follow us:"; ?></span>
+                                  <?php foreach ($club['socialmedia'] as $socialmedia): ?>
+                            <a href="<?= $socialmedia['url'] ?>"
+                                    class="outreach__link"><?php echo $socialmedia['display']; ?> </a>
+                        <?php endforeach; ?></p>
                     <?php endif; ?>
 
 
@@ -154,7 +153,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     <?php if (isset($club['images'])): ?>
                         <div class="row">
                             <?php foreach ($club['images'] as $image): ?>
-                                <div class="col-1-of-2"><img src="<?= $image['url'] ?>"alt="<?= $image['alt'] ?>"  class="scitech__photo"></div>
+                                <div class="col-1-of-2"><img src="<?= $image['url'] ?>" alt="<?= $image['alt'] ?>"
+                                        class="scitech__photo"></div>
                             <?php endforeach; ?>
                         </div>
                     <?php endif; ?>
@@ -164,7 +164,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     <?php if (isset($club['image_epsilon'])): ?>
                         <div class="row">
                             <?php foreach ($club['image_epsilon'] as $image): ?>
-                                <div class="col-1-of-3"><img src="<?= $image['url'] ?>"alt="<?= $image['alt'] ?>"  class="scitech__photo"></div>
+                                <div class="col-1-of-3"><img src="<?= $image['url'] ?>" alt="<?= $image['alt'] ?>"
+                                        class="scitech__photo"></div>
                             <?php endforeach; ?>
                         </div>
                     <?php endif; ?>
@@ -177,32 +178,39 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
 
         <div class="container">
-            <h2 class="heading-secondary"><?php echo $data['iic']['title'];?></h2>
+            <h2 class="heading-secondary"><?php echo $data['iic']['title']; ?></h2>
             <div class="scitech">
-                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>President:</span> <?php echo $data['iic']['president'];?></p><br>
-                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Convener:</span> <?php echo $data['iic']['convener'];?></p><br>
-                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Co-ordinator:</span><?php echo $data['iic']['co-ordinator'];?></p><br>
-                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>About:</span><?php echo$data['iic']['about'];?></p><br>
+                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>President:</span>
+                    <?php echo $data['iic']['president']; ?></p><br>
+                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Convener:</span>
+                    <?php echo $data['iic']['convener']; ?></p><br>
+                <p class="scitech__text"><i
+                        class="fas fa-arrow-circle-right"></i>&nbsp;<span>Co-ordinator:</span><?php echo $data['iic']['co-ordinator']; ?>
+                </p><br>
+                <p class="scitech__text"><i
+                        class="fas fa-arrow-circle-right"></i>&nbsp;<span>About:</span><?php echo $data['iic']['about']; ?>
+                </p><br>
                 <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Major focus of IIC:</span>
                 </p>
 
                 <ul class="info__list">
-                    <?php foreach($data['iic']['major_focus'] as $major):?>
-                    <li class="info__item"><?php echo $major['text'];?></li>
-                    <?php endforeach;?>
+                    <?php foreach ($data['iic']['major_focus'] as $major): ?>
+                        <li class="info__item"><?php echo $major['text']; ?></li>
+                    <?php endforeach; ?>
                 </ul>
 
                 <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Function of IIC:</span>
                 </p>
 
                 <ul class="info__list">
-                <?php foreach($data['iic']['functions'] as $function):?>
-                    <li class="info__item"><?php echo $function['text'];?></li>
-                    <?php endforeach;?>
+                    <?php foreach ($data['iic']['functions'] as $function): ?>
+                        <li class="info__item"><?php echo $function['text']; ?></li>
+                    <?php endforeach; ?>
                 </ul>
                 <p class="scitech__text">
                     Students also participated in Smart India Hackathon 2019, Smart Bihar Submit, India-Japan Ideathon.
-                    <br><br> </p>
+                    <br><br>
+                </p>
 
                 <div class="row">
                     <div class="col-2-of-2"><img src="../public/images/life/iic.JPG" alt="IIC" class="cultural__photo">
