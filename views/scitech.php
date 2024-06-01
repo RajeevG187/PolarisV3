@@ -177,58 +177,28 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
 
         <div class="container">
-            <h2 class="heading-secondary">Institute Innovation Council (IIC)</h2>
+            <h2 class="heading-secondary"><?php echo $data['iic']['title'];?></h2>
             <div class="scitech">
-                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>President:</span> Prof. P.
-                    D. Srivastava</p><br>
-                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Convener:</span> Dr.
-                    Sanjib Banerjee</p><br>
-                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Co-ordinator:</span>
-                    Rachuri Sri Pramodh</p><br>
-                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>About:</span>Ministry of
-                    Human Resource Development (MHRD), Govt. of India has established ‘MHRD’s Innovation Cell (MIC)’ to
-                    systematically foster the culture of Innovation amongst all Higher Education Institutions (HEIs).
-                    The primary mandate of MIC is to encourage, inspire and nurture young students by supporting them to
-                    work with new ideas and transform them into prototypes while they are informative years.
-                    MIC has envisioned encouraging creation of ‘Institution’s Innovation Council (IICs)’ across selected
-                    HEIs. A network of these IICs has been established to promote innovation in the Institution through
-                    multitudinous modes leading to an innovation promotion eco-system in the campuses.
-                </p><br>
+                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>President:</span> <?php echo $data['iic']['president'];?></p><br>
+                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Convener:</span> <?php echo $data['iic']['convener'];?></p><br>
+                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Co-ordinator:</span><?php echo $data['iic']['co-ordinator'];?></p><br>
+                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>About:</span><?php echo$data['iic']['about'];?></p><br>
                 <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Major focus of IIC:</span>
                 </p>
 
                 <ul class="info__list">
-                    <li class="info__item">To create a vibrant local innovation ecosystem.</li>
-                    <li class="info__item">Start-up supporting Mechanism in HEIs.</li>
-                    <li class="info__item">Prepare institute for Atal Ranking of Institutions on Innovation Achievements
-                        Framework.</li>
-                    <li class="info__item">Establish Function Ecosystem for Scouting Ideas and Pre-incubation of Ideas.
-                    </li>
-                    <li class="info__item">Develop better Cognitive Ability for Technology Students.</li>
+                    <?php foreach($data['iic']['major_focus'] as $major):?>
+                    <li class="info__item"><?php echo $major['text'];?></li>
+                    <?php endforeach;?>
                 </ul>
 
                 <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Function of IIC:</span>
                 </p>
 
                 <ul class="info__list">
-                    <li class="info__item">To conduct various innovation and entrepreneurship-related activities
-                        prescribed by Central MIC in time bound fashion.</li>
-                    <li class="info__item">Identify and reward innovations and share success stories.</li>
-                    <li class="info__item">Organize periodic workshops/ seminars/ interactions with entrepreneurs,
-                        investors, professionals and create a mentor pool for student innovators.</li>
-                    <li class="info__item">Network with peers and national entrepreneurship development organizations.
-                    </li>
-                    <li class="info__item">Create an Institution’s Innovation portal to highlight innovative projects
-                        carried out by institution’s faculty and students.</li>
-                    <li class="info__item">Organize Hackathons, idea competition, mini-challenges etc. with the
-                        involvement of industries.</li>
-                </ul>
-                <p class="scitech__text">
-                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>IIC of IIT Bhilai has
-                        hosted a workshops on:</span></p>
-                <ul class="info__list">
-                    <li class="info__item">Cognitive Skills Design Thinking and Critical thinking.</li>
-                    <li class="info__item">Intellectual property rights.</li>
+                <?php foreach($data['iic']['functions'] as $function):?>
+                    <li class="info__item"><?php echo $function['text'];?></li>
+                    <?php endforeach;?>
                 </ul>
                 <p class="scitech__text">
                     Students also participated in Smart India Hackathon 2019, Smart Bihar Submit, India-Japan Ideathon.
@@ -242,8 +212,6 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             </div>
         </div>
     </section>
-
-
     <?php
     require_once ('partials/footer.php');
     ?>
