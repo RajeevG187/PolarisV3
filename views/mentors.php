@@ -78,12 +78,47 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                 <h2 class="heading-secondary"><?= $data['coordinators']['heading'] ?></h2>
             </div>
 
-            <!-- Render faculty members -->
-            <?php foreach ($data['coordinators']['faculty'] as $members): ?>
+            <!-- Render faculty members 2 membered -->
+            <?php foreach ($data['coordinators']['faculty-2-membered'] as $members): ?>
                 <div class="row">
                     <div class="dev">
                         <?php foreach ($members as $member): ?>
                             <div class="col-1-of-2">
+                                <figure class="dev__shape">
+                                    <img src="<?= $member['image'] ?>" alt="<?= $member['name'] ?>" class="dev__img">
+                                    <figcaption class="dev__caption"><?= $member['name'] ?></figcaption>
+                                </figure>
+                                <div class="dev__name"><strong><?= $member['name'] ?></strong><br><?= $member['title'] ?></div>
+                                <a href="<?= $member['email'] ?>" class="dev__profile">
+                                    <i class="far fa-envelope dev__profile--icon"></i>
+                                </a>
+                                <?php if (!empty($member['linkedin'])): ?>
+                                    <a href="<?= $member['linkedin'] ?>" class="dev__profile">
+                                        <i class="fab fa-linkedin dev__profile--icon"></i>
+                                    </a>
+                                <?php endif; ?>
+                                <?php if (!empty($member['instagram'])): ?>
+                                    <a href="<?= $member['instagram'] ?>" class="dev__profile">
+                                        <i class="fab fa-instagram dev__profile--icon"></i>
+                                    </a>
+                                <?php endif; ?>
+                                <?php if (!empty($member['phone'])): ?>
+                                    <div class="dev__phone">
+                                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash; <?= $member['phone'] ?>
+                                    </div>
+                                <?php endif; ?>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+
+            <!-- Render faculty members 3 membered -->
+            <?php foreach ($data['coordinators']['faculty-3-membered'] as $members): ?>
+                <div class="row">
+                    <div class="dev">
+                        <?php foreach ($members as $member): ?>
+                            <div class="col-1-of-3">
                                 <figure class="dev__shape">
                                     <img src="<?= $member['image'] ?>" alt="<?= $member['name'] ?>" class="dev__img">
                                     <figcaption class="dev__caption"><?= $member['name'] ?></figcaption>
