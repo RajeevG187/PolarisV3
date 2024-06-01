@@ -1,3 +1,29 @@
+<?php
+// Define the path to the JSON file
+$jsonFilePath = '../src/json/documents.json';
+
+// Check if the JSON file exists and is readable
+if (!file_exists($jsonFilePath) || !is_readable($jsonFilePath)) {
+    die('Error: JSON file not found or not readable.');
+}
+
+// Read JSON file
+$json = file_get_contents($jsonFilePath);
+
+// Decode JSON data to PHP associative array
+$data = json_decode($json, true);
+
+// Check if JSON data is valid
+if (json_last_error() !== JSON_ERROR_NONE) {
+    die('Error: Invalid JSON data. ' . json_last_error_msg());
+}
+
+// // Check if the required keys exist in the decoded data
+// if (!isset($data['header'], $data['introduction'], $data['topics'], $data['gallery'])) {
+//     die('Error: Missing required data in JSON.');
+// }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,22 +66,21 @@
         <header class="header header__documents">
             <div class="container">
                 <div class="header__hero-box">
-                    <h1 class="heading-primary">Important Documents</h1>
-                    <p class="heading-subtitle">All the documents you need...</p>
+                    <h1 class="heading-primary"><?php echo $data['header']['head']; ?></h1>
+                    <p class="heading-subtitle"><?php echo $data['header']['text']; ?></p>
                 </div>
             </div>
         </header>
       <section class="section section-documents">
           <div class="container">
               <div class="documents">
-                  <h2 class="heading-secondary">Important Documents<br><span>Registration Form</span></h2>
-                  <p class="documents__text">The attached respective registration forms are necessary at the time of Registration.<br> Please download and fill the respective forms.</p>
+                  <h2 class="heading-secondary"><?php echo $data['header']['head']; ?><br><span><?php echo $data['registration_form']['head']; ?></span></h2>
+                  <p class="documents__text"><?php echo $data['registration_form']['text']; ?></p>
                   <div class="bank">
                       <ul class="bank__list">
-                        <li class="bank__item"><i class="fas fa-download"></i>&nbsp; Registration Form for BTech Students. <a href="../public/pdfs/BTech_2023.pdf" download>Click Here!</a></li>
-                        <li class="bank__item"><i class="fas fa-download"></i>&nbsp; Registration Form for MTech Students. <a href="../public/pdfs/forms_update/MTech_2023.pdf" download>Click Here!</a></li>
-                        <li class="bank__item"><i class="fas fa-download"></i>&nbsp; Registration Form for M.Sc Students. <a href="../public/pdfs/forms_update/MSc_2023.pdf" download>Click Here!</a></li>
-                        <li class="bank__item"><i class="fas fa-download"></i>&nbsp; Registration Form for PhD Students. <a href="../public/pdfs/forms_update/PhD_2023.pdf" download>Click Here!</a></li>
+                        <?php foreach ($data['registration_form']['lists'] as $subList): ?>
+                            <li class="bank__item"><i class="fas fa-download"></i>&nbsp; <?php echo $subList['text']; ?> <a href="<?php echo $subList['url']; ?>" download>Click Here!</a></li>
+                        <?php endforeach; ?>  
                       </ul>
                   </div>
               </div>
@@ -68,14 +93,15 @@
             <div class="container">
                 <div class="documents">
 
-                    <h2 class="heading-secondary"><span>Availing Loan Facility</span></h2>
-                    <p class="fee__text">IIT Bhilai has a tie-up with Union Bank of India to provide education loans to the students of IIT Bhilai with the rate of interest @ 8.15% p.a. (floating) for this financial year 2023-24.</p>
-                      <p class="fee__text">Loan documents are available below.</p>
+                    <h2 class="heading-secondary"><span><?php echo $data['loan']['head']; ?></span></h2>
+                    <p class="fee__text"><?php echo $data['loan']['text']; ?></p>
                     <div class="bank">
                       <ul class="bank__list">
-                        <li class="bank__item"><i class="fas fa-download"></i>&nbsp; Education Loan Application Form with CheckList. <a href="../public/pdfs/Education_Loan_Application_Form_with_Checklist.pdf" download>Click here.</a></li>
+                        <?php foreach ($data['loan']['lists'] as $sub_List): ?>
+                            <li class="bank__item"><i class="fas fa-download"></i>&nbsp; <?php echo $sub_List['text']; ?> <a href="<?php echo $sub_List['url']; ?>" download>Click here.</a></li>
+                        <?php endforeach; ?>
                       </ul>
-</div>
+                    </div>
                     
                 </div>
             </div>
@@ -86,7 +112,7 @@
         <section class="section section-fee">
             <div class="container">
                 <div class="fee">
-                    <h2 class="heading-secondary"><span>Regarding Fee Payment</span></h2>
+                    <h2 class="heading-secondary"><span><?php echo $data['fee']['head']; ?></span></h2>
                     <!-- <p class="fee__text">Fee Structure (Btech 2022-23) - <a href="https://www.iitbhilai.ac.in/index.php?pid=Fee_BTech23" target="_blank">Click Here!</a></p><br>
                     <p class="fee__text">Fee Structure (Mtech) - <a href="https://www.iitbhilai.ac.in/index.php?pid=Fee_MTech23" target="_blank">Click Here!</a></p><br>
                     <p class="fee__text">Fee Structure (M.Sc) - <a href="https://www.iitbhilai.ac.in/index.php?pid=Fee_MSc23" target="_blank">Click Here!</a></p><br>
