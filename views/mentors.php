@@ -77,19 +77,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             <div class="container">
                 <h2 class="heading-secondary"><?= $data['coordinators']['heading'] ?></h2>
             </div>
-
-<<<<<<< HEAD
-<<<<<<< HEAD
             <!-- Render faculty members 2 membered -->
             <?php foreach ($data['coordinators']['faculty-2-membered'] as $members): ?>
-=======
-            <!-- Render faculty members -->
-            <?php foreach ($data['coordinators']['faculty'] as $members): ?>
->>>>>>> 4c0fb5a (Integrated Json in mentors.php file and updated all mentors and Coordinators data, added linked in profile option, updated all images on mentors page.)
-=======
-            <!-- Render faculty members -->
-            <?php foreach ($data['coordinators']['faculty'] as $members): ?>
->>>>>>> 4c0fb5a (Integrated Json in mentors.php file and updated all mentors and Coordinators data, added linked in profile option, updated all images on mentors page.)
                 <div class="row">
                     <div class="dev">
                         <?php foreach ($members as $member): ?>
@@ -122,8 +111,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     </div>
                 </div>
             <?php endforeach; ?>
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
             <!-- Render faculty members 3 membered -->
             <?php foreach ($data['coordinators']['faculty-3-membered'] as $members): ?>
@@ -159,10 +147,6 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     </div>
                 </div>
             <?php endforeach; ?>
-=======
->>>>>>> 4c0fb5a (Integrated Json in mentors.php file and updated all mentors and Coordinators data, added linked in profile option, updated all images on mentors page.)
-=======
->>>>>>> 4c0fb5a (Integrated Json in mentors.php file and updated all mentors and Coordinators data, added linked in profile option, updated all images on mentors page.)
             
             <!-- Render mentor coordinators -->
             <?php foreach ($data['coordinators']['mentor-coordinators'] as $members): ?>
