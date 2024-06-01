@@ -208,6 +208,12 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     <?php endforeach; ?>
                 </ul>
                 <p class="scitech__text">
+                    <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>IIC of IIT Bhilai has hosted a workshops on:</span></p>
+                  <ul class="info__list">
+                      <li class="info__item">Cognitive Skills Design Thinking and Critical thinking.</li>
+                      <li class="info__item">Intellectual property rights.</li>
+                  </ul>
+                <p class="scitech__text">
                     Students also participated in Smart India Hackathon 2019, Smart Bihar Submit, India-Japan Ideathon.
                     <br><br>
                 </p>
