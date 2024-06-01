@@ -8,89 +8,89 @@
         "faculty": [
             [
                 {
-                    "name": "Dr. Vishwesh Jatala",
-                    "image": "../public/images/mentors/Vishwesh Jatala.JPG",
-                    "email": "mailto:vishwesh@iitbhilai.ac.in",
-                    "title": "Chairman",
-                    "facebook": "",
-                    "instagram": "",
-                    "phone": ""
+                  "name": "Dr. Vishwesh Jatala",
+                  "image": "../public/images/mentors/Vishwesh Jatala.JPG",
+                  "email": "mailto:vishwesh@iitbhilai.ac.in",
+                  "title": "Faculty In-Charge",
+                  "facebook": "",
+                  "instagram": "",
+                  "linkedin": "",
+                  "phone": ""
                 },
-
                 {
-                    "name": "Dr. Arnab Patra",
-                    "image": "images/mentors/Dr._Arnab_Patra.jpeg",
-                    "email": "mailto:arnabp@iitbhilai.ac.in",
-                    "title": "Member",
-                    "facebook": "",
-                    "instagram": "",
-                    "phone": ""
-                },
-                
-                {
-                    "name": "Dr. R Mayil Murugan",
-                    "image": "images/mentors/Dr. R Mayil Murugan.jpg",
-                    "email": "mailto:murugan@iitbhilai.ac.in",
-                    "title": "Member",
-                    "facebook": "",
-                    "instagram": "",
-                    "phone": ""
+                  "name": "Dr. Praveen Kumar",
+                  "image": "../public/images/mentors/Praveen Kumar.jpg",
+                  "email": "mailto:praveen@iitbhilai.ac.in",
+                  "title": "Associate Faculty In-Charge",
+                  "facebook": "",
+                  "instagram": "",
+                  "linkedin": "",
+                  "phone": ""
                 }
             ]
         ],
         "mentor-coordinators": [
             [
                 {
-                    "name": "Chiruvolu Nikhil",
-                    "image": "images/mentors/Mentor6.jpg",
-                    "email": "mailto:chiruvolu@iitbhilai.ac.in",
-                    "title": "Mentor Coordinator",
-                    "facebook": "",
-                    "instagram": "https://www.instagram.com/nikh1849/",
-                    "phone": "9346785014"
+                  "name": "Chetan",
+                  "image": "../public/images/mentors/Chetan.jpg",
+                  "email": "mailto:chetan@iitbhilai.ac.in",
+                  "title": "Mentor Coordinator",
+                  "facebook": "",
+                  "instagram": "https://www.instagram.com/chetan_200407/",
+                  "linkedin": "https://www.linkedin.com/in/chetan-arora-119098267",
+                  "phone": "9355844091"
                 },
                 {
-                    "name": "Rohit Ashwani",
-                    "image": "images/mentors/Mentor14.jpg",
-                    "email": "mailto:rohitas@iitbhilai.ac.in",
-                    "title": "Mentor Coordinator",
-                    "facebook": "",
-                    "instagram": "https://www.instagram.com/rohitashwani288/",
-                    "phone": "9260961237"
+                  "name": "Khushi Dutta",
+                  "image": "../public/images/mentors/Khushi Dutta.jpg",
+                  "email": "mailto:khushid@iitbhilai.ac.in",
+                  "title": "Mentor Coordinator",
+                  "facebook": "",
+                  "instagram": "",
+                  "linkedin": "https://www.linkedin.com/in/khushi-dutta-8b4791257",
+                  "phone": "7903642798"
                 },
                 {
-                    "name": "Sudeep Ranjan Sahoo",
-                    "image": "images/mentors/Mentor22.jpg",
-                    "email": "mailto:sudeepranjan@iitbhilai.ac.in",
-                    "title": "Mentor Coordinator",
-                    "facebook": "",
-                    "instagram": "https://instagram.com/srs_sudeep?igshid=YmMyMTA2M2Y=",
-                    "phone": "6372432280"
+                  "name": "Raj mohammad",
+                  "image": "../public/images/mentors/Raj mohammad.jpg",
+                  "email": "mailto:rajmohammad@iitbhilai.ac.in",
+                  "title": "Mentor Coordinator",
+                  "facebook": "",
+                  "instagram": "",
+                  "linkedin": "https://www.linkedin.com/in/rajmd101",
+                  "phone": "7985378709"
                 }
+                
             ]
         ],
+
         "mentor-coordinators-two-membered": [
             [
                 {
-                    "name": "Gunti Varshini",
-                    "image": "images/mentors/Gunti Varshini.jpg",
-                    "email": "mailto:guntiv@iitbhilai.ac.in",
+                    "name": "Rajeev Goel",
+                    "image": "../public/images/mentors/Rajeev Goel.jpg",
+                    "email": "mailto:rajeevg@iitbhilai.ac.in",
                     "title": "Mentor Coordinator",
                     "facebook": "",
-                    "instagram": "https://www.instagram.com/varshini_284/",
-                    "phone": "9766277019"
-                },
-                {
-                    "name": "Sudev Kumar Padhi",
-                    "image": "images/mentors/Sudev.jpg",
-                    "email": "mailto:sudevp@iitbhilai.ac.in",
+                    "instagram": "https://www.instagram.com/rajeevgoel187/",
+                    "linkedin": "https://www.linkedin.com/in/rajeev-goel-176065229",
+                    "phone": "9307304394"
+                  },
+                  {
+                    "name": "Raja Gopala Chary",
+                    "image": "../public/images/mentors/Raja Gopala Chary.jpg",
+                    "email": "mailto:trajagopala@iitbhilai.ac.in",
                     "title": "Mentor Coordinator",
                     "facebook": "",
-                    "instagram": "",
-                    "phone": "9040260615"
-                }
+                    "instagram": "https://www.instagram.com/raja_gopala___/",
+                    "linkedin": "https://www.linkedin.com/in/thipparthi-raja-gopala-chary-468816156",
+                    "phone": "9502047809"
+                  }
+                
             ]
         ]
+
     },
     "mentors-ug": {
         "heading": "Mentors-UG",
@@ -99,237 +99,334 @@
                 "members-4": [
                     [
                         {
-                            "name": "Aditya Bajpai",
-                            "image": "images/mentors/Aditya Bajpai.jpg",
-                            "email": "mailto:adityabajpai@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/adityaexe?igshid=ZDdkNTZiNTM=",
-                            "phone": "6394390409"
+                            "name": "Hirannya Mhaisbadwe",
+                            "email": "hirannyam@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "9067624840",
+                            "instagram": "https://www.instagram.com/hirannya_1405?igsh=bmkxMTEycjNpd3o5",
+                            "linkedin": "https://www.linkedin.com/in/hirannya-mhaisbadwe-094697297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                            "image": "../public/images/mentors/Hirannya Mhaisbadwe.jpg"
                         },
                         {
-                            "name": "Arpan Goswami",
-                            "image": "images/mentors/ArpanGoswami.jpg",
-                            "email": "mailto:arpang@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/arpangoswami462?igshid=ZDdkNTZiNTM=",
-                            "phone": "7439247046"
+                            "name": "Khushi Sharma",
+                            "email": "khushisa@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "7976281858",
+                            "instagram": "https://www.instagram.com/_khushi2106_?igsh=MWlxZHdkcmIyOHZqcA==",
+                            "linkedin": "https://www.linkedin.com/in/khushi-sharma-4a42842a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                            "image": "../public/images/mentors/Khushi Sharma.jpg"
                         },
                         {
-                            "name": "Arpit Bhardwaj",
-                            "image": "images/mentors/Arpit Bhardwaj.jpg",
-                            "email": "mailto:arpitb@iitbhilai.ac.in",
-                            "instagram": "",
-                            "phone": "9934961336"
+                            "name": "Rithika Sannidhi",
+                            "email": "sannidhir@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "7416112285",
+                            "instagram": "https://www.instagram.com/rithi.ka2811?igsh=MTl6OTY2NXdiYjdqMQ%3D%3D&utm_source=qr",
+                            "linkedin": "https://www.linkedin.com/in/rithika-sannidhi-9387aa302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+                            "image": "../public/images/mentors/Rithika Sannidhi.jpg"
                         },
                         {
-                            "name": "Bhavya Jain",
-                            "image": "images/mentors/Bhavya Jain.jpg",
-                            "email": "mailto:bhavyaj@iitbhilai.ac.in",
-                            "instagram": "",
-                            "phone": "9306368542"
+                            "name": "Sudeshna Kumari",
+                            "email": "sudeshnak@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "9905162379",
+                            "instagram": "https://www.instagram.com/suduku_21?igsh=cXh5cWw2ZGg2azJi",
+                            "linkedin": "https://www.linkedin.com/in/sudeshna-kumari-bb2a7527a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                            "image": "../public/images/mentors/Sudeshna Kumari.jpg"
                         }
                     ],
                     [
                         {
-                            "name": "Chetan",
-                            "image": "images/mentors/Chetan.jpg",
-                            "email": "mailto:chetan@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/chetan_iit_bhilai?igshid=YmMyMTA2M2Y=",
-                            "phone": "9355844091"
+                            "name": "ADITYA JHA",
+                            "email": "adityaj@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "7439879074",
+                            "instagram": "https://www.instagram.com/darkassasin2027/",
+                            "linkedin": "https://www.linkedin.com/in/aditya-jha-48a2aa27a/",
+                            "image": "../public/images/mentors/ADITYA JHA.jpg"
                         },
                         {
-                            "name": "Dhananjay Abbot",
-                            "image": "images/mentors/Dhananjay Abbot.jpg",
-                            "email": "mailto:arpang@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/forshronnnn?igshid=ZDdkNTZiNTM=",
-                            "phone": "8882700586"
+                            "name": "Ayush kumar",
+                            "email": "ayushkr@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "9279020055",
+                            "instagram": "https://www.instagram.com/ayush_790?igsh=ZGUzMzM3NWJiOQ==",
+                            "linkedin": "https://www.linkedin.com/in/ayush-kumar-65aa48279",
+                            "image": "../public/images/mentors/Ayush kumar.jpg"
                         },
                         {
-                            "name": "Kaki Venkata Vaneesha",
-                            "image": "images/mentors/Kaki Venkata Vaneesha.jpg",
-                            "email": "mailto:kakivenk@iitbhilai.ac.in",
-                            "instagram": "",
-                            "phone": "9390093783"
+                            "name": "Naman Sharma",
+                            "email": "namans@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "8708450013",
+                            "instagram": "https://www.instagram.com/namansharma_2408?igsh=MWVhYjZoOWJ2MHUzbQ==",
+                            "linkedin": "https://www.linkedin.com/in/naman-sharma-aa352327b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                            "image": "../public/images/mentors/Naman Sharma.jpg"
                         },
                         {
-                            "name": "Khushi Dutta",
-                            "image": "images/mentors/Khushi Dutta.jpg",
-                            "email": "mailto:khushid@iitbhilai.ac.in",
-                            "instagram": "",
-                            "phone": "7903642798"
+                            "name": "Suraj Kumar",
+                            "email": "surajkum@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "6207918454",
+                            "instagram": "https://www.instagram.com/isuraj77?igsh=a2Jna2xqd2NlcDEz",
+                            "linkedin": "https://www.linkedin.com/in/suraj-kumar-747750303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                            "image": "../public/images/mentors/Suraj Kumar.jpg"
                         }
                     ],
                     [
                         {
-                            "name": "Kirtiraj Jamnotiya",
-                            "image": "images/mentors/Kirtiraj Jamnotiya.jpg",
-                            "email": "mailto:kirtiraj@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/kirtiraj_jamnotiya?igshid=ZDdkNTZiNTM=",
-                            "phone": "9270865999"
+                            "name": "Tanishq Gupta",
+                            "email": "tanishqg@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "8955947415",
+                            "instagram": "https://www.instagram.com/_.tanishqgupta._?igsh=cTQ3N2Fmd2lqejhh",
+                            "linkedin": "https://www.linkedin.com/in/tanishq-gupta-287802290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                            "image": "../public/images/mentors/Tanishq Gupta.jpg"
                         },
                         {
-                            "name": "Kriti Arora",
-                            "image": "images/mentors/Kriti Arora.jpg",
-                            "email": "mailto:kritia@iitbhilai.ac.in",
-                            "instagram": "",
-                            "phone": "9109623503"
+                            "name": "Jiya",
+                            "email": "jiyam@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "7990195809",
+                            "instagram": "https://www.instagram.com/jiyaamehta25?igsh=MTY1ZnVnOXJsYTgxYg==",
+                            "linkedin": "https://www.linkedin.com/in/jiya-mitul-mehta-aa1a9929a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                            "image": "../public/images/mentors/Jiya Mehta.jpg"
                         },
                         {
-                            "name": "Manopriya Mondal",
-                            "image": "images/mentors/Manopriya.jpg",
-                            "email": "mailto:manopriyam@iitbhilai.ac.in",
-                            "instagram": "",
-                            "phone": "7595807122"
+                            "name": "Amritansh Ranjan",
+                            "email": "amritanshr@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "8709730535",
+                            "instagram": "https://www.instagram.com/amritansh58?igsh=eHVsODJ0cTE1bmQ=",
+                            "linkedin": "",
+                            "image": "../public/images/mentors/Amritansh Ranjan.jpg"
                         },
                         {
-                            "name": "Mohit Thakre",
-                            "image": "images/mentors/Mohit Thakre.jpg",
-                            "email": "mailto:mohitt@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/mohit_thakre13?igshid=ZDdkNTZiNTM=",
-                            "phone": "8767249195"
+                            "name": "Ankit Rath",
+                            "email": "ankitr@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "9304094370",
+                            "instagram": "https://www.instagram.com/no8ankit?igsh=MXBoa3FxaHV3bHNueg==",
+                            "linkedin": "https://www.linkedin.com/in/ankiit-rath-678b57309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                            "image": "../public/images/mentors/Ankit Rath.jpg"
                         }
                     ],
                     [
                         {
-                            "name": "Nishchay Rajput",
-                            "image": "images/devs/NISHCHAY_RAJPUT.JPG",
-                            "email": "mailto:nishchayr@iitbhilai.ac.in",
-                            "instagram": "https://www.instagram.com/__nishchay__rajput__/",
-                            "phone": "9770552422"
+                            "name": "Devansh Tejwani",
+                            "email": "devansht@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "7030429299",
+                            "instagram": "https://www.instagram.com/devansh._25?igsh=MXczeTFjdnZraW0xNQ%3D%3D&utm_source=qr",
+                            "linkedin": "",
+                            "image": "../public/images/mentors/Devansh Tejwani.jpg"
                         },
                         {
-                            "name": "Ojus Goel",
-                            "image": "images/devs/Ojus.jpg",
-                            "email": "mailto:ojusg@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/ojus_goel123?igshid=OTJhZDVkZWE=",
-                            "phone": "8708943859"
+                            "name": "Kartikeyan Rajan Kumar",
+                            "email": "kartikeyank@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "9156174763",
+                            "instagram": "https://www.instagram.com/_kartikeyan_kumar__?igsh=MWpvbzlpM21vZGw1bA==",
+                            "linkedin": "https://www.linkedin.com/in/kartikeyan-kumar-84446a2a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                            "image": "../public/images/mentors/Kartikeyan Rajan Kumar.jpg"
                         },
                         {
-                            "name": "Omendra Kumar Upadhyay",
-                            "image": "images/mentors/OMENDRA.jpg",
-                            "email": "mailto:omendrak@iitbhilai.ac.in",
-                            "instagram": "https://www.instagram.com/omendra_up_369/?utm_source=qr",
-                            "phone": "8247589701"
+                            "name": "Mohak",
+                            "email": "mohak@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "9138117753",
+                            "instagram": "https://www.instagram.com/mohakarya5464?igsh=aG80dW52azVvZzFr",
+                            "linkedin": "https://www.linkedin.com/in/mohak-arya-344a8b2b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                            "image": "../public/images/mentors/Mohak.jpg"
                         },
                         {
-                            "name": "Piyush Chandrakar",
-                            "image": "images/devs/Piyush_Chandrakar.jpg",
-                            "email": "mailto:piyushc@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/piyush_c38?igshid=ZDdkNTZiNTM=",
-                            "phone": "9179932361"
-                        } 
+                            "name": "Mohd Haisam Khan",
+                            "email": "mohdk@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "7307627618",
+                            "instagram": "https://www.instagram.com/m_haisam_k?igsh=MWt1dGJ6OW14MDAyZg==",
+                            "linkedin": "https://www.linkedin.com/in/haisam-khan-598248310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                            "image": "../public/images/mentors/Mohd Haisam Khan.jpg"
+                        }
                     ],
                     [
                         {
-                            "name": "Priyanshu Kishore",
-                            "image": "images/mentors/Priyanshu Kishore.jpg",
-                            "email": "mailto:priyanshuk@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/priyanshu_kishore4?igshid=ZDdkNTZiNTM=",
-                            "phone": "7363971979"
-                        },
-                        {
-                            "name": "Puneti Hemanth Kumar Reddy",
-                            "image": "images/mentors/Puneti Hemanth Kumar Reddy.jpg",
-                            "email": "mailto:punetihemanth@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/hemanth__asp?igshid=ZDdkNTZiNTM=",
-                            "phone": "9398481212"
-                        },
-                        {
-                            "name": "Raj Mohammad",
-                            "image": "images/mentors/Raj Mohammad.jpg",
-                            "email": "mailto:rajmohammad@iitbhilai.ac.in",
+                            "name": "Sarthak Gopal Sharma",
+                            "email": "sarthakgs@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "9634716449",
                             "instagram": "",
-                            "phone": "7985378709"
+                            "linkedin": "",
+                            "image": "../public/images/mentors/Sarthak Gopal Sharma.jpg"
+
                         },
                         {
-                            "name": "Rajeev Goel",
-                            "image": "images/devs/Rajeev_Goel.jpg",
-                            "email": "mailto:rajeevg@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/rajeevgoel187?igshid=ZDdkNTZiNTM=",
-                            "phone": "9307304394"
+                            "name": "SWAGAT BAGHEL",
+                            "email": "swagatb@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "8457962757",
+                            "instagram": "https://www.instagram.com/swagat_8x8/?next=%2F",
+                            "linkedin": "https://in.linkedin.com/in/swagat-baghel-8x8",
+                            "image": "../public/images/mentors/Swagat Baghel.jpg"
+                        },
+                        {
+                            "name": "Anamika Rajesh",
+                            "email": "anamikar@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "8593917143",
+                            "instagram": "https://www.instagram.com/_anamika_xox_?igsh=Y3d1ZThsNXBpZ3ps",
+                            "linkedin": "https://www.linkedin.com/in/anamika-rajesh-37327b306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                            "image": "../public/images/mentors/Anamika Rajesh.jpg"
+                        },
+                        {
+                            "name": "Harshita Patidar",
+                            "email": "harshitap@iitbhilai.ac.in",
+                            "role": "UG Mentor",
+                            "phone": "7447079410",
+                            "instagram": "https://www.instagram.com/harshita_ptdr13?igsh=MXhpcWR4ZXdtOWI5bw==",
+                            "linkedin": "https://www.linkedin.com/in/harshita-patidar-86294729a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                            "image": "../public/images/mentors/Harshita Patidar.jpg"
                         }
                     ],
                     [
                         {
-                            "name": "Shivam",
-                            "image": "images/mentors/Shivam.jpg",
-                            "email": "mailto:shivam@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/shivam_27_lth?igshid=ZDdkNTZiNTM=",
-                            "phone": "6207694066"
+                          "name": "Mansi Ambwani",
+                          "email": "mansia@iitbhilai.ac.in",
+                          "role": "UG Mentor",
+                          "phone": "7566307188",
+                          "instagram": "https://www.instagram.com/mansi__ambwani?igsh=eWgxdHZ2ZnlkZmY1",
+                          "linkedin": "https://www.linkedin.com/in/mansi-ambwani-4273b62a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                          "image": "../public/images/mentors/Mansi Ambwani.jpg"
                         },
                         {
-                            "name": "Shivangi Gaur",
-                            "image": "images/mentors/Shivangi_Gaur.jpg",
-                            "email": "mailto:shivangig@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/shivangi_.15?igshid=ZDdkNTZiNTM=",
-                            "phone": "9571068884"
+                          "name": "Teesha Ramchandani",
+                          "email": "teeshar@iitbhilai.ac.in",
+                          "role": "UG Mentor",
+                          "phone": "8839481594",
+                          "linkedin": "https://www.linkedin.com/in/teesha-ramchandani-538253296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+                          "image": "../public/images/mentors/Teesha Ramchandani.jpg"
                         },
                         {
-                            "name": "Shubham Mahajan",
-                            "image": "images/mentors/Shubham_Mahajan.jpg",
-                            "email": "mailto:shubhamy@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/__shubham_mahajan__?igshid=YmMyMTA2M2Y=",
-                            "phone": "8879466601"
+                          "name": "Farhan Alam",
+                          "email": "farhana@iitbhilai.ac.in",
+                          "role": "UG Mentor",
+                          "phone": "9032008570",
+                          "instagram": "https://www.instagram.com/farhann_.alam/",
+                          "linkedin": "https://in.linkedin.com/in/farhan-alam-980678223",
+                          "image": "../public/images/mentors/Farhan Alam.jpg"
                         },
                         {
-                            "name": "Shweta Kesharwani",
-                            "image": "images/mentors/Shweta Kesharwani_.jpg",
-                            "email": "mailto:shwetak@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/shweta_k611?igshid=ZDdkNTZiNTM=",
-                            "phone": "6232562932"
+                          "name": "Kesav Patneedi",
+                          "email": "kesavp@iitbhilai.ac.in",
+                          "role": "UG Mentor",
+                          "phone": "9014041996",
+                          "instagram": "https://www.instagram.com/kesavpatneedi?igsh=MTVudGlzdXo1MjBzMQ==",
+                          "linkedin": "https://www.linkedin.com/in/kesav-patneedi-b804932a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                          "image": "../public/images/mentors/Kesav Patneedi.jpg"
                         }
                     ],
                     [
                         {
-                            "name": "Soni Kumari",
-                            "image": "images/mentors/Soni Kumari.jpg",
-                            "email": "mailto:sonik@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/soni_rajput1711?igshid=ZDdkNTZiNTM=",
-                            "phone": "6200816214"
+                          "name": "Kinshuk Gupta",
+                          "email": "kinshukg@iitbhilai.ac.in",
+                          "role": "UG Mentor",
+                          "phone": "9479003023",
+                          "instagram": "https://www.instagram.com/kinshuk__18/",
+                          "linkedin": "https://www.linkedin.com/in/kinshukgupta18/",
+                          "image": "../public/images/mentors/Kinshuk Gupta.jpg"
                         },
                         {
-                            "name": "Sourabh Thakur",
-                            "image": "images/mentors/Sourabh Thakur.jpg",
-                            "email": "mailto:sourabht@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/ghasita_the_great_?igshid=ZDdkNTZiNTM=",
-                            "phone": "7880003650"
+                          "name": "Sarthak Dhandhania",
+                          "email": "sarthakd@iitbhilai.ac.in",
+                          "role": "UG Mentor",
+                          "phone": "9810792059",
+                          "instagram": "https://www.instagram.com/_sarthak.15?igsh=MWVpNTIwMHN3azU4ZA%3D%3D&utm_source=qr",
+                          "linkedin": "https://www.linkedin.com/in/sarthak-dhandhania-26a5532b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+                          "image": "../public/images/mentors/Sarthak Dhandhania.jpg"
                         },
                         {
-                            "name": "Sreya Chitluru",
-                            "image": "images/mentors/Sreya_Chitluru.jpg",
-                            "email": "mailto:chitlurus@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/sreyac04?igshid=YmMyMTA2M2Y=",
-                            "phone": "7981671616"
+                          "name": "Sneha Nagmoti",
+                          "email": "snehan@iitbhilai.ac.in",
+                          "role": "UG Mentor",
+                          "phone": "9518586628",
+                          "instagram": "https://www.instagram.com/snehanagmoti?igsh=czdubTc0cnMxOWdm",
+                          "linkedin": "https://www.linkedin.com/in/sneha-nagmoti-2923492b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                          "image": "../public/images/mentors/Sneha Nagmoti.jpg"
                         },
                         {
-                            "name": "Sumit Kumar Pathak",
-                            "image": "images/devs/Sumit_Pathak.jpg",
-                            "email": "mailto:sumitkum@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/skp_pathak_?igshid=ZDdkNTZiNTM=",
-                            "phone": "8306312679"
+                          "name": "Amay Dixit",
+                          "email": "amayd@iitbhilai.ac.in",
+                          "role": "UG Mentor",
+                          "phone": "7217627792",
+                          "instagram": "https://www.instagram.com/amaydixit05/",
+                          "linkedin": "https://www.linkedin.com/in/amay-dixit-462113284/",
+                          "image": "../public/images/mentors/Amay Dixit.jpg"
+                        }
+                    ],
+                    [
+                        {
+                          "name": "Galaba Vamsi",
+                          "email": "galabav@iitbhilai.ac.in",
+                          "role": "UG Mentor",
+                          "phone": "7483047846",
+                          "instagram": "https://www.instagram.com/galaba_vamsi/",
+                          "linkedin": "https://www.linkedin.com/in/galaba-vamsi-334758211/",
+                          "image": "../public/images/mentors/Galaba Vamsi.jpg"
+                        },
+                        {
+                          "name": "Jayant Jaiswal",
+                          "email": "jayantj@iitbhilai.ac.in",
+                          "role": "UG Mentor",
+                          "phone": "9151257674",
+                          "image": "../public/images/mentors/Jayant Jaiswal.jpg"
+                        },
+                        {
+                          "name": "Lakshay Gupta",
+                          "email": "lakshayg@iitbhilai.ac.in",
+                          "role": "UG Mentor",
+                          "phone": "9911118016",
+                          "instagram": "https://www.instagram.com/invites/contact/?igsh=f0diohnt6mro&utm_content=rym9n50",
+                          "linkedin": "https://www.linkedin.com/in/lakshay-gupta-1b0189281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                          "image": "../public/images/mentors/Lakshay Gupta.jpg"
+                        },
+                        {
+                          "name": "SLOK TULSYAN",
+                          "email": "slokt@iitbhilai.ac.in",
+                          "role": "UG Mentor",
+                          "phone": "9931085103",
+                          "instagram": "https://www.instagram.com/tulsyanslok?igsh=OXoxYW5ua2ZrZHVw",
+                          "linkedin": "https://www.linkedin.com/in/slok-tulsyan-003786293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                          "image": "../public/images/mentors/SLOK TULSYAN.jpg"
                         }
                     ]
                 ],
                 "members-3": [
                     [
                         {
-                            "name": "Talla Sai Surya",
-                            "image": "images/mentors/SAI_SURYA_TALLA.jpg",
-                            "email": "mailto:tallasai@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/tallasaisurya?igshid=ZDdkNTZiNTM=",
-                            "phone": "9346870117"
+                          "name": "Sourabh Kumar",
+                          "email": "sourabhkr@iitbhilai.ac.in",
+                          "role": "UG Mentor",
+                          "phone": "9102449434",
+                          "linkedin": "https://www.linkedin.com/in/sourabh-kumar-9aa80a298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                          "image": "../public/images/mentors/Sourabh Kumar.jpg"
                         },
                         {
-                            "name": "Uday bhardwaj",
-                            "image": "images/mentors/Uday bhardwaj.jpg",
-                            "email": "mailto:udayb@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/uday_bhardwaj_2008?igshid=ZDdkNTZiNTM=",
-                            "phone": "7668310017"
+                          "name": "Swarna Venkata Sai Rohit",
+                          "email": "swarnas@iitbhilai.ac.in",
+                          "role": "UG Mentor",
+                          "phone": "7981544438",
+                          "instagram": "https://www.instagram.com/svsrohit2005/",
+                          "linkedin": "https://www.linkedin.com/in/svs-rohit-baa147283?trk=contact-info",
+                          "image": "../public/images/mentors/Swarna Venkata Sai Rohit.jpg"
                         },
                         {
-                            "name": "Vedansh Sharma",
-                            "image": "images/mentors/Vedansh_Sharma_jpg.jpg",
-                            "email": "mailto:vedanshs@iitbhilai.ac.in",
-                            "instagram": "https://instagram.com/vedansh_._sharma?igshid=ZDdkNTZiNTM=",
-                            "phone": "9799994323"
+                          "name": "SWARNADIP KAR",
+                          "email": "swarnadipk@iitbhilai.ac.in",
+                          "role": "UG Mentor",
+                          "phone": "9593451865",
+                          "instagram": "https://www.instagram.com/_swarnadip_kar_/",
+                          "linkedin": "https://www.linkedin.com/in/swarnadip-kar-3b617b310/",
+                          "image": "../public/images/mentors/SWARNADIP KAR.jpg"
                         }
                     ]
                 ],
@@ -341,51 +438,120 @@
         "heading": "Mentors-PG",
         "members":[
             {
-                "members-4": [],
-        "members-3": [
-            [
-                {
-                    "name": "Adarsh Tiwari",
-                    "image": "images/mentors/Adarsh Tiwari.jpg",
-                    "email": "mailto:adarshtiw@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/adarsh_tiwari283?igshid=ZDdkNTZiNTM=",
-                    "phone": "9305855032"
-                },
-                {
-                    "name": "Mratunjay Singh",
-                    "image": "images/mentors/Mratunjay.jpg",
-                    "email": "mailto:mratunjays@iitbhilai.ac.in",
-                    "instagram": "https://www.instagram.com/mratunjay098/",
-                    "phone": "9807393042"
-                },
-                {
-                    "name": " Roshan Jha",
-                    "image": "images/devs/Roshan_Jha.jpg",
-                    "email": "mailto:phoolrj@iitbhilai.ac.in",
-                    "instagram": "https://www.instagram.com/roshan.jha.007/",
-                    "phone": "7733884259"
-                }
-            ]
-        ],
-        "members-2" : [
-            [
-                {
-                    "name": "Nidhish Thawarey",
-                    "image": "images/mentors/NIDHISH THAWAREY.jpg",
-                    "email": "mailto:nidhishth@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/nidhish_thawarey_?igshid=ZDdkNTZiNTM=",
-                    "linkedIn": "",
-                    "phone": "7987760986"
-                },
-                {
-                    "name": "Shubhika Mishra",
-                    "image": "images/mentors/Shubhika_Mishra.jpg",
-                    "email": "mailto:shubhikam@iitbhilai.ac.in",
-                    "instagram": "https://instagram.com/shubhi_ka_mishra?igshid=ZDdkNTZiNTM=",
-                    "phone": "9584179777"
-                }
-            ]
-        ]
+                "members-4": [
+                    [
+                        {
+                          "name": "Aryan Kumar",
+                          "email": "aryank@iitbhilai.ac.in",
+                          "role": "PG Mentor",
+                          "phone": "8005350800",
+                          "instagram": "https://www.instagram.com/aryanjk01?igsh=aTV1ajY2a2lkZHll",
+                          "linkedin": "https://www.linkedin.com/in/aryan-kumar-657103241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                          "image": "../public/images/mentors/Aryan Kumar.jpg"
+                        },
+                        {
+                          "name": "Kaushal Kumar",
+                          "email": "kaushalk@iitbhilai.ac.in",
+                          "role": "PG Mentor",
+                          "phone": "7646936300",
+                          "linkedin": "https://www.linkedin.com/in/kaushal-kumar-45aa07302",
+                          "image": "../public/images/mentors/Kaushal Kumar.jpg"
+                        },
+                        {
+                          "name": "Mohit Agarwala",
+                          "email": "mohita@iitbhilai.ac.in",
+                          "role": "PG Mentor",
+                          "phone": "8250963308",
+                          "instagram": "https://www.instagram.com/mohitagarwala1816?igsh=YXl0N3pubXBpb253",
+                          "linkedin": "https://www.linkedin.com/in/mohit-agarwala-8630a7192/",
+                          "image": "../public/images/mentors/Mohit Agarwala.jpg"
+                        },
+                        {
+                          "name": "Pallavi Yadav",
+                          "email": "pallaviya@iitbhilai.ac.in",
+                          "role": "PG Mentor",
+                          "phone": "9369906864",
+                          "instagram": "https://www.instagram.com/i_pallavi08?igsh=MWlqZ2ZueHFzNzN1Yg==",
+                          "linkedin": "https://www.linkedin.com/in/pallavi-yadav0804",
+                          "image": "../public/images/mentors/Pallavi Yadav.jpg"
+                        }
+                    ],
+                    [
+                        {
+                          "name": "Preeti jain",
+                          "email": "preetijai@iitbhilai.ac.in",
+                          "role": "PG Mentor",
+                          "phone": "8290315781",
+                          "instagram": "https://www.instagram.com/preeti_jain_1908?igsh=NW41d2w4Y3ZveDc4",
+                          "image": "../public/images/mentors/Preeti jain.jpg"
+                        },
+                        {
+                          "name": "Raja mondal",
+                          "email": "rajamonda@iitbhilai.ac.in",
+                          "role": "PG Mentor",
+                          "phone": "8101504217",
+                          "instagram": "https://www.instagram.com/mondalraja611?igsh=MWZmZDB3bjVxNWI0ZA==",
+                          "image": "../public/images/mentors/Raja mondal.jpg"
+                        },
+                        {
+                          "name": "SAGAR KHARE",
+                          "email": "sagarkhar@iitbhilai.ac.in",
+                          "role": "PG Mentor",
+                          "phone": "7518445312",
+                          "instagram": "https://www.instagram.com/_sagar_khare_1729_/",
+                          "linkedin": "www.linkedin.com/in/sagar-khare-a5581a275",
+                          "image": "../public/images/mentors/Sagar Khare.jpg"
+                        },
+                        {
+                          "name": "Sahaj Kumar",
+                          "email": "sahajkuma@iitbhilai.ac.in",
+                          "role": "PG Mentor",
+                          "phone": "8957484103",
+                          "linkedin": "https://www.linkedin.com/in/sahaj-kumar-566594205?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                          "image": "../public/images/mentors/Sahaj Kumar.jpg"
+                        }
+                    ],
+                    [
+                        {
+                          "name": "Satyaki Pahari",
+                          "email": "satyakip@iitbhilai.ac.in",
+                          "role": "PG Mentor",
+                          "phone": "7647875950",
+                          "instagram": "https://www.instagram.com/satyaki_0101?igsh=cnI3dG5paGJkOGl4&utm_source=qr",
+                          "linkedin": "https://www.linkedin.com/in/satyaki-pahari-97a04921a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                          "image": "../public/images/mentors/Satyaki Pahari.jpg"
+                        },
+                        {
+                          "name": "Sweta Kumari",
+                          "email": "sweta@iitbhilai.ac.in",
+                          "role": "PG Mentor",
+                          "phone": "8521522474",
+                          "instagram": "https://www.instagram.com/_sweta_0925/",
+                          "linkedin": "https://www.linkedin.com/in/sweta-kumari-31556b218/",
+                          "image": "../public/images/mentors/Sweta Kumari.jpg"
+                        },
+                        {
+                          "name": "Tanmoy Bhowmick",
+                          "email": "tanmoyb@iitbhilai.ac.in",
+                          "role": "PG Mentor",
+                          "phone": "9123685095",
+                          "instagram": "https://www.instagram.com/am_tanmoy/",
+                          "linkedin": "https://www.linkedin.com/in/tanmoy-bhowmick-5232a416b/",
+                          "image": "../public/images/mentors/Tanmoy Bhowmick.jpg"
+                        },
+                        {
+                          "name": "Uplab Rajak",
+                          "email": "uplabr@iitbhilai.ac.in",
+                          "role": "PG Mentor",
+                          "phone": "7044929573",
+                          "instagram": "https://www.instagram.com/uplabrajak?igsh=c2VzZGJvMHhseWNy",
+                          "linkedin": "https://www.linkedin.com/in/uplab-rajak-0311b217a/",
+                          "image": "../public/images/mentors/Uplab Rajak.jpg"
+                        }
+                    ]
+                ],
+        "members-3": [],
+        "members-2" : []
             }
         ]
     }
