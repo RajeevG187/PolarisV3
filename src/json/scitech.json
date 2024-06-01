@@ -154,11 +154,11 @@
         },
             "images": [
                 {
-                    "url": "images/life/electromos-1.jpg",
+                    "url": "../public/images/life/electromos-1.jpg",
                     "alt": "Electromos"
                 },
                 {
-                    "url": "images/life/electromos-2.jpeg",
+                    "url": "../public/images/life/electromos-2.jpeg",
                     "alt": "Electromos"
                 }
             ]
@@ -231,15 +231,15 @@
             },
             "image_epsilon": [
                 {
-                    "url": "images/life/epsilon-1.jpeg",
+                    "url": "../public/images/life/epsilon-1.jpeg",
                     "alt": "Epsilon"
                 },
                 {
-                    "url": "images/life/epsilon-2.jpeg",
+                    "url": "../public/images/life/epsilon-2.jpeg",
                     "alt": "Epsilon"
                 },
                 {
-                    "url": "images/life/epsilon1.jpeg",
+                    "url": "../public/images/life/epsilon1.jpeg",
                     "alt": "Epsilon"
                 }
             ],
@@ -362,7 +362,7 @@
             }
         ],
         "text": "Students also participated in Smart India Hackathon 2019, Smart Bihar Submit, India-Japan Ideathon.",
-        "image": "images/life/iic.JPG",
+        "image": "../public/images/life/iic.JPG",
         "alt": "IIC"
     }
 }
