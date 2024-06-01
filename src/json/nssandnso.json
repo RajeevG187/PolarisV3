@@ -42,10 +42,10 @@
 
         "images" : [
             {
-                "path" : "/images/nsonss/nss1.jpg"
+                "path" : "../public/images/nsonss/nss1.jpg"
             },
             {
-                "path" : "/images/nsonss/nss2.jpg"
+                "path" : "../public/images/nsonss/nss2.jpg"
             }
         ]
     },
@@ -54,7 +54,7 @@
         "head" : "Campus Tour",
         "youtube-links" : [
             {
-                "link" : " https://www.youtube.com/embed/3Aaq_GqD7ZM"
+                "link" : "https://www.youtube.com/embed/3Aaq_GqD7ZM"
             }
         ]
     },
@@ -65,10 +65,10 @@
         "text" : "The National Sports Organisation is intended by the Government of India to promote the development of athletics and sporting activities of the nation's youth. It is included in the extra-curricular activities of many students of IIT Bhilai . Each student has to complete 120 hrs in eight semesters. NSO includes all the sports provided by the Institute and students can choose any sport they like. Proper incharge are provided in every field of NSO program. For those who were in their school sports team, here is the way back to get on the same track.The motto of organisation is health and fitness as we also have activities like morning exercise and gym. NSO activities encourage us to remove all the limitations and have a shot at IIT Bhilai's sports team.",
         "images" : [
             {
-                "path" : "/images/nsonss/nso1.jpg" 
+                "path" : "../public/images/nsonss/nso1.jpg" 
             },
             {
-                "path" : "/images/nsonss/nso2.jpg"
+                "path" : "../public/images/nsonss/nso2.jpg"
             }
         ]
     }

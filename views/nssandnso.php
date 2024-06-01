@@ -1,3 +1,24 @@
+<?php
+// Define the path to the JSON file
+$jsonFilePath = '../src/json/nssandnso.json';
+
+// Check if the JSON file exists and is readable
+if (!file_exists($jsonFilePath) || !is_readable($jsonFilePath)) {
+    die('Error: JSON file not found or not readable.');
+}
+
+// Read JSON file
+$json = file_get_contents($jsonFilePath);
+
+// Decode JSON data to PHP associative array
+$data = json_decode($json, true);
+
+// Check if JSON data is valid
+if (json_last_error() !== JSON_ERROR_NONE) {
+    die('Error: Invalid JSON data. ' . json_last_error_msg());
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -38,8 +59,8 @@
         <header class="header header__nsso">
             <div class="container">
                 <div class="header__hero-box">
-                    <h1 class="heading-primary">NSS and NSO</h1>
-                    <p class="heading-subtitle">Let's do something</p>
+                    <h1 class="heading-primary"><?php echo $data['header']['head']; ?></h1>
+                    <p class="heading-subtitle"><?php echo $data['header']['text']; ?></p>
                 </div>
             </div>
         </header>
@@ -47,30 +68,21 @@
         <section class="section">
             <div class="container">
                 <div class="nss">
-                    <h2 class="heading-secondary">National Service Scheme</h2>
+                    <h2 class="heading-secondary"><?php echo $data['nss']['head']; ?></h2>
                     <div class="info">
-                        <h3 class="heading-tertiary">General Secretary: Lakshmi Lasya Kata </h3>
+                        <h3 class="heading-tertiary"><?php echo $data['nss']['sec']; ?></h3>
                     </div>
                     <div class="info">
-                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> About</h3>
-                        <p class="info__text">The National Service Scheme (NSS) is a Central Sector Scheme of the Government of India, Ministry of Youth Affairs & Sports.
-                                              We are a group of students who believe in building a better society. Working passionately towards this vision, we conduct simple yet effective voluntary activities that serve the society. It also helps students develop personality through community service. NSS at IIT Bhilai provides a platform for interaction between students and the population near IIT Bhilai where they can present their ideas for social welfare in less developed communities.
-                                              The activites mentioned in the throwback video are held by NSS at regular intervals.
-
-                        </p>
-
-
+                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data['nss']['sub-lists']['about']['title']; ?></h3>
+                        <p class="info__text"><?php echo $data['nss']['sub-lists']['about']['text']; ?></p>
                     </div>
+
                     <div class="info">
-                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> Motive</h3>
+                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data['nss']['sub-lists']['motive']['title']; ?></h3>
                         <ul class="info__list">
-                            <li class="info__item">To understand the community in which we work.</li>
-                            <li class="info__item">To identify the needs and problems of the community and make a sincere attempt to solve the same.</li>
-                            <li class="info__item">To develop among ourselves a sense of social and civic responsibility.</li>
-                            <li class="info__item">To utilize our knowledge in finding practical solutions to individual and community problems.</li>
-                            <li class="info__item">To develop competence required for group-living and sharing of responsibilities.</li>
-                            <li class="info__item">To gain skills in mobilizing community participation, acquire leadership qualities and democratic attitudes develop capacity to meet emergencies and natural disasters.</li>
-                            <li class="info__item">To practice national integration and social harmony.</li>
+                            <?php foreach($data['nss']['sub-lists']['motive']['sub-lists'] as $sublists):?>
+                                <li class="info__item"><?php echo $sublists['text'];?></li>
+                            <?php endforeach;?>
                         </ul>
                     </div>
 
@@ -81,20 +93,22 @@
 
 
                     <div class="cultural row">
-                        <div class="col-1-of-2"><img src="../public/images/nsonss/nss1.jpg" alt="NSS" class="cultural__photo"></div>
-                        <div class="col-1-of-2"><img src="../public/images/nsonss/nss2.jpg" alt="NSS" class="cultural__photo"></div>
+                        <?php foreach($data['nss']['images'] as $images):?>
+                            <div class="col-1-of-2"><img src="<?php echo $images['path'];?>" alt="NSS" class="cultural__photo"></div>
+                        <?php endforeach;?> 
                     </div>
 
                     <br>
 
                     <section class="section">
             <div class="container">
-                <h2 class="heading-secondary">Campus Tour</h2>
+                <h2 class="heading-secondary"><?php  echo $data['camp_tour']['head'];?></h2>
             </div>
             <div class="row">
                 <div class="col-1-of-2">
                     <div class="campus">
-                        <iframe width="560" height="315" src=" https://www.youtube.com/embed/3Aaq_GqD7ZM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <?php $videoLink = $data['camp_tour']['youtube-links'][0]['link'];?>
+                        <iframe width="560" height="315" src="<?php echo $videoLink; ?>" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                 </div>
                 
@@ -113,19 +127,20 @@
         <section class="section">
             <div class="container">
                 <div class="nso">
-                    <h2 class="heading-secondary">National Sports Organisation</h2>
+                    <h2 class="heading-secondary"><?php  echo $data['nso']['head'];?></h2>
                     <div class="info">
-                        <h3 class="heading-tertiary">Secretary: Anant Yadav and M Ramesh Naik </h3>
+                        <h3 class="heading-tertiary"><?php  echo $data['nso']['sec'];?></h3>
                     </div>
                     <div class="info">
-                        <p class="info__text">The National Sports Organisation is intended by the Government of India to promote the development of athletics and sporting activities of the nation's youth. It is included in the extra-curricular activities of many students of IIT Bhilai . Each student has to complete 120 hrs in eight semesters. NSO includes all the sports provided by the Institute and students can choose any sport they like. Proper incharge are provided in every field of NSO program. For those who were in their school sports team, here is the way back to get on the same track.The motto of organisation is health and fitness as we also have activities like morning exercise and gym. NSO activities encourage us to remove all the limitations and have a shot at IIT Bhilai's sports team.</p>
+                        <p class="info__text"><?php  echo $data['nso']['text'];?></p>
                     </div>
 
                     <br>
 
                     <div class="cultural row">
-                        <div class="col-1-of-2"><img src="../public/images/nsonss/nso1.jpg" alt="NSO" class="cultural__photo"></div>
-                        <div class="col-1-of-2"><img src="../public/images/nsonss/nso2.jpg" alt="NSO" class="cultural__photo"></div>
+                        <?php foreach($data['nso']['images'] as $images):?>
+                            <div class="col-1-of-2"><img src="<?php echo $images['path'];?>" alt="NSO" class="cultural__photo"></div>
+                        <?php endforeach;?>
                     </div>
 
                 </div>
