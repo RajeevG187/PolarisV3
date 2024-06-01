@@ -71,11 +71,11 @@
             },
             "images": [
                 {
-                    "url": "images/life/SES2.png",
+                    "url": "../public/images/life/SES2.png",
                     "alt": "Epsilon"
                 },
                 {
-                    "url": "images/life/SES3.jpg",
+                    "url": "../public/images/life/SES3.jpg",
                     "alt": "Epsilon"
                 }
             ],
