@@ -1,3 +1,24 @@
+<?php
+// Define the path to the JSON file
+$jsonFilePath = '../src/json/academics.json';
+
+// Check if the JSON file exists and is readable
+if (!file_exists($jsonFilePath) || !is_readable($jsonFilePath)) {
+    die('Error: JSON file not found or not readable.');
+}
+
+// Read JSON file
+$json = file_get_contents($jsonFilePath);
+
+// Decode JSON data to PHP associative array
+$data = json_decode($json, true);
+
+// Check if JSON data is valid
+if (json_last_error() !== JSON_ERROR_NONE) {
+    die('Error: Invalid JSON data. ' . json_last_error_msg());
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,8 +60,8 @@
         <header class="header header__academic">
             <div class="container">
                 <div class="header__hero-box">
-                    <h1 class="heading-primary">Academics</h1>
-                    <p class="heading-subtitle">One of it's kind....</p>
+                    <h1 class="heading-primary"><?php echo $data['heading']['head']; ?></h1>
+                    <p class="heading-subtitle"><?php echo $data['heading']['text']; ?></p>
                 </div>
             </div>
         </header>
@@ -48,21 +69,21 @@
         <section class="section">
             <div class="container">
                 <div class="intro">
-                    <h2 class="heading-secondary">Introduction</h2>
-                    <p class="intro__text">IIT Bhilai fosters and encourages students to excel in their programs of study and recognises the same in several ways. IIT Bhilai follows semester system and allows the students to do many basic courses in different departments and specialised courses in greater depth.</p>
-                    <p class="intro__text">Every course at IIT Bhilai generally runs for the entire semester (~ 14 weeks in case of a regular semester). A student registers for the courses that he/she wants to study and at the end of the semester a grade is awarded. On obtaining a pass grade, the student earns all the credits associated with the course while a fail grade does not get any credit.</p>
-                    <p class="intro__text">Each course has a certain number of credit(s) or non-graded unit(s) assigned to it depending upon the L-T-P structure of the course. </p>
-                </div>
+                    <h2 class="heading-secondary"><?php echo $data['intro']['head']; ?></h2>
+
+                    <?php foreach ($data['intro']['text'] as $text): ?>
+                        <p class="intro__text"><?php echo $text['para']; ?></p>
+                    <?php endforeach; ?>
                 <br>
                 <div class="info">
-                        <h3 class="heading-tertiary">Branch Change Policy</h3>
-                        <p class="info__text"><br>BTech students are eligible for a change of discipline. Discipline change guideline are as follows:</p>
+                        <h3 class="heading-tertiary"><?php echo $data['branch_change']['head'];?></h3>
+                        <p class="info__text"><br><?php echo $data['branch_change']['text'];?></p>
                         <ol class="info__list">
-                            <li class="info__item">The discipline change option is given to the applicants purely based on the Cumulative Grade Point Average (CGPA) at the end of the second semester.</li>
-                            <li class="info__item">In case there is a tie, the grade distribution will be used to break the tie.</li>
-                            <li class="info__item">Discipline change takes place on a condition that the enrolled capacity of any discipline shall not reduce more than 20% and the total number of students of any discipline shall not exceed 110% of the allotted capacity.</li>
+                            <?php foreach ($data['branch_change']['conditions'] as $conditions):?>
+                                <li class="info__item"><?php echo $conditions['points'];?></li>
+                            <?php endforeach;?>
                         </ol>
-                        <p class="info__text">Once the discipline change is made, no further change is possible</p>
+                        <p class="info__text"><?php echo $data['branch_change']['note']; ?></p>
                 </div>
             </div>
         </section>
@@ -140,40 +161,32 @@
         <section class="section">
             <div class="container">
                 <div class="common">
-                    <h2 class="heading-secondary">Common Courses</h2>
-                    <p class="common__text">These courses that are common to all the branches of first year students:</p>
+                    <h2 class="heading-secondary"><?php echo $data['courses']['head']; ?></h2>
+                    <p class="common__text"><?php echo $data['courses']['text']; ?></p>
                 </div>
 
                 <br>
 
                 <div class="info">
-                    <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> First Semester</h3>
+                    <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data['courses']['first_sem']['head']; ?></h3>
                     <ul class="info__list">
-                        <li class="info__item">Introduction to Programming</li>
-                        <li class="info__item">Chemistry Lab / Physics Lab</li>
-                        <li class="info__item">Mathematics-I</li>
-                        <li class="info__item">Applied Chemistry</li>
-                        <li class="info__item">Physics for Engineers</li>
-                        <li class="info__item">Environmental Science</li>
-                        <li class="info__item">Practices for Comprehensive wellbeing</li>
+                        <?php foreach ($data['courses']['first_sem']['sub-lists'] as $sublists):?>
+                            <li class="info__item"><?php echo $sublists['title']; ?></li>
+                        <?php endforeach;?>    
                     </ul>
                 </div>
 
                 <div class="info">
-                    <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> Second Semester</h3>
+                    <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data['courses']['second_sem']['head']; ?></h3>
                     <ul class="info__list">
-                        <li class="info__item">Digital Fabrication</li>
-                        <li class="info__item">Basic Electrical Engineering</li>
-                        <li class="info__item">Chemistry Lab / Physics Lab</li>
-                        <li class="info__item">Mathematics-II</li>
-                        <li class="info__item">Basic Electronics Engineering</li>
-                        <li class="info__item">Biology for Engineers</li>
-                        <li class="info__item">Professional Ethics</li>
+                    <?php foreach ($data['courses']['second_sem']['sub-lists'] as $sublists):?>
+                            <li class="info__item"><?php echo $sublists['title']; ?></li>
+                        <?php endforeach;?>
                     </ul>
                 </div>
 
             </div>
-        </section>
+        </section>  
 
 
         <div class="line-break"></div>
@@ -181,73 +194,24 @@
         <section class="section">
             <div class="container">
                 <div class="grade">
-                    <h2 class="heading-secondary">Grading Policy</h2>
-                    <p class="grade__text">The following grade policy and grade values are adopted for evaluation process.</p>
+                    <h2 class="heading-secondary"><?php echo $data['grading']['head']; ?></h2>
+                    <p class="grade__text"><?php echo $data['grading']['text']; ?></p>
 
-                    <p class="grade__text"><em>*Course description and grade policy for each course will be provided by the course instructor in the class.</em></p>
+                    <p class="grade__text"><em><?php echo $data['grading']['sub_text']; ?></em></p>
                 </div>
 
                 <div class="table__scroll">
                     <table class="table grade__table">
                         <tr>
-                            <th>Grades</th>
-                            <th>Grade Points</th>
+                            <th><?php echo $data['table']['head']['col-1']; ?></th>
+                            <th><?php echo $data['table']['head']['col-2']; ?></th>
                         </tr>
-
-                        <tr>
-                            <td>A+</td>
-                            <td>10</td>
+                        <?php foreach ($data['table']['contents'] as $contents):?>
+                            <tr>
+                            <td><?php echo $contents['grade']; ?></td>
+                            <td><?php echo $contents['points']; ?></td>
                         </tr>
-
-                        <tr>
-                            <td>A</td>
-                            <td>10</td>
-                        </tr>
-
-                        <tr>
-                            <td>A-</td>
-                            <td>9</td>
-                        </tr>
-
-                        <tr>
-                            <td>B</td>
-                            <td>8</td>
-                        </tr>
-
-                        <tr>
-                            <td>B-</td>
-                            <td>7</td>
-                        </tr>
-
-                        <tr>
-                            <td>C</td>
-                            <td>6</td>
-                        </tr>
-
-                        <tr>
-                            <td>C-</td>
-                            <td>5</td>
-                        </tr>
-
-                        <tr>
-                            <td>D</td>
-                            <td>4</td>
-                        </tr>
-
-                        <tr>
-                            <td>F</td>
-                            <td>Fail</td>
-                        </tr>
-
-                        <tr>
-                            <td>FS</td>
-                            <td>Supplementary</td>
-                        </tr>
-
-                        <tr>
-                            <td>I</td>
-                            <td>Incomplete</td>
-                        </tr>
+                        <?php endforeach; ?>    
                     </table>
                 </div>
             </div>
