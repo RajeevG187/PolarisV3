@@ -1,3 +1,24 @@
+<?php
+// Define the path to the JSON file
+$jsonFilePath = '../src/json/departments.json';
+
+// Check if the JSON file exists and is readable
+if (!file_exists($jsonFilePath) || !is_readable($jsonFilePath)) {
+    die('Error: JSON file not found or not readable.');
+}
+
+// Read JSON file
+$json = file_get_contents($jsonFilePath);
+
+// Decode JSON data to PHP associative array
+$data = json_decode($json, true);
+
+// Check if JSON data is valid
+if (json_last_error() !== JSON_ERROR_NONE) {
+    die('Error: Invalid JSON data. ' . json_last_error_msg());
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,8 +60,8 @@
         <header class="header header__department">
             <div class="container">
                 <div class="header__hero-box">
-                    <h1 class="heading-primary">Departments</h1>
-                    <p class="heading-subtitle">All the things you need to know!</p>
+                    <h1 class="heading-primary"><?php echo $data['heading']['head'];?></h1>
+                    <p class="heading-subtitle"><?php echo $data['heading']['text'];?></p>
                 </div>
             </div>
         </header>
@@ -497,20 +518,14 @@ The curriculum of the department encourages exploration across disciplines, whil
         <section class="section">
             <div class="container">
                 <div class="intro-cse">
-                    <h2 class="heading-secondary">Departments</h2>
-                    <p class="intro-cse__text">Indian Institute of Technology (IIT) Bhilai currently comprises ten departments. These departments have been established to cater to the diverse academic interests and research pursuits of our esteemed institution. They are as follows:</p><br>
+                    <h2 class="heading-secondary"><?php echo $data['departments']['head'];?></h2>
+                    <p class="intro-cse__text"><?php echo $data['departments']['text'];?></p><br>
                     <div class="info">
                         <ul class="info__list">
-                            <li class="info__item">Department of Bioscience and Biomedical Engineering</li>
-                            <li class="info__item">Department of Chemistry</li>
-                            <li class="info__item">Department of Computer Science and Engineering</li>
-                            <li class="info__item">Department of Electrical Engineering</li>
-                            <li class="info__item">Department of Electronics and Communication Engineering</li>
-                            <li class="info__item">Department of Liberal Arts</li>
-                            <li class="info__item">Department of Materials Science and Metallurgical Engineering</li>
-                            <li class="info__item">Department of Mathematics</li>
-                            <li class="info__item">Department of Mechanical Engineering</li>
-                            <li class="info__item">Department of Physics</li>
+                            <?php foreach ($data['departments']['sub-lists'] as $subList): ?>
+                                <li class="info__item"><?php echo $subList['contents']; ?></li>
+                                <?php endforeach; ?>
+                                <br>
                         </ul>
                     </div>
                 </div>
@@ -522,80 +537,23 @@ The curriculum of the department encourages exploration across disciplines, whil
         <section class="section">
             <div class="container">
                 <div class="intro-cse">
-                    <h2 class="heading-secondary">Disciplines</h2>
-                    <p class="intro-cse__text">Any program and course are offered by an Academic Unit or discipline. The names of disciplines, associated department(s) and their discipline codes are given in the table below.</p><br>
+                    <h2 class="heading-secondary"><?php echo $data['disciplines']['head'];?></h2>
+                    <p class="intro-cse__text"><?php echo $data['disciplines']['text'];?></p><br>
                     <div class="table__scroll">
                         <table class="table grade__table">
                             <tr>
-                                <th>Discipline</th>
-                                <th>Associated with department(s) of</th>
-                                <th>Discipline code</th>
+                                <th><?php echo $data['disciplines']['table']['head']['col-1'];?></th>
+                                <th><?php echo $data['disciplines']['table']['head']['col-2'];?></th>
+                                <th><?php echo $data['disciplines']['table']['head']['col-3'];?></th>
                             </tr>
-                            <tr>
-                                <td>Bioscience and Biomedical Engineering</td>
-                                <td>Bioscience and Biomedical Engineering</td>
-                                <td>BM</td>
-                            </tr>
-                            <tr>
-                                <td>Chemistry</td>
-                                <td>Chemistry</td>
-                                <td>CY</td>
-                            </tr>
-                            <tr>
-                                <td>Computer Science and Engineering</td>
-                                <td>Computer Science and Engineering</td>
-                                <td>CS</td>
-                            </tr>
-                            <tr>
-                                <td>Data Science and Artificial Intelligence</td>
-                                <td>Computer Science and Engineering</td>
-                                <td>DS</td>
-                            </tr>
-                            <tr>
-                                <td>Electric Vehicle Technology</td>
-                                <td>Electrical Engineering</td>
-                                <td>EV</td>
-                            </tr>
-                            <tr>
-                                <td>Electrical Engineering</td>
-                                <td>Electrical Engineering</td>
-                                <td>EE</td>
-                            </tr>
-                            <tr>
-                                <td>Electronics and Communication Engineering</td>
-                                <td>Electronics and Communication Engineering</td>
-                                <td>EC</td>
-                            </tr>
-                            <tr>
-                                <td>Liberal Arts</td>
-                                <td>Liberal Arts</td>
-                                <td>LA</td>
-                            </tr>
-                            <tr>
-                                <td>Materials Science and Metallurgical Engineering</td>
-                                <td>Materials Science and Metallurgical Engineering</td>
-                                <td>MM</td>
-                            </tr>
-                            <tr>
-                                <td>Mathematics</td>
-                                <td>Mathematics</td>
-                                <td>MA</td>
-                            </tr>
-                            <tr>
-                                <td>Mechanical Engineering</td>
-                                <td>Mechanical Engineering</td>
-                                <td>ME</td>
-                            </tr>
-                            <tr>
-                                <td>Mechatronics Engineering</td>
-                                <td>Electrical Engineering and Mechanical Engineering</td>
-                                <td>MT</td>
-                            </tr>
-                            <tr>
-                                <td>Physics</td>
-                                <td>Physics</td>
-                                <td>PH</td>
-                            </tr>
+                            <?php foreach ($data['disciplines']['table']['contents'] as $content): ?>
+                                <tr>
+                                    <td><?php echo $content['discipline']; ?></td>
+                                    <td><?php echo $content['department']; ?></td>
+                                    <td><?php echo $content['code']; ?></td>
+                                </tr>
+                                <?php endforeach; ?>
+                                <br>
                         </table>
                     </div>
                 </div>
@@ -607,14 +565,15 @@ The curriculum of the department encourages exploration across disciplines, whil
         <section class="section">
             <div class="container">
                 <div class="intro-cse">
-                    <h2 class="heading-secondary">Programs Offered</h2>
-                    <p class="intro-cse__text">IIT Bhilai offers various academic programs for students with different backgrounds. Admission to many of these programs are based on performance in national level tests/entrance examinations. The programs offered by IIT Bhilai are currently classified as Undergraduate (UG) and Postgraduate (PG) programs. Various degree programs offered by the Institute are listed below.</p><br>
+                    <h2 class="heading-secondary"><?php echo $data['programs']['head']; ?></h2>
+                    <p class="intro-cse__text"><?php echo $data['programs']['text']; ?></p><br>
                     <div class="table__scroll">
                         <table class="table grade__table">
                             <tr>
-                                <th>Program</th>
-                                <th>Offered in</th>
-                                <th>Offered by department(s)</th>
+                                <?php foreach ($data['programs']['table']['head'] as $contents): ?>
+                                <th><?php echo $contents['contents']; ?></th>
+                                <?php endforeach; ?>
+                                <br>
                             </tr>
                             <tr>
                                 <td rowspan="6">Bachelor of Technology (BTech)</td>
@@ -756,13 +715,13 @@ The curriculum of the department encourages exploration across disciplines, whil
         <section class="section">
             <div class="container">
                 <div class="intro-cse">
-                    <h2 class="heading-secondary">For More Info -</h2>
+                    <h2 class="heading-secondary"><?php echo $data['more_info']['head']; ?></h2>
                     <!-- <p class="intro-cse__text">The first thing which pops up when you think of CSE is programming. Given that coding is an integral part of Computer Science, it is not the only part. As the name suggests, one learns both the science behind the computers and the engineering aspects of the field. CSE at IIT Bhilai is focussed on providing the students with a perfect blend of both – research and industrial facet of the computing world.</p><br> -->
 
                     <div class="info">
                         <!-- <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i>  <a href="https://www.iitbhilai.ac.in/index.php?pid=aca_handbook_pdf">Student's Handbook</a></h3> -->
-                        <h3 class="heading-tertiary"><p style="color:red"><i class="far fa-dot-circle"></i> Student's Handbook for new students will be uploaded soon.</p></h3>
-                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i>  <a href="https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs">Courses of Study</a></h3>
+                        <h3 class="heading-tertiary"><p style="color:red"><i class="far fa-dot-circle"></i> <?php echo $data['more_info']['point_1']; ?></p></h3>
+                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i>  <a href="https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs"><?php echo $data['more_info']['point_2']; ?></a></h3>
 
 
                     </div>
@@ -777,25 +736,21 @@ The curriculum of the department encourages exploration across disciplines, whil
         <section class="section">
             <div class="container">
                 <div class="intro-cse">
-                    <h2 class="heading-secondary">Computer Science &amp; Engineering - An Intro</h2>
-                    <p class="intro-cse__text">The first thing which pops up when you think of CSE is programming. Given that coding is an integral part of Computer Science, it is not the only part. As the name suggests, one learns both the science behind the computers and the engineering aspects of the field. CSE at IIT Bhilai is focussed on providing the students with a perfect blend of both – research and industrial facet of the computing world.</p><br>
+                    <h2 class="heading-secondary"><?php echo $data['cse']['head']; ?></h2>
+                    <p class="intro-cse__text"><?php echo $data['cse']['text']; ?></p><br>
 
                     <div class="info">
-                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> CSE Hacks</h3>
+                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data['cse']['info']['head']; ?></h3>
 
                         <ul class="info__list">
-                            <li class="info__item">It is recommended to have a laptop as there will be a respectable number of courses which require you to write assignments on a computer and submit them online. E.g. CAD Modelling, Programming, Some electrical courses.</li>
-                            <li class="info__item">Though it is not a pre-requisite but having an idea of coding (loops, basic syntax, conditionals, functions, a tiny bit of pointers), mainly C language would surely help you to catch pace during the various courses.</li>
-                            <li class="info__item">Get some knowledge about Linux based systems, mainly Ubuntu. There are plenty of resources on the net to help you install the same along with your Windows OS.</li>
-                            <li class="info__item">Having some knowledge of Python and MATLAB can be helpful in some courses as these languages are used as tools in their assignments (Digital Signal Processing).</li>
-                            <li class="info__item">Advanced C concepts such as Algorithms and Data Structures can be studied. This will help you breeze through the basics in the classes and focus on more advanced concepts.</li>
-                            <li class="info__item">Try reading about analysis of algorithms, mainly in terms of time complexity.</li>
-                            <li class="info__item">Some basic familiarity with Discrete Mathematics/Mathematical Logic will really help you in some of the courses but is not compulsory.</li>
-                            <li class="info__item">The world is at your feet in form of the internet. Explore the same for your benefit.</li>
+                            <?php foreach ($data['cse']['info']['sub-lists'] as $subList): ?>
+                                <li class="info__item"><?php echo $subList['contents']; ?></li>
+                            <?php endforeach; ?>
+                            <br>
                         </ul>
                     </div>
 
-                    <p class="intro-cse__text"><em>* The tips are in no sense a pre-requisite for any of the courses you take during your semesters. They are just a set of pointers to get you in the right direction without having to fumble over a plethora of resources.</em></p>
+                    <p class="intro-cse__text"><em><?php echo $data['cse']['sub-text']; ?></em></p>
                 </div>
             </div>
         </section>
@@ -805,21 +760,21 @@ The curriculum of the department encourages exploration across disciplines, whil
         <section class="section">
             <div class="container">
                 <div class="intro-cse">
-                    <h2 class="heading-secondary">Data Science and Artificial Intelligence (DSAI) - An Intro </h2>
-                    <p class="intro-cse__text">IIT Bhilai opens a new discipline in Data Science and Artificial Intelligence (DSAI) and proposes to start a BTech program in DSAI in 2020. With the rise of Cloud Computing, Internet of Things, and Web 3.0, the amount of data being produced and captured by computer systems and applications is ever increasing at an exponential rate. The era of Big Data presents us with a great opportunity and challenge to develop the next generation technologies to store, manage, analyze, share and understand the huge volume of data that is generated in business.</p><br>
+                    <h2 class="heading-secondary"><?php echo $data['dsai']['head']; ?></h2>
+                    <p class="intro-cse__text"><?php echo $data['dsai']['text']; ?></p><br>
 
                     <div class="info">
-                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> DSAI Hacks</h3>
+                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data['dsai']['info']['head']; ?></h3>
 
                         <ul class="info__list">
-                            <li class="info__item">If you are looking forward to choose this discipline, then please let me aware you that you should make mathematics your friend.</li>
-                            <li class="info__item">One with keen interests in Linear Algebra, Probability and Statistics, Optimization etc, should definitely pursue this.</li>
-                            <li class="info__item">The core courses related to data science will involve subjects like Data Analytics and Visualization, Artificial Intelligence, Machine learning, Management of Large Data etc.</li>
-
+                            <?php foreach ($data['dsai']['info']['sub-lists'] as $subList): ?>
+                                <li class="info__item"><?php echo $subList['contents']; ?></li>
+                            <?php endforeach; ?>
+                            <br>
                         </ul>
                     </div>
 
-                    <p class="intro-cse__text"><em>* The tips are in no sense a pre-requisite for any of the courses you take during your semesters. They are just a set of pointers to get you in the right direction without having to fumble over a plethora of resources.</em></p>
+                    <p class="intro-cse__text"><em><?php echo $data['cse']['sub-text']; ?></em></p>
                 </div>
             </div>
         </section>
@@ -829,38 +784,41 @@ The curriculum of the department encourages exploration across disciplines, whil
         <section class="section">
             <div class="container">
                 <div class="intro-ee">
-                    <h2 class="heading-secondary">Electrical Engineering - An Intro</h2>
-                    <p class="intro-ee__text">The Discipline of Electrical Engineering, IIT Bhilai, since its inception in the year 2016 has been striving towards providing a vibrant atmosphere for students, in various aspects of Electrical Engineering. At present the discipline offers the undergraduate course to cater to the ever-challenging needs of technical excellence in various facets of electrical engineering.</p><br>
+                    <h2 class="heading-secondary"><?php echo $data['ee']['head']; ?></h2>
+                    <p class="intro-ee__text"><?php echo $data['ee']['text']['para-1']; ?></p><br>
 
-                    <p class="intro-ee__text">The Discipline offers Undergraduate program (B. Tech), Postgraduate programs (MTech.) and Doctorate (PhD) program from the session beginning in 2017. The research interests of our faculty encompass a wide gamut of sub-disciplines of Electrical Engineering. We have state-of- the-art lab facilities along with trained staff to handle the latest equipment. The Discipline has been playing a key role in instilling the avidity amongst students and encouraging research in the various sub-disciplines of Electrical Engineering. In the coming years we see ourselves as pioneers of Advanced Research and Development in our field.</p><br>
+                    <p class="intro-ee__text"><?php echo $data['ee']['text']['para-2']; ?></p><br>
 
                     <div class="info">
-                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> EE Hacks</h3>
+                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data['ee']['info']['head']; ?></h3>
 
                         <ul class="info__list">
-                            <li class="info__item">Do small projects on weekend. Learn the use of sensors. This will help you in IOT class and Independent projects.</li>
-                            <li class="info__item">Coding: Make yourself comfortable with programming in first year only. Without learning programming, you may fall back in many areas of EE in the future.</li>
-                            <li class="info__item">Solve many problems in core subjects like Analog electronics, Semiconductors, Signals and Systems etc.</li>
-                            <li class="info__item">Technical Skills:
-                                <ul class="info__list">
-                                    <li class="info__item">Learn to use electrical instruments like Oscilloscope, Function generator, Digital Multimeter in EE lab.</li>
-                                    <li class="info__item">Develop the skills of doing circuit analysis using Laplace transform, differential equations etc. Most of the time you must do this.</li>
-                                </ul>
-                            </li>
-                            <li class="info__item">Online Course: Follow the websites like Udacity, Coursera for online courses (on long holidays).</li>
-                            <li class="info__item">Soft Skills:
-                                <ul class="info__list">
-                                    <li class="info__item">MATLAB (Used for Data Analytics)</li>
-                                    <li class="info__item">Python (Considering the first year this is more important for DSP and Data Analytics)</li>
-                                    <li class="info__item">C language (for Data Structure and Arduino programming)</li>
-                                </ul>
-                            </li>
-                            <li class="info__item">Maths: It is a natural tendency of most students after coming to IIT to neglect maths. DON’T do it! In CSE we can see the result of our programming is on screen. And in Mechanical Engineering whatever is happening we can see it physically e.g. by applying force, weighing it etc. But in EE we can’t. First, we need to MODEL IT in MATHEMATICAL EQUATIONS and then see, what is the output for input. So, topics in maths like Vector Calculus, Fourier and Laplace transforms, Differential Equations, Matrix Analysis are very important. Don’t detest these subjects.</li>
-                            <li class="info__item">The world is at your feet in form of the internet. Explore the same for your benefit.</li>
-                        </ul>
+                        <?php $counter = 0;foreach ($data['ee']['info']['list']['part-1'] as $item): $counter++;?>
+                                <li class="info__item"><?php echo $item['contents'] ?></li>
+                                <?php if ($counter == 3): ?>
+                                    <li class="info__item"><?php echo $data['ee']['info']['list']['part-2']['head'] ?>
+                                        <ul class="info__list">
+                                            <?php foreach ($data['ee']['info']['list']['part-2']['sub-lists'] as $subItem): ?>
+                                                <li class="info__item"><?php echo $subItem['contents'] ?></li>
+                                            <?php endforeach; ?>
+                                        </ul>
+                                    </li>
+                                <?php endif;?>
+                                <?php if ($counter == 4): ?>
+                                    <li class="info__item"><?php echo $data['ee']['info']['list']['part-3']['head'] ?>
+                                        <ul class="info__list">
+                                            <?php foreach ($data['ee']['info']['list']['part-3']['sub-lists'] as $subItem): ?>
+                                                <li class="info__item"><?php echo $subItem['contents'] ?></li>
+                                            <?php endforeach; ?>
+                                        </ul>
+                                    </li>
+                                <?php endif;?>
+                            <?php endforeach; ?>
+                            <br>
+                            </ul>
                     </div>
 
-                    <p class="intro-ee__text"><em>* The tips are in no sense a pre-requisite for any of the courses you take during your semesters. They are just a set of pointers to get you in the right direction without having to fumble over a plethora of resources.</em></p>
+                    <p class="intro-ee__text"><em><?php echo $data['cse']['sub-text']; ?></em></p>
                 </div>
             </div>
         </section>
@@ -870,41 +828,40 @@ The curriculum of the department encourages exploration across disciplines, whil
         <section class="section">
             <div class="container">
                 <div class="intro-me">
-                    <h2 class="heading-secondary">Mechanical Engineering - An Intro</h2>
-                    <p class="intro-me__text">Have you ever wondered how rockets and flights are manoeuvred? Does the flourishing sound of an engine and manufacturing processes tingle your curiosity? Then this field is for you. You will get a boost to your mechanics, statics, solid and fluid dynamics knowledge and you will surely enjoy all of it, you’ll also learn how mechanical structures are supported, automation and robotics, workshops (e.g. welding, lathing) and their applications.</p><br>
+                    <h2 class="heading-secondary"><?php echo $data['me']['head']; ?></h2>
+                    <p class="intro-me__text"><?php echo $data['me']['text-1']; ?></p><br>
 
-                    <p class="intro-me__text">Mechanical Engineering basically deals with the following domains:</p>
+                    <p class="intro-me__text"><?php echo $data['me']['text-2']; ?></p>
 
                     <ul class="info__list">
-                        <li class="info__item">Design</li>
-                        <li class="info__item">Production and operation of machinery</li>
-                        <li class="info__item">Application of thermodynamics and mechanics</li>
-                        <li class="info__item">Automated control systems</li>
-                        <li class="info__item">Manufacturing</li>
+                        <?php foreach ($data['me']['domains'] as $contents): ?>
+                                <li class="info__item"><?php echo $contents['contents']; ?></li>
+                        <?php endforeach; ?>
+                        <br>
                     </ul>
 
-                    <p class="intro-me__text">During the course you will learn and explore basic sciences behind the mechanical systems we see using the tools of physics. You will also learn to fabricate objects using different manufacturing process that includes moulding, 3D printing, Laser Cutting etc.</p> <br>
+                    <p class="intro-me__text"><?php echo $data['me']['text-3']; ?></p> <br>
 
                     <div class="info">
-                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> ME Hacks</h3>
+                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data['me']['info']['head']; ?></h3>
 
                         <ul class="info__list">
-                            <li class="info__item">Mechanical Engineering is all about understanding existing systems and then designing new ones inspired by the ones we have studied. It will be beneficial if you have your JEE concepts fresh for the following topics: 
+                            <li class="info__item"><?php echo $data['me']['info']['list']['part-1']['text']; ?> 
                                 <ul class="info__list">
-                                    <li class="info__item">Fluid Mechanics</li>
-                                    <li class="info__item">General Mechanics</li>
-                                    <li class="info__item">Thermodynamics</li>
-                                    <li class="info__item">Chemical Kinetics</li>
-                                    <li class="info__item">Solid Mechanics (Stress, Strain, Elasticity)</li>
+                                    <?php foreach ($data['me']['info']['list']['part-1']['sub-lists'] as $contents): ?>
+                                        <li class="info__item"><?php echo $contents['contents']; ?></li>
+                                    <?php endforeach; ?>
+                                    <br>
                                 </ul>
                             </li>
-                            <li class="info__item">Make yourself comfortable with programming in any one language (preferably C/C++) during the first year itself.</li>
-                            <li class="info__item">Familiarizing yourself with Arduino and other micro-controllers, it will help you a lot in your independent project at the end of the first semester.</li>
-                            <li class="info__item">The first year mechanical curriculum consists of a good number of Math Courses. Do not ignore them as they carry with them significant credits of the semester.</li>
+                                <?php foreach ($data['me']['info']['list']['part-2'] as $contents): ?>
+                                        <li class="info__item"><?php echo $contents['contents']; ?></li>
+                                <?php endforeach; ?>
+                                <br>
                         </ul>
                     </div>
 
-                    <p class="intro-me__text"><em>* The tips are in no sense a pre-requisite for any of the courses you take during your semesters. They are just a set of pointers to get you in the right direction without having to fumble over a plethora of resources.</em></p>
+                    <p class="intro-me__text"><em><?php echo $data['cse']['sub-text']; ?></em></p>
                 </div>
             </div>
         </section>
@@ -916,21 +873,20 @@ The curriculum of the department encourages exploration across disciplines, whil
         <section class="section">
             <div class="container">
                 <div class="intro-me">
-                    <h2 class="heading-secondary">Mechatronics - An Intro</h2>
+                    <h2 class="heading-secondary"><?php echo $data['mechatronics']['head']; ?></h2>
                     
                     <div class="info">
-                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i>Mechatronics Hacks</h3>
+                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data['mechatronics']['info']['head']; ?></h3>
 
                         <ul class="info__list">
-                            <li class="info__item">Focus on projects as much as possible. Tinker with Arduino, sensors and actuators on weekends and try to learn about them as mush as possible.</li>
-                            <li class="info__item">A decent knowledge of a programming language like2 C/C++ or Python would be really helpful.</li>
-                            <li class="info__item">Since the discipline of Mechatronics involves the concepts of both mechanical engineering and electronics engineering, a basic knowledge of the fundamentals of these disciplines would be of a great help.</li>
-                            <li class="info__item">Try to revise JEE topics relevant to Mechatronics such as Mechanics, Solid Mechanics (elasticity, stress, strain, stress-strain curve etc.), Electrodynamics and Circuits, and basics of Electronic devices (diodes, transistors etc.)</li>
-                            <li class="info__item">Last but most important, do take your 1st sem Digital Fabrication course very seriously, as there you are taught CAD modelling and basics of fabrication, which would prove to be very useful to you in further sems.</li>
+                            <?php foreach ($data['mechatronics']['info']['sub-lists'] as $subList): ?>
+                                    <li class="info__item"><?php echo $subList['contents']; ?></li>
+                            <?php endforeach; ?>
+                            <br>
                         </ul>
                     </div>
 
-                    <p class="intro-me__text"><em>* The tips are in no sense a pre-requisite for any of the courses you take during your semesters. They are just a set of pointers to get you in the right direction without having to fumble over a plethora of resources.</em></p>
+                    <p class="intro-me__text"><em><?php echo $data['cse']['sub-text']; ?></em></p>
                 </div>
             </div>
         </section>
