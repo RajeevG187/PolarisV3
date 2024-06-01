@@ -93,8 +93,9 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
 
                     <div class="cultural row">
-                        <div class="col-1-of-2"><img src="../public/images/nsonss/nss1.jpg" alt="NSS" class="cultural__photo"></div>
-                        <div class="col-1-of-2"><img src="../public/images/nsonss/nss2.jpg" alt="NSS" class="cultural__photo"></div>
+                        <?php foreach($data['nss']['images'] as $images):?>
+                            <div class="col-1-of-2"><img src="<?php echo $images['path'];?>" alt="NSS" class="cultural__photo"></div>
+                        <?php endforeach;?> 
                     </div>
 
                     <br>
@@ -106,7 +107,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             <div class="row">
                 <div class="col-1-of-2">
                     <div class="campus">
-                        <iframe width="560" height="315" src=" https://www.youtube.com/embed/3Aaq_GqD7ZM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <?php $videoLink = $data['camp_tour']['youtube-links'][0]['link'];?>
+                        <iframe width="560" height="315" src="<?php echo $videoLink; ?>" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                 </div>
                 
@@ -136,8 +138,9 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     <br>
 
                     <div class="cultural row">
-                        <div class="col-1-of-2"><img src="../public/images/nsonss/nso1.jpg" alt="NSO" class="cultural__photo"></div>
-                        <div class="col-1-of-2"><img src="../public/images/nsonss/nso2.jpg" alt="NSO" class="cultural__photo"></div>
+                        <?php foreach($data['nso']['images'] as $images):?>
+                            <div class="col-1-of-2"><img src="<?php echo $images['path'];?>" alt="NSO" class="cultural__photo"></div>
+                        <?php endforeach;?>
                     </div>
 
                 </div>
