@@ -79,7 +79,11 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             </div>
             <!-- Render faculty members 2 membered -->
             <?php foreach ($data['coordinators']['faculty-2-membered'] as $members): ?>
+<<<<<<< HEAD
                 <div class="row">
+=======
+               <div class="row">
+>>>>>>> 99455d99cf09fc524be5e3baee5953d9314db0b7
                     <div class="dev">
                         <?php foreach ($members as $member): ?>
                             <div class="col-1-of-2">
@@ -111,8 +115,11 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     </div>
                 </div>
             <?php endforeach; ?>
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 99455d99cf09fc524be5e3baee5953d9314db0b7
             <!-- Render faculty members 3 membered -->
             <?php foreach ($data['coordinators']['faculty-3-membered'] as $members): ?>
                 <div class="row">
@@ -147,7 +154,11 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     </div>
                 </div>
             <?php endforeach; ?>
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 99455d99cf09fc524be5e3baee5953d9314db0b7
             <!-- Render mentor coordinators -->
             <?php foreach ($data['coordinators']['mentor-coordinators'] as $members): ?>
                 <div class="row">
