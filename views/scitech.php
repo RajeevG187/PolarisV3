@@ -1,6 +1,6 @@
 <?php
 // Define the path to the JSON file
-$jsonFilePath = '../PolarisV3/src/json/scitech.json';
+$jsonFilePath = '../src/json/scitech.json';
 
 // Check if the JSON file exists and is readable
 if (!file_exists($jsonFilePath) || !is_readable($jsonFilePath)) {
