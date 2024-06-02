@@ -14,15 +14,15 @@
             },
             {
                 "text":"Registration Form for MTech Students.",
-                "url":".\\pdfs\\forms_update\\MTech_2023.pdf"
+                "url":"../public/pdfs/forms_update/MTech_2023.pdf"
             },
             {
                 "text":"Registration Form for M.Sc Students.",
-                "url":".\\pdfs\\forms_update\\MSc_2023.pdf"
+                "url":"../public/pdfs/forms_update/MSc_2023.pdf"
             },
             {
                 "text":"Registration Form for PhD Students.",
-                "url":".\\pdfs\\forms_update\\PhD_2023.pdf"
+                "url":"../public/pdfs/forms_update/PhD_2023.pdf"
             }
         ]
     } ,
@@ -32,18 +32,19 @@
         "lists": [
             {
                 "text":"Education Loan Application Form with CheckList. ",
-                "url":".\\pdfs\\Education_Loan_Application_Form_with_Checklist.pdf"
+                "url":"../public/pdfs/Education_Loan_Application_Form_with_Checklist.pdf"
             }
         ]
     },
     "fee": {
         "head": "Regarding Fee Payment",
         "text": "",
-        "lists": 
+        "lists": [
             {
                 "text":"To see the detailed Fee Structure , please  ",
                 "url":"https://www.iitbhilai.ac.in/index.php?pid=fee_structure"
             }
+        ]
     },
     "payoptions": {
         "text1":"No cash payment option will be available at the institute. As enquired for payment mode, following options are made available:",
