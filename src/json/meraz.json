@@ -1,60 +1,87 @@
 {
-    "heading": {
-        "text": [
-            {
-                "year": "18"
-            },
-            {
-                "year": "19"
-            },
-            {
-                "year": "22"
-            }
-                
-        ]
-    },
+  "header": {
+    "heading": "Meraz",
+    "subtitle": "The Annual Techno-Cultural Fest of IIT Bhilai"
+  },
+  "heading": {
+    "text": [
+      {
+        "year": "18"
+      },
+      {
+        "year": "19"
+      },
+      {
+        "year": "22"
+      },
+      {
+        "year": "4.0"
+      }
+    ]
+  },
 
-    "meraz-videos": {
-        "info": [
-            {
-                "title": "Meraz '22 Trailer",
-                "link": "https://www.youtube.com/embed/iDtwPVqDfkA",
-                "site-link": "https://meraz.in",
-                "site-name": "Meraz'22 Official Website"
-            },
-            {
-                "title": "Meraz '19 Trailer",
-                "link": "https://www.youtube.com/embed/vrHzl-E-Pvs",
-                "site-link": "https://meraz.in",
-                "site-name": "Meraz'19 Official Website"
-            },
-            {
-                "title": "Meraz '18 Aftermovie",
-                "link": "https://www.youtube.com/embed/uOQbTb4-ejs",
-                "site-link": "http://meraz.iitbhilai.ac.in",
-                "site-name": "Meraz'18 Official Website"
-            }
-        ]
-    },
+  "meraz-videos": {
+    "info": [
+      {
+        "title": "Meraz 4.0 Trailer",
+        "link": "https://www.youtube.com/embed/gHlt1b8y7WU?si=lBMONkLblpXixYKp",
+        "site-link": "https://meraz2k24.in",
+        "site-name": "Meraz 4.0 Official Website"
+      },
+      {
+        "title": "Meraz '22 Trailer",
+        "link": "https://www.youtube.com/embed/iDtwPVqDfkA",
+        "site-link": "https://meraz.in",
+        "site-name": "Meraz'22 Official Website"
+      },
+      {
+        "title": "Meraz '19 Trailer",
+        "link": "https://www.youtube.com/embed/vrHzl-E-Pvs",
+        "site-link": "https://meraz.in",
+        "site-name": "Meraz'19 Official Website"
+      },
+      {
+        "title": "Meraz '18 Trailer",
+        "link": "https://www.youtube.com/embed/2fMa3wJy0H0",
+        "site-link": "http://meraz.iitbhilai.ac.in",
+        "site-name": "Meraz'18 Official Website"
+      }
+    ]
+  },
 
-    "morevideos-meraz": {
-        "youtube-links": [
-            [
-                {
-                    "link": "https://www.youtube.com/embed/gKt4JCaQlmA"
-                },
-                {
-                    "link": "https://www.youtube.com/embed/2fMa3wJy0H0"
-                }
-            ],
-            [
-                {
-                    "link": "https://www.youtube.com/embed/fjtuMhY1KK8"
-                },
-                {
-                    "link": "https://www.youtube.com/embed/W0VIHUbZ680"
-                }
-            ]
-        ] 
-    }
+  "more-videos-meraz": {
+    "heading": "More Videos",
+    "youtube-links": [
+      [
+        {
+          "title": "Meraz 4.0 Entrepreneurship Conclave",
+          "link": "https://www.youtube.com/embed/2t_t2pwNBcI?si=jlARgzFwXPhZkiGm"
+        },
+        {
+          "title": "Meraz '22 Aftermovie",
+          "link": "https://www.youtube.com/embed/ztJsklsTg8M?si=DbQE0IkzDHEd7lTa"
+        }
+      ],
+      [
+        {
+          "title": "Meraz '22 Teaser Trailer",
+          "link": "https://www.youtube.com/embed/W0VIHUbZ680"
+        },
+        {
+          "title": "Meraz '19 Aftermovie",
+          "link": "https://www.youtube.com/embed/fjtuMhY1KK8"
+        }
+      ],
+      [
+        {
+          "title": "Meraz '18 Aftermovie",
+          "link": "https://www.youtube.com/embed/uOQbTb4-ejs"
+        },
+        {
+          "title": "Meraz Teaser Trailer",
+          "link": "https://www.youtube.com/embed/gKt4JCaQlmA"
+        }
+      ]
+    ]
+  }
 }
