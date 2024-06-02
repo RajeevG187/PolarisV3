@@ -78,9 +78,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
               <a href=<?php echo $item['site-link']; ?> class="outreach__link"><p class="introduction__text" style="text-align:center;">Go to - <u><?php echo $item["site-name"]; ?></u></p></a><br>
           </div> 
         <?php endforeach;?>
-
         <br>
-        
+
         <div class="container">
             <h2 class="heading-secondary"><?php echo $data["more-videos-meraz"]['heading'] ?></h2>
             <!-- <h2 class="heading-secondary">More Videos</h2> -->
