@@ -9,8 +9,8 @@
         "text": "The attached respective registration forms are necessary at the time of Registration.\nPlease download and fill the respective forms.\n",
         "lists": [
             {
-                "text":"Registration Form for BTech Students."
-                ,"url":".\\pdfs\\BTech_2023.pdf"
+                "text":"Registration Form for BTech Students.",
+                "url":"../public/pdfs/BTech_2023.pdf"
             },
             {
                 "text":"Registration Form for MTech Students.",

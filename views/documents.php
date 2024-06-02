@@ -113,12 +113,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             <div class="container">
                 <div class="fee">
                     <h2 class="heading-secondary"><span><?php echo $data['fee']['head']; ?></span></h2>
-                    <!-- <p class="fee__text">Fee Structure (Btech 2022-23) - <a href="https://www.iitbhilai.ac.in/index.php?pid=Fee_BTech23" target="_blank">Click Here!</a></p><br>
-                    <p class="fee__text">Fee Structure (Mtech) - <a href="https://www.iitbhilai.ac.in/index.php?pid=Fee_MTech23" target="_blank">Click Here!</a></p><br>
-                    <p class="fee__text">Fee Structure (M.Sc) - <a href="https://www.iitbhilai.ac.in/index.php?pid=Fee_MSc23" target="_blank">Click Here!</a></p><br>
-                    <p class="fee__text">Fee Structure (PhD) - <a href="https://www.iitbhilai.ac.in/index.php?pid=Fee_PhD23" target="_blank">Click Here!</a></p><br>
-                    <p class="fee__text">Fee Structure (Foreign Students) - <a href="https://www.iitbhilai.ac.in/index.php?pid=Fee_International23" target="_blank">Click Here!</a></p> -->
-                    <p class="fee__text"> To see the detailed Fee Structure , please <a href="https://www.iitbhilai.ac.in/index.php?pid=fee_structure" target="_blank">click here.</a></p>
+                    <p class="fee__text"> <?php echo $data["fee"]["lists"]["text"]; ?> <a href=<?php echo $data["fee"]["lists"]["url"]; ?> target="_blank">click here.</a></p>
                     <br>
 
                     <!-- <p class="fee__text">Generate the Fee Payment Challan through SBI Collect Payment Page. <a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm" target="_blank">Click Here!</a><br>For procedure of payment through SBI Collect.<a href="Payment through SBI i collect.pdf" target="_blank"> Click Here!</a></p>
