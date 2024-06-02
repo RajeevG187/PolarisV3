@@ -151,7 +151,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                 <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo$name['position'].":";?></span><?php echo $name['holder']; ?></p><br>
                 <?php endforeach; ?></br>
                
-                <?php foreach ($data['iic']['functions'] as $function): ?>
+                <?php foreach ($data['iic']['function'] as $function): ?>
                     <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo $function['subject'];?></span></p>
                   <ul class="info__list">
                   <?php foreach ($data['iic']['function']['txt_block'] as $txt): ?>
