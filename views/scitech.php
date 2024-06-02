@@ -97,41 +97,45 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                         <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo$club['role'];?></span><?php echo $club['leader']; ?></p><br>
                         <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>About:</span><?php echo $club['about']; ?></p><br>
                   
-
+                        <?php if (!empty($club['topic'])): ?>
                         <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo $club['topic']; ?></span></p>
                         <?php foreach ($club['list'] as $list): ?>
                             <ul class="info__list">
                                 <li class="info__item"><?php echo $list['text']; ?></li><br>
                             </ul>
-                        <?php endforeach; ?>
+                        <?php endforeach; ?><?php endif; ?>
 
+                        <?php if (!empty($club['activities'])): ?>
                         <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Activities planned for
                                 upcoming semester:</span></p>
                         <ul class="info__list"> <?php foreach ($club['activities']['activity-list'] as $activity): ?>
                                 <li class="info__item"> <?php echo $activity['text'] . "\n"; ?></li>
-                            <?php endforeach; ?>
+                            <?php endforeach; ?><?php endif; ?>
                         </ul>
-
+                        
+                        <?php if (!empty($club['socialmedia'])): ?>
                         <p class="outreach__text"><i
                                 class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo "Follow us:"; ?></span>
                                   <?php foreach ($club['socialmedia'] as $socialmedia): ?>
                             <a href="<?= $socialmedia['url'] ?>"
                                     class="outreach__link"><?php echo $socialmedia['display']; ?> </a>
-                        <?php endforeach; ?></p>
+                        <?php endforeach; ?></p><?php endif; ?>
                    
+                        <?php if (!empty($club['images'])): ?>
                         <div class="row">
                             <?php foreach ($club['images'] as $image): ?>
                                 <div class="col-1-of-2"><img src="<?= $image['url'] ?>" alt="<?= $image['alt'] ?>"
                                         class="scitech__photo"></div>
                             <?php endforeach; ?>
-                        </div>
+                        </div><?php endif; ?>
                    
+                        <?php if (!empty($club['image_epsilon'])): ?>
                         <div class="row">
                             <?php foreach ($club['image_epsilon'] as $image): ?>
                                 <div class="col-1-of-3"><img src="<?= $image['url'] ?>" alt="<?= $image['alt'] ?>"
                                         class="scitech__photo"></div>
                             <?php endforeach; ?>
-                        </div>
+                        </div><?php endif; ?>
 
                     <div class="line-break"></div>
                 </div>
