@@ -100,7 +100,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
               </div>
           </div>
         <?php endforeach;?>
-        
+
       </section>
 
       <?php
