@@ -1,6 +1,6 @@
-<br?php
+<?php
 // Define the path to the JSON file
-$jsonFilePath = '../src/json/sneha.json';
+$jsonFilePath = '../PolarisV3/src/json/scitech.json';
 
 // Check if the JSON file exists and is readable
 if (!file_exists($jsonFilePath) || !is_readable($jsonFilePath)) {
@@ -156,7 +156,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                   <ul class="info__list">
                   <?php foreach ($data['iic']['function']['txt_block'] as $txt): ?>
                       <li class="info__item"><?php echo$txt['text'];?></li><?php endforeach; ?>
-                  </ul>  <?php endforeach; ?> <br><br>
+                  </ul>  <?php endforeach; ?><br><br>
                
                 <div class="row">
                     <div class="col-2-of-2"><img src="../public/images/life/iic.JPG" alt="IIC" class="cultural__photo">
