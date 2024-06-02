@@ -101,7 +101,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                         <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo $club['topic']; ?></span></p>
                         <?php foreach ($club['list'] as $list): ?>
                             <ul class="info__list">
-                                <li class="info__item"><?php echo $list['text']; ?></li><br>
+                                <li class="info__item"><?php echo $list['text']; ?></li>
                             </ul>
                         <?php endforeach; ?><?php endif; ?>
 
