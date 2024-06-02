@@ -1,3 +1,4 @@
+
 {
     "header": {
         "head": "Sci-tech Clubs",
@@ -11,9 +12,11 @@
     "clubs": [
         {
             "title": "Developers Student Club - by Google Developers",
-            "lead": "Javed Habib",
+            "role":"Lead",
+            "leader": "Javed Habib",
             "about": "DSC is a university program kick started by Google Developers to train thousands of student developers globally and to work with their communities to solve real-life problems. DSC, IIT Bhilai was set-up primarily to ensure that we can bridge the divide between a student’s eagerness to learn and the technology evolving every day. The DSC program is a grass root channel through which the members of the community provide development skills for students towards employability. In addition to workshops, DSCs also provide an opportunity for students to apply their newly gained skills to develop solutions for local organizations and then provide visibility via showcases. DSC IIT Bhilai is one stop point for any software vertical at IIT Bhilai. The areas that we cover are Competitive Programming, Machine Learning, Cloud Development, Web Development and App Development. We have got a dedicated team of core members working for every area.",
-            "keypoints": [
+            "topic":"Keyponts:",
+            "list": [
                 {
                     "text": "Students have the opportunity to not only learn development skills, but also apply it to live problems by developing solutions, and then showcasing their work within their communities."
                 },
@@ -27,6 +30,7 @@
                     "text": "Direct Point of Communication with Enterprises that look for Tech Talents, as DSC Leads are Community Leaders empowered with the authority to issue Referrals for Strong Candidates."
                 }
             ],
+            "activities":"",
             "socialmedia": [
                 {
                     "url": "https://www.instagram.com/dsc_iitbhilai/",
@@ -40,12 +44,17 @@
                     "url": "https://dsc.iitbhilai.ac.in/aboutus.php",
                     "display": "DSC"
                 }
-            ]
+            ],
+            "images":"",
+            "image_epsilon":""
         },
         {
             "title": "The Space Exploration Society (SES)",
-            "co-ordinator": " Ojus Goel and Suprabho Saha",
+            "role":"Co-ordinator",
+            "leader": " Ojus Goel and Suprabho Saha",
             "about": "SES was started for conducting activities in observational astronomy, astrophysics, and aerodynamics. Subsequently, it was divided into 2 separate divisions to give justice to both of them under one roof - Aeromodelling and Astronomy &amp; Astrophysics. The Astronomy and Astrophysics division specializes in astrophotography, observational astronomy, documentary watching sessions and all-round discussions on everything Space! The Aeromodelling division involves the designing, building and flying of miniaturized aircrafts, a hobby enjoyed widely by aviation enthusiasts.",
+            "topic":"",
+            "list":"",
             "activities": {
                 "title": "Activities",
                 "activity-list": [
@@ -69,13 +78,14 @@
                     }
                 ]
             },
+            "image_epsilon":"",
             "images": [
                 {
-                    "url": "images/life/SES2.png",
+                    "url": "../public/images/life/SES2.png",
                     "alt": "Epsilon"
                 },
                 {
-                    "url": "images/life/SES3.jpg",
+                    "url": "../public/images/life/SES3.jpg",
                     "alt": "Epsilon"
                 }
             ],
@@ -104,11 +114,12 @@
         },
         {
             "title": "Electromos",
-            "co-ordinator": " Harsh Gupta",
+            "role":"Co-ordinator",
+            "leader": " Harsh Gupta",
             "about": "For all the techies, Electromos is the electronics club of IIT Bhilai. The club intends to foster an inclusive environment to develop innovative technical solutions to real life problems. We provide space to boost your hands-on experience on electronics and automation through various projects, workshops and events. This is the perfect place for you to showcase your creativity and realize your dream electronics project.",
-            "objectives": {
-                "title": "Objectives",
-                "objective-list": [
+            
+                "topic": "Objectives and Ideas",
+                "list": [
                 {
                     "text": "Group of students sharing a common interest in Electronics and its Applications in engineering."
                 },
@@ -127,8 +138,7 @@
                 {
                     "text": "Inculcating the good habits and practices of engineering things."
                 }
-            ]
-            },
+            ],
             "activities": {
                 "title": "Activities",
                 "activity-list":[
@@ -152,21 +162,28 @@
                 }
             ]
         },
+        "image_epsilon":"",
+        "socialmedia":"",
             "images": [
                 {
-                    "url": "images/life/electromos-1.jpg",
+                    "url": "../public/images/life/electromos-1.jpg",
                     "alt": "Electromos"
                 },
                 {
-                    "url": "images/life/electromos-2.jpeg",
+                    "url": "../public/images/life/electromos-2.jpeg",
                     "alt": "Electromos"
                 }
             ]
         },
         {
             "title": "Ingenuity",
-            "co-ordinator": " Arnav Gautam and Omm Prakash Sahoo",
+            "role":"Co-ordinator",
+            "leader": " Arnav Gautam and Omm Prakash Sahoo",
             "about": "Ingenuity as the name suggests is a club for the problem solvers! The prime motive of the club is to promote and enrich the coding culture in IIT Bhilai. The club provides a constructive and budding environment to the students who share a passion for problem solving and competitive programming. The club organises events and contests along with workshops and seminars on competitive programming with the support of a dedicated team of core members.",
+          "image_epsilon":"",
+          "images":"",
+          "list":"",
+          "topic":"",
             "activities": {
                 "title": "Activities",
                 "activity-list":[
@@ -195,8 +212,12 @@
         },
         {
             "title": "The Epsilon Club",
-            "co-ordinator": " Santosh Kumar Prajapat",
+            "role":"Co-ordinator",
+            "leader": " Santosh Kumar Prajapat",
             "about": "This club under the Science &amp; Technology Clubs, IIT Bhilai, is a prodigious &amp; one of the most appreciated features of this Institute. The idea of providing a common platform for students interested in Robotics is what makes it different from other clubs. The main motive of the club is to provide a really strong platform for bringing his/her ideas on Robotics into reality. The club provides all the necessary assistance for the same. With the motto of “IMAGINE, INVENT, INSPIRE” the club came into establishment in April 2017. Our esteemed group shares a common passion for the field of Robotics.",
+            "topic":"",
+            "list":"",
+            "images":"",
             "activities": {
                 "title": "Activities",
                 "activity-list":[
@@ -231,15 +252,15 @@
             },
             "image_epsilon": [
                 {
-                    "url": "images/life/epsilon-1.jpeg",
+                    "url": "../public/images/life/epsilon-1.jpeg",
                     "alt": "Epsilon"
                 },
                 {
-                    "url": "images/life/epsilon-2.jpeg",
+                    "url": "../public/images/life/epsilon-2.jpeg",
                     "alt": "Epsilon"
                 },
                 {
-                    "url": "images/life/epsilon1.jpeg",
+                    "url": "../public/images/life/epsilon1.jpeg",
                     "alt": "Epsilon"
                 }
             ],
@@ -264,8 +285,14 @@
         },
         {
             "title": "OpenLake",
-            "co-ordinator": "Tushar Bansal and Madhur Jain",
+            "role":"Co-ordinator",
+            "leader": "Tushar Bansal and Madhur Jain",
             "about": "We at OpenLake are on a mission to make the open-source contribution culture thrive in IIT Bhilai. We conduct events to promote participation in open-source internship programs like GSoC, Outreachy, MLH etc. We also have our own open-sourced projects for IIT Bhilai students to contribute. We conduct hackathons, technical workshops, OWOC (OpenLake winter of code), and guest sessions by full-time open-source contributors (Yeah, you heard it right, people earn extremely good salaries from open-source contributions). We&#39;re proud to say that every year, starting from the first batch, IIT Bhilai students get selected for the most prestigious open-source programs like Google Summer of Code (GSoC).",
+           "activities":"",
+           "image_epsilon":"",
+           "images":"",
+           "list":"",
+           "topic":"",
             "socialmedia": [
                 {
                     "url": "https://instagram.com/openlake_iitbhilai?igshid=MmU2YjMzNjRlOQ==",
@@ -283,8 +310,14 @@
         },
         {
             "title": "Data Science and Artificial Intelligence Club",
-            "co-ordinator": "Chirag and Abhishek Singh Kushwaha",
+            "role":"Co-ordinator",
+            "leader": "Chirag and Abhishek Singh Kushwaha",
             "about": " The majority of new ventures involve significant data analysis. This data is being generated at an incredible rate. Over the last few years, hackathons and other data science competitions have increased. In this situation, we can't afford to fall behind. As a result, the DSAI Club was established at IIT Bhilai to accelerate the data science culture. This club's primary goal is to promote two fields: data science and artificial intelligence. The club will work on projects that will encourage more individuals to join the bandwagon of innovation. The club will also endeavor to develop a research group to solve problems, publish articles, and contribute to the student research culture at IIT Bhilai.",
+           "activities":"",
+           "image_epsilon":"",
+           "images":"",
+           "list":"",
+           "topic":"",
             "socialmedia": [
                 {
                     "url": "https://www.instagram.com/dsai_iitbhilai/",
@@ -306,17 +339,42 @@
         },
         {
             "title": "BIB (Blockchain at IIT Bhilai)",
-            "co-ordinator": "Anand Kumar",
-            "about": "Blockchain technology is moving at a rapid pace. A lot of students of our institute are interested in learning blockchain technology, but due to lack of guidance, they end up giving up on learning blockchain and find some other interests. This society will prevent exactly this; we will be guiding students who are interested in learning blockchain, we will cover both, theoretical and practical aspects and make sure that they stand on their own feet. We will teach blockchain, work on blockchain-related projects, conduct hackathons, invite high profile speakers from the industry, and build good relationships with the leading blockchain companies."
+            "role":"Co-ordinator",
+            "leader": "someone",
+            "about": "Blockchain technology is moving at a rapid pace. A lot of students of our institute are interested in learning blockchain technology, but due to lack of guidance, they end up giving up on learning blockchain and find some other interests. This society will prevent exactly this; we will be guiding students who are interested in learning blockchain, we will cover both, theoretical and practical aspects and make sure that they stand on their own feet. We will teach blockchain, work on blockchain-related projects, conduct hackathons, invite high profile speakers from the industry, and build good relationships with the leading blockchain companies.",
+            "activities":"",
+            "image_epsilon":"" ,
+            "images":"",
+            "list":"",
+            "socialmedia":"",
+            "topic":""     
         }
     ],
     "iic": {
         "title": "Institute Innovation Council (IIC)",
-        "president": "Prof. P. D. Srivastava",
-        "convener": "Dr. Sanjib Banerjee",
-        "co-ordinator": "Rachuri Sri Pramodh",
-        "about": "Ministry of Human Resource Development (MHRD), Govt. of India has established ‘MHRD’s Innovation Cell (MIC)’ to systematically foster the culture of Innovation amongst all Higher Education Institutions (HEIs). The primary mandate of MIC is to encourage, inspire and nurture young students by supporting them to work with new ideas and transform them into prototypes while they are informative years. MIC has envisioned encouraging creation of ‘Institution’s Innovation Council (IICs)’ across selected HEIs. A network of these IICs has been established to promote innovation in the Institution through multitudinous modes leading to an innovation promotion eco-system in the campuses.",
-        "major_focus": [
+        "name":[
+       {
+         "position":"President",      
+         "holder": "Prof. P. D. Srivastava"
+        },
+        {
+            "position":"Convener",
+            "holder": "Dr. Sanjib Banerjee"
+        },
+       {
+        "position":"Co-ordinator",
+        "holder": "Rachuri Sri Pramodh"
+    },
+       {
+        "position":"About",
+        "holder": "Ministry of Human Resource Development (MHRD), Govt. of India has established ‘MHRD’s Innovation Cell (MIC)’ to systematically foster the culture of Innovation amongst all Higher Education Institutions (HEIs). The primary mandate of MIC is to encourage, inspire and nurture young students by supporting them to work with new ideas and transform them into prototypes while they are informative years. MIC has envisioned encouraging creation of ‘Institution’s Innovation Council (IICs)’ across selected HEIs. A network of these IICs has been established to promote innovation in the Institution through multitudinous modes leading to an innovation promotion eco-system in the campuses."
+        }
+    ],  
+        
+       "function":[
+        {
+        "subject":"Major focus of IIC:",
+        "txt_block": [
             {
                 "text": "To create a vibrant local innovation ecosystem."
             },
@@ -332,8 +390,10 @@
             {
                 "text": "Develop better Cognitive Ability for Technology Students."
             }
-        ],
-        "functions": [
+        ] },
+        {
+        "subject":"Function of IIC:",
+        "txt_block": [
             {
                 "text": "To conduct various innovation and entrepreneurship-related activities prescribed by Central MIC in time bound fashion."
             },
@@ -352,17 +412,22 @@
             {
                 "text": "Organize Hackathons, idea competition, mini-challenges etc. with the involvement of industries."
             }
-        ],
-        "workshops": [
+        ]},
+        {
+        "subject":"IIC of IIT Bhilai has hosted a workshops on:",
+        "txt_block": [
             {
                 "text": "Cognitive Skills Design Thinking and Critical thinking."
             },
             {
                 "text": "Intellectual property rights."
+            },
+            {
+                "text": "Students also participated in Smart India Hackathon 2019, Smart Bihar Submit, India-Japan Ideathon."
             }
-        ],
-        "text": "Students also participated in Smart India Hackathon 2019, Smart Bihar Submit, India-Japan Ideathon.",
-        "image": "images/life/iic.JPG",
+        ]}],
+        
+        "image": "../public/images/life/iic.JPG",
         "alt": "IIC"
     }
 }
