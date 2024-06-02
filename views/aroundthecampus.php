@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <link rel="stylesheet" href="../public/css/animate.css">
         <link rel="stylesheet" href="../public/css/style.css">
@@ -47,7 +48,7 @@
             <div class="container">
                 <div class="header__hero-box">
                     <h1 class="heading-primary">Around the Campus</h1>
-                    <p class="heading-subtitle">Get to know what is where...</p>
+                    <p class="heading-subtitle">Discover what's in and around the campus</p>
                 </div>
             </div>
         </header>
@@ -57,20 +58,13 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d374967.6056149059!2d81.317959!3d21.244257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a293d6791e5f399%3A0xfb39e72b5f4501f5!2sIIT%20Bhilai%20Permanent%20Campus!5e1!3m2!1sen!2sin!4v1689530217209!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
-        <!-- <div class="line-break"></div>
-        <section class="section">
-            <div class="container">
-                <h2 class="heading-secondary">Campus Location (Transit Campus)</h2>
-                <iframe width="100%" height="400" frameborder="0" style="border:0;margin-top:2rem" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDwxilx3FT8Oe4JCbm8elUIlqN66aMTUEU&q=IIT+Bhilai,Old+Dhamtari+Rd&maptype=satellite" allowfullscreen></iframe>
-            </div>
-        </section> -->
         <div class="line-break"></div>
         <section class="section">
             <div class="container">
                 <div class="around">
                     <h2 class="heading-secondary">Around <br><span>Indian Institute of Technology Bhilai</span></h2>
                     <h3 class="heading-tertiary">About Permanent Campus</h3>
-                    <p class="around__text"> The Permanent Campus of IIT Bhilai is located at Khapri, which is a suburb of Bhilai in the Durg district of Chhattisgarh, India. It is about 10 kilometers from the main city of Bhilai and is well connected through public transport to the railway station, airport, and Raipur City.</p>
+                    <p class="around__text"> The Permanent Campus of IIT Bhilai is located at khutelabhata village,Khapri, which is a suburb of Bhilai in the Durg district of Chhattisgarh, India. It is about 10 kilometers from the main city of Bhilai and is well connected through public transport to the railway station, airport, and Raipur City.</p>
 
                     <div class="table__scroll">
                         <table class="table">
@@ -83,99 +77,85 @@
                             <tr>
                                 <td>Swami Vivekananda Airport</td>
                                 <td>54</td>
-                                <td>1 to 1.5 hrs*</td>
+                                <td>1-1.5 hrs</td>
                             </tr>
 
                             <tr>
                                 <td>Durg Junction Railway Station</td>
                                 <td>7</td>
-                                <td>30 to 40 min**</td>
+                                <td>10-20 min</td>
                             </tr>
                         </table>
                     </div>
-                    
-                    <!-- <h3 class="heading-tertiary">About Transit Campus</h3>
-                    <p class="around__text">Though the temporary campus is located in the town of Sejbahar, it has an excellent road connectivity with the main city. Once you reach Raipur, it won’t be much of a hassle to reach IIT Bhilai as the campus is well connected with the Airport as well as the Railway Station</p> -->
-
-                    <!-- <div class="table__scroll">
-                        <table class="table">
-                            <tr>
-                                <th>Entry points to Raipur</th>
-                                <th>Distance (km)</th>
-                                <th>Estimated Time</th>
-                            </tr>
-
-                            <tr>
-                                <td>Swami Vivekananda Airport</td>
-                                <td>17</td>
-                                <td>30 min*</td>
-                            </tr>
-
-                            <tr>
-                                <td>Raipur Junction Railway Station</td>
-                                <td>12.5</td>
-                                <td>40 to 45 min**</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <p class="around__text"><em>**The route is mostly wide roads with minimal traffic even at rush hours.</em></p>
-                    <p class="around__text"><em>*The route goes through the city, hence time may be less or more depending on the traffic conditions.</em></p> -->
                 </div>
             </div>
         </section>
 
         <div class="line-break"></div>
 
-        <!-- <section class="section">
+        <section class="section">
             <div class="container">
                 <div class="transportation">
                     <h2 class="heading-secondary">Transportation</h2>
-                    <p class="transportation__text">Your friends to take you to the main city will be the Auto-Rickshaws. They are easily available outside the campus premises, providing both sharing and single services. A good number of rickshaws are from Sejbahar itself, so even if you need a ride to the airport even at 4 in the morning, just give them a call in the previous evening and they will be ready with your ride at the specified time. If you need a cab, then you always have Ola.</p>
+                    <p class="transportation__text">Rickshaws are your besties for zipping around the city! If you have stamina,zip around using cycle of your homie. &#128521;</p>
+                    <p class="transportation__text">You can get cab service also and local trains to travel to raipur city, and bus services are also available.</p>
                 </div>
             </div>
         </section>
 
-        <div class="line-break"></div> -->
+        <div class="line-break"></div>
 
-        <!-- <section class="section">
+        <section class="section">
             <div class="container">
-                <div class="restaurants">
-                    <h2 class="heading-secondary">Restaurants</h2>
-                    <p class="restaurants__text">"Variety is the spice of life"- Tired of Rajma on Friday or Chicken on Wednesday? Wanna celebrate the completion of a tough course? Well on such occasions these eateries come to our rescue. There are a couple of such places at a walking distance from the Campus. </p>
+                <div class="">
+                    <h2 class="heading-secondary">Food Spots!</h2>
+                    <p class="foodspots__text">Honestly you will get bored of mess food from 2nd week onwards, to make your taste buds attain nirvana or get bday party of your homie and GPL cake &#128520; or just hangry, we have many bakeries,restaurant,cafes in and around campus. </p>
 
                     <div class="row">
-                        <div class="restaurants__box">
+                        <div class="foodspots__box">
                           <div class="col-1-of-2">
                               <div class="heading-tertiary">Tech Cafe</div>
-                              <div class="restaurants__description">The cafe is located inside the campus and provides variety of snacks and fast-foods such as Samosa, Pasta, Maggi among others. <br>See on <a href="https://goo.gl/maps/iP6dv8zZGom">google maps &rarr;</a> </div>
+                              <div class="foodspots__description">The cafe is located inside the campus at gopad hostel and provides variety of snacks and fast-foods such as Samosa, Pasta, Maggi,Milkshake,Puff,pizza &#127829; etc. <br>See on <a href="https://goo.gl/maps/iP6dv8zZGom">google maps &rarr;</a> </div>
                           </div>
+                          
                             <div class="col-1-of-2">
-                                <div class="heading-tertiary">GEC Cafe</div>
-                                <div class="restaurants__description">GEC Cafe is located inside the campus and offers fast-food like maggi, fried rice, chowmein. <br>See on <a href="https://goo.gl/maps/jk5HiDraeBYL2uGA8">google maps &rarr;</a> </div>
+                                <div class="heading-tertiary">Fruit Juice Shop</div>
+                                <div class="foodspots__description">Located inside the mess in campus, juice shop provides fresh fruit juice according to your need like sugarless,with/wihtout ice etc along with milkshake,hot milk,mocktails and you can also buy fresh fruits and also buy cut fruits also. &#127817;<br>See on <a href="https://maps.app.goo.gl/LaxoN9DGHjT82xC89">google maps &rarr;</a> </div>
                             </div>
 
-                            <div class="col-1-of-2">
-                                <div class="heading-tertiary">The Hangout</div>
-                                <div class="restaurants__description">The Hangout, a pure Veg. eatery offers fast-foods, mainly Burgers, Pizzas, Noodles, Hotdogs etc. <br>See on <a href="	https://goo.gl/maps/h4bTtbCxrbH2">google maps &rarr;</a> </div>
-                            </div>
+                            
 
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="restaurants__box">
+                        <div class="foodspots__box">
 
                             <div class="col-1-of-2">
-                                <div class="heading-tertiary">Khao Piyo</div>
-                                <div class="restaurants__description">Located just outside the campus, it provides both veg and non-veg snacks as well as beverages. <br>See on <a href="https://goo.gl/maps/brMLsgPq7QE2">google maps &rarr;</a> </div>
+                                <div class="heading-tertiary">Crazy Cake & Bakers</div>
+                                <div class="foodspots__description">Located inside campus at shopping complex, you have wide range of cakes,pasteries,puff,dosa,ice-cream,milkshake,chocolate,cold-drinks etc. Satisfy your sweet tooth! &#128523; <br>See on <a href="https://maps.app.goo.gl/CNkj8wCPraJ2q9xW7">google maps &rarr;</a> </div>
                             </div>
                             <div class="col-1-of-2">
-                                <div class="heading-tertiary">Food Mart</div>
-                                <div class="restaurants__description">Recently opened, Food Mart is a restaurant which provides veg as well as non-veg cuisines. <br>See on <a href="https://goo.gl/maps/peh8wNHRiL6VwJ7f9">google maps &rarr;</a> </div>
+                                <div class="heading-tertiary">Amul Parlour</div>
+                                <div class="foodspots__description">We have a exclusive Amul shop inside the mess in campus, provides all products of amul from milk to icecream and milkshake.&#129380; <br>See on <a href="https://maps.app.goo.gl/mLPuZzzun9enRyLHA">google maps &rarr;</a> </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
 
+                    <div class="row">
+                        <div class="foodspots__box">
+
+                            <div class="col-1-of-2">
+                                <div class="heading-tertiary">Cafe Coffee Day</div>
+                                <div class="foodspots__description">Located inside mess in campus, CCD gives you wide range of coffee &#9749;, caffeine for your exams &#128524;, pizza, milkshakes etc  <br>See on <a href="https://maps.app.goo.gl/Q9njbTyecY16L3od8">google maps &rarr;</a> </div>
+                            </div>
+                            <div class="col-1-of-2">
+                                <div class="heading-tertiary">Not Just Coffee(NJC)</div>
+                                <div class="foodspots__description">Located in Indravati hostel, NJC provides milkshake,coffe,tea,veg biryani,poha,maggi,noodles etc. &#127836;
+<br>See on <a href="https://maps.app.goo.gl/kh7XkwrHYYshbkfF7">google maps &rarr;</a> </div>
+                            </div>
+                        </div>
+                    </div>  
                     <!-- <div class="street">
                         <h3 class="heading-tertiary">Street Food</h3>
                         <p class="street__text">There are also a couple of Dhabhas and Street Food Vendors in the same radius as the above. Missing cheese bursts? Call Dominos and get your pizza within 30 minutes.</p>
@@ -281,6 +261,8 @@
                 </div>
             </div>
         </section>
+        <div class="line-break"></div>
+
 
         <section class="section">
             <div class="container">
@@ -346,86 +328,65 @@
                     </section>
                     <div class="line-break"></div>
 
-<!-- <section class="section">
-    <div class="container">
-                <div class="entertainment">
-                    <h2 class="heading-secondary">Entertainment Hubs (near Transit Campus)</h2>
-                    <div class="table__scroll">
-                        <table class="table">
-                            <tr>
-                                <th>Mall</th>
-                                <th>Highlights</th>
-                                <th>Distance and Time</th>
-                                <th>Google Map</th>
-                            </tr>
-
-                            <tr>
-                                <td>Magneto The Mall</td>
-                                <td>Barbeque Nation, KFC, McD, Subway, BigBazaar, PVR</td>
-                                <td>14 km (25 to 30 min)</td>
-                                <td><a href="https://goo.gl/maps/1svTeUx3gGn">Click Here!</a></td>
-                            </tr>
-
-                            <tr>
-                                <td>City Centre Mall</td>
-                                <td>Dominos, Gaming Alley, Cinemax, BigBazaar</td>
-                                <td>13 km (30 to 40 min)</td>
-                                <td><a href="https://goo.gl/maps/ZKN5fBAZxeD2">Click Here!</a></td>
-                            </tr>
-
-                            <tr>
-                                <td>Colors Mall</td>
-                                <td>Gaming Alley, Turf</td>
-                                <td>9.2 km (25 to 30 min)</td>
-                                <td><a href="https://goo.gl/maps/4JcAhYvjmcv">Click Here!</a></td>
-                            </tr>
-
-                            <tr>
-                                <td>Ambuja Mall</td>
-                                <td>Shoppers Stop, Inox, Chain Fast Foods</td>
-                                <td>20 km (45 to 55 min)</td>
-                                <td><a href="https://goo.gl/maps/JokFNx6pP3z">Click Here!</a></td>
-                            </tr>
-                        </table>
-                    </div>
-                    </div>
-                    </div>
-            </div>
-        </section> -->
 
         <div class="line-break"></div>
 
         <section class="section">
             <div class="container">
-                <div class="stores">
-                    <h2 class="heading-secondary">Daily Needs and General Stores</h2>
-                    <p class="stores__text">Just outside the campus are various general purpose stores. These include:</p>
-                    <div class="stores__jumbo-list">
-                            <ul class="stores__list">
-                                <li class="stores__item"><i class="fas fa-store-alt"></i>&nbsp; Medical Stores</li>
-                                <li class="stores__item"><i class="fas fa-store-alt"></i>&nbsp; Mobile Recharge Stores</li>
-                                <li class="stores__item"><i class="fas fa-store-alt"></i>&nbsp; Haircut/Salon</li>
-                                <li class="stores__item"><i class="fas fa-store-alt"></i>&nbsp; General Grocery Stores</li>
-                                <li class="stores__item"><i class="fas fa-store-alt"></i>&nbsp; Hardware Shops</li>
-                                <li class="stores__item"><i class="fas fa-store-alt"></i>&nbsp; Cycle Repair Shops</li>
-                                <li class="stores__item"><i class="fas fa-store-alt"></i>&nbsp; Stationary Shops</li>
-                                <li class="stores__item"><i class="fas fa-store-alt"></i>&nbsp; Fruits and Vegetable</li>
-                                <li class="stores__item"><i class="fas fa-store-alt"></i>&nbsp; Dairy Products</li>
-                            </ul>
+                <div class="">
+                    <h2 class="heading-secondary">Daily needs and General stores</h2>
+                    <p class="stores__text">We have many essential stores in campus and nearby campus. They are: </p>
+
+                    <div class="row">
+                        <div class="stores__box">
+                          <div class="col-1-of-2">
+                              <div class="heading-tertiary">AT Mart</div>
+                              <div class="stores__description">supermarket or general store where you will get your all stationary,vegetables,mug,bucket,dry food,sauce,biscuit,sugar etc at a affordable price. <br>See on <a href="https://maps.app.goo.gl/wc1DyhzFv3MvQVvW8">google maps &rarr;</a> </div>
+                          </div>
+                          
+                            <div class="col-1-of-2">
+                                <div class="heading-tertiary">D Mart</div>
+                                <div class="stores__description">D Mart the national wholesale supermarket has a branch near the iit bhilai which is about 5km from gate 2, you can go there and buy your month long stock of snacks, which will be finished by your homies and roomies.&#128557;
+<br>See on <a href="https://maps.app.goo.gl/pn67w94FqonF4tun8">google maps &rarr;</a> </div>
+                            </div>
+
+                            
+
+                        </div>
                     </div>
 
-                <!-- <p class="stores__text">Also apart from these if one needs a wider variety of stores, then he can visit the market of:</p>
-                <ul class="info__list">
-                    <li class="info__item"><strong> Power House </strong> , which is about 9 km from the permanent campus. It has gained prominence as a hub for various commercial activities and a shopping destination for  residents and visitors. From fresh products to electronics, clothing to household items, it offers a wide array of goods making it a one stop destination for shoppers.
-                    See on <a href="https://goo.gl/maps/nkTLJkJPNwxHZrs99">google maps &rarr;</a>
-                    </li>
-                    <li class="info__item"><strong> Akash Ganga,Supela </strong> , which is about 8 km from permanent campus. It has established itself as a popular shopping complex catering to the diverse needs and preference of visitors and residents.
-                    See on <a href="https://goo.gl/maps/1MVYxwWvrjnaQNH77">google maps &rarr;</a>
-                    </li>
-                    <li class="info__item"><strong> Sector 6 Market </strong> , which is about 8.2 km from the permanent campus. You can go there for all sorts of shopping needs, be it sports, fashion, daily appliances or anything else.
-                    See on <a href="https://goo.gl/maps/d1t3SDBs497T9Btm8">google maps &rarr;</a>
-                    </li>
-                </ul> -->
+                    <div class="row">
+                        <div class="stores__box">
+                          <div class="col-1-of-2">
+                              <div class="heading-tertiary">Recollection Desi Dukaan</div>
+                              <div class="stores__description">At shopping complex inside campus, a fancy and stationary shop is present from where you can college merchandise,custom merchandise,memorabilia,jacket,pillows,etc <br>See on <a href="https://maps.app.goo.gl/MBbPrFNvkKYebVX37">google maps &rarr;</a> </div>
+                          </div>
+                          
+                            <div class="col-1-of-2">
+                                <div class="heading-tertiary">Computer and Repair shop</div>
+                                <div class="stores__description">At Shopping complex inside campus, a computer and repair shop is there from where you can buy your electronics or get your laptop repaired.<br>See on <a href="https://maps.app.goo.gl/wahkTXKrvpm6pkCv6">google maps &rarr;</a> </div>
+                            </div>
+
+                            
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="stores__box">
+                          <div class="col-1-of-2">
+                              <div class="heading-tertiary">Medical Store</div>
+                              <div class="stores__description">If say hospital is closed and you do not have your medicine at right time, no worries theres a medical store just outside gate no.2 <br>See on <a href="https://maps.app.goo.gl/S57KVr96QfRKDtEc7">google maps &rarr;</a> </div>
+                          </div>
+                          
+                            
+
+                            
+
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
         </section>
@@ -435,13 +396,12 @@
         <section class="section">
             <div class="container">
                 <div class="bank">
-                    <h2 class="heading-secondary">Banks and ATMs</h2>
+                    <h2 class="heading-secondary">Banks and ATMs and Post office</h2>
                     <ul class="bank__list">
-                        <li class="bank__item"><i class="fas fa-piggy-bank"></i>&nbsp; State Bank of India (SBI) Branch and ATM</li>
-                        <li class="bank__item"><i class="fas fa-piggy-bank"></i>&nbsp; Canara Bank Branch and ATM</li>
-                        <li class="bank__item"><i class="fas fa-piggy-bank"></i>&nbsp; Bank of India Branch and ATM</li>
-                        <li class="bank__item"><i class="fas fa-piggy-bank"></i>&nbsp; IDBI Bank Branch and ATM (Located within the campus premises)</li>
-                        <li class="bank__item"><i class="fas fa-piggy-bank"></i>&nbsp; Union Bank ATM </li>
+                        <li class="bank__item"><i class="fas fa-piggy-bank"></i>&nbsp; State Bank of India (SBI) Branch and ATM(Located within campus)</li>
+                        <li class="bank__item"><i class="fa fa-envelope-o"></i>&nbsp; Post Office: Pin code-(Located within campus)</li>
+
+                        
                     </ul>
                 </div>
             </div>
