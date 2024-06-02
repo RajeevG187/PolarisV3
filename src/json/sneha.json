@@ -351,11 +351,29 @@
     ],
     "iic": {
         "title": "Institute Innovation Council (IIC)",
-        "president": "Prof. P. D. Srivastava",
-        "convener": "Dr. Sanjib Banerjee",
-        "co-ordinator": "Rachuri Sri Pramodh",
-        "about": "Ministry of Human Resource Development (MHRD), Govt. of India has established ‘MHRD’s Innovation Cell (MIC)’ to systematically foster the culture of Innovation amongst all Higher Education Institutions (HEIs). The primary mandate of MIC is to encourage, inspire and nurture young students by supporting them to work with new ideas and transform them into prototypes while they are informative years. MIC has envisioned encouraging creation of ‘Institution’s Innovation Council (IICs)’ across selected HEIs. A network of these IICs has been established to promote innovation in the Institution through multitudinous modes leading to an innovation promotion eco-system in the campuses.",
-        "major_focus": [
+        "name":[
+       {
+         "position":"President",      
+         "holder": "Prof. P. D. Srivastava"
+        },
+        {
+            "position":"Convener",
+            "holder": "Dr. Sanjib Banerjee"
+        },
+       {
+        "position":"Co-ordinator",
+        "holder": "Rachuri Sri Pramodh"
+    },
+       {
+        "position":"About",
+        "holder": "Ministry of Human Resource Development (MHRD), Govt. of India has established ‘MHRD’s Innovation Cell (MIC)’ to systematically foster the culture of Innovation amongst all Higher Education Institutions (HEIs). The primary mandate of MIC is to encourage, inspire and nurture young students by supporting them to work with new ideas and transform them into prototypes while they are informative years. MIC has envisioned encouraging creation of ‘Institution’s Innovation Council (IICs)’ across selected HEIs. A network of these IICs has been established to promote innovation in the Institution through multitudinous modes leading to an innovation promotion eco-system in the campuses."
+        }
+    ],  
+        
+       "function":[
+        {
+        "subject":"Major focus of IIC:",
+        "txt_block": [
             {
                 "text": "To create a vibrant local innovation ecosystem."
             },
@@ -371,8 +389,10 @@
             {
                 "text": "Develop better Cognitive Ability for Technology Students."
             }
-        ],
-        "functions": [
+        ] },
+        {
+        "subject":"Function of IIC:",
+        "txt_block": [
             {
                 "text": "To conduct various innovation and entrepreneurship-related activities prescribed by Central MIC in time bound fashion."
             },
@@ -391,8 +411,10 @@
             {
                 "text": "Organize Hackathons, idea competition, mini-challenges etc. with the involvement of industries."
             }
-        ],
-        "workshops": [
+        ]},
+        {
+        "subject":"IIC of IIT Bhilai has hosted a workshops on:",
+        "txt_block": [
             {
                 "text": "Cognitive Skills Design Thinking and Critical thinking."
             },
@@ -402,7 +424,7 @@
             {
                 "text": "Students also participated in Smart India Hackathon 2019, Smart Bihar Submit, India-Japan Ideathon."
             }
-        ],
+        ]}],
         
         "image": "../public/images/life/iic.JPG",
         "alt": "IIC"

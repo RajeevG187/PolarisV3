@@ -1,4 +1,4 @@
-<?php
+<br?php
 // Define the path to the JSON file
 $jsonFilePath = '../src/json/sneha.json';
 
@@ -147,31 +147,16 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         <div class="container">
             <h2 class="heading-secondary"><?php echo $data['iic']['title']; ?></h2>
             <div class="scitech">
-                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>President:</span><?php echo $data['iic']['president']; ?></p><br>
-                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Convener:</span><?php echo $data['iic']['convener']; ?></p><br>
-                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Co-ordinator:</span><?php echo $data['iic']['co-ordinator']; ?></p><br>
-                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>About:</span><?php echo $data['iic']['about']; ?></p><br>
-                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Major focus of IIC:</span></p>
-
-                <ul class="info__list">
-                    <?php foreach ($data['iic']['major_focus'] as $major): ?>
-                        <li class="info__item"><?php echo $major['text']; ?></li>
-                    <?php endforeach; ?>
-                </ul>
-
-                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Function of IIC:</span></p>
-
-                <ul class="info__list">
-                    <?php foreach ($data['iic']['functions'] as $function): ?>
-                        <li class="info__item"><?php echo $function['text']; ?></li>
-                    <?php endforeach; ?>
-                </ul>
-
-                    <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>IIC of IIT Bhilai has hosted a workshops on:</span></p>
+            <?php foreach ($data['iic']['name'] as $name): ?>
+                <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo$name['position'].":";?></span><?php echo $name['holder']; ?></p><br>
+                <?php endforeach; ?></br>
+               
+                <?php foreach ($data['iic']['functions'] as $function): ?>
+                    <p class="scitech__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo $function['subject'];?></span></p>
                   <ul class="info__list">
-                  <?php foreach ($data['iic']['workshops'] as $workshop): ?>
-                      <li class="info__item"><?php echo$workshop['text'];?></li><?php endforeach; ?>
-                  </ul>  <br><br>
+                  <?php foreach ($data['iic']['function']['txt_block'] as $txt): ?>
+                      <li class="info__item"><?php echo$txt['text'];?></li><?php endforeach; ?>
+                  </ul>  <?php endforeach; ?> <br><br>
                
                 <div class="row">
                     <div class="col-2-of-2"><img src="../public/images/life/iic.JPG" alt="IIC" class="cultural__photo">
