@@ -741,7 +741,7 @@ body {
   }
 }
 .row .col-2-of-3 {
-  width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
+  width: calc(2 * (100% - 2 * 6rem) / 3 + 6rem);
 }
 @media (max-width: 600px) {
   .row .col-2-of-3 {
@@ -757,7 +757,7 @@ body {
   }
 }
 .row .col-2-of-4 {
-  width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem);
+  width: calc(2 * (100% - 3 * 6rem) / 4 + 6rem);
 }
 @media (max-width: 600px) {
   .row .col-2-of-4 {
@@ -765,7 +765,7 @@ body {
   }
 }
 .row .col-3-of-4 {
-  width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
+  width: calc(3 * (100% - 3 * 6rem) / 4 + 2 * 6rem);
 }
 @media (max-width: 600px) {
   .row .col-3-of-4 {
@@ -1113,42 +1113,50 @@ body {
   font-weight: 300;
 }
 
-.restaurants__box {
+.foodspots__box {
   margin: 2rem auto;
   width: 80%;
 }
-.restaurants__description {
+.foodspots__description {
+  text-align: justify right;
+  font-size: 1.7rem;
+  word-spacing: 3px;
+  font-weight: 300;
+}
+.foodspots__text {
   text-align: justify;
   font-size: 1.7rem;
   word-spacing: 3px;
   font-weight: 300;
 }
-.restaurants .street {
+.foodspots .street {
   text-align: justify;
   font-size: 1.7rem;
   word-spacing: 3px;
   font-weight: 300;
 }
 
-.stores__list {
-  margin: 2rem 0;
-  list-style: none;
+.stores__box {
+  margin: 2rem auto;
+  width: 80%;
 }
-.stores__item {
+.stores__description {
+  text-align: justify right;
   font-size: 1.7rem;
+  word-spacing: 3px;
   font-weight: 300;
 }
-.stores i {
-  color: #7cacff;
+.stores__text {
+  text-align: justify;
+  font-size: 1.7rem;
+  word-spacing: 3px;
+  font-weight: 300;
 }
-.stores__jumbo-list {
-  width: 60%;
-  margin: 0 auto;
-}
-@media (max-width: 600px) {
-  .stores__jumbo-list {
-    width: 80%;
-  }
+.stores .street {
+  text-align: justify;
+  font-size: 1.7rem;
+  word-spacing: 3px;
+  font-weight: 300;
 }
 
 .bank__list {

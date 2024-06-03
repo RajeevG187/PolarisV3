@@ -1,24 +1,24 @@
+
+
+
 {
     "header": {
         "head": "Around the Campus",
-        "text": "Get to know what is where..."
+        "text": "Discover what's in and around the campus"
     },
-    "campus_location": [
+    "campus_location": 
         {
             "heading": "Campus Location (Permanent Campus)",
             "link": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d374967.6056149059!2d81.317959!3d21.244257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a293d6791e5f399%3A0xfb39e72b5f4501f5!2sIIT%20Bhilai%20Permanent%20Campus!5e1!3m2!1sen!2sin!4v1689530217209!5m2!1sen!2sin"
-        },
-        {
-            "heading": "Campus Location (Transit Campus)",
-            "link": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDwxilx3FT8Oe4JCbm8elUIlqN66aMTUEU&q=IIT+Bhilai,Old+Dhamtari+Rd&maptype=satellite"
-        }
-    ],
+        }   
+    ,
     "introduction": {
-        "head": "Indian Institute of Technology Bhilai",
+        "head1": "Around",
+        "head2": "Indian Institute of Technology Bhilai",
         "campus": [
             {
                 "subheading": "About Permanent Campus",
-                "text": "The Permanent Campus of IIT Bhilai is located at Khapri, which is a suburb of Bhilai in the Durg district of Chhattisgarh, India. It is about 10 kilometers from the main city of Bhilai and is well connected through public transport to the railway station, airport, and Raipur City.",
+                "text": "The Permanent Campus of IIT Bhilai is located at Khutelabhata,Khapri, which is a suburb of Bhilai in the Durg district of Chhattisgarh, India. It is about 10 kilometers from the main city of Bhilai and is well connected through public transport to the railway station, airport, and Raipur City.",
                 "entry_points": {
                     "head": [
                         {
@@ -35,77 +35,163 @@
                         {
                             "entry_points_to_durg": "Swami Vivekananda Airport",
                             "distance": "54",
-                            "estimated_time": "1 to 1.5 hrs*"
+                            "estimated_time": "1-1.5 hrs"
                         },
                         {
                             "entry_points_to_durg": "Durg Junction Railway Station",
                             "distance": "7",
-                            "estimated_time": "30 to 40 min**"
-                        }
-                    ]
-                }
-            },
-            {
-                "subheading": "About Transit Campus",
-                "text": "Though the temporary campus is located in the town of Sejbahar, it has an excellent road connectivity with the main city. Once you reach Raipur, it won’t be much of a hassle to reach IIT Bhilai as the campus is well connected with the Airport as well as the Railway Station.",
-                "entry_points": {
-                    "head": [
-                        {
-                            "col": "Entry points to Raipur"
-                        },
-                        {
-                            "col": "Distance (km)"
-                        },
-                        {
-                            "col": "Estimated Time"
-                        }
-                    ],
-                    "contents": [
-                        {
-                            "entry_points_to_durg": "Swami Vivekananda Airport",
-                            "distance": "17",
-                            "estimated_time": "30 min*"
-                        },
-                        {
-                            "entry_points_to_durg": "Raipur Junction Railway Station",
-                            "distance": "12.5",
-                            "estimated_time": "40 to 45 min**"
+                            "estimated_time": "10-20 min"
                         }
                     ]
                 }
             }
-        ],
-        "note": [
-            {
-                "para": "**The route is mostly wide roads with minimal traffic even at rush hours."
-            },
-            {
-                "para": "*The route goes through the city, hence time may be less or more depending on the traffic conditions."
-            }
+            
         ]
+        
     },
     "transportation": {
         "heading": "Transportation",
-        "text": "Your friends to take you to the main city will be the Auto-Rickshaws. They are easily available outside the campus premises, providing both sharing and single services. A good number of rickshaws are from Sejbahar itself, so even if you need a ride to the airport even at 4 in the morning, just give them a call in the previous evening and they will be ready with your ride at the specified time. If you need a cab, then you always have Ola."
+        "text": "Rickshaws are your besties for zipping around the city! If you have stamina,zip around using cycle of your homie &#128521; . You can get cab service also and local trains to travel to raipur city, and bus services are also available."
     },
-    "restaurants": {
-        "heading": "Restaurants",
-        "text": " \"Variety is the spice of life\"- Tired of Rajma on Friday or Chicken on Wednesday? Wanna celebrate the completion of a tough course? Well on such occasions these eateries come to our rescue. There are a couple of such places at a walking distance from the Campus. ",
-        "restaurants-lists": [
+    "foodspots": {
+        "heading": "Food spots!",
+        "text": "Honestly you will get bored of mess food from 2nd week onwards, to make your taste buds attain nirvana or get bday party of your homie and GPL cake &#128520; or just hungry, we have many bakeries,restaurant,cafes in and around campus.  ",
+        "lists": [
             {
-                "title": "Tech Cafe",
-                "text": "The cafe is located inside the campus and provides variety of snacks and fast-foods such as Samosa, Pasta, Maggi among others.",
-                "link": "https://goo.gl/maps/iP6dv8zZGom"
+                "title1": "Tech Cafe",
+                "text1": "The cafe is located inside the campus at gopad hostel and provides variety of snacks and fast-foods such as Samosa, Pasta, Maggi,Milkshake,Puff,pizza &#127829; etc.",
+                "link1": "https://maps.app.goo.gl/yW3CesEA8t32nkeQA",
+                "title2": "Fruit Juice Shop",
+                "text2": "Located inside the mess in campus, juice shop provides fresh fruit juice according to your need like sugarless,with/wihtout ice etc along with milkshake,hot milk,mocktails and you can also buy fresh fruits and also buy cut fruits also. &#127817;",
+                "link2": "https://maps.app.goo.gl/LaxoN9DGHjT82xC89"
+                
             },
             {
-                "title": "GEC Cafe",
-                "text": "GEC Cafe is located inside the campus and offers fast-food like maggi, fried rice, chowmein.",
-                "link": "https://goo.gl/maps/jk5HiDraeBYL2uGA8"
+                "title1": "Crazy Cake & Bakers",
+                "text1": "Located inside campus at shopping complex, you have wide range of cakes,pasteries,puff,dosa,ice-cream,milkshake,chocolate,cold-drinks etc. Satisfy your sweet tooth! &#128523;",
+                "link1": "https://maps.app.goo.gl/CNkj8wCPraJ2q9xW7",
+                "title2": "Amul Parlour",
+                "text2": "We have a exclusive Amul shop inside the mess in campus, provides all products of amul from milk to icecream and milkshake.&#129380; ",
+                "link2": "https://maps.app.goo.gl/mLPuZzzun9enRyLHA"
+                
+            },
+            {
+                "title1": "Cafe Coffee Day",
+                "text1": "Located inside mess in campus, CCD gives you wide range of coffee &#9749;, caffeine for your exams &#128524;, pizza, milkshakes etc ",
+                "link1": "https://maps.app.goo.gl/Q9njbTyecY16L3od8",
+                "title2": "Not Just Coffee(NJC)",
+                "text2": "Located in Indravati hostel, NJC provides milkshake,coffe,tea,veg biryani,poha,maggi,noodles etc. &#127836;",
+                "link2": "https://maps.app.goo.gl/kh7XkwrHYYshbkfF7"  
             }
-        ],
-        "subheading": "Street Food",
-        "subtext": "There are also a couple of Dhabhas and Street Food Vendors in the same radius as the above. Missing cheese bursts? Call Dominos and get your pizza within 30 minutes."
+            
+        ]
+        
     },
+    "hotels":{
+        "header":"Hotels in Durg-Bhilai",
+        "table":
+            {
+                "head": [
+                    {
+                        "col": "Hotel Name"
+                    },
+                    {
+                        "col": "Address"
+                    },
+                    {
+                        "col": "Contact No."
+                    },
+                    {
+                        "col": "Distance from Campus"
+                    },
+                    {
+                        "col": "Distance from Durg Railway Station"
+                    },
+                    {
+                        "col": "Distance from Durg Bus stand"
+                    }
+            ],
+                "contents": [
+                    {
+                        "Hotel Name": "Hotel Empyrean",
+                        "Address": "Durg Bypass, Padmanabhpur, Pushpak Nagar, near Maruti Suzuki Arena, Bhilai, Chhattisgarh 490020",
+                        "Contact No.": "06260341616",
+                        "Distance from Campus": "5.9 km",
+                        "Distance from Railway Station": "3.5 km",
+                        "Distance from Durg Bus Stand": "5.5 km"
+                    },
+                    {
+                        "Hotel Name": "Chouhan Resort",
+                        "Address": "NH 6, Durg Padmanabhpur, Smriti Nagar, Chhattisgarh 490020",
+                        "Contact No.": "07947131275",
+                        "Distance from Campus": "5.9 km",
+                        "Distance from Railway Station": "3.5 km",
+                        "Distance from Durg Bus Stand": "5.5 km"
+                    },
+                    {
+                        "Hotel Name": "The Grand Dhillon",
+                        "Address": "A-1, Nehru Nagar Square, G.E. Road, Priyadarsani Parisar West, Bhilai, Chhattisgarh 490020",
+                        "Contact No.": "07884044000",
+                        "Distance from Campus": "6.7 km",
+                        "Distance from Railway Station": "3.8 km",
+                        "Distance from Durg Bus Stand": "5.8 km"
+                    },
+                    {
+                        "Hotel Name": "Hotel Lotus",
+                        "Address": "Shastri Nagar, Bhilai, Chhattisgarh 490023",
+                        "Contact No.": "01246201519",
+                        "Distance from Campus": "6.9 km",
+                        "Distance from Railway Station": "7.6 km",
+                        "Distance from Durg Bus Stand": "9.6 km"
+                    },
+                    {
+                        "Hotel Name": "Hotel Vatsa International",
+                        "Address": "28, Shivnath Complex, G.E Road, Besides Bhilai Nagar Nigam, Supela, Bhilai, Chhattisgarh 490023",
+                        "Contact No.": "09039020123",
+                        "Distance from Campus": "7.4 km",
+                        "Distance from Railway Station": "7.6 km",
+                        "Distance from Durg Bus Stand": "9.6 km"
+                    },
+                    {
+                        "Hotel Name": "Hotel Amit International",
+                        "Address": "Shivnath Vistar Vyavsayik Yojana, G.E.Road, National Highway 6, Supela, next to Maurya Talkies, Shastri Nagar, Bhilai, Chhattisgarh 490023",
+                        "Contact No.": "07884036664",
+                        "Distance from Campus": "7.4 km",
+                        "Distance from Railway Station": "8.2 km",
+                        "Distance from Durg Bus Stand": "10.2 km"
+                    },
+                    {
+                        "Hotel Name": "Hotel The Avalon",
+                        "Address": "Deepak Nagar, Malviya Nagar, Chhattisgarh 491001",
+                        "Contact No.": "07947393230",
+                        "Distance from Campus": "9.2 km",
+                        "Distance from Railway Station": "0.55 km",
+                        "Distance from Durg Bus Stand": "2.55 km"
+                    },
+                    {
+                        "Hotel Name": "Hotel Ashish International",
+                        "Address": "Janjgiri, Bhilai, Chhattisgarh 490011",
+                        "Contact No.": "07882250260",
+                        "Distance from Campus": "11.7 km",
+                        "Distance from Railway Station": "13 km",
+                        "Distance from Durg Bus Stand": "15 km"
+                    },
+                    {
+                        "Hotel Name": "The Roman Park",
+                        "Address": "Near Shivnath river, Pulgaon Rd, Durg, Chhattisgarh 491001",
+                        "Contact No.": "09589090940",
+                        "Distance from Campus": "12.5 km",
+                        "Distance from Railway Station": "7 km",
+                        "Distance from Durg Bus Stand": "9 km"
+                    }
+
+                ]
+            }    
+         
+        
+    },
+
+    
     "entertainment": [
         {
             "head": "Entertainment Hubs (near Permanent Campus)",
@@ -164,124 +250,54 @@
                     }
                 ]
             }
-        },
-        {
-            "head": "Entertainment Hubs (near Transit Campus)",
-            "entertainment-hubs": {
-                "head": [
-                    {
-                        "col": "Mall"
-                    },
-                    {
-                        "col": "Highlights"
-                    },
-                    {
-                        "col": "Distance and Time"
-                    },
-                    {
-                        "col": "Google Map"
-                    }
-                ],
-                "contents": [
-                    {
-                        "entertainment_hubs": "Magneto The Mall",
-                        "highlights": "Barbeque Nation, KFC, McD, Subway, BigBazaar, PVR",
-                        "distance_from_campus": "14 km (25 to 30 min)",
-                        "google_map": "https://goo.gl/maps/1svTeUx3gGn"
-                    },
-                    {
-                        "entertainment_hubs": "City Centre Mall",
-                        "highlights": "Dominos, Gaming Alley, Cinemax, BigBazaar",
-                        "distance_from_campus": "13 km (30 to 40 min)",
-                        "google_map": "https://goo.gl/maps/ZKN5fBAZxeD2"
-                    },
-                    {
-                        "entertainment_hubs": "Colors Mall",
-                        "highlights": "Gaming Alley, Turf",
-                        "distance_from_campus": "9.2 km (25 to 30 min)",
-                        "google_map": "https://goo.gl/maps/4JcAhYvjmcv"
-                    },
-                    {
-                        "entertainment_hubs": "Ambuja Mall",
-                        "highlights": "Shoppers Stop, Inox, Chain Fast Foods",
-                        "distance_from_campus": "20 km (45 to 55 min)",
-                        "google_map": "https://goo.gl/maps/JokFNx6pP3z"
-                    }
-                ]
-            }
         }
+        
     ],
     "dailyneeds": {
         "heading": "Daily Needs and General Stores",
-        "text": "Just outside the campus are various general purpose stores. These include:",
+        "text": "We have many essential stores in campus and nearby campus. They are: ",
         "stores": [
             {
-                "item": "Medical Stores"
+                "title1": "AT Mart",
+                "text1": "Supermarket or general store where you will get your all stationary,vegetables,mug,bucket,dry food,sauce,biscuit,sugar etc at a affordable price.",
+                "link1": "https://maps.app.goo.gl/wc1DyhzFv3MvQVvW8",
+                "title2": "D Mart",
+                "text2": "D Mart the national wholesale supermarket has a branch near the iit bhilai which is about 5km from gate 2, you can go there and buy your month long stock of snacks, which will be finished by your homies and roomies.&#128557;",
+                "link2": "https://maps.app.goo.gl/pn67w94FqonF4tun8"
+                
             },
             {
-                "item": "Mobile Recharge Stores"
+                "title1": "Recollection Desi Dukaan",
+                "text1": "At shopping complex inside campus, a fancy and stationary shop is present from where you can college merchandise,custom merchandise,memorabilia,jacket,pillows,etc",
+                "link1": "https://maps.app.goo.gl/MBbPrFNvkKYebVX37",
+                "title2": "Computer and Repair shop",
+                "text2": "At Shopping complex inside campus, a computer and repair shop is there from where you can buy your electronics or get your laptop repaired. ",
+                "link2": "https://maps.app.goo.gl/wahkTXKrvpm6pkCv6"
+                
             },
             {
-                "item": "Haircut salons"
-            },
-            {
-                "item": "General Grocery Stores"
-            },
-            {
-                "item": "Hardware Shops"
-            },
-            {
-                "item": "Cycle Repair Shops"
-            },
-            {
-                "item": "Stationary Shops"
-            },
-            {
-                "item": "Fruits and Vegetable"
-            },
-            {
-                "item": "Dairy Products"
+                "title1": "Shubham K-mart",
+                "text1": "A supermarket 4km from campus, provides all daily needs products ",
+                "link1": "https://maps.app.goo.gl/NT8FWczBoDE9fPbz9",
+                "title2": "Medical Store",
+                "text2": "If say hospital is closed and you do not have your medicine at right time, no worries theres a medical store just outside gate no.2 ",
+                "link2": "https://maps.app.goo.gl/S57KVr96QfRKDtEc7"  
             }
-        ],
-        "markets": {
-            "intro": "Also apart from these if one needs a wider variety of stores, then he can visit the market of:",
-            "markets_lists": [
-                {
-                    "title": "Power House",
-                    "text": ", which is about 9 km from the permanent campus. It has gained prominence as a hub for various commercial activities and a shopping destination for  residents and visitors. From fresh products to electronics, clothing to household items, it offers a wide array of goods making it a one stop destination for shoppers.",
-                    "link": "https://goo.gl/maps/nkTLJkJPNwxHZrs99"
-                },
-                {
-                    "title": "Akash Ganga,Supela",
-                    "text": ", which is about 8 km from permanent campus. It has established itself as a popular shopping complex catering to the diverse needs and preference of visitors and residents.",
-                    "link": "https://goo.gl/maps/1MVYxwWvrjnaQNH77"
-                },
-                {
-                    "title": "Sector 6 Market",
-                    "text": ", which is about 8.2 km from the permanent campus. You can go there for all sorts of shopping needs, be it sports, fashion, daily appliances or anything else.",
-                    "link": "https://goo.gl/maps/d1t3SDBs497T9Btm8"
-                }
-            ]
-        }
+        ]
+        
     },
-    "banksnatms": {
-        "heading": "Banks and ATMs",
-        "banksnatms_list": [
+    "bank_atm_postal": {
+        "heading": "Banks and ATMs and Post Office",
+        "list": [
             {
-                "item": "State Bank of India (SBI) Branch and ATM"
+                "item":"State Bank of India (SBI) Branch and ATM(Located within campus)",
+                "icon_class":"fas fa-piggy-bank"
             },
             {
-                "item": "Canara Bank Branch and ATM"
-            },
-            {
-                "item": "Bank of India Branch and ATM"
-            },
-            {
-                "item": "IDBI Bank Branch and ATM (Located within the campus premises)"
-            },
-            {
-                "item": "Union Bank ATM"
+                "item":"Post Office: Pin code-491002(Located within campus)",
+                "icon_class":"fa fa-envelope-o"
             }
+            
         ]
     }
 }
