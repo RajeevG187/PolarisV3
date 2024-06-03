@@ -523,7 +523,7 @@ body {
   background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/life/motorsports-1.JPG");
 }
 .header__documents {
-  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/hero-15.jpg");
+  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../public/images/hero-15.jpg");
 }
 .header__meraz {
   background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/hero-14.jpg");
@@ -817,6 +817,18 @@ body {
   font-weight: 700;
 }
 
+.information__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5vw;
+}
+
+@media screen and (max-width: 600px) {
+  .information__box {
+    display: inline;
+  }
+}
 .campus {
   text-align: center;
 }

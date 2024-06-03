@@ -203,22 +203,29 @@ if (json_last_error() !== JSON_ERROR_NONE) {
     <div class="container">
         <div class="message">
             <h2 class="heading-secondary">Message from <br><span><?php echo $data['cosa']['head']; ?></span></h2>
-            <p class="info__text"><span><?php echo $data['cosa']['text']; ?></span></p><br>
-            <p class="message__byline">With best wishes,<br><?php echo $data['cosa']['president']['name']; ?></p>
-            <div class="row">
+            
+            
+
+            <div class="information__box">
+                <p class="info__text"><span><?php echo $data['cosa']['text']; ?></span></p><br>
+
+                <div class="row">
+                    <p class="message__byline">With best wishes,<br><?php echo $data['cosa']['president']['name']; ?></p>
                 <div class="dev">
                     <div class="col-1-of-4">
                         <figure class="dev__shape">
                             <img src="../public/<?php echo $data['cosa']['president']['image']; ?>" alt="<?php echo $data['cosa']['president']['name']; ?>" class="dev__img dev__img--president">
-                            <figcaption class="dev__caption"><?php echo $data['cosa']['president']['name']; ?></figcaption>
+                                <figcaption class="dev__caption"><?php echo $data['cosa']['president']['name']; ?></figcaption>
                         </figure>
                         <div class="dev__name">President, CoSA</div>
-                        <a href="<?php echo $data['cosa']['president']['email']; ?>" class="dev__profile">
-                            <i class="far fa-envelope dev__profile--icon"></i>
-                        </a>
+                            <a href="<?php echo $data['cosa']['president']['email']; ?>" class="dev__profile">
+                                <i class="far fa-envelope dev__profile--icon"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
 </section>
