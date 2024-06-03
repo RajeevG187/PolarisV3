@@ -113,7 +113,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             <div class="container">
                 <div class="fee">
                     <h2 class="heading-secondary"><span><?php echo $data['fee']['head']; ?></span></h2>
-                    <p class="fee__text"> <?php echo $data["fee"]["lists"]["text"]; ?> <a href=<?php echo $data["fee"]["lists"]["url"]; ?> target="_blank">click here.</a></p>
+                    <p class="fee__text"> <?php echo $data["fee"]["lists"][0]["text"]; ?> <a href=<?php echo $data["fee"]["lists"][0]["url"]; ?> target="_blank">click here.</a></p>
                     <br>
 
                     <!-- <p class="fee__text">Generate the Fee Payment Challan through SBI Collect Payment Page. <a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm" target="_blank">Click Here!</a><br>For procedure of payment through SBI Collect.<a href="Payment through SBI i collect.pdf" target="_blank"> Click Here!</a></p>
