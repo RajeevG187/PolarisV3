@@ -523,7 +523,7 @@ body {
   background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/life/motorsports-1.JPG");
 }
 .header__documents {
-  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/hero-15.jpg");
+  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../public/images/hero-15.jpg");
 }
 .header__meraz {
   background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/hero-14.jpg");
@@ -741,7 +741,7 @@ body {
   }
 }
 .row .col-2-of-3 {
-  width: calc(2 * (100% - 2 * 6rem) / 3 + 6rem);
+  width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
 }
 @media (max-width: 600px) {
   .row .col-2-of-3 {
@@ -757,7 +757,7 @@ body {
   }
 }
 .row .col-2-of-4 {
-  width: calc(2 * (100% - 3 * 6rem) / 4 + 6rem);
+  width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem);
 }
 @media (max-width: 600px) {
   .row .col-2-of-4 {
@@ -765,7 +765,7 @@ body {
   }
 }
 .row .col-3-of-4 {
-  width: calc(3 * (100% - 3 * 6rem) / 4 + 2 * 6rem);
+  width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
 }
 @media (max-width: 600px) {
   .row .col-3-of-4 {
@@ -1106,7 +1106,7 @@ body {
   text-align: center;
 }
 
-.around__text, .transportation__text, .restaurants__text, .entertainment__text, .stores__text {
+.around__text, .transportation__text, .foodspots__text, .entertainment__text, .stores__text {
   text-align: justify;
   font-size: 1.7rem;
   word-spacing: 3px;
@@ -1119,12 +1119,6 @@ body {
 }
 .foodspots__description {
   text-align: justify right;
-  font-size: 1.7rem;
-  word-spacing: 3px;
-  font-weight: 300;
-}
-.foodspots__text {
-  text-align: justify;
   font-size: 1.7rem;
   word-spacing: 3px;
   font-weight: 300;
@@ -1142,12 +1136,6 @@ body {
 }
 .stores__description {
   text-align: justify right;
-  font-size: 1.7rem;
-  word-spacing: 3px;
-  font-weight: 300;
-}
-.stores__text {
-  text-align: justify;
   font-size: 1.7rem;
   word-spacing: 3px;
   font-weight: 300;

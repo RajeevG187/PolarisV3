@@ -62,9 +62,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
     </head>
 
     <body onload="closePreloader()">
-
-
-    <?php require_once('partials/header.php'); ?>
+    
+        <?php require_once('partials/header.php'); ?>
 
         <header class="header header__around">
             <div class="container">
@@ -145,6 +144,9 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     <?php endforeach; ?>
 
                     <br>
+                <!-- </div>
+            </div>
+        </section> -->
 
         <div class="line-break"></div>
 
@@ -180,8 +182,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                 </div>
             </div>
         </section>
-        <div class="line-break"></div>
 
+        <div class="line-break"></div>
 
         <section class="section">
             <div class="container">
@@ -210,10 +212,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     </div>
 
                 </div>
-                    </div>
-                    </section>
-                    <div class="line-break"></div>
-
+            </div>
+        </section>
 
         <div class="line-break"></div>
 
@@ -240,11 +240,6 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                             </div>
                         </div>
                     <?php endforeach; ?>
-                    
-                    
-
-
-
                 </div>
             </div>
         </section>
@@ -266,7 +261,9 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             </div>
         </section>
 
-        <?php require_once('partials/footer.php'); ?>
+        <?php 
+        require_once('partials/footer.php'); 
+        ?>
 
     </body>
 
