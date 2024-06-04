@@ -9,7 +9,6 @@ if (!file_exists($jsonFilePath) || !is_readable($jsonFilePath)) {
 
 // Read JSON file
 $json = file_get_contents($jsonFilePath);
-
 // Decode JSON data to PHP associative array
 $data = json_decode($json, true);
 

@@ -8,19 +8,19 @@
             "name":"M. V. Kiran Sooraj",
             "message":"On behalf of CoSA, I would like to extend a warm and heartiest welcome to each one of you to IIT Bhilai. Past two years have been rough for all and yet you have made it to the prestigious IIT system. With all your efforts and patience paid off, the wait for the beginning of a completely new and exciting phase of your life as an IITian has now ended. Here you will find exceptional experiences which will help you to grow, develop, and explore new interests helping you fully realize your potential. We welcome you to witness a culture of diversity, tradition, commitment to academic excellence and a plethora of opportunities to grow and develop. These 4 years of under-graduate degree shall not only help in igniting the best of scholastic achievements but also endow you with a wide range of exploration and explication in all sorts of hobbies and pursuits. You make friends for life here, and small and significant steps will render you in becoming better humans and professionals in years to come. I am sure you will enjoy your stay at IIT Bhilai and will contribute to positive growth as a part of this esteemed institution."
         },
-        "cult": {
+        "Cultural Affairs": {
             "name":"Rishit Agarwal",
             "message":""
         },
-        "sports": {
+        "Games & Sports Affairs": {
             "name":"Lalit Gour",
             "message":""
         },
-        "scitech": {
+        "Science and Technology": {
             "name":"Aditya Sankhla",
             "message":""
         },
-        "acad": {
+        "Academic Affairs": {
             "name":"Noman Alam Kherani",
             "message":""
         },
@@ -39,9 +39,9 @@
             {
                 "name": "Prayatna",
                 "description":"\"Prayatna\", the annual intra-institute sports tournament is organized every year. Prayatna, which means \"effort\", is aimed to arouse the sportsman spirit of the budding technocrats. This is an amalgamation of team spirit and healthy competitive spirit which goes on in a three-month long array of varied sports fixtures involving eight sports presently offered by the institute, viz table tennis, chess, volleyball, badminton, football, cricket, athletics and basketball. Prayatna is sure to add another feather to the cap of this newly established yet fervently developing institute.",
-                "img1": "..//images/life/badminton-1.JPG",
+                "img1": "..//public/images/life/badminton-1.JPG",
                 "alt1": "Prayatna",
-                "img2": "..//images/life/badminton-2.JPG",
+                "img2": "..//public/images/life/badminton-2.JPG",
                 "alt2": "Prayatna"
             },
             {
@@ -55,17 +55,17 @@
             {
                 "name": "Kite flying",
                 "description":"The Council of Student Affairs cherishes the diverse culture at IIT Bhilai and attempts to unite everyone by celebrating all festivals with equal zeal. 14th January is celebrated as Makar Sankranti across India which marks the beginning of Uttarayan and Kite flying is an intrinsic part. CoSA brings together all the residents of the campus as all celebrate as friends and family in the Kite Flying in which colourful kites adorn the skies and smile adorns the faces of all! As one says, \"तीळ गूळ घ्या नी गोड-गोड बोला.\"",
-                "img1": "..//images/life/kite-1.JPG",
+                "img1": "..//public/images/life/kite-1.JPG",
                 "alt1": "Kite flying",
-                "img2": "..//images/life/kite-2.JPG",
+                "img2": "..//public/images/life/kite-2.JPG",
                 "alt2": "Kite flying"
             },
             {
                 "name": "Ganesh Chaturthi",
                 "description":"It begins on Ganesh Chaturthi when people install the statue of Lord Ganesha in their homes. To give the hostelers a feel of Home away from home, a statue of Lord Ganesha is ensconced in the recreation room of Hostel Castle Dio. The celebration includes a Puja by Director Sir followed by aarthi daily until we bid adieu to Bappa. Ganesh Chaturthi is celebrated with devotion and gusto.",
-                "img1": "..//images/life/ganesh-1.JPG",
+                "img1": "..//public/images/life/ganesh-1.JPG",
                 "alt1": "Ganesh Chaturthi",
-                "img2": "..//images/life/ganesh-2.JPG",
+                "img2": "..//public/images/life/ganesh-2.JPG",
                 "alt2": "Ganesh Chaturthi"
             },
             {
@@ -79,9 +79,9 @@
             {
                 "name": "Diwali Celebration",
                 "description":"Diwali not only brings out the creativity of students but also helps them bond together – something which symbolises Diwali. Students themselves put efforts in decorating and lighting up hostel with bright and colourful lights. On this special occasion everybody celebrates by lighting fireworks and sky lanterns. This is followed by a DJ night where everyone dances and groove to the mix beats.",
-                "img1": "..//images/life/diwali-1.JPG",
+                "img1": "..//public/images/life/diwali-1.JPG",
                 "alt1": "Diwali Celebration",
-                "img2": "..//images/life/diwali-2.JPG",
+                "img2": "..//public/images/life/diwali-2.JPG",
                 "alt2": "Diwali Celebration"
             },
             {
