@@ -144,9 +144,9 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     <?php endforeach; ?>
 
                     <br>
-                <!-- </div>
+                </div>
             </div>
-        </section> -->
+        </section>
 
         <div class="line-break"></div>
 
