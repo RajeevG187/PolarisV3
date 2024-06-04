@@ -64,8 +64,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
       <div class="container">
                 <div class="header__hero-box">
                     <h1 class="heading-primary" style="font-family: 'Bangers'; letter-spacing: 5px;font-size:900%;"><?php echo $data['header']['heading'];?><div class="rw-words rw-words-1" style="letter-spacing: 10px;">
-                        <?php foreach($data['heading']['text'] as $year): ?>
-                          <span><?php echo $year['year'];?></span>
+                        <?php foreach($data['heading']['text'] as $number): ?>
+                          <span><?php echo $number['year'];?></span>
                         <?php endforeach; ?>
                         <br>
                     </div></h1>
