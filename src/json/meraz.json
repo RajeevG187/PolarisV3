@@ -1,13 +1,10 @@
 {
   "header": {
-    "heading": "Meraz",
+    "heading": "Meraz' ",
     "subtitle": "The Annual Techno-Cultural Fest of IIT Bhilai"
   },
   "heading": {
     "text": [
-      {
-        "year": "18"
-      },
       {
         "year": "19"
       },
@@ -39,12 +36,6 @@
         "link": "https://www.youtube.com/embed/vrHzl-E-Pvs",
         "site-link": "https://meraz.in",
         "site-name": "Meraz'19 Official Website"
-      },
-      {
-        "title": "Meraz '18 Trailer",
-        "link": "https://www.youtube.com/embed/2fMa3wJy0H0",
-        "site-link": "http://meraz.iitbhilai.ac.in",
-        "site-name": "Meraz'18 Official Website"
       }
     ]
   },
@@ -70,16 +61,6 @@
         {
           "title": "Meraz '19 Aftermovie",
           "link": "https://www.youtube.com/embed/fjtuMhY1KK8"
-        }
-      ],
-      [
-        {
-          "title": "Meraz '18 Aftermovie",
-          "link": "https://www.youtube.com/embed/uOQbTb4-ejs"
-        },
-        {
-          "title": "Meraz Teaser Trailer",
-          "link": "https://www.youtube.com/embed/gKt4JCaQlmA"
         }
       ]
     ]

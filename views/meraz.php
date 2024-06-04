@@ -61,13 +61,18 @@ if (json_last_error() !== JSON_ERROR_NONE) {
       ?>
 
       <header class="header header__meraz">
-          <div class="container">
-              <div class="header__hero-box">
-                  <h1 class="heading-primary" style="font-family: 'Bangers'; letter-spacing: 5px;font-size:900%;"><?php echo $data["header"]["heading"]; ?></h1>
-                  <p class="heading-subtitle"><?php echo $data["header"]["subtitle"]; ?>.</p>
-              </div>
-          </div>
-      </header>
+      <div class="container">
+                <div class="header__hero-box">
+                    <h1 class="heading-primary" style="font-family: 'Bangers'; letter-spacing: 5px;font-size:900%;"><?php echo $data['header']['heading'];?><div class="rw-words rw-words-1" style="letter-spacing: 10px;">
+                        <?php foreach($data['heading']['text'] as $year): ?>
+                          <span><?php echo $year['year'];?></span>
+                        <?php endforeach; ?>
+                        <br>
+                    </div></h1>
+                    <p class="heading-subtitle"><?php echo $data['header']['subtitle'];?></p>
+                </div>
+            </div>
+        </header>
 
       <section class="section">
         <?php foreach ($data["meraz-videos"]['info'] as $item): ?>
