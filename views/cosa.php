@@ -1,5 +1,5 @@
 <?php
-$jsonfilepath='C:\my vs code folders\PolarisV3\src\json\cosa.json' ;
+$jsonfilepath='..\src\json\cosa.json' ;
 
 if(!file_exists($jsonfilepath)||!is_readable($jsonfilepath)){
 die('Error: JSON file not found or not readable.');
