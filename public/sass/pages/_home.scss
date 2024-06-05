@@ -53,6 +53,20 @@
     }
 }
 
+// edited portion for to align image to the right 
+.information__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3.5vw;
+}
+@media screen and (max-width: 600px) {
+   .information__box{
+        display: inline;
+   }
+}
+
+
 .campus {
     text-align: center;
 
