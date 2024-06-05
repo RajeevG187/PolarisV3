@@ -217,9 +217,9 @@ body {
   opacity: 0;
   overflow: hidden;
   color: white;
-  -webkit-animation: rotateWord 18s linear infinite 0s;
-  -ms-animation: rotateWord 18s linear infinite 0s;
-  animation: rotateWord 18s linear infinite 0s;
+  -webkit-animation: rotateWord 9s linear infinite 0s;
+  -ms-animation: rotateWord 9s linear infinite 0s;
+  animation: rotateWord 9s linear infinite 0s;
 }
 
 .rw-words-1 span:nth-child(2) {
@@ -741,7 +741,7 @@ body {
   }
 }
 .row .col-2-of-3 {
-  width: calc(2 * (100% - 2 * 6rem) / 3 + 6rem);
+  width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
 }
 @media (max-width: 600px) {
   .row .col-2-of-3 {
@@ -757,7 +757,7 @@ body {
   }
 }
 .row .col-2-of-4 {
-  width: calc(2 * (100% - 3 * 6rem) / 4 + 6rem);
+  width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem);
 }
 @media (max-width: 600px) {
   .row .col-2-of-4 {
@@ -765,7 +765,7 @@ body {
   }
 }
 .row .col-3-of-4 {
-  width: calc(3 * (100% - 3 * 6rem) / 4 + 2 * 6rem);
+  width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
 }
 @media (max-width: 600px) {
   .row .col-3-of-4 {
