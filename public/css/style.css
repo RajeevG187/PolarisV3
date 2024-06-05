@@ -821,7 +821,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  gap: 5vw;
+  gap: 3.5vw;
 }
 
 @media screen and (max-width: 600px) {
@@ -1118,7 +1118,7 @@ body {
   text-align: center;
 }
 
-.around__text, .transportation__text, .restaurants__text, .entertainment__text, .stores__text {
+.around__text, .transportation__text, .foodspots__text, .entertainment__text, .stores__text {
   text-align: justify;
   font-size: 1.7rem;
   word-spacing: 3px;
@@ -1131,12 +1131,6 @@ body {
 }
 .foodspots__description {
   text-align: justify right;
-  font-size: 1.7rem;
-  word-spacing: 3px;
-  font-weight: 300;
-}
-.foodspots__text {
-  text-align: justify;
   font-size: 1.7rem;
   word-spacing: 3px;
   font-weight: 300;
@@ -1154,12 +1148,6 @@ body {
 }
 .stores__description {
   text-align: justify right;
-  font-size: 1.7rem;
-  word-spacing: 3px;
-  font-weight: 300;
-}
-.stores__text {
-  text-align: justify;
   font-size: 1.7rem;
   word-spacing: 3px;
   font-weight: 300;
