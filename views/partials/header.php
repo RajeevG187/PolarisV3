@@ -27,9 +27,8 @@
     </svg>
 </div>
 
-
 <header class="navigation">
-  <div class="logo">Polaris</div>
+  <a href="/" style = "text-decoration: none"><div class="logo">Polaris</div></a>
   
   <input type="checkbox" id="menu-bar">
   <label for="menu-bar">Menu</label>
