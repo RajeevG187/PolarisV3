@@ -7,7 +7,7 @@
 
     "generalsecretary": 
     {
-        "name": "Rishit Agarwal"
+        "name": "Smit Maurya"
     },
 
     "text": 
@@ -32,7 +32,7 @@
 "club":[
     {
         "name": "Renaissance : The Fine Arts Club",
-        "coordinator": "Lakshay",
+        "coordinator": "Lakshay Gupta",
         "description": "Arts club is all about providing a platform for every student to express their imagination,creativity,ideas or a world view through different artworks.The club provides you an environment in finding your hidden talent and endeavors to help the students cope with academic stress and create an enjoyable ambience for them.",
        "topic":"Objective:",
         "list": "The club involves in various events including Meraz (The Cultural Fest) Decoration, participation in Inter IIT Cultural Meet and organizing different activities like organising drawing competition, festival decoration, T-shirt painting, etc in the institute throughout the year.",
@@ -43,10 +43,10 @@
                 "txt": "Design college T-shirts and hoodie"
             },
             {    
-                "txt": "Design posters and certificates for clubs and various events of our college."
+                "txt": "Design posters and certificates for clubs and various events of our college"
             },
             {    
-                "txt": "Festival decorations including rangoli were also done under this club."
+                "txt": "Festival decorations including rangoli were also done under this club"
             },
             {   
                 "txt": "Organise Drawing Competition"
@@ -68,7 +68,7 @@
     },
     {
        "name":"Beathackers : The Dance Club",
-       "coordinator": "Ayush",
+       "coordinator": "Ayush Patel",
        "description": "\"Dance is one of the ways to express ourselves and to overcome the stress of our daily lives\". Beathackers is the official dance club of IIT Bhilai. Feel your feet tingling when the bass drops? Wanna learn a moonwalk or sway like Hrithik? If yes, then this the place where you can let the beats have control. The motive of the club is to make students learn about various dance forms such as jazz, break dance, hip hop and some of the popular western forms. The objective is to prepare a strong team for participating in dance events at national and international levels. The club organizes various workshops and zumba sessions throughout the year.",
        "subtopic":"Observations:",
        "points":
@@ -141,7 +141,7 @@
     },
     {
         "name":"Quizzotica : The Quizzing Club",
-        "coordinator": "Shreyas Khainrnar",
+        "coordinator": "Uday Bhardwaj",
         "description": "Interested in Quizzes regarding Web Series, Memes, Movies, Tech etc, this is the club for you. Quizzing Club organizes regular quiz competitions and workshops to keep you updated with the current affairs and also to motivate you regarding your awareness towards current affairs. The primary goal of this club is to increase the interest of students towards quizzing and to participate and represent IIT Bhilai in the Quizzing Competitions at InterIIT Cultural Meet. ExQuizite - The Annual Quizzing Event, hosted by Quizzotica gives you the opportunity to unravel your talent and win exciting prizes. ",
         "facebook": "https://www.facebook.com/QuizzoticaIITBh/",
         "instagram": "https://instagram.com/quizzotica_iitbh?igshid=1skn0co75e5cr",
@@ -176,7 +176,7 @@
     },
     {
         "name":"The Pixel Snappers : The Photography Club",
-        "coordinator": " Anumula Chaitanya Sai",
+        "coordinator": "Ganta Srujan",
        "description": "From the very beginning of the IIT Bhilai members of the club have showed their dedication and covered all the events organised inside the institute. We, as the members of the photography club, seek to display our love for photography through the consecutive criticism of our peers, leisure activities that involve photography, and the promotion of photography in and around the IIT Bhilai campus.",
         "topic":"Activities:",
        "list": "The club have captured moments from every event whether it was cultural event or NSS activity in both photos as well as videos. Members of the club have also covered all the editions of PRAYATNA (Intra College Sports Meet). Club has organised photography competitions weekly starting from IIT Bhilai’s first batch itself and giving prizes to winners. There has been a regular interaction among the club members to exchange their knowledge and improve one's skill in photography. The club plays a major role in running the institute's YouTube channel as a content creator and editor ",
@@ -209,7 +209,7 @@
 {
     "name":"DesignX : The Digital Arts Club",
     
-    "coordinator": "Ravinder Sharma",
+    "coordinator": "Sai Surya Talla",
     "description": "DesignX is a newly formed Digital Arts Club of IIT Bhilai.Everyone is Creative. At some point, everyone displays their Creative Skill to the World.We, at DesignX, wish to channel that Creativity to more Artistic and Practical Tasks. DesignX is not only about making some cool designs, but also learning things on the way. DesignX designs posters, certificates and T-Shirts for several Clubs and events at IIT Bhilai.",
     "facebook": "http://fb.me/DesignXIITBhilai",
     "instagram": "https://instagram.com/designx_iitbhilai?igshid=m4rpuanay1jw",
@@ -255,7 +255,7 @@
     },
 
     {    "name":"FPS - The Film Production Society",
-        "secretary": "Harsh Agrawal And Rishabh Sahu",
+        "secretary": "Galab Vamsi and Yuvraj Mandrah",
         "description": 
         [
             {
@@ -275,7 +275,7 @@
 
     { 
           "name":"NIRVANA",
-        "secretary": "Anamika Rajesh",
+        "secretary": "Anamika Rajesh and Joseph",
       "description":
         [
             {
