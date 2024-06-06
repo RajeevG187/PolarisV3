@@ -1,3 +1,24 @@
+<?php
+// Define the path to the JSON file
+$jsonFilePath = '../src/json/queries.json';
+
+// Check if the JSON file exists and is readable
+if (!file_exists($jsonFilePath) || !is_readable($jsonFilePath)) {
+    die('Error: JSON file not found or not readable.');
+}
+
+// Read JSON file
+$json = file_get_contents($jsonFilePath);
+
+// Decode JSON data to PHP associative array
+$data = json_decode($json, true);
+
+// Check if JSON data is valid
+if (json_last_error() !== JSON_ERROR_NONE) {
+    die('Error: Invalid JSON data. ' . json_last_error_msg());
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,38 +41,36 @@
         <title>Polaris - Student Mentorship Program</title>
 
         <style>
-        #blink {
-            font-size: 20px;
-            font-weight: bold;
-            font-family: sans-serif;
-        }
-    </style>
+            #blink {
+                font-size: 20px;
+                font-weight: bold;
+                font-family: sans-serif;
+            }
+        </style>
 
-<meta name="google-site-verification" content="psQtXO_U0R9o5w-fP7i3zrlm_g3nDtP0Mg6-Xg-q73w" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121551593-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
+        <meta name="google-site-verification" content="psQtXO_U0R9o5w-fP7i3zrlm_g3nDtP0Mg6-Xg-q73w" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121551593-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-		  gtag('config', 'UA-121551593-1');
-		</script>
+            gtag('config', 'UA-121551593-1');
+        </script>
 
     </head>
 
     <body onload="closePreloader()">
-
-
-      <?php
-      require_once('partials/header.php');
-      ?>
+        <?php
+        require_once('partials/header.php');
+        ?>
 
         <header class="header header__queries">
             <div class="container">
                 <div class="header__hero-box">
-                    <h1 class="heading-primary">Queries</h1>
-                    <p class="heading-subtitle">Ask anything...</p>
+                    <h1 class="heading-primary"><?php echo $data["header"]["head"]; ?></h1>
+                    <p class="heading-subtitle"><?php echo $data["header"]["text"]; ?></p>
                 </div>
             </div>
         </header>
@@ -59,28 +78,21 @@
         <section class="section">
             <div class="container">
                 <div class="faq">
-                    <h2 class="heading-secondary">Frequently Asked Questions</h2>
+                    <h2 class="heading-secondary"><?php echo $data["faq"]["head"]; ?></h2>
                     <div class="info">
-                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> What are the programmes of study at IIT Bhilai?</h3>
-                        <p class="info__text">IIT Bhilai is currently offering four-year B.Tech., two-year M.Tech and Ph.D degree programs. The Academic system and culture of IIT Bhilai is inspired by that at IIT Hyderabad. The curriculum lays strong emphasis on developing industrial and practical skills while backing them up with a concrete theoretical foundation.</p>
+                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data["faq"]["sub-lists"][0]["ques"]; ?></h3>
+                        <p class="info__text"><?php echo $data["faq"]["sub-lists"][0]["ans"]; ?></p>
                     </div>
 
                     <div class="info">
-                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> What departments of study are available?</h3>
-                        <p class="info__text">There are ten departments of study available here at IIT Bhilai.</p>
+                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data["faq"]["sub-lists"][1]["ques"]; ?></h3>
+                        <p class="info__text"><?php echo $data["faq"]["sub-lists"][1]["ans"]; ?></p>
                         <ul class="info__list">
-                            <li class="info__item">Computer Science and Engineering</li>
-                            <li class="info__item">Electrical Engineering</li>
-                            <li class="info__item">Materials Science and Metallurgical Engineering</li>
-                            <li class="info__item">Mechanical Engineering</li>
-                            <li class="info__item">Chemistry</li>
-                            <li class="info__item">Mathematics</li>
-                            <li class="info__item">Physics</li>
-                            <li class="info__item">Bioscience and Biomedical Engineering</li>
-                            <li class="info__item">Electronics & Communication Engineering </li>
-                            <li class="info__item">Liberal Arts</li>
+                            <?php foreach ($data["faq"]["sub-lists"][1]['sub-ans-list'] as $department): ?>
+                                <li class="info__item"><?php echo $department["detail"]; ?></li>
+                            <?php endforeach;?>
                         </ul>
-                        <p class="info__text">For more info about Programs that offered by these individual departments , kindly visit <a href="../views/departments.php">Departments<a> page.</p>
+                        <p class="info__text"><?php echo $data["faq"]["sub-lists"][1]["moredetails"]; ?><a href="../views/departments.php"><?php echo $data["faq"]["sub-lists"][1]["moredetailsurl"]; ?><a> <?php echo $data["faq"]["sub-lists"][1]["link-moredetails"]; ?></p>
                     </div>
 
                     <!-- <div class="info">
@@ -89,45 +101,36 @@
                     </div> -->
 
                     <div class="info">
-                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> How is the Internet Connectivity?</h3>
-                        <p class="info__text">IIT Bhilai gets it's internet connection from NKN (National Knowledge Network), which is known for providing very high speed connection to IITs and other Govt institutions. There is also a high speed BSNL connection, as a backup. Completely uncapped connection is provided to the students. There are several claims that they were getting around 120 mbps over LAN connection in hostel. Systems like proxy are avoided to ensure maximum compatibility.</p>
-                    </div>
-<!-- 
-                    <div class="info">
-                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> Is it mandatory to report and do the registration on 27th October 2022?</h3>
-                        <p class="info__text">Yes. 27th October is the registration date and it is compulsory for all students to report by 8:30am on the same date. Admission process won't be allowed post this date.</p>
-                    </div> -->
-
-                    <div class="info">
-                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> What about hostel room allocation and accommodation for parents?</h3>
-                        <p class="info__text">The Hostel rooms will be allocated and will be completely random. No accommodation will be provided to the parents they can stay in nearby hotels.</p>
+                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data["faq"]["sub-lists"][2]["ques"]; ?></h3>
+                        <p class="info__text"><?php echo $data["faq"]["sub-lists"][2]["ans"]; ?></p>
                     </div>
 
                     <div class="info">
-                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> What are the Scholarships available for students to avail?</h3>
-                        <p class="info__text">Institute supports several scholarships, fellowships and various forms of assistantships for deserving students.
-                            <ul class="info__list">
-                                    <li class="info__item"> Merit-cum-Means (MCM) Scholarship</li>
-                                    <li class="info__item"> Institute SC/ST Scholarship</li>
-                                    <li class="info__item"> Institute Free Studentship Scholarship</li>
-                                    <li class="info__item"> Institute Fellowship to Postgraduate Students</li>
-                            </ul>
-                       </p>
-                       <p class="info__text">
-                              For Further Details refer Academic Brochure - <a href="https://www.iitbhilai.ac.in/index.php?pid=info_brochure">Click here</a>
-                                    <br>
-                          Also there are few State government and Central government scholarships for further details contact -<a href="https://www.iitbhilai.ac.in/index.php?pid=acad_contact">Academics Department</a>
-                      </p>
+                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data["faq"]["sub-lists"][3]["ques"]; ?></h3>
+                        <p class="info__text"><?php echo $data["faq"]["sub-lists"][3]["ans"]; ?></p>
                     </div>
 
                     <div class="info">
-                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> What are the measures taken against Ragging?</h3>
-                        <p class="info__text">Yet IIT Bhilai is a ragging free campus, there is a policy against ragging and every students signs a letter to the effect that they will not participate in ragging. Everybody is vigilant to prevent any attempt of ragging. A reported case of ragging is dealt with strictly. </p>
+                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data["faq"]["sub-lists"][4]["ques"]; ?></h3>
+                        <p class="info__text"><?php echo $data["faq"]["sub-lists"][4]["ans"]; ?></p>
+                        <ul class="info__list">
+                            <?php foreach ($data["faq"]["sub-lists"][4]['sub-list-scholarship'] as $scholarship): ?>
+                                <li class="info__item"><?php echo $scholarship["detail"]; ?></li>
+                            <?php endforeach;?>
+                        </ul>
+                        <p class="info__text">
+                            <?php echo $data["faq"]["sub-lists"][4]["moredetails"]; ?><a href=<?php echo $data["faq"]["sub-lists"][4]["moredetailsurl"]; ?>><?php echo $data["faq"]["sub-lists"][4]["link-moredetails"]; ?></a><br>
+                            <?php echo $data["faq"]["sub-lists"][4]["academicdetails"]; ?><a href=<?php echo $data["faq"]["sub-lists"][4]["academicdetailsurl"]; ?>><?php echo $data["faq"]["sub-lists"][4]["link-academicdetails"]; ?></a>
+                        </p>
                     </div>
 
                     <div class="info">
-                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> Is it safe for female students in the campus, what are the safety measures taken?</h3>
-                        <p class="info__text">Faculty members and Director reside on the campus itself and they are available for assistance. Our campus security is here for 24*7 support. Senior students also support the new students to get acquainted with the city and campus life - through the Mentorship program. If you want to raise a complaint, you will be supported too. We also have an Anti-ragging unit for support in campus.</p>
+                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data["faq"]["sub-lists"][5]["ques"]; ?></h3>
+                        <p class="info__text"><?php echo $data["faq"]["sub-lists"][5]["ans"]; ?></p>
+                    </div>
+                    <div class="info">
+                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data["faq"]["sub-lists"][6]["ques"]; ?></h3>
+                        <p class="info__text"><?php echo $data["faq"]["sub-lists"][6]["ans"]; ?></p>
                     </div>
                 </div>
             </div>

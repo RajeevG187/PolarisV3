@@ -1,114 +1,108 @@
 {
-    "header": {
-        "head": "Queries",
-        "text": "Ask anything..."
-    },
+  "header": {
+    "head": "Queries",
+    "text": "Ask anything..."
+  },
 
-    "faq": {
-        "head": "Frequently Asked Questions",
-        "sub-lists": [
-            {
-                "ques": "What are the programmes of study at IIT Bhilai?",
-                "ans": "IIT Bhilai is currently offering four-year B.Tech., two-year M.Tech and Ph.D degree programs. The Academic system and culture of IIT Bhilai is inspired by that at IIT Hyderabad. The highlight of the academics here is the Fractal System of distributing courses across the semesters. The curriculum lays strong emphasis on developing industrial and practical skills while backing them up with a concrete theoretical foundation."
-            },
+  "faq": {
+    "head": "Frequently Asked Questions",
+    "sub-lists": [
+      {
+        "ques": "What are the programmes of study at IIT Bhilai?",
+        "ans": "IIT Bhilai is currently offering four-year B.Tech., two-year M.Tech and Ph.D degree programs. The Academic system and culture of IIT Bhilai is inspired by that at IIT Hyderabad. The highlight of the academics here is the Fractal System of distributing courses across the semesters. The curriculum lays strong emphasis on developing industrial and practical skills while backing them up with a concrete theoretical foundation."
+      },
 
-            {
-                "ques": "What departments of study are available?",
-                "ans": "There are ten departments of study available here at IIT Bhilai.",
-                "sub-ans-list":[
-                    {
-                        "detail":"Computer Science and Engineering"
-                    },
+      {
+        "ques": "What departments of study are available?",
+        "ans": "There are ten departments of study available here at IIT Bhilai.",
+        "sub-ans-list": [
+          {
+            "detail": "Computer Science and Engineering"
+          },
 
-                    {
-                        "detail":"Electrical Engineering"
-                    },
+          {
+            "detail": "Electrical Engineering"
+          },
 
-                    {
-                        "detail":"Materials Science and Metallurgical Engineering"
-                    },
-                    {
-                        "detail":"Mechanical Engineering"
-                    },
-                    {
-                        "detail":"Chemistry"
-                    },
-                    {
-                        "detail":"Mathematics"
-                    },
-                    {
-                        "detail":"Physics"
-                    },
-                    {
-                        "detail":"Bioscience and Biomedical Engineering"
-                    },
-                    {
-                        "detail":"Electronics & Communication Engineering"
-                    },
-                    {
-                        "detail":"Liberal Arts"
-                    }
-                ],
+          {
+            "detail": "Materials Science and Metallurgical Engineering"
+          },
+          {
+            "detail": "Mechanical Engineering"
+          },
+          {
+            "detail": "Chemistry"
+          },
+          {
+            "detail": "Mathematics"
+          },
+          {
+            "detail": "Physics"
+          },
+          {
+            "detail": "Bioscience and Biomedical Engineering"
+          },
+          {
+            "detail": "Electronics & Communication Engineering"
+          },
+          {
+            "detail": "Liberal Arts"
+          }
+        ],
 
-                "moredetails": " For more info about Programs that offered by these individual departments , kindly visit -",
-                "moredetailsurl": "documents",
-                "link-moredetails": "Documents"
+        "moredetails": " For more info about Programs that offered by these individual departments , kindly visit - ",
+        "moredetailsurl": "Departments",
+        "link-moredetails": "page."
+      },
 
-            },
+      {
+        "ques": "How is the Internet Connectivity?",
+        "ans": "IIT Bhilai gets it's internet connection from NKN (National Knowledge Network), which is known for providing very high speed connection to IITs and other Govt institutions. There is also a high speed BSNL connection, as a backup. Completely uncapped connection is provided to the students. There are several claims that they were getting around 120 mbps over LAN connection in hostel. Systems like proxy are avoided to ensure maximum compatibility."
+      },
 
-            
+      {
+        "ques": "What about hostel room allocation and accommodation for parents?",
+        "ans": "The Hostel rooms will be completely allocated upon sharing basis and will be completely random. No accommodation will be provided to the parents they can stay in nearby hotels."
+      },
 
-            {
-                "ques": "How is the Internet Connectivity?",
-                "ans": "IIT Bhilai gets it's internet connection from NKN (National Knowledge Network), which is known for providing very high speed connection to IITs and other Govt institutions. There is also a high speed BSNL connection, as a backup. Completely uncapped connection is provided to the students. There are several claims that they were getting around 120 mbps over LAN connection in hostel. Systems like proxy are avoided to ensure maximum compatibility."
-            },
+      {
+        "ques": "What are the Scholarships available for students to avail?",
+        "ans": "Institute supports several scholarships, fellowships and various forms of assistantships for deserving students.",
+        "sub-list-scholarship": [
+          {
+            "detail": "Merit-cum-Means (MCM) Scholarship"
+          },
 
-            
+          {
+            "detail": "Institute SC/ST Scholarship"
+          },
 
-            {
-                "ques": "What about hostel room allocation and accommodation for parents?",
-                "ans": "The Hostel rooms will be completely allocated upon sharing basis and will be completely random. No accommodation will be provided to the parents they can stay in nearby hotels."
-            },
+          {
+            "detail": "Institute Free Studentship Scholarship"
+          },
 
-            {
-                "ques": "What are the Scholarships available for students to avail?",
-                "ans": "Institute supports several scholarships, fellowships and various forms of assistantships for deserving students.",
-                "sub-list-scholarship":[
-                    {
-                        "detail":"Merit-cum-Means (MCM) Scholarship"
-                    },
-                    
-                    {
-                        "detail":"Institute SC/ST Scholarship"
-                    },
+          {
+            "detail": "Institute Fellowship to Postgraduate Students"
+          }
+        ],
+        "moredetails": " For Further Details refer Academic Brochure - ",
+        "moredetailsurl": "https://www.iitbhilai.ac.in/index.php?pid=info_brochure",
+        "link-moredetails": "Click here",
 
-                    {
-                        "detail":"Institute Free Studentship Scholarship"
-                    },
+        "academicdetails": "Also there are few State government and Central government scholarships for further details contact -",
+        "academicdetailsurl": "https://www.iitbhilai.ac.in/index.php?pid=acad_contact",
+        "link-academicdetails": "Academics Department"
+      },
 
-                    {
-                        "detail":"Institute Fellowship to Postgraduate Students"
-                    }
-                ],
-                "moredetails": " For Further Details refer Academic Brochure - ",
-                "moredetailsurl": "https://www.iitbhilai.ac.in/index.php?pid=info_brochure",
-                "link-moredetails": "Click here",
+      {
+        "ques": "What are the measures taken against Ragging?",
+        "ans": "Yet IIT Bhilai is a ragging free campus, there is a policy against ragging and every students signs a letter to the effect that they will not participate in ragging. Everybody is vigilant to prevent any attempt of ragging. A reported case of ragging is dealt with strictly. "
+      },
 
-                "academicdetails": "Also there are few State government and Central government scholarships for further details contact -",
-                "academicdetailsurl": "https://www.iitbhilai.ac.in/index.php?pid=acad_contact",
-                "link-academicdetails": "Academics Department"
-            },
-
-            {
-                "ques": "What are the measures taken against Ragging?",
-                "ans": "Yet IIT Bhilai is a ragging free campus, there is a policy against ragging and every students signs a letter to the effect that they will not participate in ragging. Everybody is vigilant to prevent any attempt of ragging. A reported case of ragging is dealt with strictly. "
-            },
-
-            {
-                "ques": "Is it safe for female students in the campus, what are the safety measures taken?",
-                "ans": "Faculty members and Director reside on the campus itself and they are available for assistance. Our campus security is here for 24*7 support. Senior students also support the new students to get acquainted with the city and campus life - through the Mentorship program. If you want to raise a complaint, you will be supported too. We also have an Anti-ragging unit for support in campus. "
-            }
-        ]
-    }
-    
+      {
+        "ques": "Is it safe for female students in the campus, what are the safety measures taken?",
+        "ans": "Faculty members and Director reside on the campus itself and they are available for assistance. Our campus security is here for 24*7 support. Senior students also support the new students to get acquainted with the city and campus life - through the Mentorship program. If you want to raise a complaint, you will be supported too. We also have an Anti-ragging unit for support in campus. "
+      }
+    ]
+  }
 }
