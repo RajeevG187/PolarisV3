@@ -7,7 +7,9 @@
 
     "generalsecretary": 
     {
-        "name": "Smit Maurya"
+        "name": "Smit Maurya",
+        "image": "images/President.jpg",
+        "email": "mailto:President_CoSA@iitbhilai.ac.in"
     },
 
     "text": 

@@ -22,151 +22,193 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="theme-color" content="#3498db">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#3498db">
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Bitter:700|Dancing+Script:700" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Bitter:700|Dancing+Script:700"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="../public/css/animate.css">
-        <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../public/css/animate.css">
+    <link rel="stylesheet" href="../public/css/style.css">
 
-        <title>Polaris - Student Mentorship Program</title>
+    <title>Polaris - Student Mentorship Program</title>
 
 
-        <meta name="google-site-verification" content="psQtXO_U0R9o5w-fP7i3zrlm_g3nDtP0Mg6-Xg-q73w" />
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121551593-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
+    <meta name="google-site-verification" content="psQtXO_U0R9o5w-fP7i3zrlm_g3nDtP0Mg6-Xg-q73w" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121551593-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-		  gtag('config', 'UA-121551593-1');
-		</script>
+        gtag('config', 'UA-121551593-1');
+    </script>
 
-    </head>
+</head>
 
-    <body onload="closePreloader()">
+<body onload="closePreloader()">
 
-      <?php
-      require_once('partials/header.php');
-      ?>
+    <?php
+    require_once ('partials/header.php');
+    ?>
 
-        <header class="header header__cultural">
-            <div class="container">
-                <div class="header__hero-box">
-                    <h1 class="heading-primary">Cultural Council</h1>
-                    <p class="heading-subtitle">Find your true talent....</p>
-                </div>
+    <header class="header header__cultural">
+        <div class="container">
+            <div class="header__hero-box">
+                <h1 class="heading-primary">Cultural Council</h1>
+                <p class="heading-subtitle">Find your true talent....</p>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <section class="section">
-            <div class="container">
+    <section class="section">
+        <div class="container">
+        <h2 class="heading-secondary">Cultural Clubs</h2>
+            <div class="clubs">
 
-                <div class="clubs">
-
-                    <h3 class="heading-tertiary">General Secretary - <?php echo $data['generalsecretary']['name']; ?></h3>
-
-                    <p class="clubs__text">We all, as a part of an elite league of institutes, aspire to work at the frontiers of human knowledge, innovate technology, initiate revolutions in science and propel national development to new heights. But often in such a competitive environment, work is stressed to the point of mania and this is when comes in the need of recreation. Rediscover your hobbies and explore new ones with Clubs at IIT Bhilai. Mind you there is absolutely no bound on anyone’s interest which also means that there is no bound on how many clubs you can be in – it is all up to you. Currently the following clubs are functional and conduct their respective activities at a regular basis:</p>
-
-                    <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow us:</span> <a href="https://www.facebook.com/IITBhilai.Cult/" class="outreach__link">Facebook</a>, <a href="https://instagram.com/culturals_iitbh?igshid=MzRlODBiNWFlZA==" class="outreach__link">Instagram</a></p>
-                    <br>
-
-                  
-                  <!--  <h3 class="heading-tertiary">UG Cultural Nominee - Vaishnavi Gupta</h3>
-                    <h3 class="heading-tertiary">PG Cultural Nominee - Abhisekh Shrivastava</h3> -->
-                    <br>
-
+                <!-- added a new div here -->
+                <!-- information__box is the same class that is used in the home page for the cosa president image -->
+                <div class="information__box">
+                    <div>
+                        <h3 class="heading-tertiary">General Secretary -
+                            <?php echo $data['generalsecretary']['name']; ?></h3><br><br>
+                        <p class="clubs__text">We all, as a part of an elite league of institutes, aspire to work at the
+                            frontiers of human knowledge, innovate technology, initiate revolutions in science and
+                            propel national development to new heights. But often in such a competitive environment,
+                            work is stressed to the point of mania and this is when comes in the need of recreation.
+                            Rediscover your hobbies and explore new ones with Clubs at IIT Bhilai. Mind you there is
+                            absolutely no bound on anyone’s interest which also means that there is no bound on how many
+                            clubs you can be in – it is all up to you. Currently the following clubs are functional and
+                            conduct their respective activities at a regular basis:</p><br>
+                        <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow us:</span>
+                            <a href="https://www.facebook.com/IITBhilai.Cult/" class="outreach__link">Facebook</a>, <a
+                                href="https://instagram.com/culturals_iitbh?igshid=MzRlODBiNWFlZA=="
+                                class="outreach__link">Instagram</a></p>
+                        <br>
+                    </div>
+                    <div>
+                        <div class="dev">
+                            <div class="col-1-of-4">
+                                <figure class="dev__shape">
+                                    <img src="../public/<?php echo $data['generalsecretary']['image']; ?>"
+                                        alt="<?php echo $data['generalsecretary']['name']; ?>"
+                                        class="dev__img dev__img--president">
+                                    <figcaption class="dev__caption"><?php echo $data['generalsecretary']['name']; ?>
+                                    </figcaption>
+                                </figure>
+                                <div class="dev__name"><?php echo $data['generalsecretary']['name']; ?><br>Gen Sec-Cult
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
+                <!--  <h3 class="heading-tertiary">UG Cultural Nominee - Vaishnavi Gupta</h3>
+               <h3 class="heading-tertiary">PG Cultural Nominee - Abhisekh Shrivastava</h3> -->
+                <br>
+            </div>
+            <br>
+            
+            <?php foreach ($data['club'] as $club): ?>
 
-                <h2 class="heading-secondary">Cultural Clubs</h2>
+                <div class="cultural">
+                    <h3 class="heading-tertiary"><?php echo $club['name']; ?></h3>
+                    <p class="cultural__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Coordinator:
+                        </span><?php echo $club['coordinator']; ?></p><br>
+                    <p class="cultural__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Description:
+                        </span><?php echo $club['description']; ?></p><br>
 
-                <?php foreach($data['club'] as $club):?>
+                    <? if (isset($club['topic'])): ?>
+                        <p class="cultural__text"><i
+                                class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo $club['topic']; ?></span><?php echo $club['list']; ?>
+                        </p><br>
+                    <?php endif; ?>
 
-                    <div class="cultural">
-                    <h3 class="heading-tertiary"><?php echo $club['name'];?></h3>
-                    <p class="cultural__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Coordinator: </span><?php echo $club['coordinator'];?></p><br>
-                    <p class="cultural__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Description: </span><?php echo $club['description'];?></p><br>
-                 
-                    <? if(isset($club['topic'])):?>
-                    <p class="cultural__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo $club['topic'];?></span><?php echo $club['list'];?></p><br>
-                    <?php endif;?>
+                    <? if (isset($club['subtopic'])): ?>
+                        <p class="cultural__text"><i
+                                class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo $club['subtopic']; ?></span></p>
+                        <ul class="info__list">
+                            <?php foreach ($club['points'] as $point): ?>
+                                <li class="info__item"><?php echo $point['obs']; ?></li>
+                            <?php endforeach; ?>
+                        </ul><?php endif; ?>
 
-                    <? if(isset($club['subtopic'])):?>
-                    <p class="cultural__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo $club['subtopic'];?></span></p>
-                    <ul class="info__list">
-                    <?php foreach($club['points'] as $point):?>
-                        <li class="info__item"><?php echo $point['obs'];?></li>
-                      <?php endforeach;?>
-                    </ul><?php endif;?>
+                    <? if (isset($club['subject'])): ?>
+                        <p class="cultural__text"><i
+                                class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo $club['subject']; ?></span></p>
+                        <ul class="info__list">
+                            <?php foreach ($club['txt_blck'] as $text): ?>
+                                <li class="info__item"><?php echo $text['txt']; ?></li>
+                            <?php endforeach; ?>
+                        </ul><?php endif; ?>
 
-                    <? if(isset($club['subject'])):?>
-                    <p class="cultural__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo $club['subject'];?></span></p>
-                    <ul class="info__list">
-                    <?php foreach($club['txt_blck'] as $text):?>
-                        <li class="info__item"><?php echo $text['txt'];?></li>
-                      <?php endforeach;?>
-                    </ul><?php endif;?>
-
-                    <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow us:</span> <a href="<?= $club['facebook']?>" class="outreach__link">Facebook</a>, <a href="<?= $club['instagram']?>"class="outreach__link">Instagram</a></p>
-<br>
+                    <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow us:</span> <a
+                            href="<?= $club['facebook'] ?>" class="outreach__link">Facebook</a>, <a
+                            href="<?= $club['instagram'] ?>" class="outreach__link">Instagram</a></p>
+                    <br>
 
                     <div class="row">
-                    <?php foreach($club['images'] as $img):?>
-                        <div class="col-1-of-2"><img src="<?= $img['img']?>" alt="<?= $img['alt']?>" class="cultural__photo"></div>
-                        <?php endforeach;?>
+                        <?php foreach ($club['images'] as $img): ?>
+                            <div class="col-1-of-2"><img src="<?= $img['img'] ?>" alt="<?= $img['alt'] ?>"
+                                    class="cultural__photo"></div>
+                        <?php endforeach; ?>
                     </div>
                 </div>
 
                 <div class="line-break"></div>
-                <?php endforeach;?>
+            <?php endforeach; ?>
 
-                </div>
+        </div>
 
-<div class="container">
-    <h2 class="heading-secondary">Cultural Societies</h2>
-    <?php foreach($data['society'] as $society):?>
-    <div class="cultural">
-    <h3 class="heading-tertiary"><?php echo $society['name'];?></h3>
-                    <p class="cultural__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Secretary: </span><?php echo $society['secretary'];?></p><br>
+        <div class="container">
+            <h2 class="heading-secondary">Cultural Societies</h2>
+            <?php foreach ($data['society'] as $society): ?>
+                <div class="cultural">
+                    <h3 class="heading-tertiary"><?php echo $society['name']; ?></h3>
+                    <p class="cultural__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Secretary:
+                        </span><?php echo $society['secretary']; ?></p><br>
                     <p class="cultural__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Description:</span>
-                  
-                    <?php foreach($society['description'] as $desc):?>
-                        <?php echo $desc['des'];?><br><br>
-                        <?php endforeach;?>
-                      </p> <br>
 
-<p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow us:</span> <? if(isset($society['facebook'])):?>
-<a href="<?= $society['facebook']?>" class="outreach__link">Facebook</a>,<?php endif;?> <a href="<?= $society['instagram']?>" class="outreach__link">Instagram</a></p>
-<br>
+                        <?php foreach ($society['description'] as $desc): ?>
+                            <?php echo $desc['des']; ?><br><br>
+                        <?php endforeach; ?>
+                    </p> <br>
+
+                    <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow us:</span>
+                        <? if (isset($society['facebook'])): ?>
+                            <a href="<?= $society['facebook'] ?>" class="outreach__link">Facebook</a>,<?php endif; ?> <a
+                            href="<?= $society['instagram'] ?>" class="outreach__link">Instagram</a>
+                    </p>
+                    <br>
                     <div class="row">
-                    <?php foreach($society['images'] as $img):?>
-                     <div class="col-1-of-2"><img src="<?= $img['img']?>" alt="<?= $img['alt']?>" class="scitech__photo"></div>
-                     <?php endforeach;?>
+                        <?php foreach ($society['images'] as $img): ?>
+                            <div class="col-1-of-2"><img src="<?= $img['img'] ?>" alt="<?= $img['alt'] ?>" class="scitech__photo">
+                            </div>
+                        <?php endforeach; ?>
                     </div>
 
 
                 </div>
                 <div class="line-break"></div>
-                <?php endforeach;?>
-                </div>
+            <?php endforeach; ?>
+        </div>
 
 
 
-</section>
+    </section>
 
 
-<?php
-require_once('partials/footer.php');
-?>
+    <?php
+    require_once ('partials/footer.php');
+    ?>
 
 </body>
 

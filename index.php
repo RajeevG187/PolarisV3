@@ -220,8 +220,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
                                 <a href="<?php echo $data['cosa']['president']['email']; ?>" class="dev__profile">
                                     <i class="far fa-envelope dev__profile--icon"></i>
-                                </a>
-                            </div>    
+                                </a>  
                         </div>
                     </div>
                 </div>
