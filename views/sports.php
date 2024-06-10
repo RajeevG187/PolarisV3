@@ -83,7 +83,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                         <br><br>
                         <p class="clubs__text"><?php echo $data['introduction']['text']; ?></p><br>
                         <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow us:
-                            </span><a href="<?php echo $data['header']['link']; ?>" class="outreach__link">Facebook</a>
+                            </span><a href="<?php echo $data['header']['link']; ?>" class="outreach__link"target="_blank">Facebook</a>
                         </p>
                         <br>
                     </div>

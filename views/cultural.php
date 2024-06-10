@@ -89,9 +89,9 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                             clubs you can be in – it is all up to you. Currently the following clubs are functional and
                             conduct their respective activities at a regular basis:</p><br>
                         <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow us:</span>
-                            <a href="https://www.facebook.com/IITBhilai.Cult/" class="outreach__link">Facebook</a>, <a
+                            <a href="https://www.facebook.com/IITBhilai.Cult/" class="outreach__link"target="_blank">Facebook</a>, <a
                                 href="https://instagram.com/culturals_iitbh?igshid=MzRlODBiNWFlZA=="
-                                class="outreach__link">Instagram</a></p>
+                                class="outreach__link"target="_blank">Instagram</a></p>
                         <br>
                     </div>
                     <div>
@@ -151,8 +151,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                         </ul><?php endif; ?>
 
                     <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow us:</span> <a
-                            href="<?= $club['facebook'] ?>" class="outreach__link">Facebook</a>, <a
-                            href="<?= $club['instagram'] ?>" class="outreach__link">Instagram</a></p>
+                            href="<?= $club['facebook'] ?>" class="outreach__link"target="_blank">Facebook</a>, <a
+                            href="<?= $club['instagram'] ?>" class="outreach__link"target="_blank">Instagram</a></p>
                     <br>
 
                     <div class="row">
@@ -184,8 +184,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
                     <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow us:</span>
                         <? if (isset($society['facebook'])): ?>
-                            <a href="<?= $society['facebook'] ?>" class="outreach__link">Facebook</a>,<?php endif; ?> <a
-                            href="<?= $society['instagram'] ?>" class="outreach__link">Instagram</a>
+                            <a href="<?= $society['facebook'] ?>" class="outreach__link"target="_blank">Facebook</a>,<?php endif; ?> <a
+                            href="<?= $society['instagram'] ?>" class="outreach__link"target="_blank">Instagram</a>
                     </p>
                     <br>
                     <div class="row">

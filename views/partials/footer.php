@@ -17,10 +17,10 @@
                     Connect
                 </div>
                 <ul class="footer__list">
-                    <li class="footer__item"><a href="https://www.facebook.com/iit.bh/" class="footer__link footer__link--facebook"><i class="fab fa-facebook-square"></i>Facebook</a></li>
-                    <li class="footer__item"><a href="https://twitter.com/IIT_Bhilai" class="footer__link footer__link--twitter"><i class="fab fa-twitter"></i>Twitter</a></li>
-                    <li class="footer__item"><a href="https://www.instagram.com/iitbhilai/" class="footer__link footer__link--instagram"><i class="fab fa-instagram"></i>Instagram</a></li>
-                    <li class="footer__item"><a href="https://www.linkedin.com/school/iit-bhilai/" class="footer__link footer__link--linkedin"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
+                    <li class="footer__item"><a href="https://www.facebook.com/iit.bh/" class="footer__link footer__link--facebook"target="_blank"><i class="fab fa-facebook-square"></i>Facebook</a></li>
+                    <li class="footer__item"><a href="https://twitter.com/IIT_Bhilai" class="footer__link footer__link--twitter"target="_blank"><i class="fab fa-twitter"></i>Twitter</a></li>
+                    <li class="footer__item"><a href="https://www.instagram.com/iitbhilai/" class="footer__link footer__link--instagram"target="_blank"><i class="fab fa-instagram"></i>Instagram</a></li>
+                    <li class="footer__item"><a href="https://www.linkedin.com/school/iit-bhilai/" class="footer__link footer__link--linkedin"target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
                 </ul>
             </div>
         </div>

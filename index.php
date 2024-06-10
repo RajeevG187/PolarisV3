@@ -80,11 +80,11 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                         <li><strong>Important Notice</strong> Registration and Orientation program for the new BTech students 2020 <a href="orientation.pdf" target="_blank" class="notification">Click Here!</a></li> -->
 
 
-                    <li>Please see the <a href="../views/documents.php" class="notification">Documents</a> page for registration forms, fee structure, and updated loan details.<br>
+                    <li>Please see the <a href="../views/documents.php" class="notification" target="_blank">Documents</a> page for registration forms, fee structure, and updated loan details.<br>
 
 
 
-                    <li>For any queries regarding IIT Bhilai and 2023-24 admissions please feel free to contact any of the <a href="../views/mentors.php" class="notification">Mentors.</a><br>
+                    <li>For any queries regarding IIT Bhilai and 2023-24 admissions please feel free to contact any of the <a href="../views/mentors.php" class="notification" target="_blank">Mentors.</a><br>
 
                 </ul>
             </div>
@@ -127,7 +127,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             <div class="header__hero-box">
             <h1 class="heading-primary"><?php echo $data['header']['head']; ?></h1>
             <p class="heading-subtitle"><?php echo $data['header']['text']; ?></p>
-                <a href="../public/pdfs/brochure_2023.pdf" class="btn btn-download" download>Brochure 2023&nbsp; <i class="fas fa-download"></i></a><br />
+                <a href="../public/pdfs/brochure_2023.pdf" class="btn btn-download" download >Brochure 2023&nbsp; <i class="fas fa-download"></i></a><br />
                 <!-- <a href="javascript:void(0);" class="btn btn-download">Brochure 2023 will be uploaded soon.&nbsp; <i class="fas fa-download"></i></a><br/> -->
                 <!-- <a href="#" class="btn btn-live" id="modalBtn">Live Updates &nbsp; <i class="fas fa-sync"></i></a> -->
             </div>
@@ -218,7 +218,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                             </figure>
                             <div class="dev__name"><?php echo $data['cosa']['president']['name']; ?><br>President, CoSA</div>
 
-                                <a href="<?php echo $data['cosa']['president']['email']; ?>" class="dev__profile">
+                                <a href="<?php echo $data['cosa']['president']['email']; ?>" class="dev__profile" target="_blank">
                                     <i class="far fa-envelope dev__profile--icon"></i>
                                 </a>  
                         </div>
@@ -338,17 +338,17 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                         <figcaption     class="dev__caption"><?php echo $member["name"]; ?></figcaption>
                                     </figure>
                                     <div    class="dev__name"><strong><?php echo $member["name"]; ?></strong><br /><?php echo $member["title"]; ?></div>
-                                    <a  href=<?php echo $member["email"]; ?> class="dev__profile">
+                                    <a  href=<?php echo $member["email"]; ?> class="dev__profile" target="_blank">
                                         <i class="far fa-envelope   dev__profile--icon"></i>
                                     </a>
 
                                     <?php if($member["instagram"]!=""): ?>
-                                        <a href=<?php echo $member["instagram"]; ?> target="_blank" class="dev__profile">
+                                        <a href=<?php echo $member["instagram"]; ?> target="_blank" class="dev__profile" target="_blank">
                                         <i class="fab fa-instagram dev__profile--icon"></i>
                                     </a>
                                     <?php endif;?>
                                     <?php if($member["linkedIn"]!=""): ?>
-                                        <a href=<?php echo $member["linkedIn"]; ?> target="_blank" class="dev__profile">
+                                        <a href=<?php echo $member["linkedIn"]; ?> target="_blank" class="dev__profile" target="_blank">
                                         <i class="fab fa-linkedin-in dev__profile--icon"></i>
                                     </a>
                                     <?php endif;?>
@@ -378,17 +378,17 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                         <figcaption     class="dev__caption"><?php echo $member["name"]; ?></figcaption>
                                     </figure>
                                     <div    class="dev__name"><strong><?php echo $member["name"]; ?></strong><br /><?php echo $member["title"]; ?></div>
-                                    <a  href=<?php echo $member["email"]; ?> class="dev__profile">
+                                    <a  href=<?php echo $member["email"]; ?> class="dev__profile" target="_blank">
                                         <i class="far fa-envelope   dev__profile--icon"></i>
                                     </a>
 
                                     <?php if($member["instagram"]!=""): ?>
-                                        <a href=<?php echo $member["instagram"]; ?> target="_blank" class="dev__profile">
+                                        <a href=<?php echo $member["instagram"]; ?> target="_blank" class="dev__profile" target="_blank">
                                         <i class="fab fa-instagram dev__profile--icon"></i>
                                     </a>
                                     <?php endif;?>
                                     <?php if($member["linkedIn"]!=""): ?>
-                                        <a href=<?php echo $member["linkedIn"]; ?> target="_blank" class="dev__profile">
+                                        <a href=<?php echo $member["linkedIn"]; ?> target="_blank" class="dev__profile" target="_blank">
                                         <i class="fab fa-linkedin-in dev__profile--icon"></i>
                                     </a>
                                     <?php endif;?>
@@ -418,17 +418,17 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                         <figcaption     class="dev__caption"><?php echo $member["name"]; ?></figcaption>
                                     </figure>
                                     <div    class="dev__name"><strong><?php echo $member["name"]; ?></strong><br /><?php echo $member["title"]; ?></div>
-                                    <a  href=<?php echo $member["email"]; ?> class="dev__profile">
+                                    <a  href=<?php echo $member["email"]; ?> class="dev__profile" target="_blank">
                                         <i class="far fa-envelope   dev__profile--icon"></i>
                                     </a>
 
                                     <?php if($member["instagram"]!=""): ?>
-                                        <a href=<?php echo $member["instagram"]; ?> target="_blank" class="dev__profile">
+                                        <a href=<?php echo $member["instagram"]; ?> target="_blank" class="dev__profile" target="_blank">
                                         <i class="fab fa-instagram dev__profile--icon"></i>
                                     </a>
                                     <?php endif;?>
                                     <?php if($member["linkedIn"]!=""): ?>
-                                        <a href=<?php echo $member["linkedIn"]; ?> target="_blank" class="dev__profile">
+                                        <a href=<?php echo $member["linkedIn"]; ?> target="_blank" class="dev__profile" target="_blank">
                                         <i class="fab fa-linkedin-in dev__profile--icon"></i>
                                     </a>
                                     <?php endif;?>

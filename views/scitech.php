@@ -88,9 +88,9 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                         </h3><br><br>
                         <p class="clubs__text"><?php echo $data['introduction']['text']; ?></p><br>
                         <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow us:</span>
-                            <a href="https://www.facebook.com/IITBhilai.Cult/" class="outreach__link">Facebook</a>, <a
+                            <a href="https://www.facebook.com/IITBhilai.Cult/" class="outreach__link"target="_blank">Facebook</a>, <a
                                 href="https://instagram.com/culturals_iitbh?igshid=MzRlODBiNWFlZA=="
-                                class="outreach__link">Instagram</a>
+                                class="outreach__link"target="_blank">Instagram</a>
                         </p>
                         <br>
                     </div>
@@ -151,7 +151,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                         <p class="outreach__text"><i
                                 class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo "Follow us:"; ?></span>
                             <?php foreach ($club['socialmedia'] as $socialmedia): ?>
-                                <a href="<?= $socialmedia['url'] ?>" class="outreach__link"><?php echo $socialmedia['display']; ?>
+                                <a href="<?= $socialmedia['url'] ?>" class="outreach__link"target="_blank"><?php echo $socialmedia['display']; ?>
                                 </a>
                             <?php endforeach; ?>
                         </p><?php endif; ?>
