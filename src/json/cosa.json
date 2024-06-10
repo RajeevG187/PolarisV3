@@ -45,6 +45,14 @@
                 "alt2": "Prayatna"
             },
             {
+                "name": "Anveshan",
+                "description":"",
+                "img1": "",
+                "alt1": "",
+                "img2": "",
+                "alt2": ""
+            },
+            {
                 "name": "New year celebration",
                 "description":"Every New year marks new beginnings in the lives of students away from home. A peculiar day to celebrate and raise a toast to new beginnings. Every New Year eve, CoSA IIT Bhilai throws a party with bonfire, DJ and games to unwind and chill as we welcome a new year of meritorious happenings! New Year celebrations are to groove with friends and whoop it up, which CoSA organizes creating an atmosphere of enthusiasm and buoyancy. Eagerly awaiting for a new year to be celebrated with the same zest",
                 "img1": "",
@@ -67,6 +75,14 @@
                 "alt1": "Ganesh Chaturthi",
                 "img2": "..//public/images/life/ganesh-2.JPG",
                 "alt2": "Ganesh Chaturthi"
+            },
+            {
+                "name": "Navaratri Celebration",
+                "description":"",
+                "img1": "",
+                "alt1": "",
+                "img2": "",
+                "alt2": ""
             },
             {
                 "name": "Treasure Hunt",
