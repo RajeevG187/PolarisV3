@@ -1,12 +1,12 @@
 <?php
-$jsonfilepath='..\src\json\cosa.json' ;
+$jsonfilepath = '..\src\json\cosa.json';
 
-if(!file_exists($jsonfilepath)||!is_readable($jsonfilepath)){
-die('Error: JSON file not found or not readable.');
+if (!file_exists($jsonfilepath) || !is_readable($jsonfilepath)) {
+    die('Error: JSON file not found or not readable.');
 }
 
-$key=file_get_contents($jsonfilepath);
-$data=json_decode($key,true);
+$key = file_get_contents($jsonfilepath);
+$data = json_decode($key, true);
 
 if (json_last_error() !== JSON_ERROR_NONE) {
     die('Error: Invalid JSON data. ' . json_last_error_msg());
@@ -17,80 +17,82 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="theme-color" content="#3498db">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#3498db">
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Bitter:700|Dancing+Script:700" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Bitter:700|Dancing+Script:700"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="../public/css/animate.css">
-        <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../public/css/animate.css">
+    <link rel="stylesheet" href="../public/css/style.css">
 
-        <title>Polaris - Student Mentorship Program</title>
+    <title>Polaris - Student Mentorship Program</title>
 
 
-        <meta name="google-site-verification" content="psQtXO_U0R9o5w-fP7i3zrlm_g3nDtP0Mg6-Xg-q73w" />
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121551593-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
+    <meta name="google-site-verification" content="psQtXO_U0R9o5w-fP7i3zrlm_g3nDtP0Mg6-Xg-q73w" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121551593-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-		  gtag('config', 'UA-121551593-1');
-		</script>
+        gtag('config', 'UA-121551593-1');
+    </script>
 
-    </head>
+</head>
 
-    <body onload="closePreloader()">
+<body onload="closePreloader()">
 
-      <?php
-      require_once('partials/header.php');
-      ?>
+    <?php
+    require_once ('partials/header.php');
+    ?>
 
-        <header class="header header__cultural">
-            <div class="container">
-                <div class="header__hero-box">
-                    <h1 class="heading-primary"><?php echo $data['header']['head']; ?></h1>
-                    <p class="heading-subtitle"><?php echo $data['header']['text']; ?></p>
-                </div>
+    <header class="header header__cultural">
+        <div class="container">
+            <div class="header__hero-box">
+                <h1 class="heading-primary"><?php echo $data['header']['head']; ?></h1>
+                <p class="heading-subtitle"><?php echo $data['header']['text']; ?></p>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <section class="section">
-            <div class="container">
+    <section class="section">
+        <div class="container">
 
-                <div class="clubs">
+            <div class="clubs">
 
-                    <h3 class="heading-tertiary">President -<?php echo $data['team']['president']['name'];?></h3>
+                <h3 class="heading-tertiary">President -<?php echo $data['team']['president']['name']; ?></h3>
 
-                    <p class="clubs__text">
-                   <?php echo $data['team']['president']['message']; ?>
-                    </p>
+                <p class="clubs__text">
+                    <?php echo $data['team']['president']['message']; ?>
+                </p>
 
-                    <!-- <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow us:</span> <a href="https://www.facebook.com/IITBhilai.Cult/" class="outreach__link">Facebook</a>, <a href="https://www.instagram.com/invites/contact/?i=12z1v3ln7vkge&utm_content=gvasybz" class="outreach__link">Instagram</a></p> -->
-                    <br>
-                    <?php 
-                     $team_positions = ['Cultural Affairs', 'Games & Sports Affairs', 'Science and Technology', 'Academic Affairs'];
-                     foreach ($team_positions as $position) {
-                      echo '<h3 class="heading-tertiary">General Secretary of ' . ucfirst($position) . ' - ' . $data['team'][$position]['name'] . '</h3>';
-                      }
-                    ?>
-                    <h3 class="heading-tertiary">Events Head -<?php echo $data['team']['events']['name'] ;?></h3>
-                    <h3 class="heading-tertiary">Treasurer - <?php echo $data['team']['treasurer']['name'] ;?></h3>
-                    
-                    <br>
-
-                </div>
-
-
-                <h2 class="heading-secondary"><?php echo $data['events']['head'] ;?></h2>
-
+                <!-- <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow us:</span> <a href="https://www.facebook.com/IITBhilai.Cult/" class="outreach__link">Facebook</a>, <a href="https://www.instagram.com/invites/contact/?i=12z1v3ln7vkge&utm_content=gvasybz" class="outreach__link">Instagram</a></p> -->
+                <br>
                 <?php
+                $team_positions = ['Cultural Affairs', 'Games & Sports Affairs', 'Science and Technology', 'Academic Affairs'];
+                foreach ($team_positions as $position) {
+                    echo '<h3 class="heading-tertiary">General Secretary of ' . ucfirst($position) . ' - ' . $data['team'][$position]['name'] . '</h3>';
+                }
+                ?>
+                <h3 class="heading-tertiary">Events Head -<?php echo $data['team']['events']['name']; ?></h3>
+                <h3 class="heading-tertiary">Treasurer - <?php echo $data['team']['treasurer']['name']; ?></h3>
+
+                <br>
+
+            </div>
+
+
+            <h2 class="heading-secondary"><?php echo $data['events']['head']; ?></h2>
+
+            <?php
             foreach ($data['events']['info'] as $event) {
                 echo '<div class="cultural">';
                 echo '<h3 class="heading-tertiary">' . $event['name'] . '</h3>';
@@ -112,7 +114,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         </div>
     </section>
 
-    <?php require_once('partials/footer.php'); ?>
+    <?php require_once ('partials/footer.php'); ?>
 
 </body>
 

@@ -21,6 +21,33 @@
     }
 }
 
+.icon_section{
+    display:flex;
+    align-items: center;
+    gap: 0.8vw;
+    &__size{
+        height: 8vh;
+        width: 8vh;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__image{
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+    }
+
+    &__vertical_line{
+        height: 8vh;
+        width: 0px;
+        border-left: .1px solid black;
+    }
+
+}
 .nominee__text {
     text-align: justify;
     font-size: 2rem;

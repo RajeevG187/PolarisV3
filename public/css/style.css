@@ -741,7 +741,7 @@ body {
   }
 }
 .row .col-2-of-3 {
-  width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
+  width: calc(2 * (100% - 2 * 6rem) / 3 + 6rem);
 }
 @media (max-width: 600px) {
   .row .col-2-of-3 {
@@ -757,7 +757,7 @@ body {
   }
 }
 .row .col-2-of-4 {
-  width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem);
+  width: calc(2 * (100% - 3 * 6rem) / 4 + 6rem);
 }
 @media (max-width: 600px) {
   .row .col-2-of-4 {
@@ -765,7 +765,7 @@ body {
   }
 }
 .row .col-3-of-4 {
-  width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
+  width: calc(3 * (100% - 3 * 6rem) / 4 + 2 * 6rem);
 }
 @media (max-width: 600px) {
   .row .col-3-of-4 {
@@ -1251,6 +1251,31 @@ body {
 }
 .cultural__photo {
   width: 100%;
+}
+
+.icon_section {
+  display: flex;
+  align-items: center;
+  gap: 0.8vw;
+}
+.icon_section__size {
+  height: 8vh;
+  width: 8vh;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon_section__image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.icon_section__vertical_line {
+  height: 8vh;
+  width: 0px;
+  border-left: 0.1px solid black;
 }
 
 .nominee__text {

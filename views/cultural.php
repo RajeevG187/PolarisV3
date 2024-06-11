@@ -71,7 +71,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
     <section class="section">
         <div class="container">
-        <h2 class="heading-secondary">Cultural Clubs</h2>
+            <h2 class="heading-secondary">Cultural Clubs</h2>
             <div class="clubs">
 
                 <!-- added a new div here -->
@@ -79,7 +79,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                 <div class="information__box">
                     <div>
                         <h3 class="heading-tertiary">General Secretary -
-                            <?php echo $data['generalsecretary']['name']; ?></h3><br><br>
+                            <?php echo $data['generalsecretary']['name']; ?>
+                        </h3><br><br>
                         <p class="clubs__text">We all, as a part of an elite league of institutes, aspire to work at the
                             frontiers of human knowledge, innovate technology, initiate revolutions in science and
                             propel national development to new heights. But often in such a competitive environment,
@@ -91,7 +92,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                         <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow us:</span>
                             <a href="https://www.facebook.com/IITBhilai.Cult/" class="outreach__link">Facebook</a>, <a
                                 href="https://instagram.com/culturals_iitbh?igshid=MzRlODBiNWFlZA=="
-                                class="outreach__link">Instagram</a></p>
+                                class="outreach__link">Instagram</a>
+                        </p>
                         <br>
                     </div>
                     <div>
@@ -116,13 +118,25 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                 <br>
             </div>
             <br>
-            
+
             <?php foreach ($data['club'] as $club): ?>
 
                 <div class="cultural">
-                    <h3 class="heading-tertiary"><?php echo $club['name']; ?></h3>
-                    <p class="cultural__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Coordinator:
-                        </span><?php echo $club['coordinator']; ?></p><br>
+
+                    <div class="icon_section">
+                        <div class="icon_section__size">
+                            <img class="icon_section__image" src="<?php echo $club['icon']; ?>"
+                                alt="<?php echo $club['name']; ?>">
+                        </div>
+                        <div class="icon_section__vertical_line"></div>
+                        <div class="icon_section__text">
+                            <h3 class="heading-tertiary"><?php echo $club['name']; ?></h3>
+                            <p class="cultural__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Coordinator:
+                                </span><?php echo $club['coordinator']; ?></p><br>
+                        </div>
+
+                    </div>
+
                     <p class="cultural__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Description:
                         </span><?php echo $club['description']; ?></p><br>
 
@@ -172,9 +186,19 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             <h2 class="heading-secondary">Cultural Societies</h2>
             <?php foreach ($data['society'] as $society): ?>
                 <div class="cultural">
-                    <h3 class="heading-tertiary"><?php echo $society['name']; ?></h3>
-                    <p class="cultural__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Secretary:
-                        </span><?php echo $society['secretary']; ?></p><br>
+                    <div class="icon_section">
+                        <div class="icon_section__size">
+                            <img class="icon_section__image" src="<?php echo $society['icon']; ?>"
+                                alt="<?php echo $society['name']; ?>">
+                        </div>
+                        <div class="icon_section__vertical_line"></div>
+                        <div class="icon_section__text">
+                            <h3 class="heading-tertiary"><?php echo $society['name']; ?></h3>
+                            <p class="cultural__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Coordinator:
+                                </span><?php echo $society['secretary']; ?></p><br>
+                        </div>
+
+                    </div>
                     <p class="cultural__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Description:</span>
 
                         <?php foreach ($society['description'] as $desc): ?>
@@ -190,7 +214,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     <br>
                     <div class="row">
                         <?php foreach ($society['images'] as $img): ?>
-                            <div class="col-1-of-2"><img src="<?= $img['img'] ?>" alt="<?= $img['alt'] ?>" class="scitech__photo">
+                            <div class="col-1-of-2"><img src="<?= $img['img'] ?>" alt="<?= $img['alt'] ?>"
+                                    class="scitech__photo">
                             </div>
                         <?php endforeach; ?>
                     </div>

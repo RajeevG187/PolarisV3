@@ -8,7 +8,7 @@
     "generalsecretary": 
     {
         "name": "Smit Maurya",
-        "image": "images/President.jpg",
+        "image": "images/Smith Maurya.jpg",
         "email": "mailto:President_CoSA@iitbhilai.ac.in"
     },
 
@@ -34,6 +34,7 @@
 "club":[
     {
         "name": "Renaissance : The Fine Arts Club",
+        "icon":"../public/images/logo/swara.png",
         "coordinator": "Lakshay Gupta",
         "description": "Arts club is all about providing a platform for every student to express their imagination,creativity,ideas or a world view through different artworks.The club provides you an environment in finding your hidden talent and endeavors to help the students cope with academic stress and create an enjoyable ambience for them.",
        "topic":"Objective:",
@@ -233,6 +234,7 @@
     
     {   "name":"G.O.A.L.S - The General Oratory And Literary Society",
         "secretary": "Snehal Suhane and Aditya Yadav",
+        "icon":"../public/images/logo/swara.png",
         "description":
         [
             {
