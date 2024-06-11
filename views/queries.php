@@ -92,7 +92,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                 <li class="info__item"><?php echo $department["detail"]; ?></li>
                             <?php endforeach;?>
                         </ul>
-                        <p class="info__text"><?php echo $data["faq"]["sub-lists"][1]["moredetails"]; ?><a href="../views/departments.php"><?php echo $data["faq"]["sub-lists"][1]["moredetailsurl"]; ?><a> <?php echo $data["faq"]["sub-lists"][1]["link-moredetails"]; ?></p>
+                        <p class="info__text"><?php echo $data["faq"]["sub-lists"][1]["moredetails"]; ?><a href="../views/departments.php" target="_blank"><?php echo $data["faq"]["sub-lists"][1]["moredetailsurl"]; ?><a> <?php echo $data["faq"]["sub-lists"][1]["link-moredetails"]; ?></p>
                     </div>
 
                     <!-- <div class="info">
@@ -119,8 +119,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                             <?php endforeach;?>
                         </ul>
                         <p class="info__text">
-                            <?php echo $data["faq"]["sub-lists"][4]["moredetails"]; ?><a href=<?php echo $data["faq"]["sub-lists"][4]["moredetailsurl"]; ?>><?php echo $data["faq"]["sub-lists"][4]["link-moredetails"]; ?></a><br>
-                            <?php echo $data["faq"]["sub-lists"][4]["academicdetails"]; ?><a href=<?php echo $data["faq"]["sub-lists"][4]["academicdetailsurl"]; ?>><?php echo $data["faq"]["sub-lists"][4]["link-academicdetails"]; ?></a>
+                            <?php echo $data["faq"]["sub-lists"][4]["moredetails"]; ?><a href="<?php echo $data["faq"]["sub-lists"][4]["moredetailsurl"]; ?>" target="_blank"><?php echo $data["faq"]["sub-lists"][4]["link-moredetails"]; ?></a><br>
+                            <?php echo $data["faq"]["sub-lists"][4]["academicdetails"]; ?><a href="<?php echo $data["faq"]["sub-lists"][4]["academicdetailsurl"]; ?>" target="_blank"><?php echo $data["faq"]["sub-lists"][4]["link-academicdetails"]; ?></a>
                         </p>
                     </div>
 

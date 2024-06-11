@@ -3,6 +3,69 @@
         "head": "Council of Student Affairs",
         "text": "Power to the students"
     },
+
+    "heriditary": {
+        "president":{
+            "name":"Himanshu",
+            "image":"../public/images/President.jpg",
+            "email": "mailto:President_CoSA@iitbhilai.ac.in",
+            "title": "",
+            "linkedIn": "https://www.linkedin.com/in/himanshu-rana-a9b77b258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "instagram": "https://www.instagram.com/imhimanshu_rana?igsh=b3Y5cHQzczZrcTlx",
+            "phone":""
+        },
+        "members-2":[
+            {
+                "name":"Smit Maurya",
+                "image":"../public/images/Smith_Maurya.jpg",
+                "email": "mailto:smitm@iitbhilai.ac.in",
+                "title": "Gen Sec Cult",
+                "linkedIn": "https://www.linkedin.com/in/smit-maurya-500541251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "instagram": "https://www.instagram.com/maurya_vanshi24?igsh=MW4xcWpqYmc5MDQxbA==",
+                "phone":""
+            },
+            {
+                "name":"Ojus Goel",
+                "image":"../public/images/Ojus_Goel.jpg",
+                "email": "mailto:gensec_scitech_gymkhana@iitbhilai.ac.in",
+                "title": "Gen Sec Sci-Tech",
+                "linkedIn": "https://www.linkedin.com/in/ojus-goel-a20b26287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "instagram": "https://www.instagram.com/scitech_iitbh?igsh=NHhvZHphcnV4NGxj",
+                "phone":""
+            }
+        ],
+
+        "members-3":[
+            {
+                "name":"Piyush Chandrakar",
+                "image":"../public/images/Piyush_Chandrakar.jpg",
+                "email": "mailto:piyushc@iitbhilai.ac.in",
+                "title": "Treasurer",
+                "linkedIn": "https://www.linkedin.com/in/piyush-chandrakar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "instagram": "https://www.instagram.com/piyush_c38?igsh=ZzlvZGQ1YzB6MzFz",
+                "phone":""
+            },
+            {
+                "name":"Aditya Prakash",
+                "image":"../public/images/Aditya_Prakash.jpg",
+                "email": "mailto:rajaaditya252003@gmail.com",
+                "title": "Gen Sec Sports",
+                "linkedIn": "https://www.linkedin.com/in/aditya-prakash-184970260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "instagram": "https://www.instagram.com/aditya_prakash_25/?utm_source=qr&igsh=azdtMGMzaGl5OW56",
+                "phone":""
+            },
+            {
+                "name":"Aayush Krishnan",
+                "image":"../public/images/Aayush_Krishnan.jpg",
+                "email": "mailto:aayushkr@iitbhilai.ac.in",
+                "title": "Gen Sec Acads",
+                "linkedIn": "https://www.linkedin.com/in/aayush-krishnan-265b66247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "instagram": "",
+                "phone":""
+            }
+        ]
+    },
+
     "team": {
         "president":{
             "name":"Himanshu",

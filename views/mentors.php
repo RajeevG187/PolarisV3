@@ -88,16 +88,16 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                     <figcaption class="dev__caption"><?= $member['name'] ?></figcaption>
                                 </figure>
                                 <div class="dev__name"><strong><?= $member['name'] ?></strong><br><?= $member['title'] ?></div>
-                                <a href="<?= $member['email'] ?>" class="dev__profile">
+                                <a href="<?= $member['email'] ?>" class="dev__profile" target="_blank">
                                     <i class="far fa-envelope dev__profile--icon"></i>
                                 </a>
                                 <?php if (!empty($member['linkedin'])): ?>
-                                    <a href="<?= $member['linkedin'] ?>" class="dev__profile">
+                                    <a href="<?= $member['linkedin'] ?>" class="dev__profile" target="_blank">
                                         <i class="fab fa-linkedin dev__profile--icon"></i>
                                     </a>
                                 <?php endif; ?>
                                 <?php if (!empty($member['instagram'])): ?>
-                                    <a href="<?= $member['instagram'] ?>" class="dev__profile">
+                                    <a href="<?= $member['instagram'] ?>" class="dev__profile" target="_blank">
                                         <i class="fab fa-instagram dev__profile--icon"></i>
                                     </a>
                                 <?php endif; ?>
@@ -124,16 +124,16 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                     <figcaption class="dev__caption"><?= $member['name'] ?></figcaption>
                                 </figure>
                                 <div class="dev__name"><strong><?= $member['name'] ?></strong><br><?= $member['title'] ?></div>
-                                <a href="<?= $member['email'] ?>" class="dev__profile">
+                                <a href="<?= $member['email'] ?>" class="dev__profile" target="_blank">
                                     <i class="far fa-envelope dev__profile--icon"></i>
                                 </a>
                                 <?php if (!empty($member['linkedin'])): ?>
-                                    <a href="<?= $member['linkedin'] ?>" class="dev__profile">
+                                    <a href="<?= $member['linkedin'] ?>" class="dev__profile" target="_blank">
                                         <i class="fab fa-linkedin dev__profile--icon"></i>
                                     </a>
                                 <?php endif; ?>
                                 <?php if (!empty($member['instagram'])): ?>
-                                    <a href="<?= $member['instagram'] ?>" class="dev__profile">
+                                    <a href="<?= $member['instagram'] ?>" class="dev__profile" target="_blank">
                                         <i class="fab fa-instagram dev__profile--icon"></i>
                                     </a>
                                 <?php endif; ?>
@@ -159,16 +159,16 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                     <figcaption class="dev__caption"><?= $member['name'] ?></figcaption>
                                 </figure>
                                 <div class="dev__name"><strong><?= $member['name'] ?></strong><br><?= $member['title'] ?></div>
-                                <a href="<?= $member['email'] ?>" class="dev__profile">
+                                <a href="<?= $member['email'] ?>" class="dev__profile" target="_blank">
                                     <i class="far fa-envelope dev__profile--icon"></i>
                                 </a>
                                 <?php if (!empty($member['linkedin'])): ?>
-                                    <a href="<?= $member['linkedin'] ?>" class="dev__profile">
+                                    <a href="<?= $member['linkedin'] ?>" class="dev__profile" target="_blank">
                                         <i class="fab fa-linkedin dev__profile--icon"></i>
                                     </a>
                                 <?php endif; ?>
                                 <?php if (!empty($member['instagram'])): ?>
-                                    <a href="<?= $member['instagram'] ?>" class="dev__profile">
+                                    <a href="<?= $member['instagram'] ?>" class="dev__profile" target="_blank">
                                         <i class="fab fa-instagram dev__profile--icon"></i>
                                     </a>
                                 <?php endif; ?>
@@ -194,16 +194,16 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                     <figcaption class="dev__caption"><?= $member['name'] ?></figcaption>
                                 </figure>
                                 <div class="dev__name"><strong><?= $member['name'] ?></strong><br><?= $member['title'] ?></div>
-                                <a href="<?= $member['email'] ?>" class="dev__profile">
+                                <a href="<?= $member['email'] ?>" class="dev__profile" target="_blank">
                                     <i class="far fa-envelope dev__profile--icon"></i>
                                 </a>
                                 <?php if (!empty($member['linkedin'])): ?>
-                                    <a href="<?= $member['linkedin'] ?>" class="dev__profile">
+                                    <a href="<?= $member['linkedin'] ?>" class="dev__profile" target="_blank">
                                         <i class="fab fa-linkedin dev__profile--icon"></i>
                                     </a>
                                 <?php endif; ?>
                                 <?php if (!empty($member['instagram'])): ?>
-                                    <a href="<?= $member['instagram'] ?>" class="dev__profile">
+                                    <a href="<?= $member['instagram'] ?>" class="dev__profile" target="_blank">
                                         <i class="fab fa-instagram dev__profile--icon"></i>
                                     </a>
                                 <?php endif; ?>
@@ -240,16 +240,16 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                         <figcaption class="dev__caption"><?php echo $mentor['name']; ?></figcaption>
                                     </figure>
                                     <div class="dev__name"><?php echo $mentor['name']; ?></div>
-                                    <a href="mailto:<?php echo $mentor['email']; ?>" class="dev__profile">
+                                    <a href="mailto:<?php echo $mentor['email']; ?>" class="dev__profile" target="_blank">
                                         <i class="far fa-envelope dev__profile--icon"></i>
                                     </a>
                                     <?php if (!empty($mentor['linkedin'])) : ?>
-                                        <a href="<?php echo $mentor['linkedin']; ?>" class="dev__profile">
+                                        <a href="<?php echo $mentor['linkedin']; ?>" class="dev__profile" target="_blank">
                                             <i class="fab fa-linkedin dev__profile--icon"></i>
                                         </a>
                                     <?php endif; ?>
                                     <?php if (!empty($mentor['instagram'])) : ?>
-                                        <a href="<?php echo $mentor['instagram']; ?>" class="dev__profile">
+                                        <a href="<?php echo $mentor['instagram']; ?>" class="dev__profile" target="_blank">
                                             <i class="fab fa-instagram dev__profile--icon"></i>
                                         </a>
                                     <?php endif; ?>
@@ -277,16 +277,16 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                         <figcaption class="dev__caption"><?php echo $mentor['name']; ?></figcaption>
                                     </figure>
                                     <div class="dev__name"><?php echo $mentor['name']; ?></div>
-                                    <a href="mailto:<?php echo $mentor['email']; ?>" class="dev__profile">
+                                    <a href="mailto:<?php echo $mentor['email']; ?>" class="dev__profile" target="_blank">
                                         <i class="far fa-envelope dev__profile--icon"></i>
                                     </a>
                                     <?php if (!empty($mentor['linkedin'])) : ?>
-                                        <a href="<?php echo $mentor['linkedin']; ?>" class="dev__profile">
+                                        <a href="<?php echo $mentor['linkedin']; ?>" class="dev__profile" target="_blank">
                                             <i class="fab fa-linkedin dev__profile--icon"></i>
                                         </a>
                                     <?php endif; ?>
                                     <?php if (!empty($mentor['instagram'])) : ?>
-                                        <a href="<?php echo $mentor['instagram']; ?>" class="dev__profile">
+                                        <a href="<?php echo $mentor['instagram']; ?>" class="dev__profile" target="_blank">
                                             <i class="fab fa-instagram dev__profile--icon"></i>
                                         </a>
                                     <?php endif; ?>
@@ -314,16 +314,16 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                         <figcaption class="dev__caption"><?php echo $mentor['name']; ?></figcaption>
                                     </figure>
                                     <div class="dev__name"><?php echo $mentor['name']; ?></div>
-                                    <a href="mailto:<?php echo $mentor['email']; ?>" class="dev__profile">
+                                    <a href="mailto:<?php echo $mentor['email']; ?>" class="dev__profile" target="_blank">
                                         <i class="far fa-envelope dev__profile--icon"></i>
                                     </a>
                                     <?php if (!empty($mentor['linkedin'])) : ?>
-                                        <a href="<?php echo $mentor['linkedin']; ?>" class="dev__profile">
+                                        <a href="<?php echo $mentor['linkedin']; ?>" class="dev__profile" target="_blank">
                                             <i class="fab fa-linkedin dev__profile--icon"></i>
                                         </a>
                                     <?php endif; ?>
                                     <?php if (!empty($mentor['instagram'])) : ?>
-                                        <a href="<?php echo $mentor['instagram']; ?>" class="dev__profile">
+                                        <a href="<?php echo $mentor['instagram']; ?>" class="dev__profile" target="_blank">
                                             <i class="fab fa-instagram dev__profile--icon"></i>
                                         </a>
                                     <?php endif; ?>
@@ -355,16 +355,16 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                         <figcaption class="dev__caption"><?php echo $mentor['name']; ?></figcaption>
                                     </figure>
                                     <div class="dev__name"><?php echo $mentor['name']; ?></div>
-                                    <a href="mailto:<?php echo $mentor['email']; ?>" class="dev__profile">
+                                    <a href="mailto:<?php echo $mentor['email']; ?>" class="dev__profile" target="_blank">
                                         <i class="far fa-envelope dev__profile--icon"></i>
                                     </a>
                                     <?php if (!empty($mentor['linkedin'])) : ?>
-                                        <a href="<?php echo $mentor['linkedin']; ?>" class="dev__profile">
+                                        <a href="<?php echo $mentor['linkedin']; ?>" class="dev__profile" target="_blank">
                                             <i class="fab fa-linkedin dev__profile--icon"></i>
                                         </a>
                                     <?php endif; ?>
                                     <?php if (!empty($mentor['instagram'])) : ?>
-                                        <a href="<?php echo $mentor['instagram']; ?>" class="dev__profile">
+                                        <a href="<?php echo $mentor['instagram']; ?>" class="dev__profile" target="_blank">
                                             <i class="fab fa-instagram dev__profile--icon"></i>
                                         </a>
                                     <?php endif; ?>
@@ -392,16 +392,16 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                         <figcaption class="dev__caption"><?php echo $mentor['name']; ?></figcaption>
                                     </figure>
                                     <div class="dev__name"><?php echo $mentor['name']; ?></div>
-                                    <a href="mailto:<?php echo $mentor['email']; ?>" class="dev__profile">
+                                    <a href="mailto:<?php echo $mentor['email']; ?>" class="dev__profile" target="_blank">
                                         <i class="far fa-envelope dev__profile--icon"></i>
                                     </a>
                                     <?php if (!empty($mentor['linkedin'])) : ?>
-                                        <a href="<?php echo $mentor['linkedin']; ?>" class="dev__profile">
+                                        <a href="<?php echo $mentor['linkedin']; ?>" class="dev__profile" target="_blank">
                                             <i class="fab fa-linkedin dev__profile--icon"></i>
                                         </a>
                                     <?php endif; ?>
                                     <?php if (!empty($mentor['instagram'])) : ?>
-                                        <a href="<?php echo $mentor['instagram']; ?>" class="dev__profile">
+                                        <a href="<?php echo $mentor['instagram']; ?>" class="dev__profile" target="_blank">
                                             <i class="fab fa-instagram dev__profile--icon"></i>
                                         </a>
                                     <?php endif; ?>
@@ -429,16 +429,16 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                         <figcaption class="dev__caption"><?php echo $mentor['name']; ?></figcaption>
                                     </figure>
                                     <div class="dev__name"><?php echo $mentor['name']; ?></div>
-                                    <a href="mailto:<?php echo $mentor['email']; ?>" class="dev__profile">
+                                    <a href="mailto:<?php echo $mentor['email']; ?>" class="dev__profile" target="_blank">
                                         <i class="far fa-envelope dev__profile--icon"></i>
                                     </a>
                                     <?php if (!empty($mentor['linkedin'])) : ?>
-                                        <a href="<?php echo $mentor['linkedin']; ?>" class="dev__profile">
+                                        <a href="<?php echo $mentor['linkedin']; ?>" class="dev__profile" target="_blank">
                                             <i class="fab fa-linkedin dev__profile--icon"></i>
                                         </a>
                                     <?php endif; ?>
                                     <?php if (!empty($mentor['instagram'])) : ?>
-                                        <a href="<?php echo $mentor['instagram']; ?>" class="dev__profile">
+                                        <a href="<?php echo $mentor['instagram']; ?>" class="dev__profile" target="_blank">
                                             <i class="fab fa-instagram dev__profile--icon"></i>
                                         </a>
                                     <?php endif; ?>

@@ -24,6 +24,7 @@
 .icon_section{
     display:flex;
     align-items: center;
+    flex-wrap: nowrap;
     gap: 0.8vw;
     &__size{
         height: 8vh;

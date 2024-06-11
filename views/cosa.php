@@ -67,26 +67,140 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         <div class="container">
 
             <div class="clubs">
+                <div class="heriditary">
 
-                <h3 class="heading-tertiary">President -<?php echo $data['team']['president']['name']; ?></h3>
+                    <div class="row">
+                        <div class="dev">
+                            <div class="col-1-of-1">
+                                <figure class="dev__shape">
+                                    <img src="../public/<?php echo $data['heriditary']['president']['image']; ?>"
+                                        alt="<?php echo $data['heriditary']['president']['name']; ?>"
+                                        class="dev__img dev__img--president">
+                                    <figcaption class="dev__caption">
+                                        <?php echo $data['heriditary']['president']['name']; ?>
+                                    </figcaption>
+                                </figure>
+                                <div class="dev__name">
+                                    <b><?php echo $data['heriditary']['president']['name']; ?></b><br>President,
+                                    CoSA
+                                </div>
 
-                <p class="clubs__text">
-                    <?php echo $data['team']['president']['message']; ?>
-                </p>
+                                <a href="<?php echo $data['heriditary']['president']['email']; ?>" class="dev__profile"
+                                    target="_blank">
+                                    <i class="far fa-envelope dev__profile--icon"></i>
+                                </a>
+                                <?php if ($data['heriditary']['president']['instagram'] != ""): ?>
+                                    <a href=<?php echo $data['heriditary']['president']["instagram"]; ?> target="_blank" class="dev__profile"
+                                        target="_blank">
+                                        <i class="fab fa-instagram dev__profile--icon"></i>
+                                    </a>
+                                <?php endif; ?>
+                                <?php if ($data['heriditary']['president']["linkedIn"] != ""): ?>
+                                    <a href=<?php echo $data['heriditary']['president']["linkedIn"]; ?> target="_blank" class="dev__profile"
+                                        target="_blank">
+                                        <i class="fab fa-linkedin-in dev__profile--icon"></i>
+                                    </a>
+                                <?php endif; ?>
+                                <?php if ($data['heriditary']['president']["phone"] != ""): ?>
+                                    <div class="dev__phone">
+                                        <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash;
+                                        <?php echo $data['heriditary']['president']["phone"]; ?>
+                                    </div>
+                                <?php endif; ?>
+                            </div>
+                        </div>
+                    </div>
 
-                <!-- <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow us:</span> <a href="https://www.facebook.com/IITBhilai.Cult/" class="outreach__link">Facebook</a>, <a href="https://www.instagram.com/invites/contact/?i=12z1v3ln7vkge&utm_content=gvasybz" class="outreach__link">Instagram</a></p> -->
-                <br>
-                <?php
-                $team_positions = ['Cultural Affairs', 'Games & Sports Affairs', 'Science and Technology', 'Academic Affairs'];
-                foreach ($team_positions as $position) {
-                    echo '<h3 class="heading-tertiary">General Secretary of ' . ucfirst($position) . ' - ' . $data['team'][$position]['name'] . '</h3>';
-                }
-                ?>
-                <h3 class="heading-tertiary">Events Head -<?php echo $data['team']['events']['name']; ?></h3>
-                <h3 class="heading-tertiary">Treasurer - <?php echo $data['team']['treasurer']['name']; ?></h3>
 
-                <br>
+                    <div class="row">
 
+                        <div class="dev">
+
+                            <?php foreach ($data["heriditary"]["members-2"] as $member): ?>
+                                <div class="col-1-of-2">
+                                    <figure class="dev__shape">
+                                        <img src=<?php echo $member["image"]; ?> alt=<?php echo $member["name"]; ?>
+                                            class="dev__img">
+                                        <figcaption class="dev__caption"><?php echo $member["name"]; ?></figcaption>
+                                    </figure>
+                                    <div class="dev__name">
+                                        <strong><?php echo $member["name"]; ?></strong><br /><?php echo $member["title"]; ?>
+                                    </div>
+                                    <a href=<?php echo $member["email"]; ?> class="dev__profile" target="_blank">
+                                        <i class="far fa-envelope   dev__profile--icon"></i>
+                                    </a>
+
+                                    <?php if ($member["instagram"] != ""): ?>
+                                        <a href=<?php echo $member["instagram"]; ?> target="_blank" class="dev__profile"
+                                            target="_blank">
+                                            <i class="fab fa-instagram dev__profile--icon"></i>
+                                        </a>
+                                    <?php endif; ?>
+                                    <?php if ($member["linkedIn"] != ""): ?>
+                                        <a href=<?php echo $member["linkedIn"]; ?> target="_blank" class="dev__profile"
+                                            target="_blank">
+                                            <i class="fab fa-linkedin-in dev__profile--icon"></i>
+                                        </a>
+                                    <?php endif; ?>
+                                    <?php if ($member["phone"] != ""): ?>
+                                        <div class="dev__phone">
+                                            <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash;
+                                            <?php echo $member["phone"]; ?>
+                                        </div>
+                                    <?php endif; ?>
+
+                                </div>
+
+                            <?php endforeach; ?>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="row">
+                        <div class="dev">
+
+                            <?php foreach ($data["heriditary"]["members-3"] as $member): ?>
+                                <div class="col-1-of-3">
+                                    <figure class="dev__shape">
+                                        <img src=<?php echo $member["image"]; ?> alt=<?php echo $member["name"]; ?>
+                                            class="dev__img">
+                                        <figcaption class="dev__caption"><?php echo $member["name"]; ?></figcaption>
+                                    </figure>
+                                    <div class="dev__name">
+                                        <strong><?php echo $member["name"]; ?></strong><br /><?php echo $member["title"]; ?>
+                                    </div>
+                                    <a href=<?php echo $member["email"]; ?> class="dev__profile" target="_blank">
+                                        <i class="far fa-envelope   dev__profile--icon"></i>
+                                    </a>
+
+                                    <?php if ($member["instagram"] != ""): ?>
+                                        <a href=<?php echo $member["instagram"]; ?> target="_blank" class="dev__profile"
+                                            target="_blank">
+                                            <i class="fab fa-instagram dev__profile--icon"></i>
+                                        </a>
+                                    <?php endif; ?>
+                                    <?php if ($member["linkedIn"] != ""): ?>
+                                        <a href=<?php echo $member["linkedIn"]; ?> target="_blank" class="dev__profile"
+                                            target="_blank">
+                                            <i class="fab fa-linkedin-in dev__profile--icon"></i>
+                                        </a>
+                                    <?php endif; ?>
+                                    <?php if ($member["phone"] != ""): ?>
+                                        <div class="dev__phone">
+                                            <i class="fas fa-phone dev__phone--icon"></i>&nbsp; +91 &dash;
+                                            <?php echo $member["phone"]; ?>
+                                        </div>
+                                    <?php endif; ?>
+
+                                </div>
+
+                            <?php endforeach; ?>
+
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
