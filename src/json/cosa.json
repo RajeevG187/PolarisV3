@@ -37,15 +37,6 @@
 
         "members-3":[
             {
-                "name":"Piyush Chandrakar",
-                "image":"../public/images/Piyush_Chandrakar.jpg",
-                "email": "mailto:piyushc@iitbhilai.ac.in",
-                "title": "Treasurer",
-                "linkedIn": "https://www.linkedin.com/in/piyush-chandrakar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-                "instagram": "https://www.instagram.com/piyush_c38?igsh=ZzlvZGQ1YzB6MzFz",
-                "phone":""
-            },
-            {
                 "name":"Aditya Prakash",
                 "image":"../public/images/Aditya_Prakash.jpg",
                 "email": "mailto:rajaaditya252003@gmail.com",
@@ -61,6 +52,15 @@
                 "title": "Gen Sec Acads",
                 "linkedIn": "https://www.linkedin.com/in/aayush-krishnan-265b66247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
                 "instagram": "",
+                "phone":""
+            },
+            {
+                "name":"Piyush Chandrakar",
+                "image":"../public/images/Piyush_Chandrakar.jpg",
+                "email": "mailto:piyushc@iitbhilai.ac.in",
+                "title": "Treasurer",
+                "linkedIn": "https://www.linkedin.com/in/piyush-chandrakar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "instagram": "https://www.instagram.com/piyush_c38?igsh=ZzlvZGQ1YzB6MzFz",
                 "phone":""
             }
         ]
