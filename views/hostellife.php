@@ -30,7 +30,7 @@
     </head>
 
     <body onload="closePreloader()">
-
+    <div class ="bckproperty">
       <?php
       require_once('partials/header.php');
       ?>
@@ -168,7 +168,7 @@
         <?php
         require_once('partials/footer.php');
         ?>
-
+</div>
     </body>
 
 </html>
