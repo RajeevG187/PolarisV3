@@ -59,7 +59,6 @@ if (json_last_error() !== JSON_ERROR_NONE) {
     </head>
 
     <body onload="closePreloader()">
-
       <?php
       require_once('../views/partials/header.php');
       ?>
@@ -460,6 +459,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         <?php
         require_once('../views/partials/footer.php');
         ?>
+        
     </body>
 
 </html>

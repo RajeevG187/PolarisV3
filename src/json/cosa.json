@@ -102,10 +102,11 @@
             {
                 "name": "Prayatna",
                 "description":"\"Prayatna\", the annual intra-institute sports tournament is organized every year. Prayatna, which means \"effort\", is aimed to arouse the sportsman spirit of the budding technocrats. This is an amalgamation of team spirit and healthy competitive spirit which goes on in a three-month long array of varied sports fixtures involving eight sports presently offered by the institute, viz table tennis, chess, volleyball, badminton, football, cricket, athletics and basketball. Prayatna is sure to add another feather to the cap of this newly established yet fervently developing institute.",
-                "img1": "..//public/images/life/badminton-1.JPG",
+                "img1": "..//public/images/life/tt1.JPG",
                 "alt1": "Prayatna",
-                "img2": "..//public/images/life/badminton-2.JPG",
-                "alt2": "Prayatna"
+                "img2": "..//public/images/life/footballfinal.JPG",
+                "alt2": "Prayatna",
+                "video": "exists"
             },
             {
                 "name": "Ciao",

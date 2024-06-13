@@ -49,7 +49,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 </head>
 
 <body onload="closePreloader()">
-
+<div class ="bckproperty">
     <?php
     require_once ('partials/header.php');
     ?>
@@ -217,19 +217,30 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     echo '<div class="row">';
                     echo '<div class="col-1-of-2"><img src="' . $event['img1'] . '" alt="' . $event['alt1'] . '" class="cultural__photo"></div>';
                     echo '<div class="col-1-of-2"><img src="' . $event['img2'] . '" alt="' . $event['alt2'] . '" class="cultural__photo"></div>';
+
                     echo '</div>';
+
                 }
 
                 echo '</div>';
+
+                if(!empty($event['video'])){
+                    echo '<div class="row">';
+                    echo '<div class="col-1-of-1">
+                    <iframe width="1120" height="500" src="https://www.youtube.com/embed/3wTTq6JrtQs?si=TWghItlS4e1koxla" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                     </div>';
+                    echo '</div>';
+                    }
+
                 echo '<div class="line-break"></div>';
             }
             ?>
 
         </div>
     </section>
-
+    
     <?php require_once ('partials/footer.php'); ?>
-
+    </div>
 </body>
 
 </html>
