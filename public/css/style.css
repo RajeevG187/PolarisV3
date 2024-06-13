@@ -34,10 +34,11 @@ body {
 }
 
 .bckproperty{
-  background-color: rgba(165, 203, 215,0.5);
+  background-color: rgba(234, 158, 241,0.2)
 }
 
 .bckprp {
+
  
   background-image: url("../images/logoiit.jpg");
   background-size: cover;
