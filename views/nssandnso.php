@@ -54,7 +54,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
     <body onload="closePreloader()">
     <div class ="bckproperty">
-    <?php require_once('partials/header.php'); ?>
+        <?php require_once('partials/header.php'); ?>
 
         <header class="header header__nsso">
             <div class="container">
@@ -101,24 +101,23 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     <br>
 
                     <section class="section">
-            <div class="container">
-                <h2 class="heading-secondary"><?php  echo $data['camp_tour']['head'];?></h2>
-            </div>
-            <div class="row">
-                <div class="col-1-of-2">
-                    <div class="campus">
-                    <?php $videoLink = $data['camp_tour']['youtube-links'][0]['link'];?>
-                        <iframe width="560" height="315" src="<?php echo $videoLink; ?>" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <div class="container">
+                        <h2 class="heading-secondary"><?php  echo $data['camp_tour']['head'];?></h2>
                     </div>
-                </div>
-                
-            </div>
-        </section>
+                    <div class="row">
+                        <div class="col-1-of-2">
+                            <div class="campus">
+                            <?php $videoLink = $data['camp_tour']['youtube-links'][0]['link'];?>
+                                <iframe width="560" height="315" src="<?php echo $videoLink; ?>" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    </section>
 
                 </div>
                 
 
-                </div>
             </div>
         </section>
 
