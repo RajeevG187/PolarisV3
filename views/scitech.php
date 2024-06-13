@@ -121,13 +121,19 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
             <?php foreach ($data['clubs'] as $club): ?>
                 <div class="scitech">
-
-
-
-                    <h3 class="heading-tertiary"><?php echo $club['title']; ?></h3>
-                    <p class="scitech__text"><i
+            <div class="icon_section">
+                        <div class="icon_section__size">
+                            <img class="icon_section__image" src="<?php echo $club['icon']; ?>"
+                                alt="<?php echo $club['title']; ?>">
+                        </div>
+                        <div class="icon_section__vertical_line"></div>
+                        <div class="icon_section__text">
+                        <h3 class="heading-tertiary"><?php echo $club['title']; ?></h3>
+                        <p class="scitech__text"><i
                             class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo $club['role']; ?></span><?php echo $club['leader']; ?>
-                    </p><br>
+                        </p><br>
+                        </div>
+            </div>
                     <p class="scitech__text"><i
                             class="fas fa-arrow-circle-right"></i>&nbsp;<span>About:</span><?php echo $club['about']; ?></p>
                     <br>
