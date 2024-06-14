@@ -56,15 +56,18 @@
         "instagram": "https://instagram.com/renaissance_iitbh?igshid=rh37w8y94r6k",
         "images":
         [
-            {
-                "img": "../public/images/life/artsclub-1.jpg",
-                "alt": "Art Club"
-            },
             {  
                 "img": "../public/images/life/artsclub-2.jpg",
                 "alt": "Arts Club"
             }
-        ]
+        ],
+        "img-active":[
+            {
+                "img": "../public/images/life/artsclub-1.jpg",
+                "alt": "Art Club"
+            }
+        ],
+        "carousel_id":["renaissance"]
     },
     {
        "name":"Beathackers : The Dance Club",
@@ -112,15 +115,19 @@
        "instagram": "https://instagram.com/beathackers_iitbhilai?igshid=MzRlODBiNWFlZA==",
        "images": 
        [
-           {
-               "img": "../public/images/life/beathackers-1.JPG",
-               "alt": "Dance Club"
-           },
+           
            {
                 "img": "../public/images/life/beathackers-2.JPG",
                "alt": "Dance Club"
            }
-       ]
+       ],
+       "img-active":[
+            {
+                "img": "../public/images/life/beathackers-1.JPG",
+                "alt": "Dance Club"
+            }
+        ],
+        "carousel_id":["beathackers"]
     },
     {
         "name":"Drishya : The Drama Club",
@@ -130,14 +137,19 @@
         "instagram": "https://instagram.com/drishya_iitbhilai?igshid=tw6t1u7prra2",
         "images":
         [
-            {
-                "img": "../public/images/life/drishya-1.JPG",
-                "alt": "Drama Club"
-            },
+            
             {   "img": "../public/images/life/drishya-2.JPG",
                 "alt": "Drama Club"
             }
-        ]
+        ],
+        "img-active":
+        [
+            {
+                "img": "../public/images/life/drishya-1.JPG",
+                "alt": "Drama Club"
+            }
+        ],
+        "carousel_id":["drishya"]
     },
     {
         "name":"Quizzotica : The Quizzing Club",
@@ -145,16 +157,20 @@
         "description": "Interested in Quizzes regarding Web Series, Memes, Movies, Tech etc, this is the club for you. Quizzing Club organizes regular quiz competitions and workshops to keep you updated with the current affairs and also to motivate you regarding your awareness towards current affairs. The primary goal of this club is to increase the interest of students towards quizzing and to participate and represent IIT Bhilai in the Quizzing Competitions at InterIIT Cultural Meet. ExQuizite - The Annual Quizzing Event, hosted by Quizzotica gives you the opportunity to unravel your talent and win exciting prizes. ",
         "facebook": "https://www.facebook.com/QuizzoticaIITBh/",
         "instagram": "https://instagram.com/quizzotica_iitbh?igshid=1skn0co75e5cr",
-        "images": 
-        [
-            {
-                "img": "../public/images/life/quizzotica-1.jpg",
-                "alt": "Quizzotica"
-            },
+        "images": [
             {    "img": "../public/images/life/quizzotica-2.jpg",
                 "alt": "Quizzotica"
             }
-        ]
+            
+        ],
+
+        "img-active":[
+            {
+                "img": "../public/images/life/quizzotica-1.jpg",
+                "alt": "Quizzotica"
+            }
+        ],
+        "carousel_id":["quizzotica"]
     },
     {
         "name":"Swara : The Music Club",
@@ -164,15 +180,19 @@
         "facebook": "https://instagram.com/swara_iitbh?igshid=1raw7riy6v3yu",
         "images": 
         [
-            {
-                "img": "../public/images/life/music-1.jpg",
-                "alt": "Swara"
-            },
             {    
                 "img": "../public/images/life/music-2.jpg",
                 "alt": "Swara"
             }
-        ]
+        ],
+
+        "img-active":[
+            {
+                "img": "../public/images/life/music-1.jpg",
+                "alt": "Swara"
+            }
+        ],
+        "carousel_id":["swara"]
     },
     {
         "name":"The Pixel Snappers : The Photography Club",
@@ -204,9 +224,16 @@
                 "img": "../public/images/life/tps-2.JPG",
                 "alt": "The Pixel Snappers"
             }
-        ]
+        ],
+        "img-active":[
+            {
+                "img": "../public/images/life/tps-1.jpg",
+                "alt": "The Pixel Snappers"
+            }
+        ],
+        "carousel_id":["TPS"]
     },
-{
+   {
     "name":"DesignX : The Digital Arts Club",
     
     "coordinator": "Sai Surya Talla",
@@ -219,10 +246,17 @@
             "img": "../public/images/life/designx.jpg",
             "alt": "DesignX"
         }
-    ]
-}
+    ],
+    "img-active":[
+            {
+                "img": "../public/images/life/music-1.jpg",
+                "alt": "Swara"
+            }
+        ],
+        "carousel_id":["designx"]
+    }
+],   
 
-],
 
 "heading2": "Cultural Societies",
 "society": 
@@ -244,14 +278,17 @@
         "instagram": "https://instagram.com/goals_iitbhilai?igshid=MzRlODBiNWFlZA==",
         "images":
         [
-            {
-                "img": "../public/images/life/goals-1.jpg",
-                "alt": "GOALS"
-            },
             {   "img": "../public/images/life/goals-2.jpg",
                 "alt": "GOALS"
             }
-        ]
+        ],
+        "img-active":[
+            {
+                "img": "../public/images/life/goals-1.jpg",
+                "alt": "GOALS"
+            }
+        ],
+        "carousel_id":["GOALS"]
     },
 
     {    "name":"FPS - The Film Production Society",
@@ -267,10 +304,19 @@
         "images":
         [
             {
+                "img": "../public/images/life/goals-1.jpg",
+                "alt": "GOALS"
+            }
+            
+        ],
+        "img-active":[
+            
+            {
                 "img": "../public/images/life/fps.jpg",
                 "alt": "Film Production Society"
             }
-        ]
+        ],
+        "carousel_id":["FPS"]
     },
 
     { 
@@ -295,15 +341,22 @@
         "instagram": "https://www.instagram.com/nirvana_iit_bhilai?igshid=YmMyMTA2M2Y%3D",
         "images": 
         [
-            {
-                "img": "../public/images/life/nir1.jpeg",
-                "alt": "Nirvana"
-            },
+            
             {   "img": "../public/images/life/nir2.jpeg",
                 "alt": "Nirvana"
             }
-        ]
+        ],
+        "img-active":[
+            
+            {
+                "img": "../public/images/life/nir1.jpeg",
+                "alt": "Nirvana"
+            }
+        ],
+        "carousel_id":["nirvana"]
+        
     }
 ]
 
 }
+

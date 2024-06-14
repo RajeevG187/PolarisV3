@@ -1306,5 +1306,11 @@ body {
   word-spacing: 3px;
   font-weight: 300;
 }
-
+.c-item{
+  height: 400px;
+}
+.c-img{
+  height:100%;
+  object-fit: cover;
+}
 /*# sourceMappingURL=style.css.map */
