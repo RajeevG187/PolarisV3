@@ -52,7 +52,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
     </head>
 
     <body onload="closePreloader()">
-
+    <div class ="bckproperty">
       <?php
       require_once('partials/header.php');
       ?>
@@ -894,6 +894,7 @@ The curriculum of the department encourages exploration across disciplines, whil
         <?php
         require_once('partials/footer.php');
         ?>
+        </div>
     </body>
 
 </html>

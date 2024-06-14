@@ -60,7 +60,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 </head>
 
 <body onload="closePreloader()">
-
+<div class ="bckproperty">
     <?php require_once('views/partials/header.php'); ?>
 
     <div id="myModal--1" class="modal">
@@ -509,7 +509,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         }
     </script>
 
-
+</div>
 </body>
 
 </html>

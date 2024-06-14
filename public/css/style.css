@@ -33,6 +33,19 @@ body {
   box-sizing: border-box;
 }
 
+.bckproperty{
+  background-color: rgba(234, 158, 241,0.2)
+}
+
+.bckprp {
+
+ 
+  background-image: url("../images/logoiit.jpg");
+  background-size: cover;
+  background-repeat:no-repeat ;
+  background-position:center;
+}
+
 .line-break {
   background-color: #777;
   height: 1px;
