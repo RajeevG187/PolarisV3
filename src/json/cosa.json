@@ -3,6 +3,69 @@
         "head": "Council of Student Affairs",
         "text": "Power to the students"
     },
+
+    "heriditary": {
+        "president":{
+            "name":"Himanshu",
+            "image":"../public/images/President.jpg",
+            "email": "mailto:President_CoSA@iitbhilai.ac.in",
+            "title": "",
+            "linkedIn": "https://www.linkedin.com/in/himanshu-rana-a9b77b258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "instagram": "https://www.instagram.com/imhimanshu_rana?igsh=b3Y5cHQzczZrcTlx",
+            "phone":""
+        },
+        "members-2":[
+            {
+                "name":"Smit Maurya",
+                "image":"../public/images/Smith_Maurya.jpg",
+                "email": "mailto:smitm@iitbhilai.ac.in",
+                "title": "Gen Sec Cult",
+                "linkedIn": "https://www.linkedin.com/in/smit-maurya-500541251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "instagram": "https://www.instagram.com/maurya_vanshi24?igsh=MW4xcWpqYmc5MDQxbA==",
+                "phone":""
+            },
+            {
+                "name":"Ojus Goel",
+                "image":"../public/images/Ojus_Goel.jpg",
+                "email": "mailto:gensec_scitech_gymkhana@iitbhilai.ac.in",
+                "title": "Gen Sec Sci-Tech",
+                "linkedIn": "https://www.linkedin.com/in/ojus-goel-a20b26287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "instagram": "https://www.instagram.com/scitech_iitbh?igsh=NHhvZHphcnV4NGxj",
+                "phone":""
+            }
+        ],
+
+        "members-3":[
+            {
+                "name":"Aditya Prakash",
+                "image":"../public/images/Aditya_Prakash.jpg",
+                "email": "mailto:rajaaditya252003@gmail.com",
+                "title": "Gen Sec Sports",
+                "linkedIn": "https://www.linkedin.com/in/aditya-prakash-184970260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "instagram": "https://www.instagram.com/aditya_prakash_25/?utm_source=qr&igsh=azdtMGMzaGl5OW56",
+                "phone":""
+            },
+            {
+                "name":"Aayush Krishnan",
+                "image":"../public/images/Aayush_Krishnan.jpg",
+                "email": "mailto:aayushkr@iitbhilai.ac.in",
+                "title": "Gen Sec Acads",
+                "linkedIn": "https://www.linkedin.com/in/aayush-krishnan-265b66247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "instagram": "",
+                "phone":""
+            },
+            {
+                "name":"Piyush Chandrakar",
+                "image":"../public/images/Piyush_Chandrakar.jpg",
+                "email": "mailto:piyushc@iitbhilai.ac.in",
+                "title": "Treasurer",
+                "linkedIn": "https://www.linkedin.com/in/piyush-chandrakar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "instagram": "https://www.instagram.com/piyush_c38?igsh=ZzlvZGQ1YzB6MzFz",
+                "phone":""
+            }
+        ]
+    },
+
     "team": {
         "president":{
             "name":"Himanshu",
@@ -39,10 +102,35 @@
             {
                 "name": "Prayatna",
                 "description":"\"Prayatna\", the annual intra-institute sports tournament is organized every year. Prayatna, which means \"effort\", is aimed to arouse the sportsman spirit of the budding technocrats. This is an amalgamation of team spirit and healthy competitive spirit which goes on in a three-month long array of varied sports fixtures involving eight sports presently offered by the institute, viz table tennis, chess, volleyball, badminton, football, cricket, athletics and basketball. Prayatna is sure to add another feather to the cap of this newly established yet fervently developing institute.",
-                "img1": "..//public/images/life/badminton-1.JPG",
+                "img1": "..//public/images/life/tt1.JPG",
                 "alt1": "Prayatna",
-                "img2": "..//public/images/life/badminton-2.JPG",
-                "alt2": "Prayatna"
+                "img2": "..//public/images/life/footballfinal.JPG",
+                "alt2": "Prayatna",
+                "video": "exists"
+            },
+            {
+                "name": "Ciao",
+                "description":"",
+                "img1": "",
+                "alt1": "",
+                "img2": "",
+                "alt2": ""
+            },
+            {
+                "name": "CultScape",
+                "description":"",
+                "img1": "",
+                "alt1": "",
+                "img2": "",
+                "alt2": ""
+            },
+            {
+                "name": "Anveshan",
+                "description":"",
+                "img1": "",
+                "alt1": "",
+                "img2": "",
+                "alt2": ""
             },
             {
                 "name": "New year celebration",
@@ -67,6 +155,14 @@
                 "alt1": "Ganesh Chaturthi",
                 "img2": "..//public/images/life/ganesh-2.JPG",
                 "alt2": "Ganesh Chaturthi"
+            },
+            {
+                "name": "Navaratri Celebration",
+                "description":"",
+                "img1": "",
+                "alt1": "",
+                "img2": "",
+                "alt2": ""
             },
             {
                 "name": "Treasure Hunt",

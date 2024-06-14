@@ -55,7 +55,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
       }
     </style>
     <body onload="closePreloader()">
-
+    <div class ="bckproperty">
       <?php
       require_once('partials/header.php');
       ?>
@@ -80,7 +80,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
               <h2 class="heading-secondary"><?php echo $item['title']; ?></h2>
               <iframe width="840" height="472.5" src=<?php echo $item['link']; ?> title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <br><br>
-              <a href=<?php echo $item['site-link']; ?> class="outreach__link"><p class="introduction__text" style="text-align:center;">Go to - <u><?php echo $item["site-name"]; ?></u></p></a><br>
+              <a href=<?php echo $item['site-link']; ?> class="outreach__link"target="_blank"><p class="introduction__text" style="text-align:center;">Go to - <u><?php echo $item["site-name"]; ?></u></p></a><br>
           </div> 
         <?php endforeach;?>
         <br>
@@ -110,7 +110,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
       <?php
       require_once('partials/footer.php');
       ?>
-
+</div>
     </body>
 
   </html>

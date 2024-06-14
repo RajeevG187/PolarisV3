@@ -1,0 +1,69 @@
+{
+  "navbar-links": [
+    { "url": "/", "text": "Home", "class": "navbar_home" },
+    {
+      "url": "../views/mentors.php",
+      "text": "Mentors",
+      "class": "navbar_mentors"
+    },
+    {
+      "url": "../views/academics.php",
+      "text": "Academics",
+      "class": "navbar_academics"
+    },
+    {
+      "url": "../views/departments.php",
+      "text": "Departments",
+      "class": "navbar_departments"
+    },
+    {
+      "url": "../views/aroundthecampus.php",
+      "text": "Around the Campus",
+      "class": "navbar_aroundthecampus"
+    },
+    {
+      "url": "../views/documents.php",
+      "text": "Documents",
+      "class": "navbar_documents"
+    },
+    {
+      "url": "../views/queries.php",
+      "text": "Queries",
+      "class": "navbar_queries"
+    }
+  ],
+  "dropdown-links": [
+    { "url": "../views/cosa.php", "text": "CoSA", "class": "navbar_cosa" },
+    {
+      "url": "../views/cultural.php",
+      "text": "Cultural Council",
+      "class": "navbar_cultural"
+    },
+    {
+      "url": "../views/scitech.php",
+      "text": "Scitech Clubs",
+      "class": "navbar_scitech"
+    },
+    {
+      "url": "../views/outreach.php",
+      "text": "Outreach Clubs",
+      "class": "navbar_outreach"
+    },
+    {
+      "url": "../views/nssandnso.php",
+      "text": "NSS and NSO",
+      "class": "navbar_nssandnso"
+    },
+    {
+      "url": "../views/sports.php",
+      "text": "Sports",
+      "class": "navbar_sports"
+    },
+    { "url": "../views/meraz.php", "text": "Meraz", "class": "navbar_meraz" },
+    {
+      "url": "../views/motorsports.php",
+      "text": "Motorsports",
+      "class": "navbar_motorsports"
+    }
+  ]
+}
