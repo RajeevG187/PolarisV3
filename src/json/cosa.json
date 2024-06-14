@@ -102,19 +102,19 @@
             {
                 "name": "Prayatna",
                 "description":"\"Prayatna\", the annual intra-institute sports tournament is organized every year. Prayatna, which means \"effort\", is aimed to arouse the sportsman spirit of the budding technocrats. This is an amalgamation of team spirit and healthy competitive spirit which goes on in a three-month long array of varied sports fixtures involving eight sports presently offered by the institute, viz table tennis, chess, volleyball, badminton, football, cricket, athletics and basketball. Prayatna is sure to add another feather to the cap of this newly established yet fervently developing institute.",
-                "img1": "..//public/images/life/tt1.JPG",
+                "img1": "../public/images/cosa events/prayatna/prayatna-1.jpg",
                 "alt1": "Prayatna",
-                "img2": "..//public/images/life/footballfinal.JPG",
+                "img2": "../public/images/cosa events/prayatna/prayatna-2.jpg",
                 "alt2": "Prayatna",
                 "video": "exists"
             },
             {
                 "name": "Ciao",
                 "description":"",
-                "img1": "",
-                "alt1": "",
-                "img2": "",
-                "alt2": ""
+                "img1": "../public/images/cosa events/ciao/ciao-1.jpg",
+                "alt1": "Ciao",
+                "img2": "../public/images/cosa events/ciao/ciao-2.jpg",
+                "alt2": "Ciao"
             },
             {
                 "name": "CultScape",
@@ -127,8 +127,8 @@
             {
                 "name": "Anveshan",
                 "description":"",
-                "img1": "",
-                "alt1": "",
+                "img1": "../public/images/cosa events/anveshan/anveshan-1.jpg",
+                "alt1": "Anveshan",
                 "img2": "",
                 "alt2": ""
             },
@@ -143,17 +143,17 @@
             {
                 "name": "Kite flying",
                 "description":"The Council of Student Affairs cherishes the diverse culture at IIT Bhilai and attempts to unite everyone by celebrating all festivals with equal zeal. 14th January is celebrated as Makar Sankranti across India which marks the beginning of Uttarayan and Kite flying is an intrinsic part. CoSA brings together all the residents of the campus as all celebrate as friends and family in the Kite Flying in which colourful kites adorn the skies and smile adorns the faces of all! As one says, \"तीळ गूळ घ्या नी गोड-गोड बोला.\"",
-                "img1": "..//public/images/life/kite-1.JPG",
+                "img1": "../public/images/cosa events/kite flying/kite-1.jpg",
                 "alt1": "Kite flying",
-                "img2": "..//public/images/life/kite-2.JPG",
+                "img2": "../public/images/cosa events/kite flying/kite-2.jpg",
                 "alt2": "Kite flying"
             },
             {
                 "name": "Ganesh Chaturthi",
                 "description":"It begins on Ganesh Chaturthi when people install the statue of Lord Ganesha in their homes. To give the hostelers a feel of Home away from home, a statue of Lord Ganesha is ensconced in the recreation room of Hostel Castle Dio. The celebration includes a Puja by Director Sir followed by aarthi daily until we bid adieu to Bappa. Ganesh Chaturthi is celebrated with devotion and gusto.",
-                "img1": "..//public/images/life/ganesh-1.JPG",
+                "img1": "../public/images/cosa events/ganesh chaturthi/ganesh-1.jpg",
                 "alt1": "Ganesh Chaturthi",
-                "img2": "..//public/images/life/ganesh-2.JPG",
+                "img2": "../public/images/cosa events/ganesh chaturthi/ganesh-2.jpg",
                 "alt2": "Ganesh Chaturthi"
             },
             {
@@ -165,19 +165,19 @@
                 "alt2": ""
             },
             {
-                "name": "Treasure Hunt",
-                "description":"This has been a tradition of IIT Bhilai and every year it continues to live up to its expectations.This is a fun challenging race to the treasure, tease your brain, solve mind-boggling clues and find locations around IIT Bhilai to win exciting prizes! Rules are simple: find a clue, solve the clue and get to the next clue. Experience the excitement to race to the finish point ahead of others.",
-                "img1": "",
-                "alt1": "",
+                "name": "Republic Day Celebration",
+                "description":"",
+                "img1": "../public/images/cosa events/republic day/republic day-1.jpg",
+                "alt1": "Republic Day Celebration",
                 "img2": "",
                 "alt2": ""
             },
             {
                 "name": "Diwali Celebration",
                 "description":"Diwali not only brings out the creativity of students but also helps them bond together – something which symbolises Diwali. Students themselves put efforts in decorating and lighting up hostel with bright and colourful lights. On this special occasion everybody celebrates by lighting fireworks and sky lanterns. This is followed by a DJ night where everyone dances and groove to the mix beats.",
-                "img1": "..//public/images/life/diwali-1.JPG",
+                "img1": "../public/images/cosa events/diwali/diwali-1.jpg",
                 "alt1": "Diwali Celebration",
-                "img2": "..//public/images/life/diwali-2.JPG",
+                "img2": "../public/images/cosa events/diwali/diwali-2.jpg",
                 "alt2": "Diwali Celebration"
             },
             {
