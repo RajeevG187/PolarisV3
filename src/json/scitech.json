@@ -48,7 +48,7 @@
                 }
             ],
             "images":"",
-            "image_epsilon":""
+            "img-active":""
         },
         {
             "title": "The Space Exploration Society (SES)",
@@ -80,17 +80,23 @@
                     }
                 ]
             },
-            "image_epsilon":"",
-            "images": [
+            "img-active": [
                 {
-                    "url": "../public/images/life/SES2.png",
-                    "alt": "Epsilon"
-                },
-                {
-                    "url": "../public/images/life/SES3.jpg",
-                    "alt": "Epsilon"
+                    "url": "../public/images/life/SES2.jpg",
+                    "alt": "SES"
                 }
             ],
+            "images": [
+                {
+                    "url": "../public/images/life/SES3.jpg",
+                    "alt": "SES"
+                },
+                {
+                    "url": "../public/images/life/SES1.JPG",
+                    "alt": "SES"
+                }
+            ],
+            "carousel_id":["SES"],
             "socialmedia": [
                 {
                     "url": "https://instagram.com/ses_iitbh?igshid=ZDc4ODBmNjlmNQ==",
@@ -164,28 +170,50 @@
                 }
             ]
         },
-        "image_epsilon":"",
         "socialmedia":"",
+        "img-active":[
+            {
+                "url": "../public/images/life/electromos-1.jpg",
+                "alt": "Electromos"
+            }
+        ],
+        
             "images": [
-                {
-                    "url": "../public/images/life/electromos-1.jpg",
-                    "alt": "Electromos"
-                },
                 {
                     "url": "../public/images/life/electromos-2.jpeg",
                     "alt": "Electromos"
+                },
+                {
+                    "url": "../public/images/life/electromos-2.jpg",
+                    "alt": "Epsilon"
                 }
-            ]
+            ],
+            "carousel_id":["Electromos"]
         },
         {
             "title": "Ingenuity",
             "role":"Co-ordinator",
             "leader": " Koosh Gupta & Manopriya Mondal",
             "about": "Ingenuity as the name suggests is a club for the problem solvers! The prime motive of the club is to promote and enrich the coding culture in IIT Bhilai. The club provides a constructive and budding environment to the students who share a passion for problem solving and competitive programming. The club organises events and contests along with workshops and seminars on competitive programming with the support of a dedicated team of core members.",
-          "image_epsilon":"",
-          "images":"",
-          "list":"",
-          "topic":"",
+            "img-active":[
+                {
+                    "url": "../public/images/life/ingenuity-1.jpeg",
+                    "alt": "Ingenuity"
+                }
+            ],
+            "images":[
+                {
+                    "url": "../public/images/life/ingenuity-2.jpeg",
+                    "alt": "Ingenuity"
+                },
+                {
+                    "url": "../public/images/life/ingenuity-3.jpeg",
+                    "alt": "Ingenuity"
+                }
+            ],
+            "carousel_id":["Ingenuity"],
+            "list":"",
+            "topic":"",
             "activities": {
                 "title": "Activities",
                 "activity-list":[
@@ -219,7 +247,6 @@
             "about": "This club under the Science &amp; Technology Clubs, IIT Bhilai, is a prodigious &amp; one of the most appreciated features of this Institute. The idea of providing a common platform for students interested in Robotics is what makes it different from other clubs. The main motive of the club is to provide a really strong platform for bringing his/her ideas on Robotics into reality. The club provides all the necessary assistance for the same. With the motto of “IMAGINE, INVENT, INSPIRE” the club came into establishment in April 2017. Our esteemed group shares a common passion for the field of Robotics.",
             "topic":"",
             "list":"",
-            "images":"",
             "activities": {
                 "title": "Activities",
                 "activity-list":[
@@ -252,20 +279,25 @@
                 }
             ]
             },
-            "image_epsilon": [
-                {
-                    "url": "../public/images/life/epsilon-1.jpeg",
-                    "alt": "Epsilon"
-                },
+            
+            "images":[
+                
                 {
                     "url": "../public/images/life/epsilon-2.jpeg",
                     "alt": "Epsilon"
                 },
                 {
-                    "url": "../public/images/life/epsilon1.jpeg",
+                    "url": "../public/images/life/epsilon-3.JPG",
                     "alt": "Epsilon"
                 }
             ],
+            "img-active": [
+                {
+                    "url": "../public/images/life/epsilon-1.jpeg",
+                    "alt": "Epsilon"
+                }
+            ],
+            "carousel_id":["Epsilon"],
             "socialmedia": [
                 {
                     "url": "https://www.instagram.com/roboticsclub_iitbhilai/",
@@ -291,7 +323,7 @@
             "leader": " Sumit Pathak & Nishchay Rajput",
             "about": "We at OpenLake are on a mission to make the open-source contribution culture thrive in IIT Bhilai. We conduct events to promote participation in open-source internship programs like GSoC, Outreachy, MLH etc. We also have our own open-sourced projects for IIT Bhilai students to contribute. We conduct hackathons, technical workshops, OWOC (OpenLake winter of code), and guest sessions by full-time open-source contributors (Yeah, you heard it right, people earn extremely good salaries from open-source contributions). We&#39;re proud to say that every year, starting from the first batch, IIT Bhilai students get selected for the most prestigious open-source programs like Google Summer of Code (GSoC).",
            "activities":"",
-           "image_epsilon":"",
+           "img-active":"",
            "images":"",
            "list":"",
            "topic":"",
@@ -316,7 +348,7 @@
             "leader": " Bhavik Shangari & Gaddey Hemanth Chowdary",
             "about": " The majority of new ventures involve significant data analysis. This data is being generated at an incredible rate. Over the last few years, hackathons and other data science competitions have increased. In this situation, we can't afford to fall behind. As a result, the DSAI Club was established at IIT Bhilai to accelerate the data science culture. This club's primary goal is to promote two fields: data science and artificial intelligence. The club will work on projects that will encourage more individuals to join the bandwagon of innovation. The club will also endeavor to develop a research group to solve problems, publish articles, and contribute to the student research culture at IIT Bhilai.",
            "activities":"",
-           "image_epsilon":"",
+           "img-active":"",
            "images":"",
            "list":"",
            "topic":"",
@@ -345,7 +377,7 @@
             "leader": " Nikhil Kumar Shrey & Arya Rajesh Lanjewar",
             "about": "Blockchain technology is moving at a rapid pace. A lot of students of our institute are interested in learning blockchain technology, but due to lack of guidance, they end up giving up on learning blockchain and find some other interests. This society will prevent exactly this; we will be guiding students who are interested in learning blockchain, we will cover both, theoretical and practical aspects and make sure that they stand on their own feet. We will teach blockchain, work on blockchain-related projects, conduct hackathons, invite high profile speakers from the industry, and build good relationships with the leading blockchain companies.",
             "activities":"",
-            "image_epsilon":"" ,
+            "img-active":"" ,
             "images":"",
             "list":"",
             "socialmedia":"",

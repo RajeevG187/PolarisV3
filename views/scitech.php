@@ -38,8 +38,13 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
     <link rel="stylesheet" href="../public/css/animate.css">
     <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../public/bootstrap/css/bootstrap.min.css">
+
 
     <title>Polaris - Student Mentorship Program</title>
+    <script defer src="../public/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
 
     <style>
         #blink {
@@ -158,22 +163,46 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                 </a>
                             <?php endforeach; ?>
                         </p><?php endif; ?>
+                    
+                    <?php if(!empty($club['images'])): ?>
+                        <section class="section">
+                            <div class="container">
+                                <div class="gallery">
+                                    <div class="siema">
+                                        <div id="<?php echo $club['carousel_id'][0]; ?>" class="carousel slide">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#<?php echo $club['carousel_id'][0]; ?>" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#<?php echo $club['carousel_id'][0]; ?>" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#<?php echo $club['carousel_id'][0]; ?>" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            
 
-                    <?php if (!empty($club['images'])): ?>
-                        <div class="row">
-                            <?php foreach ($club['images'] as $image): ?>
-                                <div class="col-1-of-2"><img src="<?= $image['url'] ?>" alt="<?= $image['alt'] ?>"
-                                        class="scitech__photo"></div>
-                            <?php endforeach; ?>
-                        </div><?php endif; ?>
-
-                    <?php if (!empty($club['image_epsilon'])): ?>
-                        <div class="row">
-                            <?php foreach ($club['image_epsilon'] as $image): ?>
-                                <div class="col-1-of-3"><img src="<?= $image['url'] ?>" alt="<?= $image['alt'] ?>"
-                                        class="scitech__photo"></div>
-                            <?php endforeach; ?>
-                        </div><?php endif; ?>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active c-item">
+                                            <img src="<?php echo $club['img-active'][0]['url']; ?>" class="d-block w-100 c-img" alt="<?php echo $club['img-active'][0]['alt']; ?>">
+                                            </div>
+                                                
+                                            <div class="carousel-item c-item">
+                                                <img src="<?php echo $club['images'][0]['url']; ?>" class="d-block w-100 c-img" alt="<?php echo $club['images'][0]['alt']; ?>">
+                                            </div>
+                                            <div class="carousel-item c-item">
+                                                <img src="<?php echo $club['images'][1]['url']; ?>" class="d-block w-100 c-img" alt="<?php echo $club['images'][1]['alt']; ?>">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#<?php echo $club['carousel_id'][0]; ?>" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#<?php echo $club['carousel_id'][0]; ?>" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <?php endif; ?>
 
                     <div class="line-break"></div>
                 </div>
