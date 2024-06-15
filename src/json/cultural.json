@@ -359,11 +359,11 @@
         "images":
         [
             {
-                "img": "../public/images/Club Images/Cultural/FPS/1.jpg",
+                "img": "../public/images/Club Images/Cultural/FPS/2.jpg",
                 "alt": "Film Production Society"
             },
             {
-                "img": "../public/images/Club Images/Cultural/FPS/2.jpg",
+                "img": "../public/images/Club Images/Cultural/FPS/3.jpg",
                 "alt": "Film Production Society"
             },
             {
@@ -375,7 +375,7 @@
         "img-active":[
             
             {
-                "img": "../public/images/life/fps.jpg",
+                "img": "../public/images/Club Images/Cultural/FPS/1.jpg",
                 "alt": "Film Production Society"
             }
         ],
