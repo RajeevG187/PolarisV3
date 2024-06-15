@@ -163,7 +163,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         <?php
         require_once('partials/footer.php');
         ?>
-        </div>
+    </div>
     </body>
 
 </html>
