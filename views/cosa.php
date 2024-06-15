@@ -213,7 +213,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                 echo '<p class="cultural__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Description:</span> ' . $event['description'] . '</p>';
                 echo '<br><br>';
 
-                if (!empty($event['img1']) && !empty($event['img2'])) {
+                if (!empty($event['img1']) || !empty($event['img2'])) {
                     echo '<div class="row">';
                     echo '<div class="col-1-of-2"><img src="' . $event['img1'] . '" alt="' . $event['alt1'] . '" class="cultural__photo"></div>';
                     echo '<div class="col-1-of-2"><img src="' . $event['img2'] . '" alt="' . $event['alt2'] . '" class="cultural__photo"></div>';
