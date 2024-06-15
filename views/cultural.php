@@ -118,7 +118,11 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                     <div id="<?php echo $club['carousel_id'][0]; ?>" class="carousel slide">
                                         <div class="carousel-indicators">
                                             <button type="button" data-bs-target="#<?php echo $club['carousel_id'][0]; ?>" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                            <button type="button" data-bs-target="#<?php echo $club['carousel_id'][0]; ?>" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <?php $i = 1;foreach($club['images'] as $img): ?>
+                                                 <button type="button" data-bs-target="#<?php echo $club['carousel_id'][0]; ?>" data-bs-slide-to="<?php echo $i; ?>" aria-label="Slide <?php echo $i + 1; ?>"></button>
+                                            <?php $i++; endforeach; ?>
+
+
                                         </div>
                                         <div class="carousel-inner">
                                             <div class="carousel-item active c-item">
@@ -130,7 +134,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                                 </div>
                                             <?php endforeach; ?>
                                         </div>
-                                        <button class="carousel-control-prev" type="button" data-bs-target="#<?php echo $club['carousel_id'][0]; ?>" data-bs-slide="prev">
+                                        <button class="carousel-control-prev"  type="button" data-bs-target="#<?php echo $club['carousel_id'][0]; ?>" data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
@@ -144,7 +148,9 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                         </div>
                     </section>
                 </div>
-
+                   
+                <br>
+                <br><br><br>                                  
                 <div class="line-break"></div>
             <?php endforeach; ?>
         </div>
@@ -162,7 +168,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     </p><br>
                     <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow us:</span> <?php if (isset($society['facebook'])): ?><a href="<?= $society['facebook'] ?>" class="outreach__link">Facebook</a>,<?php endif; ?> <a href="<?= $society['instagram'] ?>" class="outreach__link">Instagram</a></p>
                     <br>
-
+                    <br>
                     <section class="section">
                         <div class="container">
                             <div class="gallery">
@@ -170,7 +176,9 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                     <div id="<?php echo $society['carousel_id'][0]; ?>" class="carousel slide">
                                         <div class="carousel-indicators">
                                             <button type="button" data-bs-target="#<?php echo $society['carousel_id'][0]; ?>" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                            <button type="button" data-bs-target="#<?php echo $society['carousel_id'][0]; ?>" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <?php $i = 1;foreach($society['images'] as $img): ?>
+                                                 <button type="button" data-bs-target="#<?php echo $club['carousel_id'][0]; ?>" data-bs-slide-to="<?php echo $i; ?>" aria-label="Slide <?php echo $i + 1; ?>"></button>
+                                            <?php $i++; endforeach; ?>
                                         </div>
                                         <div class="carousel-inner">
                                             <div class="carousel-item active c-item">
@@ -196,7 +204,23 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                         </div>
                     </section>
                 </div>
+                                    <br><br><br><br>
+        <?php if ($society['carousel_id'][0] == 'FPS'): ?>
+            <div class="row">
+              <div class="col-1-of-2">
+                  <div class="campus">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/V-v-gpafOng?si=Evxrl1gw_7CSBAUh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </div>
+              </div>
+              <div class="col-1-of-2">
+                  <div class="campus">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/7ivVwOWVfEU?si=a-Mxq-qDDgkgkNt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </div>
+              </div>
+          </div>         
+        <?php endif; ?>
 
+                <br><br><br><br>
                 <div class="line-break"></div>
             <?php endforeach; ?>
         </div>

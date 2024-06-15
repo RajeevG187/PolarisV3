@@ -57,13 +57,17 @@
         "images":
         [
             {  
-                "img": "../public/images/life/artsclub-2.jpg",
+                "img": "../public/images/Club Images/Cultural/Renaissance/(2).png",
+                "alt": "Arts Club"
+            },
+            {  
+                "img": "../public/images/Club Images/Cultural/Renaissance/(3).png",
                 "alt": "Arts Club"
             }
         ],
         "img-active":[
             {
-                "img": "../public/images/life/artsclub-1.jpg",
+                "img": "../public/images/Club Images/Cultural/Renaissance/(1).jpg",
                 "alt": "Art Club"
             }
         ],
@@ -117,13 +121,17 @@
        [
            
            {
-                "img": "../public/images/life/beathackers-2.JPG",
+                "img": "../public/images/Club Images/Cultural/BeatHackers/(2).jpg",
                "alt": "Dance Club"
-           }
+           },
+           {
+            "img": "../public/images/Club Images/Cultural/BeatHackers/(3).jpg",
+           "alt": "Dance Club"
+            }
        ],
        "img-active":[
             {
-                "img": "../public/images/life/beathackers-1.JPG",
+                "img": "../public/images/Club Images/Cultural/BeatHackers/(1).jpg",
                 "alt": "Dance Club"
             }
         ],
@@ -138,14 +146,17 @@
         "images":
         [
             
-            {   "img": "../public/images/life/drishya-2.JPG",
+            {   "img": "../public/images/Club Images/Cultural/Drishya/(4).jpg",
+                "alt": "Drama Club"
+            },
+            {   "img": "../public/images/Club Images/Cultural/Drishya/(2).jpg",
                 "alt": "Drama Club"
             }
         ],
         "img-active":
         [
             {
-                "img": "../public/images/life/drishya-1.JPG",
+                "img": "../public/images/Club Images/Cultural/Drishya/(3).jpg",
                 "alt": "Drama Club"
             }
         ],
@@ -158,15 +169,18 @@
         "facebook": "https://www.facebook.com/QuizzoticaIITBh/",
         "instagram": "https://instagram.com/quizzotica_iitbh?igshid=1skn0co75e5cr",
         "images": [
-            {    "img": "../public/images/life/quizzotica-2.jpg",
+            {    "img": "../public/images/Club Images/Cultural/Quizzotica/(2).jpg",
                 "alt": "Quizzotica"
-            }
+            },
+            {    "img": "../public/images/Club Images/Cultural/Quizzotica/(3).jpg",
+                 "alt": "Quizzotica"
+             }
             
         ],
 
         "img-active":[
             {
-                "img": "../public/images/life/quizzotica-1.jpg",
+                "img": "../public/images/Club Images/Cultural/Quizzotica/(1).jpg",
                 "alt": "Quizzotica"
             }
         ],
@@ -181,14 +195,26 @@
         "images": 
         [
             {    
-                "img": "../public/images/life/music-2.jpg",
+                "img": "../public/images/Club Images/Cultural/Swara/2.jpg",
+                "alt": "Swara"
+            },
+            {    
+                "img": "../public/images/Club Images/Cultural/Swara/3.jpg",
+                "alt": "Swara"
+            },
+            {    
+                "img": "../public/images/Club Images/Cultural/Swara/4.JPG",
+                "alt": "Swara"
+            },
+            {    
+                "img": "../public/images/Club Images/Cultural/Swara/5.JPG",
                 "alt": "Swara"
             }
         ],
 
         "img-active":[
             {
-                "img": "../public/images/life/music-1.jpg",
+                "img": "../public/images/Club Images/Cultural/Swara/1.jpg",
                 "alt": "Swara"
             }
         ],
@@ -221,13 +247,21 @@
         "images": 
         [
             {
-                "img": "../public/images/life/tps-2.JPG",
+                "img": "../public/images/Club Images/Cultural/TPS/2.jpg",
+                "alt": "The Pixel Snappers"
+            },
+            {
+                "img": "../public/images/Club Images/Cultural/TPS/3.jpg",
+                "alt": "The Pixel Snappers"
+            },
+            {
+                "img": "../public/images/Club Images/Cultural/TPS/4.jpg",
                 "alt": "The Pixel Snappers"
             }
         ],
         "img-active":[
             {
-                "img": "../public/images/life/tps-1.jpg",
+                "img": "../public/images/Club Images/Cultural/TPS/1.jpg",
                 "alt": "The Pixel Snappers"
             }
         ],
@@ -243,13 +277,21 @@
     "images": 
     [
         {
-            "img": "../public/images/life/designx.jpg",
+            "img": "../public/images/Club Images/Cultural/Designx/2.jpg",
+            "alt": "DesignX"
+        },
+        {
+            "img": "../public/images/Club Images/Cultural/Designx/3.jpg",
+            "alt": "DesignX"
+        },
+        {
+            "img": "../public/images/Club Images/Cultural/Designx/4.jpg",
             "alt": "DesignX"
         }
     ],
     "img-active":[
             {
-                "img": "../public/images/life/music-1.jpg",
+                "img": "../public/images/Club Images/Cultural/Designx/1.jpg",
                 "alt": "Swara"
             }
         ],
@@ -278,13 +320,16 @@
         "instagram": "https://instagram.com/goals_iitbhilai?igshid=MzRlODBiNWFlZA==",
         "images":
         [
-            {   "img": "../public/images/life/goals-2.jpg",
+            {   "img": "../public/images/Club Images/Cultural/Goals/(2).jpg",
+                "alt": "GOALS"
+            },
+            {   "img": "../public/images/Club Images/Cultural/Goals/(3).jpg",
                 "alt": "GOALS"
             }
         ],
         "img-active":[
             {
-                "img": "../public/images/life/goals-1.jpg",
+                "img": "../public/images/Club Images/Cultural/Goals/(1).jpg",
                 "alt": "GOALS"
             }
         ],
@@ -292,7 +337,7 @@
     },
 
     {    "name":"FPS - The Film Production Society",
-        "secretary": "Galab Vamsi and Yuvraj Mandrah",
+        "secretary": "Galaba Vamsi and Yuvraj Mandrah",
         "description": 
         [
             {
@@ -304,8 +349,16 @@
         "images":
         [
             {
-                "img": "../public/images/life/goals-1.jpg",
-                "alt": "GOALS"
+                "img": "../public/images/Club Images/Cultural/FPS/1.jpg",
+                "alt": "Film Production Society"
+            },
+            {
+                "img": "../public/images/Club Images/Cultural/FPS/2.jpg",
+                "alt": "Film Production Society"
+            },
+            {
+                "img": "../public/images/Club Images/Cultural/FPS/4.jpg",
+                "alt": "Film Production Society"
             }
             
         ],
@@ -317,6 +370,7 @@
             }
         ],
         "carousel_id":["FPS"]
+        
     },
 
     { 
@@ -342,14 +396,14 @@
         "images": 
         [
             
-            {   "img": "../public/images/life/nir2.jpeg",
+            {   "img": "../public/images/Club Images/Cultural/Nirvana/2.jpeg",
                 "alt": "Nirvana"
             }
         ],
         "img-active":[
             
             {
-                "img": "../public/images/life/nir1.jpeg",
+                "img": "../public/images/Club Images/Cultural/NIrvana/1.jpeg",
                 "alt": "Nirvana"
             }
         ],
