@@ -227,9 +227,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
     </section>
 
     
-
     <?php require_once('partials/footer.php'); ?>
-
 </body>
 
 </html>

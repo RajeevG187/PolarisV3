@@ -33,6 +33,19 @@ body {
   box-sizing: border-box;
 }
 
+.bckproperty{
+  background-color: rgba(234, 158, 241,0.2)
+}
+
+.bckprp {
+
+ 
+  background-image: url("../images/logoiit.jpg");
+  background-size: cover;
+  background-repeat:no-repeat ;
+  background-position:center;
+}
+
 .line-break {
   background-color: #777;
   height: 1px;
@@ -638,6 +651,10 @@ body {
   background: rgba(0, 0, 0, 0.681);
   color: #ffffff;
 }
+.current {
+  color: #ffffff !important;
+  background: rgba(0, 0, 0, 0.681);
+}
 .navigation .nav-bar ul li ul {
   position: absolute;
   left: 0;
@@ -722,6 +739,14 @@ body {
 @media (max-width: 600px) {
   .row [class^=col-]:not(:last-child) {
     margin-bottom: 6rem;
+  }
+}
+.row .col-1-of-1 {
+  width: calc((100% - 6rem) / 0.92);
+}
+@media (max-width: 600px) {
+  .row .col-1-of-1 {
+    width: 100%;
   }
 }
 .row .col-1-of-2 {
@@ -829,6 +854,10 @@ body {
     display: inline;
   }
 }
+.align {
+  margin-left: 3rem;
+}
+
 .campus {
   text-align: center;
 }
@@ -1253,6 +1282,32 @@ body {
   width: 100%;
 }
 
+.icon_section {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0.8vw;
+}
+.icon_section__size {
+  height: 8vh;
+  width: 8vh;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon_section__image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.icon_section__vertical_line {
+  height: 8vh;
+  width: 0px;
+  border-left: 0.1px solid black;
+}
+
 .nominee__text {
   text-align: justify;
   font-size: 2rem;
@@ -1315,4 +1370,5 @@ body {
   object-fit:fill;
 
 }
+
 /*# sourceMappingURL=style.css.map */

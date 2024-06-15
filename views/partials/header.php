@@ -1,3 +1,34 @@
+<?php
+// Define the path to the JSON file
+
+// To Get the Current Filename. 
+$currentPage= $_SERVER['SCRIPT_NAME']; 
+  
+// To Get the directory name in  
+// which file is stored. 
+$currentPage = substr($currentPage, 1); 
+
+// echo $currentPage;
+
+$jsonFilePathHeader = $currentPage == 'index.php' ? 'src\json\header.json' : '..\src\json\header.json';
+
+// Check if the JSON file exists and is readable
+if (!file_exists($jsonFilePathHeader) || !is_readable($jsonFilePathHeader)) {
+    die(' Error: JSON file not found or not readable.');
+}
+
+// Read JSON file
+$jsonHeader = file_get_contents($jsonFilePathHeader);
+
+// Decode JSON data to PHP associative array
+$dataHeader = json_decode($jsonHeader, true);
+
+// Check if JSON data is valid
+if (json_last_error() !== JSON_ERROR_NONE) {
+    die('Error: Invalid JSON data. ' . json_last_error_msg());
+}
+?>
+
 <div id="preloader" class="preloader">
     <svg class="ip" viewBox="0 0 256 128" width="256px" height="128px" xmlns="http://www.w3.org/2000/svg">
       <defs>
@@ -35,60 +66,21 @@
 
   <nav class="nav-bar">
     <ul>
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="../views/mentors.php">Mentors</a>
-      </li>
-      <li>
-        <a href="../views/academics.php">Academics</a>
-      </li>
-      <li>
-        <a href="../views/departments.php">Departments</a>
-      </li>
-      <li>
-        <a href="../views/aroundthecampus.php">Around the Campus</a>
-      </li>
-      <li>
-        <a href="../views/documents.php">Documents</a>
-      </li>
-      <li>
-        <a href="../views/queries.php">Queries</a>
-      </li>
+      <?php foreach($dataHeader['navbar-links'] as $item):?>
+        <li class = <?php echo $item["class"] ?>>
+          <a href=<?php echo $item["url"] ?> class = "<?php echo (($item["url"] == '../' . $currentPage) || (($currentPage == 'index.php') && ($item["url"] == '/'))) ? 'current' : ''; ?>"><?php echo $item["text"] ?></a>
+        </li>
+      <?php endforeach;?>
       <li>
         <a>Life &commat; IITBh &nbsp;<i class="fas fa-angle-down"></i></a>
         <ul>
-          <!--<li>
-            <a href="hostellife.php">Hostel Life</a>
-          </li>-->
-          <li>
-            <a href="../views/cosa.php">CoSA</a>
-          </li>
-          <li>
-            <a href="../views/cultural.php">Cultural Council</a>
-          </li>
-          <li>
-            <a href="../views/scitech.php">Scitech Clubs</a>
-          </li>
-          <li>
-            <a href="../views/outreach.php">Outreach Clubs</a>
-          </li>
-          <li>
-            <a href="../views/nssandnso.php">NSS and NSO</a>
-          </li>
-          <li>
-            <a href="../views/sports.php">Sports</a>
-          </li>
-          <li>
-            <a href="../views/meraz.php">Meraz</a>
-          </li>
-          <li>
-            <a href="../views/motorsports.php">Motorsports</a>
-          </li>
+          <?php foreach($dataHeader['dropdown-links'] as $item):?>
+            <li class = <?php echo $item["class"] ?>>
+              <a href=<?php echo $item["url"] ?> class = "<?php echo ($item["url"] == '../' . $currentPage)? 'current' : ''; ?>"><?php echo $item["text"] ?></a>
+            </li>
+          <?php endforeach;?>
         </ul>
       </li>
     </ul>
   </nav>
-
 </header>

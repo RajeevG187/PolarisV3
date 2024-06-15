@@ -7,7 +7,9 @@
 
     "generalsecretary": 
     {
-        "name": "Smit Maurya"
+        "name": "Smit Maurya",
+        "image": "images/Smith_Maurya.jpg",
+        "email": "mailto:President_CoSA@iitbhilai.ac.in"
     },
 
     "text": 
@@ -32,6 +34,7 @@
 "club":[
     {
         "name": "Renaissance : The Fine Arts Club",
+        "icon":"../public/images/logo/renaissance.jpg",
         "coordinator": "Lakshay Gupta",
         "description": "Arts club is all about providing a platform for every student to express their imagination,creativity,ideas or a world view through different artworks.The club provides you an environment in finding your hidden talent and endeavors to help the students cope with academic stress and create an enjoyable ambience for them.",
        "topic":"Objective:",
@@ -75,6 +78,7 @@
     },
     {
        "name":"Beathackers : The Dance Club",
+       "icon":"../public/images/logo/beathackers.jpg",
        "coordinator": "Ayush Patel",
        "description": "\"Dance is one of the ways to express ourselves and to overcome the stress of our daily lives\". Beathackers is the official dance club of IIT Bhilai. Feel your feet tingling when the bass drops? Wanna learn a moonwalk or sway like Hrithik? If yes, then this the place where you can let the beats have control. The motive of the club is to make students learn about various dance forms such as jazz, break dance, hip hop and some of the popular western forms. The objective is to prepare a strong team for participating in dance events at national and international levels. The club organizes various workshops and zumba sessions throughout the year.",
        "subtopic":"Observations:",
@@ -139,6 +143,7 @@
     },
     {
         "name":"Drishya : The Drama Club",
+        "icon":"../public/images/logo/drishya.jpg",
         "coordinator": "Ketan Rakesh",
         "description": "\"The most exciting acting tends to happen in the roles you never thought you could play\" - John Lithgow. Drishya, the Dramatics Society of IIT Bhilai strives to provide a platform for students of the institute to conceive and play dramas on the different aspects of life. The main objective of the society is to produce excellent and innovative student theatre. Being the first cultural club to be set up at IIT Bhilai, we at the society mainly deal with Stage Plays and Nukkad. From writing plays to direction and to acting , members get to learn new skills for every job that happens to be in the dramatics. I, as a coordinator of Drishya assure you that once you enter this club, you will have lots of fun with enhancement of your drama skills. So, to all those who believe that there is an actor inside you, then do join us and get a chance to be a part of the society. ",
         "facebook": "https://www.facebook.com/Drishya_iitbhilai-107523870980314/",
@@ -164,6 +169,7 @@
     },
     {
         "name":"Quizzotica : The Quizzing Club",
+        "icon":"../public/images/logo/quiz.jpg",
         "coordinator": "Uday Bhardwaj",
         "description": "Interested in Quizzes regarding Web Series, Memes, Movies, Tech etc, this is the club for you. Quizzing Club organizes regular quiz competitions and workshops to keep you updated with the current affairs and also to motivate you regarding your awareness towards current affairs. The primary goal of this club is to increase the interest of students towards quizzing and to participate and represent IIT Bhilai in the Quizzing Competitions at InterIIT Cultural Meet. ExQuizite - The Annual Quizzing Event, hosted by Quizzotica gives you the opportunity to unravel your talent and win exciting prizes. ",
         "facebook": "https://www.facebook.com/QuizzoticaIITBh/",
@@ -189,6 +195,7 @@
     {
         "name":"Swara : The Music Club",
         "coordinator": "Aditya Bajpai",
+        "icon":"../public/images/logo/swara.png",
         "description": "“Music and rhythm find their way into the secret places of the soul!” In our daily pursuit to achieve professional excellence we often neglect certain aspects of life. Music is one of them. It is our constant endeavour to spread awareness and induce a diverse music culture around us, encouraging students to take up instruments and giving opportunities to perform in front of a crowd. Swara as a club and band has performed at college festivals like Colossus (HNLU Naya Raipur), Armageddon (IIM Raipur), at Inter IIT Cultural Meet 2018 & 2019 and given a host performance Meraz (Annual Cultural fest of IIT Bhilai)",
         "instagram": "https://www.facebook.com/Swara_iitbh-102249191512762/",
         "facebook": "https://instagram.com/swara_iitbh?igshid=1raw7riy6v3yu",
@@ -222,6 +229,7 @@
     },
     {
         "name":"The Pixel Snappers : The Photography Club",
+        "icon":"../public/images/logo/tps.jpg",
         "coordinator": "Ganta Srujan",
        "description": "From the very beginning of the IIT Bhilai members of the club have showed their dedication and covered all the events organised inside the institute. We, as the members of the photography club, seek to display our love for photography through the consecutive criticism of our peers, leisure activities that involve photography, and the promotion of photography in and around the IIT Bhilai campus.",
         "topic":"Activities:",
@@ -269,8 +277,9 @@
     },
    {
     "name":"DesignX : The Digital Arts Club",
-    
+    "icon":"../public/images/logo/designX.jpg",
     "coordinator": "Sai Surya Talla",
+    
     "description": "DesignX is a newly formed Digital Arts Club of IIT Bhilai.Everyone is Creative. At some point, everyone displays their Creative Skill to the World.We, at DesignX, wish to channel that Creativity to more Artistic and Practical Tasks. DesignX is not only about making some cool designs, but also learning things on the way. DesignX designs posters, certificates and T-Shirts for several Clubs and events at IIT Bhilai.",
     "facebook": "http://fb.me/DesignXIITBhilai",
     "instagram": "https://instagram.com/designx_iitbhilai?igshid=m4rpuanay1jw",
@@ -307,6 +316,7 @@
     
     {   "name":"G.O.A.L.S - The General Oratory And Literary Society",
         "secretary": "Snehal Suhane and Aditya Yadav",
+        "icon":"../public/images/logo/goals.jpg",
         "description":
         [
             {
@@ -375,6 +385,7 @@
 
     { 
           "name":"NIRVANA",
+          "icon":"../public/images/logo/nirvana.jpg",
         "secretary": "Anamika Rajesh and Joseph",
       "description":
         [

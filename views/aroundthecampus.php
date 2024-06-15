@@ -62,7 +62,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
     </head>
 
     <body onload="closePreloader()">
-    
+    <div class ="bckproperty">
         <?php require_once('partials/header.php'); ?>
 
         <header class="header header__around">
@@ -132,12 +132,12 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                             <div class="foodspots__box">
                             <div class="col-1-of-2">
                                 <div class="heading-tertiary"><?php echo $content['title1']?></div>
-                                <div class="foodspots__description"><?php echo $content['text1']?><br>See on <a href=<?php echo $content['link1']?>>google maps &rarr;</a> </div>
+                                <div class="foodspots__description"><?php echo $content['text1']?><br>See on <a href="<?php echo $content['link1'];?>" target="_blank">google maps &rarr;</a> </div>
                             </div>
                             
                             <div class="col-1-of-2">
                                 <div class="heading-tertiary"><?php echo $content['title2']?></div>
-                                <div class="foodspots__description"><?php echo $content['text2']?><br>See on <a href=<?php echo $content['link2']?>>google maps &rarr;</a> </div>
+                                <div class="foodspots__description"><?php echo $content['text2']?><br>See on <a href="<?php echo $content['link2'];?>" target="_blank">google maps &rarr;</a> </div>
                             </div>
                             </div>
                         </div>
@@ -227,12 +227,12 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                             <div class="stores__box">
                             <div class="col-1-of-2">
                                 <div class="heading-tertiary"><?php echo $content['title1']?></div>
-                                <div class="stores__description"><?php echo $content['text1']?><br>See on <a href=<?php echo $content['link1']?>>google maps &rarr;</a> </div>
+                                <div class="stores__description"><?php echo $content['text1']?><br>See on <a href="<?php echo $content['link1'];?>" target="_blank">google maps &rarr;</a> </div>
                             </div>
                             
                             <div class="col-1-of-2">
                                 <div class="heading-tertiary"><?php echo $content['title2']?></div>
-                                <div class="stores__description"><?php echo $content['text2']?><br>See on <a href=<?php echo $content['link2']?>>google maps &rarr;</a> </div>
+                                <div class="stores__description"><?php echo $content['text2']?><br>See on <a href="<?php echo $content['link2'];?>" target="_blank">google maps &rarr;</a> </div>
                             </div>
 
                                 
@@ -264,7 +264,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         <?php 
         require_once('partials/footer.php'); 
         ?>
-
+</div>
     </body>
 
 </html>

@@ -52,7 +52,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
     </head>
 
     <body onload="closePreloader()">
-
+    <div class ="bckproperty">
       <?php
       require_once('partials/header.php');
       ?>
@@ -721,7 +721,7 @@ The curriculum of the department encourages exploration across disciplines, whil
                     <div class="info">
                         <!-- <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i>  <a href="https://www.iitbhilai.ac.in/index.php?pid=aca_handbook_pdf">Student's Handbook</a></h3> -->
                         <h3 class="heading-tertiary"><p style="color:red"><i class="far fa-dot-circle"></i> <?php echo $data['more_info']['point_1']; ?></p></h3>
-                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i>  <a href="https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs"><?php echo $data['more_info']['point_2']; ?></a></h3>
+                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i>  <a href="https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs" target="_blank"><?php echo $data['more_info']['point_2']; ?></a></h3>
 
 
                     </div>
@@ -894,6 +894,7 @@ The curriculum of the department encourages exploration across disciplines, whil
         <?php
         require_once('partials/footer.php');
         ?>
+        </div>
     </body>
 
 </html>
