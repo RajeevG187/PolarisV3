@@ -68,7 +68,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
     <ul>
       <?php foreach($dataHeader['navbar-links'] as $item):?>
         <li class = <?php echo $item["class"] ?>>
-          <a href=<?php echo $item["url"] ?> class = "<?php echo (($item["url"] == '../' . $currentPage) || (($items["url"] == '/') && ($currentPage == 'index.php'))) ? 'current' : ''; ?>"><?php echo $item["text"] ?></a>
+          <a href=<?php echo $item["url"] ?> class = "<?php echo (($item["url"] == '../' . $currentPage) || (($currentPage == 'index.php') && ($item["url"] == '/'))) ? 'current' : ''; ?>"><?php echo $item["text"] ?></a>
         </li>
       <?php endforeach;?>
       <li>
@@ -76,7 +76,6 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         <ul>
           <?php foreach($dataHeader['dropdown-links'] as $item):?>
             <li class = <?php echo $item["class"] ?>>
-              <!-- <a href=<?php echo $item["url"] ?>><?php echo $item["text"] ?></a> -->
               <a href=<?php echo $item["url"] ?> class = "<?php echo ($item["url"] == '../' . $currentPage)? 'current' : ''; ?>"><?php echo $item["text"] ?></a>
             </li>
           <?php endforeach;?>
