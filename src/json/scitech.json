@@ -84,17 +84,17 @@
             },
             "img-active": [
                 {
-                    "url": "../public/images/life/SES2.jpg",
+                    "url": "../public/images/Club Images/SciTech/SES/SES_2.jpg",
                     "alt": "SES"
                 }
             ],
             "images": [
                 {
-                    "url": "../public/images/life/SES3.jpg",
+                    "url": "../public/images/Club Images/SciTech/SES/SES_3.jpg",
                     "alt": "SES"
                 },
                 {
-                    "url": "../public/images/life/SES1.JPG",
+                    "url": "../public/images/Club Images/SciTech/SES/SES_1.jpg",
                     "alt": "SES"
                 }
             ],
@@ -176,18 +176,18 @@
         "socialmedia":"",
         "img-active":[
             {
-                "url": "../public/images/life/electromos-1.jpg",
+                "url":"../public/images/Club Images/SciTech/Electromos/Electromos_1.jpg",
                 "alt": "Electromos"
             }
         ],
         
             "images": [
                 {
-                    "url": "../public/images/life/electromos-2.jpeg",
+                    "url": "../public/images/Club Images/SciTech/Electromos/Electromos_2.jpeg",
                     "alt": "Electromos"
                 },
                 {
-                    "url": "../public/images/life/electromos-2.jpg",
+                    "url": "../public/images/Club Images/SciTech/Electromos/Electromos_3.jpg",
                     "alt": "Epsilon"
                 }
             ],
@@ -201,17 +201,17 @@
             "about": "Ingenuity as the name suggests is a club for the problem solvers! The prime motive of the club is to promote and enrich the coding culture in IIT Bhilai. The club provides a constructive and budding environment to the students who share a passion for problem solving and competitive programming. The club organises events and contests along with workshops and seminars on competitive programming with the support of a dedicated team of core members.",
             "img-active":[
                 {
-                    "url": "../public/images/life/ingenuity-1.jpeg",
+                    "url": "../public/images/Club Images/SciTech/Ingenuity/Ingenuity_1.jpg",
                     "alt": "Ingenuity"
                 }
             ],
             "images":[
                 {
-                    "url": "../public/images/life/ingenuity-2.jpeg",
+                    "url": "../public/images/Club Images/SciTech/Ingenuity/Ingenuity_2.jpg",
                     "alt": "Ingenuity"
                 },
                 {
-                    "url": "../public/images/life/ingenuity-3.jpeg",
+                    "url":"../public/images/Club Images/SciTech/Ingenuity/Ingenuity_3.jpg",
                     "alt": "Ingenuity"
                 }
             ],
@@ -288,17 +288,17 @@
             "images":[
                 
                 {
-                    "url": "../public/images/life/epsilon-2.jpeg",
+                    "url": "../public/images/Club Images/SciTech/Epsilon/Epsilon_2.jpg",
                     "alt": "Epsilon"
                 },
                 {
-                    "url": "../public/images/life/epsilon-3.JPG",
+                    "url": "../public/images/Club Images/SciTech/Epsilon/Epsilon_3.jpg",
                     "alt": "Epsilon"
                 }
             ],
             "img-active": [
                 {
-                    "url": "../public/images/life/epsilon-1.jpeg",
+                    "url": "../public/images/Club Images/SciTech/Epsilon/Epsilon_1.jpg",
                     "alt": "Epsilon"
                 }
             ],
@@ -469,7 +469,7 @@
             }
         ]}],
         
-        "image": "../public/images/life/iic.JPG",
+        "image": "../public/images/life/life_8.jpg",
         "alt": "IIC"
     }
 }
