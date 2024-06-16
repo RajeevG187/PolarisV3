@@ -38,7 +38,7 @@
         
         "president": {
             "name": "Himanshu",
-            "image": "images/President.jpg",
+            "image": "../public/images/Secretaries/President.jpg",
             "email": "mailto:President_CoSA@iitbhilai.ac.in"
         }
         
