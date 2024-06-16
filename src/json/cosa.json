@@ -7,7 +7,7 @@
     "heriditary": {
         "president":{
             "name":"Himanshu",
-            "image":"../public/images/President.jpg",
+            "image":"../public/images/Secretaries/President.jpg",
             "email": "mailto:President_CoSA@iitbhilai.ac.in",
             "title": "",
             "linkedIn": "https://www.linkedin.com/in/himanshu-rana-a9b77b258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -17,7 +17,7 @@
         "members-2":[
             {
                 "name":"Smit Maurya",
-                "image":"../public/images/Smith_Maurya.jpg",
+                "image":"../public/images/Secretaries/Smith_Maurya.jpg",
                 "email": "mailto:smitm@iitbhilai.ac.in",
                 "title": "Gen Sec Cult",
                 "linkedIn": "https://www.linkedin.com/in/smit-maurya-500541251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -26,7 +26,7 @@
             },
             {
                 "name":"Ojus Goel",
-                "image":"../public/images/Ojus_Goel.jpg",
+                "image":"../public/images/Secretaries/Ojus_Goel.jpg",
                 "email": "mailto:gensec_scitech_gymkhana@iitbhilai.ac.in",
                 "title": "Gen Sec Sci-Tech",
                 "linkedIn": "https://www.linkedin.com/in/ojus-goel-a20b26287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -38,7 +38,7 @@
         "members-3":[
             {
                 "name":"Aditya Prakash",
-                "image":"../public/images/Aditya_Prakash.jpg",
+                "image":"../public/images/Secretaries/Aditya_Prakash.jpg",
                 "email": "mailto:rajaaditya252003@gmail.com",
                 "title": "Gen Sec Sports",
                 "linkedIn": "https://www.linkedin.com/in/aditya-prakash-184970260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -47,7 +47,7 @@
             },
             {
                 "name":"Aayush Krishnan",
-                "image":"../public/images/Aayush_Krishnan.jpg",
+                "image":"../public/images/Secretaries/Aayush_Krishnan.jpg",
                 "email": "mailto:aayushkr@iitbhilai.ac.in",
                 "title": "Gen Sec Acads",
                 "linkedIn": "https://www.linkedin.com/in/aayush-krishnan-265b66247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -56,7 +56,7 @@
             },
             {
                 "name":"Piyush Chandrakar",
-                "image":"../public/images/Piyush_Chandrakar.jpg",
+                "image":"../public/images/Secretaries/Piyush_Chandrakar.jpg",
                 "email": "mailto:piyushc@iitbhilai.ac.in",
                 "title": "Treasurer",
                 "linkedIn": "https://www.linkedin.com/in/piyush-chandrakar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
