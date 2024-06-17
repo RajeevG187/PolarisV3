@@ -226,8 +226,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
                 if(!empty($event['video'])){
                     echo '<div class="row">';
-                    echo '<div class="col-1-of-1">
-                    <iframe width="1120" height="500" src="https://www.youtube.com/embed/3wTTq6JrtQs?si=TWghItlS4e1koxla" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    echo '<div class="campus">
+                    <iframe width="1050" height="450" src="https://www.youtube.com/embed/3wTTq6JrtQs?si=TWghItlS4e1koxla" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                      </div>';
                     echo '</div>';
                     }

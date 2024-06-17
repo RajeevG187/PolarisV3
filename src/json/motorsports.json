@@ -20,10 +20,10 @@
         "images": [
             [
                 {
-                    "img": "../public/images/life/motorsports-1.JPG"
+                    "img": "../public/images/life/life_11.jpg"
                 },
                 {
-                    "img": "../public/images/life/motorsports-2.JPG"
+                    "img": "../public/images/life/life_12.jpg"
                 }
             ]
         ]
@@ -48,26 +48,26 @@
     "gallery": [
         [
             {
-                "img": "../public/images/life/motorsports-7.JPG"
+                "img": "../public/images/life/life_17.jpg"
             },
             {
-                "img": "../public/images/life/motorsports-8.JPG"
+                "img": "../public/images/life/life_18.jpg"
             }
         ],
         [
             {
-                "img": "../public/images/life/motorsports-4.JPG"
+                "img": "../public/images/life/life_14.jpg"
             },
             {
-                "img": "../public/images/life/motorsports-4.JPG"
+                "img": "../public/images/life/life_13.jpg"
             }
         ],
         [
             {
-                "img": "../public/images/life/motorsports-5.JPG"
+                "img": "../public/images/life/life_15.jpg"
             },
             {
-                "img": "../public/images/life/motorsports-6.JPG"
+                "img": "../public/images/life/life_16.jpg"
             }
         ]   
     ]   
