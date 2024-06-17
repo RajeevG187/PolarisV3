@@ -206,35 +206,32 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
             <h2 class="heading-secondary"><?php echo $data['events']['head']; ?></h2>
 
-            <?php
-            foreach ($data['events']['info'] as $event) {
-                echo '<div class="cultural">';
-                echo '<h3 class="heading-tertiary">' . $event['name'] . '</h3>';
-                echo '<p class="cultural__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Description:</span> ' . $event['description'] . '</p>';
-                echo '<br><br>';
+            <?php foreach ($data['events']['info'] as $event):?>
+                <div class="cultural">
+                    <h3 class="heading-tertiary"><?php echo $event['name']?></h3>
+                    <p class="cultural__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Description:</span><?php echo $event['description']?></p>
+                    <br><br>
 
-                if (!empty($event['img1']) || !empty($event['img2'])) {
-                    echo '<div class="row">';
-                    echo '<div class="col-1-of-2"><img src="' . $event['img1'] . '" alt="' . $event['alt1'] . '" class="cultural__photo"></div>';
-                    echo '<div class="col-1-of-2"><img src="' . $event['img2'] . '" alt="' . $event['alt2'] . '" class="cultural__photo"></div>';
+                    <?php for($i = 0; $i < count($event['images']); $i++):?>
+                        <div class="row">
+                            <?php foreach ($event['images'][$i] as $image): ?>
+                                <div class="col-1-of-2"><img src="<?php echo $image['img']; ?>" alt=<?php echo $image['alt'];?> class="cultural__photo"></div>
+                            <?php endforeach; ?>
+                        </div>
+                    <?php endfor; ?>
 
-                    echo '</div>';
+                </div>
 
-                }
+                <?php if(!empty($event['video'])):?>
+                    <div class="row">
+                        <div class="campus">
+                        <iframe width="1050" height="450" src="https://www.youtube.com/embed/3wTTq6JrtQs?si=TWghItlS4e1koxla" title="YouTube video  player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;     web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                <?endif;?>
 
-                echo '</div>';
-
-                if(!empty($event['video'])){
-                    echo '<div class="row">';
-                    echo '<div class="campus">
-                    <iframe width="1050" height="450" src="https://www.youtube.com/embed/3wTTq6JrtQs?si=TWghItlS4e1koxla" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                     </div>';
-                    echo '</div>';
-                    }
-
-                echo '<div class="line-break"></div>';
-            }
-            ?>
+                <div class="line-break"></div>
+            <?php endforeach; ?>
 
         </div>
     </section>
