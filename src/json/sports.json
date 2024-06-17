@@ -45,11 +45,11 @@
             "upcoming-events": "",
             "image": [
                 {
-                    "path": "../public/images/life/badminton-1.JPG",
+                    "path": "../public/images/life/life_1.jpg",
                     "alt": "Badminton"
                 },
                 {
-                    "path": "../public/images/life/badminton-2.JPG",
+                    "path": "../public/images/life/life_2.jpg",
                     "alt": "Badminton"
                 }
             ]
@@ -76,11 +76,11 @@
             ],
             "image": [
                 {
-                    "path": "../public/images/life/bb-1.JPG",
+                    "path": "../public/images/life/life_3.jpg",
                     "alt": "Basketball"
                 },
                 {
-                    "path": "../public/images/life/bb-2.JPG",
+                    "path": "../public/images/life/life_4.jpg",
                     "alt": "Basketball"
                 }
             ]    
@@ -107,11 +107,11 @@
             ],    
             "image": [
                 {
-                    "path": "../public/images/life/tt-1.JPG",
+                    "path": "../public/images/life/life_20.jpg",
                     "alt": "Table Tennis"
                 },
                 {
-                    "path": "../public/images/life/tt-2.JPG",
+                    "path": "../public/images/life/life_21.jpg",
                     "alt": "Table Tennis"
                 }
             ]
@@ -145,11 +145,11 @@
             "upcoming-events": "",
             "image": [
                 {
-                    "path" : "../public/images/life/chess-1.JPG",
+                    "path" : "../public/images/life/life_5.jpg",
                     "alt": "Chess"
                 },
                 {
-                    "path" : "../public/images/life/chess-2.JPG",
+                    "path" : "../public/images/life/life_6.jpg",
                     "alt": "Chess"
                 }
             ]            
@@ -176,11 +176,11 @@
             ],    
             "image": [
                 {
-                    "path" :"../public/images/life/volley-1.JPG",
+                    "path" :"../public/images/life/life_22.jpg",
                     "alt": "Volleyball"
                 },
                 {
-                    "path" :"../public/images/life/volley-2.JPG",
+                    "path" :"../public/images/life/life_23.jpg",
                     "alt": "Volleyball"
                 }
             ]

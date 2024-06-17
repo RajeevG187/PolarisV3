@@ -236,7 +236,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     </ul> <?php endforeach; ?><br><br>
 
                 <div class="row">
-                    <div class="col-2-of-2"><img src="../public/images/life/iic.JPG" alt="IIC" class="cultural__photo">
+                    <div class="col-2-of-2"><img src="../public/images/life/life_8.jpg" alt="IIC" class="cultural__photo">
                     </div>
 
                 </div>
