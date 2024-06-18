@@ -1,6 +1,6 @@
 .navigation {
     position: fixed;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
     height: 7rem;
     background: rgba(255, 255, 255, 0.625);
@@ -10,118 +10,132 @@
     justify-content: space-between;
     padding: 0 3%;
     z-index: 9999;
-
+    
+    .current {
+        color: #ffffff !important;
+        background: rgba(0, 0, 0, 0.681);
+    }
+    
     .logo {
-        font-size: 4rem;
-        color: rgb(0, 0, 0);
-        font-family: 'Lobster', cursive;
+      font-size: 4rem;
+      color: rgb(0, 0, 0);
+      font-family: "Lobster", cursive;
     }
-
+  
     .nav-bar ul {
-        list-style: none;
-        display: flex;
-        flex-wrap: nowrap;
-
-        li {
-            position: relative;
-            float: left;
-            padding-right: 12px;
-            
-            a {
-                font-size: 1.2rem;
-                color: #000000;
-                display: block;
-                text-decoration: none;
-                padding: 7px 15px;
-                border-radius: 50px;
-                transition: 0.2s;
-                margin: 0px 5px;
-
-                &:hover {
-                    background: rgba(0, 0, 0, 0.681);//#05fbff;
-                    color: #ffffff;
-                }
-
-                // &.active {
-                //     color: #000;
-                //     background: #05fbff;
-                // }
-            }
-
-            ul {
-                position: absolute;
-                left: 0;
-                width: 180px;
-                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.418);
-                background: rgba(255, 255, 255, 0.94);
-                backdrop-filter: blur(20px);
-                padding-left: 0;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                
-                display: none;
-
-                li {
-                    width: 100%;
-                }
-            }
-
-            &:hover > ul {
-                display: initial;
-                z-index: 10000000000;
-            }
+      list-style: none;
+      display: flex;
+      flex-wrap: nowrap;
+  
+      li {
+        position: relative;
+        float: left;
+        padding-right: 12px;
+  
+        a {
+          font-size: 1.2rem; /* Increased font size */
+          color: #000000;
+          display: block;
+          text-decoration: none;
+          padding: 7px 15px;
+          border-radius: 50px;
+          transition: 0.2s;
+          margin: 0px 5px;
+  
+          &:hover {
+            background: rgba(0, 0, 0, 0.681); //#05fbff;
+            color: #ffffff;
+          }
+  
+          // &.active {
+          //     color: #000;
+          //     background: #05fbff;
+          // }
         }
+  
+        ul {
+          position: absolute;
+          left: 0;
+          width: 180px;
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.418);
+          background: rgba(255, 255, 255, 0.94);
+          backdrop-filter: blur(20px);
+          padding-left: 0;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          display: none;
+  
+          li {
+            width: 100%;
+          }
+        }
+  
+        &:hover > ul {
+          display: initial;
+          z-index: 10000000000;
+        }
+      }
     }
-
+  
     #menu-bar {
-        display: none;
+      display: none;
     }
-
+  
     label {
-        font-size: 20px;
-        color: #000000;
-        cursor: pointer;
-        display: none;
+      font-size: 20px;
+      color: #000000;
+      cursor: pointer;
+      display: none;
     }
-}
-
-
-@media(max-width: 1000px) {
+  }
+  
+  @media (max-width: 1000px) {
     .navigation {
-        padding: 20px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.947);
+      backdrop-filter: blur(10px);
+  
+      label {
+        display: block;
+      }
+  
+      .nav-bar {
+        position: absolute;
+        top: 7rem;
+        left: 0;
+        right: 0;
         background: rgba(255, 255, 255, 0.947);
         backdrop-filter: blur(10px);
-
-        label {
-            display: initial;
-        }
-
-        .nav-bar {
-            position: absolute;
-            top: 100%;
-            height: 100vh;
-            left: 0;
-            right: 0;
-            background: rgba(255, 255, 255, 0.947);
-            backdrop-filter: blur(10px);
-            display: none;
-            overflow-y: scroll;
-
-            ul li {
-                width: 100%;
-                text-align: center;
-
-                ul {
-                    position: relative;
-                    width: 100%;
-                    padding-left: 0;
-                }
+        display: none;
+        flex-direction: column;
+        overflow-y: scroll;
+        height: calc(100vh - 7rem);
+  
+        ul {
+          flex-direction: column;
+  
+          li {
+            width: 100%;
+            text-align: center;
+            padding: 1px 0;
+  
+            a {
+              font-size: 1.8rem; /* Increased font size */
             }
+  
+            ul {
+              position: relative;
+              width: 100%;
+              padding-left: 0;
+            }
+          }
         }
-
-        #menu-bar:checked ~ .nav-bar {
-            display: initial;
-            z-index: 10000000000;
-        }
+      }
+  
+      #menu-bar:checked ~ .nav-bar {
+        display: flex;
+        z-index: 10000000000;
+      }
     }
-}
+  }
+  
