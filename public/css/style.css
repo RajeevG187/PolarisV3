@@ -32,6 +32,19 @@ html {
 body {
   box-sizing: border-box;
 }
+.bckproperty{
+  background-color: rgba(234, 158, 241,0.2)
+}
+
+.bckprp {
+
+
+  background-image: url("../images/logoiit.jpg");
+  background-size: cover;
+  background-repeat:no-repeat ;
+  background-position:center;
+}
+
 
 .line-break {
   background-color: #777;
@@ -1355,6 +1368,14 @@ body {
   font-size: 1.7rem;
   word-spacing: 3px;
   font-weight: 300;
+}
+
+.c-item{
+  height: 550px;
+}
+.c-img{
+  height: 100%;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
