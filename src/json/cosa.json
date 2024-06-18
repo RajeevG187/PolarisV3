@@ -102,91 +102,163 @@
             {
                 "name": "Prayatna",
                 "description":"\"Prayatna\", the annual intra-institute sports tournament is organized every year. Prayatna, which means \"effort\", is aimed to arouse the sportsman spirit of the budding technocrats. This is an amalgamation of team spirit and healthy competitive spirit which goes on in a three-month long array of varied sports fixtures involving eight sports presently offered by the institute, viz table tennis, chess, volleyball, badminton, football, cricket, athletics and basketball. Prayatna is sure to add another feather to the cap of this newly established yet fervently developing institute.",
-                "img1": "../public/images/cosa events/prayatna/prayatna-1.jpg",
-                "alt1": "Prayatna",
-                "img2": "../public/images/cosa events/prayatna/prayatna-2.jpg",
-                "alt2": "Prayatna",
+                "images": [
+                    [
+                        {
+                            "img": "../public/images/cosa events/prayatna-1.jpg",
+                            "alt": "Prayatna"
+                        },
+                        {
+                            "img": "../public/images/cosa events/prayatna-2.jpg",
+                            "alt": "Prayatna"
+                        }
+                    ]
+                ],
                 "video": "exists"
             },
             {
                 "name": "Ciao",
-                "description":"",
-                "img1": "../public/images/cosa events/ciao/ciao-1.jpg",
-                "alt1": "Ciao",
-                "img2": "../public/images/cosa events/ciao/ciao-2.jpg",
-                "alt2": "Ciao"
+                "description":" Ciao, the eagerly awaited cultural event for freshers, marks the grand beginning of all cultural activities on campus. This vibrant spectacle sets the tone for an exciting year ahead. The campus buzzes with excitement as the clubs unite to showcase their diverse talents and activities, offering freshers a glimpse into the dynamic cultural landscape of the college. Ciao is more than just a showcase; it is the official launchpad for all cultural activities, signaling the start of a year filled with creativity, collaboration, and community. This dynamic event invites freshers to dive headfirst into the vibrant college culture, inspiring them to join clubs, explore new passions, and become integral parts of a creative and enthusiastic community.",
+                "images": [
+                    [
+                        {
+                            "img": "../public/images/cosa events/ciao-1.jpg",
+                            "alt": "Ciao"
+                        },
+                        {
+                            "img": "../public/images/cosa events/ciao-2.jpg",
+                            "alt": "Ciao"
+                        }
+                    ],
+                    [
+                        {
+                            "img": "../public/images/cosa events/ciao-3.jpg",
+                            "alt": "Ciao"
+                        },
+                        {
+                            "img": "../public/images/cosa events/ciao-4.jpg",
+                            "alt": "Ciao"
+                        }
+                    ]
+                ]
+        
             },
             {
-                "name": "CultScape",
-                "description":"",
-                "img1": "",
-                "alt1": "",
-                "img2": "",
-                "alt2": ""
+                "name": "Cultscape",
+                "description":" Every year, as the academic calendar draws to a close, our college comes alive with Cultscape, the much-anticipated annual cultural event. Cultscape is more than just a festival; it is a vibrant celebration marking the conclusion of all the cultural activities undertaken throughout the year, providing a dynamic stage for talent, diversity, and student camaraderie to shine. The atmosphere is one of inclusivity and joy, where everyone is encouraged to participate, cheer on their friends, and make lasting memories. Cultscape serves as a vibrant reminder of the unity and creativity that define our college community.",
+                "images": [
+                    [
+                        {
+                            "img": "../public/images/cosa events/cultscape-1.jpg",
+                            "alt": "Cultscape"
+                        },
+                        {
+                            "img": "../public/images/cosa events/cultscape-2.jpg",
+                            "alt": "Cultscape"
+                        }
+                    ],
+                    [
+                        {
+                            "img": "../public/images/cosa events/cultscape-3.jpg",
+                            "alt": "Cultscape"
+                        },
+                        {
+                            "img": "../public/images/cosa events/cultscape-4.jpg",
+                            "alt": "Cultscape"
+                        }
+                    ]
+                ]
+        
             },
             {
                 "name": "Anveshan",
-                "description":"",
-                "img1": "../public/images/cosa events/anveshan/anveshan-1.jpg",
-                "alt1": "Anveshan",
-                "img2": "",
-                "alt2": ""
+                "description":" Anveshan, the cultural general championship of our college, is an annual celebration of talent, creativity, and camaraderie. The campus transforms into a hub of artistic expression, with different teams fiercely competing in music, dance, theater, literature, and visual arts. Spanning about a week, each day is filled with events from different clubs. Anveshan celebrates artistic excellence and unity, leaving a lasting impact on all who participate and observe.",
+                "images": [
+                    [
+                        {
+                            "img": "../public/images/cosa events/anveshan-1.jpg",
+                            "alt": "Anveshan"
+                        },
+                        {
+                            "img": "../public/images/cosa events/anveshan-2.jpg",
+                            "alt": "Anveshan"
+                        }
+                    ]
+                ]
             },
             {
                 "name": "New year celebration",
-                "description":"Every New year marks new beginnings in the lives of students away from home. A peculiar day to celebrate and raise a toast to new beginnings. Every New Year eve, CoSA IIT Bhilai throws a party with bonfire, DJ and games to unwind and chill as we welcome a new year of meritorious happenings! New Year celebrations are to groove with friends and whoop it up, which CoSA organizes creating an atmosphere of enthusiasm and buoyancy. Eagerly awaiting for a new year to be celebrated with the same zest",
-                "img1": "",
-                "alt1": "",
-                "img2": "",
-                "alt2": ""
+                "description":" Every New year marks new beginnings in the lives of students away from home. A peculiar day to celebrate and raise a toast to new beginnings. Every New Year eve, CoSA IIT Bhilai throws a party with bonfire, DJ and games to unwind and chill as we welcome a new year of meritorious happenings! New Year celebrations are to groove with friends and whoop it up, which CoSA organizes creating an atmosphere of enthusiasm and buoyancy. Eagerly awaiting for a new year to be celebrated with the same zest",
+                "images": []
             },
             {
                 "name": "Kite flying",
-                "description":"The Council of Student Affairs cherishes the diverse culture at IIT Bhilai and attempts to unite everyone by celebrating all festivals with equal zeal. 14th January is celebrated as Makar Sankranti across India which marks the beginning of Uttarayan and Kite flying is an intrinsic part. CoSA brings together all the residents of the campus as all celebrate as friends and family in the Kite Flying in which colourful kites adorn the skies and smile adorns the faces of all! As one says, \"तीळ गूळ घ्या नी गोड-गोड बोला.\"",
-                "img1": "../public/images/cosa events/kite flying/kite-1.jpg",
-                "alt1": "Kite flying",
-                "img2": "../public/images/cosa events/kite flying/kite-2.jpg",
-                "alt2": "Kite flying"
+                "description":" The Council of Student Affairs cherishes the diverse culture at IIT Bhilai and attempts to unite everyone by celebrating all festivals with equal zeal. 14th January is celebrated as Makar Sankranti across India which marks the beginning of Uttarayan and Kite flying is an intrinsic part. CoSA brings together all the residents of the campus as all celebrate as friends and family in the Kite Flying in which colourful kites adorn the skies and smile adorns the faces of all! As one says, \"तीळ गूळ घ्या नी गोड-गोड बोला.\"",
+                "images": [
+                    [
+                        {
+                            "img": "../public/images/cosa events/kite-1.jpg",
+                            "alt": "Kite flying"
+                        },
+                        {
+                            "img": "../public/images/cosa events/kite-2.jpg",
+                            "alt": "Kite flying"
+                        }
+                    ]
+                ]
             },
             {
                 "name": "Ganesh Chaturthi",
-                "description":"It begins on Ganesh Chaturthi when people install the statue of Lord Ganesha in their homes. To give the hostelers a feel of Home away from home, a statue of Lord Ganesha is ensconced in the recreation room of Hostel Castle Dio. The celebration includes a Puja by Director Sir followed by aarthi daily until we bid adieu to Bappa. Ganesh Chaturthi is celebrated with devotion and gusto.",
-                "img1": "../public/images/cosa events/ganesh chaturthi/ganesh-1.jpg",
-                "alt1": "Ganesh Chaturthi",
-                "img2": "../public/images/cosa events/ganesh chaturthi/ganesh-2.jpg",
-                "alt2": "Ganesh Chaturthi"
-            },
-            {
-                "name": "Navaratri Celebration",
-                "description":"",
-                "img1": "",
-                "alt1": "",
-                "img2": "",
-                "alt2": ""
+                "description":" It begins on Ganesh Chaturthi when people install the statue of Lord Ganesha in their homes. To give the hostelers a feel of Home away from home, a statue of Lord Ganesha is ensconced in the recreation room of Hostel Castle Dio. The celebration includes a Puja by Director Sir followed by aarthi daily until we bid adieu to Bappa. Ganesh Chaturthi is celebrated with devotion and gusto.",
+                "images": [
+                    [
+                        {
+                            "img": "../public/images/cosa events/ganesh-1.jpg",
+                            "alt": "Ganesh Chaturthi"
+                        },
+                        {
+                            "img": "../public/images/cosa events/ganesh-2.jpg",
+                            "alt": "Ganesh Chaturthi"
+                        }
+                    ]
+                ]
             },
             {
                 "name": "Republic Day Celebration",
-                "description":"",
-                "img1": "../public/images/cosa events/republic day/republic day-1.jpg",
-                "alt1": "Republic Day Celebration",
-                "img2": "",
-                "alt2": ""
+                "description":" On January 26, IIT Bhilai comes alive with the spirit of patriotism and unity as the campus celebrates Republic Day. The event begins in the crisp morning air, with students, faculty, and staff gathering at the main ground adorned with the tricolor. The Republic Day celebration at IIT Bhilai is not just a ceremony but a day of reflection and aspiration, where the IIT community comes together to honor India's past and envision a bright future.",
+                "images": [
+                    [
+                        {
+                            "img": "../public/images/cosa events/republic day-1.jpg",
+                            "alt": "Republic Day Celebration"
+                        },
+                        {
+                            "img": "../public/images/cosa events/republic day-2.jpg",
+                            "alt": "Republic Day Celebration"
+                        }
+                    ]
+                ]
             },
             {
                 "name": "Diwali Celebration",
                 "description":"Diwali not only brings out the creativity of students but also helps them bond together – something which symbolises Diwali. Students themselves put efforts in decorating and lighting up hostel with bright and colourful lights. On this special occasion everybody celebrates by lighting fireworks and sky lanterns. This is followed by a DJ night where everyone dances and groove to the mix beats.",
-                "img1": "../public/images/cosa events/diwali/diwali-1.jpg",
-                "alt1": "Diwali Celebration",
-                "img2": "../public/images/cosa events/diwali/diwali-2.jpg",
-                "alt2": "Diwali Celebration"
+                "images": [
+                    [
+                        {
+                            "img": "../public/images/cosa events/diwali-1.jpg",
+                            "alt": "Diwali"
+                        },
+                        {
+                            "img": "../public/images/cosa events/diwali-2.jpg",
+                            "alt": "Diwali"
+                        }
+                    ]
+                ]
             },
             {
                 "name": "Holi Celebration",
                 "description":"This festival of colours is celebrated with all the fervour here at IIT Bhilai, students don’t miss the chance to engage themselves in a water fight, smear each other's faces with colourful and vibrant colours. Everyone forgets any personal differences and come together to celebrate this joyous occasion with full vigour and enthusiasm.",
-                "img1": "",
-                "alt1": "",
-                "img2": "",
-                "alt2": ""
+                "images": []
             }
         ]
     }

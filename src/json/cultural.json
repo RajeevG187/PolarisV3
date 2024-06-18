@@ -60,13 +60,25 @@
         "images":
         [
             {  
-                "img": "../public/images/life/artsclub-2.jpg",
+                "img": "../public/images/Club Images/Cultural/Renaissance_2.jpg",
+                "alt": "Arts Club"
+            },
+            {  
+                "img": "../public/images/Club Images/Cultural/Renaissance_3.jpg",
+                "alt": "Arts Club"
+            },
+            {  
+                "img": "../public/images/Club Images/Cultural/Renaissance_4.jpg",
+                "alt": "Arts Club"
+            },
+            {  
+                "img": "../public/images/Club Images/Cultural/Renaissance_5.jpg",
                 "alt": "Arts Club"
             }
         ],
         "img-active":[
             {
-                "img": "../public/images/life/artsclub-1.jpg",
+                "img": "../public/images/Club Images/Cultural/Renaissance_1.jpg",
                 "alt": "Art Club"
             }
         ],
@@ -121,13 +133,25 @@
        [
            
            {
-                "img": "../public/images/life/beathackers-2.JPG",
+                "img": "../public/images/Club Images/Cultural/BeatHackers_2.jpg",
+               "alt": "Dance Club"
+           },
+           {
+                "img": "../public/images/Club Images/Cultural/BeatHackers_3.jpg",
+               "alt": "Dance Club"
+           },
+           {
+                "img": "../public/images/Club Images/Cultural/BeatHackers_4.jpg",
+               "alt": "Dance Club"
+           },
+           {
+                "img": "../public/images/Club Images/Cultural/BeatHackers_5.jpg",
                "alt": "Dance Club"
            }
        ],
        "img-active":[
             {
-                "img": "../public/images/life/beathackers-1.JPG",
+                "img": "../public/images/Club Images/Cultural/BeatHackers_1.jpg",
                 "alt": "Dance Club"
             }
         ],
@@ -143,14 +167,23 @@
         "images":
         [
             
-            {   "img": "../public/images/life/drishya-2.JPG",
+            {   "img": "../public/images/Club Images/Cultural/Drishya_2.jpg",
+                "alt": "Drama Club"
+            },
+            {   "img": "../public/images/Club Images/Cultural/Drishya_3.jpg",
+                "alt": "Drama Club"
+            },
+            {   "img": "../public/images/Club Images/Cultural/Drishya_4.jpg",
+                "alt": "Drama Club"
+            },
+            {   "img": "../public/images/Club Images/Cultural/Drishya_5.jpg",
                 "alt": "Drama Club"
             }
         ],
         "img-active":
         [
             {
-                "img": "../public/images/life/drishya-1.JPG",
+                "img": "../public/images/Club Images/Cultural/Drishya_1.jpg",
                 "alt": "Drama Club"
             }
         ],
@@ -164,7 +197,13 @@
         "facebook": "https://www.facebook.com/QuizzoticaIITBh/",
         "instagram": "https://instagram.com/quizzotica_iitbh?igshid=1skn0co75e5cr",
         "images": [
-            {    "img": "../public/images/life/quizzotica-2.jpg",
+            {    "img": "../public/images/Club Images/Cultural/Quizzotica_2.jpg",
+                "alt": "Quizzotica"
+            },
+            {    "img": "../public/images/Club Images/Cultural/Quizzotica_3.jpg",
+                "alt": "Quizzotica"
+            },
+            {    "img": "../public/images/Club Images/Cultural/Quizzotica_4.jpg",
                 "alt": "Quizzotica"
             }
             
@@ -172,7 +211,7 @@
 
         "img-active":[
             {
-                "img": "../public/images/life/quizzotica-1.jpg",
+                "img": "../public/images/Club Images/Cultural/Quizzotica_1.jpg",
                 "alt": "Quizzotica"
             }
         ],
@@ -188,14 +227,26 @@
         "images": 
         [
             {    
-                "img": "../public/images/life/music-2.jpg",
+                "img": "../public/images/Club Images/Cultural/Swara_2.jpg",
+                "alt": "Swara"
+            },
+            {    
+                "img": "../public/images/Club Images/Cultural/Swara_3.jpg",
+                "alt": "Swara"
+            },
+            {    
+                "img": "../public/images/Club Images/Cultural/Swara_4.jpg",
+                "alt": "Swara"
+            },
+            {    
+                "img": "../public/images/Club Images/Cultural/Swara_5.jpg",
                 "alt": "Swara"
             }
         ],
 
         "img-active":[
             {
-                "img": "../public/images/life/music-1.jpg",
+                "img": "../public/images/Club Images/Cultural/Swara_1.jpg",
                 "alt": "Swara"
             }
         ],
@@ -229,13 +280,21 @@
         "images": 
         [
             {
-                "img": "../public/images/life/tps-2.JPG",
+                "img": "../public/images/Club Images/Cultural/TPS_2.jpg",
+                "alt": "The Pixel Snappers"
+            },
+            {
+                "img": "../public/images/Club Images/Cultural/TPS_3.jpg",
+                "alt": "The Pixel Snappers"
+            },
+            {
+                "img": "../public/images/Club Images/Cultural/TPS_4.jpg",
                 "alt": "The Pixel Snappers"
             }
         ],
         "img-active":[
             {
-                "img": "../public/images/life/tps-1.jpg",
+                "img": "../public/images/Club Images/Cultural/TPS_1.jpg",
                 "alt": "The Pixel Snappers"
             }
         ],
@@ -252,14 +311,26 @@
     "images": 
     [
         {
-            "img": "../public/images/life/designx.jpg",
+            "img": "../public/images/Club Images/Cultural/DesignX_2.jpg",
+            "alt": "DesignX"
+        },
+        {
+            "img": "../public/images/Club Images/Cultural/DesignX_3.jpg",
+            "alt": "DesignX"
+        },
+        {
+            "img": "../public/images/Club Images/Cultural/DesignX_4.jpg",
+            "alt": "DesignX"
+        },
+        {
+            "img": "../public/images/Club Images/Cultural/DesignX_5.jpg",
             "alt": "DesignX"
         }
     ],
     "img-active":[
             {
-                "img": "../public/images/life/music-1.jpg",
-                "alt": "Swara"
+                "img": "../public/images/Club Images/Cultural/DesignX_1.jpg",
+                "alt": "DesignX"
             }
         ],
         "carousel_id":["designx"]
@@ -288,13 +359,22 @@
         "instagram": "https://instagram.com/goals_iitbhilai?igshid=MzRlODBiNWFlZA==",
         "images":
         [
-            {   "img": "../public/images/life/goals-2.jpg",
+            {   "img": "../public/images/Club Images/Cultural/Goals_2.jpg",
+                "alt": "GOALS"
+            },
+            {   "img": "../public/images/Club Images/Cultural/Goals_3.jpg",
+                "alt": "GOALS"
+            },
+            {   "img": "../public/images/Club Images/Cultural/Goals_4.jpg",
+                "alt": "GOALS"
+            },
+            {   "img": "../public/images/Club Images/Cultural/Goals_5.jpg",
                 "alt": "GOALS"
             }
         ],
         "img-active":[
             {
-                "img": "../public/images/life/goals-1.jpg",
+                "img": "../public/images/Club Images/Cultural/Goals_1.jpg",
                 "alt": "GOALS"
             }
         ],
@@ -315,15 +395,23 @@
         "images":
         [
             {
-                "img": "../public/images/life/goals-1.jpg",
-                "alt": "GOALS"
+                "img": "../public/images/Club Images/Cultural/FPS_ 2.jpg",
+                "alt": "Film Production Society"
+            },
+            {
+                "img": "../public/images/Club Images/Cultural/FPS_ 3.jpg",
+                "alt": "Film Production Society"
+            },
+            {
+                "img": "../public/images/Club Images/Cultural/FPS_ 4.jpg",
+                "alt": "Film Production Society"
             }
             
         ],
         "img-active":[
             
             {
-                "img": "../public/images/life/fps.jpg",
+                "img": "../public/images/Club Images/Cultural/FPS_ 1.jpg",
                 "alt": "Film Production Society"
             }
         ],
@@ -354,14 +442,14 @@
         "images": 
         [
             
-            {   "img": "../public/images/life/nir2.jpeg",
+            {   "img": "../public/images/Club Images/Cultural/Nirvana_2.jpg",
                 "alt": "Nirvana"
             }
         ],
         "img-active":[
             
             {
-                "img": "../public/images/life/nir1.jpeg",
+                "img": "../public/images/Club Images/Cultural/Nirvana_1.jpg",
                 "alt": "Nirvana"
             }
         ],

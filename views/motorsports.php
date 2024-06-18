@@ -98,7 +98,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
         <br>
         <?php
-            for($i = 0; $i < count($data['gallery']); $i++){
+            for($i = 0; $i < count($data['gallery']); $i++):
         ?>
             <div class="row">
                 <?php foreach ($data['gallery'][$i] as $image): ?>
@@ -106,7 +106,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                 <?php endforeach; ?>
             </div>
         <?php
-        }
+        endfor;
         ?>
     </div>
 

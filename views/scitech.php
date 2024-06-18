@@ -231,34 +231,32 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                             </section>
                         <?php endif; ?>
 
-                        <div class="line-break"></div>
-                    </div>
-                <?php endforeach; ?>
+                    <div class="line-break"></div>
+                </div>
+            <?php endforeach; ?>
 
-            </div>
+        </div>
 
 
-            <div class="container">
-                <h2 class="heading-secondary"><?php echo $data['iic']['title']; ?></h2>
-                <div class="scitech">
-                    <?php foreach ($data['iic']['name'] as $name): ?>
-                        <p class="scitech__text"><i
-                                class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo $name['position'] . ":"; ?></span><?php echo $name['holder']; ?>
-                        </p><br>
-                    <?php endforeach; ?></br>
+        <div class="container">
+            <h2 class="heading-secondary"><?php echo $data['iic']['title']; ?></h2>
+            <div class="scitech">
+                <?php foreach ($data['iic']['name'] as $name): ?>
+                    <p class="scitech__text"><i
+                            class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo $name['position'] . ":"; ?></span><?php echo $name['holder']; ?>
+                    </p><br>
+                <?php endforeach; ?></br>
 
-                    <?php foreach ($data['iic']['function'] as $function): ?>
-                        <p class="scitech__text"><i
-                                class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo $function['subject']; ?></span>
-                        </p>
-                        <ul class="info__list">
-                            <?php foreach ($function['txt_block'] as $txt): ?>
-                                <li class="info__item"><?php echo $txt['text']; ?></li><?php endforeach; ?>
-                        </ul> <?php endforeach; ?><br><br>
+                <?php foreach ($data['iic']['function'] as $function): ?>
+                    <p class="scitech__text"><i
+                            class="fas fa-arrow-circle-right"></i>&nbsp;<span><?php echo $function['subject']; ?></span></p>
+                    <ul class="info__list">
+                        <?php foreach ($function['txt_block'] as $txt): ?>
+                            <li class="info__item"><?php echo $txt['text']; ?></li><?php endforeach; ?>
+                    </ul> <?php endforeach; ?><br><br>
 
-                    <div class="row">
-                        <div class="col-2-of-2"><img src="../public/images/life/iic.JPG" alt="IIC"
-                                class="cultural__photo">
+                <div class="row">
+                    <div class="col-2-of-2"><img src="../public/images/life/life_8.jpg" alt="IIC" class="cultural__photo">
                         </div>
 
                     </div>
