@@ -33,19 +33,6 @@ body {
   box-sizing: border-box;
 }
 
-.bckproperty{
-  background-color: rgba(234, 158, 241,0.2)
-}
-
-.bckprp {
-
- 
-  background-image: url("../images/logoiit.jpg");
-  background-size: cover;
-  background-repeat:no-repeat ;
-  background-position:center;
-}
-
 .line-break {
   background-color: #777;
   height: 1px;
@@ -622,6 +609,10 @@ body {
   padding: 0 3%;
   z-index: 9999;
 }
+.navigation .current {
+  color: #ffffff !important;
+  background: rgba(0, 0, 0, 0.681);
+}
 .navigation .logo {
   font-size: 4rem;
   color: rgb(0, 0, 0);
@@ -638,7 +629,7 @@ body {
   padding-right: 12px;
 }
 .navigation .nav-bar ul li a {
-  font-size: 1.2rem;
+  font-size: 1.2rem; /* Increased font size */
   color: #000000;
   display: block;
   text-decoration: none;
@@ -650,10 +641,6 @@ body {
 .navigation .nav-bar ul li a:hover {
   background: rgba(0, 0, 0, 0.681);
   color: #ffffff;
-}
-.current {
-  color: #ffffff !important;
-  background: rgba(0, 0, 0, 0.681);
 }
 .navigation .nav-bar ul li ul {
   position: absolute;
@@ -691,22 +678,30 @@ body {
     backdrop-filter: blur(10px);
   }
   .navigation label {
-    display: initial;
+    display: block;
   }
   .navigation .nav-bar {
     position: absolute;
-    top: 100%;
-    height: 100vh;
+    top: 7rem;
     left: 0;
     right: 0;
     background: rgba(255, 255, 255, 0.947);
     backdrop-filter: blur(10px);
     display: none;
+    flex-direction: column;
     overflow-y: scroll;
+    height: calc(100vh - 7rem);
+  }
+  .navigation .nav-bar ul {
+    flex-direction: column;
   }
   .navigation .nav-bar ul li {
     width: 100%;
     text-align: center;
+    padding: 1px 0;
+  }
+  .navigation .nav-bar ul li a {
+    font-size: 1.8rem; /* Increased font size */
   }
   .navigation .nav-bar ul li ul {
     position: relative;
@@ -714,7 +709,7 @@ body {
     padding-left: 0;
   }
   .navigation #menu-bar:checked ~ .nav-bar {
-    display: initial;
+    display: flex;
     z-index: 10000000000;
   }
 }
@@ -766,7 +761,7 @@ body {
   }
 }
 .row .col-2-of-3 {
-  width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
+  width: calc(2 * (100% - 2 * 6rem) / 3 + 6rem);
 }
 @media (max-width: 600px) {
   .row .col-2-of-3 {
@@ -782,7 +777,7 @@ body {
   }
 }
 .row .col-2-of-4 {
-  width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem);
+  width: calc(2 * (100% - 3 * 6rem) / 4 + 6rem);
 }
 @media (max-width: 600px) {
   .row .col-2-of-4 {
@@ -790,7 +785,7 @@ body {
   }
 }
 .row .col-3-of-4 {
-  width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
+  width: calc(3 * (100% - 3 * 6rem) / 4 + 2 * 6rem);
 }
 @media (max-width: 600px) {
   .row .col-3-of-4 {
@@ -1360,13 +1355,6 @@ body {
   font-size: 1.7rem;
   word-spacing: 3px;
   font-weight: 300;
-}
-.c-item{
-  height: 400px;
-}
-.c-img{
-  height: 100%;
-  object-fit: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
