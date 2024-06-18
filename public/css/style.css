@@ -610,6 +610,10 @@ body {
   padding: 0 3%;
   z-index: 9999;
 }
+.navigation .current {
+  color: #ffffff !important;
+  background: rgba(0, 0, 0, 0.681);
+}
 .navigation .logo {
   font-size: 4rem;
   color: rgb(0, 0, 0);
