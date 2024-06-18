@@ -576,12 +576,16 @@ The curriculum of the department encourages exploration across disciplines, whil
                                 <br>
                             </tr>
                             <tr>
-                                <td rowspan="6">Bachelor of Technology (BTech)</td>
+                                <td rowspan="7">Bachelor of Technology (BTech)</td>
                                 <td>Computer Science and Engineering</td>
                                 <td rowspan="2">Computer Science and Engineering</td>
                             </tr>
                             <tr>
                                 <td>Data Science and Artificial Intelligence</td>
+                            </tr>
+                            <tr>
+                                <td>Electronics & Communication Engineering</td>
+                                <td>Electronics & Communication Engineering</td>
                             </tr>
                             <tr>
                                 <td>Electrical Engineering</td>
@@ -720,7 +724,7 @@ The curriculum of the department encourages exploration across disciplines, whil
 
                     <div class="info">
                         <!-- <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i>  <a href="https://www.iitbhilai.ac.in/index.php?pid=aca_handbook_pdf">Student's Handbook</a></h3> -->
-                        <h3 class="heading-tertiary"><p style="color:red"><i class="far fa-dot-circle"></i> <?php echo $data['more_info']['point_1']; ?></p></h3>
+                        <!-- <h3 class="heading-tertiary"><p style="color:red"><i class="far fa-dot-circle"></i> <?php echo $data['more_info']['point_1']; ?></p></h3> -->
                         <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i>  <a href="https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs" target="_blank"><?php echo $data['more_info']['point_2']; ?></a></h3>
 
 
@@ -768,6 +772,30 @@ The curriculum of the department encourages exploration across disciplines, whil
 
                         <ul class="info__list">
                             <?php foreach ($data['dsai']['info']['sub-lists'] as $subList): ?>
+                                <li class="info__item"><?php echo $subList['contents']; ?></li>
+                            <?php endforeach; ?>
+                            <br>
+                        </ul>
+                    </div>
+
+                    <p class="intro-cse__text"><em><?php echo $data['cse']['sub-text']; ?></em></p>
+                </div>
+            </div>
+        </section>
+
+        <div class="line-break"></div>
+
+        <section class="section">
+            <div class="container">
+                <div class="intro-cse">
+                    <h2 class="heading-secondary"><?php echo $data['ece']['head']; ?></h2>
+                    <p class="intro-cse__text"><?php echo $data['ece']['text']; ?></p><br>
+
+                    <div class="info">
+                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data['ece']['info']['head']; ?></h3>
+
+                        <ul class="info__list">
+                            <?php foreach ($data['ece']['info']['sub-lists'] as $subList): ?>
                                 <li class="info__item"><?php echo $subList['contents']; ?></li>
                             <?php endforeach; ?>
                             <br>
@@ -883,6 +911,49 @@ The curriculum of the department encourages exploration across disciplines, whil
                                     <li class="info__item"><?php echo $subList['contents']; ?></li>
                             <?php endforeach; ?>
                             <br>
+                        </ul>
+                    </div>
+
+                    <p class="intro-me__text"><em><?php echo $data['cse']['sub-text']; ?></em></p>
+                </div>
+            </div>
+        </section>
+
+        <div class="line-break"></div>
+
+        <section class="section">
+            <div class="container">
+                <div class="intro-me">
+                    <h2 class="heading-secondary"><?php echo $data['msme']['head']; ?></h2>
+                    <p class="intro-me__text"><?php echo $data['msme']['text-1']; ?></p><br>
+
+                    <p class="intro-me__text"><?php echo $data['msme']['text-2']; ?></p>
+
+                    <ul class="info__list">
+                        <?php foreach ($data['msme']['domains'] as $contents): ?>
+                                <li class="info__item"><?php echo $contents['contents']; ?></li>
+                        <?php endforeach; ?>
+                        <br>
+                    </ul>
+
+                    <p class="intro-me__text"><?php echo $data['msme']['text-3']; ?></p> <br>
+
+                    <div class="info">
+                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data['msme']['info']['head']; ?></h3>
+
+                        <ul class="info__list">
+                            <li class="info__item"><?php echo $data['msme']['info']['list']['part-1']['text']; ?> 
+                                <ul class="info__list">
+                                    <?php foreach ($data['msme']['info']['list']['part-1']['sub-lists'] as $contents): ?>
+                                        <li class="info__item"><?php echo $contents['contents']; ?></li>
+                                    <?php endforeach; ?>
+                                    <br>
+                                </ul>
+                            </li>
+                                <?php foreach ($data['msme']['info']['list']['part-2'] as $contents): ?>
+                                        <li class="info__item"><?php echo $contents['contents']; ?></li>
+                                <?php endforeach; ?>
+                                <br>
                         </ul>
                     </div>
 
