@@ -1,78 +1,142 @@
 .header {
-    height: 100vh;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
 
-    &__hero-box {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        width: 100%;
-    }
+  &__hero-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+  }
 
-    &__home {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(2, 18, 70, 0.73)), url('../images/n2.jpg');
-    }
+  &__home {
+    background-image: linear-gradient(
+        rgba(200, 204, 239, 0.463),
+        rgba(2, 18, 70, 0.73)
+      ),
+      url("../images/n2.jpg");
+  }
 
-    &__nsso {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/hero-2.jpg');
-    }
+  &__nsso {
+    background-image: linear-gradient(
+        rgba(200, 204, 239, 0.463),
+        rgba(4, 26, 100, 0.73)
+      ),
+      url("../images/hero-2.jpg");
+  }
 
-    &__queries {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/hero-3.jpg');
-    }
+  &__queries {
+    background-image: linear-gradient(
+        rgba(200, 204, 239, 0.463),
+        rgba(4, 26, 100, 0.73)
+      ),
+      url("../images/hero-3.jpg");
+  }
 
-    &__around {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/hero-4.jpg');
-    }
+  &__around {
+    background-image: linear-gradient(
+        rgba(200, 204, 239, 0.463),
+        rgba(4, 26, 100, 0.73)
+      ),
+      url("../images/hero-4.jpg");
+  }
 
-    &__mentors {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/hero-5.jpg');
-    }
+  &__mentors {
+    background-image: linear-gradient(
+        rgba(200, 204, 239, 0.463),
+        rgba(4, 26, 100, 0.73)
+      ),
+      url("../images/hero-5.jpg");
+  }
 
-    &__life {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/n1.jpg');
-    }
+  &__life {
+    background-image: linear-gradient(
+        rgba(200, 204, 239, 0.463),
+        rgba(4, 26, 100, 0.73)
+      ),
+      url("../images/n1.jpg");
+  }
 
-    &__scitech {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/hero-7.jpg');
-    }
+  &__scitech {
+    background-image: linear-gradient(
+        rgba(200, 204, 239, 0.463),
+        rgba(4, 26, 100, 0.73)
+      ),
+      url("../images/hero-7.jpg");
+  }
 
-    &__cultural {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/hero-8.JPG');
-    }
+  &__cultural {
+    background-image: linear-gradient(
+        rgba(200, 204, 239, 0.463),
+        rgba(4, 26, 100, 0.73)
+      ),
+      url("../images/hero-8.JPG");
+  }
 
-    &__outreach {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/hero-9.jpg');
-    }
+  &__outreach {
+    background-image: linear-gradient(
+        rgba(200, 204, 239, 0.463),
+        rgba(4, 26, 100, 0.73)
+      ),
+      url("../images/hero-9.jpg");
+  }
 
-    &__academic {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/hero-10.jpg');
-    }
+  &__academic {
+    background-image: linear-gradient(
+        rgba(200, 204, 239, 0.463),
+        rgba(4, 26, 100, 0.73)
+      ),
+      url("../images/hero-10.jpg");
+  }
 
-    &__sports {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/hero-11.jpg');
-    }
+  &__sports {
+    background-image: linear-gradient(
+        rgba(200, 204, 239, 0.463),
+        rgba(4, 26, 100, 0.73)
+      ),
+      url("../images/hero-11.jpg");
+  }
 
-    &__department {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/hero-12.jpg');
-    }   
-    
-    &__coordinators {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/hero-13.jpg');
-    }   
+  &__department {
+    background-image: linear-gradient(
+        rgba(200, 204, 239, 0.463),
+        rgba(4, 26, 100, 0.73)
+      ),
+      url("../images/hero-12.jpg");
+  }
 
-    &__motorsports {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/life/motorsports-1.JPG');
-    }
-    &__documents {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/hero-15.jpg');
-    }
-    &__meraz {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/hero-14.jpg');
-    }
+  &__coordinators {
+    background-image: linear-gradient(
+        rgba(200, 204, 239, 0.463),
+        rgba(4, 26, 100, 0.73)
+      ),
+      url("../images/hero-13.jpg");
+  }
+
+  &__motorsports {
+    background-image: linear-gradient(
+        rgba(200, 204, 239, 0.463),
+        rgba(4, 26, 100, 0.73)
+      ),
+      url("../images/life/motorsports-1.JPG");
+  }
+  &__documents {
+    background-image: linear-gradient(
+        rgba(200, 204, 239, 0.463),
+        rgba(4, 26, 100, 0.73)
+      ),
+      url("../images/hero-15.jpg");
+  }
+  &__meraz {
+    background-image: linear-gradient(
+        rgba(200, 204, 239, 0.463),
+        rgba(4, 26, 100, 0.73)
+      ),
+      url("../images/hero-14.jpg");
+  }
 }
