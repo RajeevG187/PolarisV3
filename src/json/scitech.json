@@ -48,8 +48,20 @@
                     "display": "DSC"
                 }
             ],
-            "images":"",
-            "img-active":""
+            "images":[
+                {
+                    "url":"../public/images/Club Images/SciTech/GDSC/GDSC_1.jpg",
+                    "alt":"GDSC"
+                }
+            ],
+            "img-active":[
+                {
+                    "url":"../public/images/Club Images/SciTech/GDSC/GDSC_2.jpg",
+                    "alt":"GDSC"
+                }
+            ],
+            "carousel_id":["GDSC"]
+
         },
         {
             "title": "The Space Exploration Society (SES)",
