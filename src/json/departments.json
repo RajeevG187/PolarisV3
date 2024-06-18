@@ -208,6 +208,24 @@
             ]
         }
     },
+    "ece": {
+        "head": "Electronics & Communication Engineering (ECE) - An Intro",
+        "text": "IIT Bhilai opens a new discipline in Electronics and Communication Engineering (ECE) and proposes to start a BTech program in ECE in 2024. With the advancement of technologies like 5G, Internet of Things (IoT), and VLSI design, the role of electronics and communication in modern systems and applications is becoming increasingly vital. The era of smart devices and interconnected systems presents us with a great opportunity and challenge to develop the next generation technologies to design, optimize, and innovate in the fields of communication systems, embedded systems, and electronic circuits that are integral to contemporary business and industry.",
+        "info": {
+            "head": "ECE Hacks",
+            "sub-lists": [
+                {
+                    "contents": "If you are considering this discipline, it's important to know that having a passion for innovation and technology is essential."
+                },
+                {
+                    "contents": "One with keen interests in Calculus, Differential Equations, Signals and Systems, and Electromagnetic Theory should definitely pursue this."
+                },
+                {
+                    "contents": "The core courses related to electronics and communication engineering will involve subjects like Analog and Digital Communications, Microprocessors and Microcontrollers, Antenna and Wave Propagation, Digital Signal Processing, and VLSI Design."
+                }
+            ]
+        }
+    },
     "ee": {
         "head": "Electrical Engineering - An Intro",
         "text": {
@@ -347,6 +365,65 @@
                     "contents": "Last but most important, do take your 1st sem Digital Fabrication course very seriously, as there you are taught CAD modelling and basics of fabrication, which would prove to be very useful to you in further sems."
                 }
             ]
+        }
+    },
+    "msme": {
+        "head": "Materials Science and Metallurgical Engineering (MSME) - An Intro",
+        "text-1": "Are you fascinated by the properties of metals and materials? Does the science behind alloys, composites, and their industrial applications intrigue you? If so, Materials Science and Metallurgical Engineering might be the perfect fit. This field delves into the fundamentals of material structure, properties, and processing techniques, offering insights into how different materials can be tailored for specific applications.",
+        "text-2": "Materials Science and Metallurgical Engineering covers a wide array of domains including:",
+        "text-3": "Throughout your studies, you will explore the chemistry and physics underlying material behavior, and gain hands-on experience in manufacturing processes such as casting, forging, and material characterization techniques like microscopy and spectroscopy.",
+        "domains": [
+            {
+                "contents": "Structure and Properties of Materials"
+            },
+            {
+                "contents": "Metals, Alloys, and Composites"
+            },
+            {
+                "contents": "Processing and Fabrication Techniques"
+            },
+            {
+                "contents": "Physical Metallurgy"
+            },
+            {
+                "contents": "Materials Characterization"
+            }
+        ],
+        "info": {
+            "head": "MSME Hacks",
+            "list": {
+                "part-1": {
+                    "text": "Materials Science and Metallurgical Engineering involves a deep understanding of material properties and their applications. It will be advantageous to have a strong foundation in the following areas:",
+                    "sub-lists": [
+                        {
+                            "contents": "Crystallography and Phase Transformation"
+                        },
+                        {
+                            "contents": "Mechanical Behavior of Materials"
+                        },
+                        {
+                            "contents": "Thermodynamics of Materials"
+                        },
+                        {
+                            "contents": "Chemical Kinetics in Metallurgical Processes"
+                        },
+                        {
+                            "contents": "Electrochemistry"
+                        }
+                    ]
+                },
+                "part-2": [
+                    {
+                        "contents": "Develop proficiency in scientific programming early on, particularly in languages like Python or MATLAB, which are widely used in materials research."
+                    },
+                    {
+                        "contents": "Get acquainted with fundamental laboratory techniques like microscopy and spectroscopy to strengthen your practical skills."
+                    },
+                    {
+                        "contents": "Pay attention to foundational courses in mathematics and physics during your first year, as they provide the basis for understanding material science principles."
+                    }
+                ]
+            }
         }
     }
 }
