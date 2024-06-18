@@ -96,6 +96,14 @@
                 {
                     "url": "../public/images/Club Images/SciTech/SES/SES_1.jpg",
                     "alt": "SES"
+                },
+                {
+                    "url": "../public/images/Club Images/SciTech/SES/SES_4.jpg",
+                    "alt": "SES"
+                },
+                {
+                    "url": "../public/images/Club Images/SciTech/SES/SES_5.jpg",
+                    "alt": "SES"
                 }
             ],
             "carousel_id":["SES"],
@@ -189,6 +197,10 @@
                 {
                     "url": "../public/images/Club Images/SciTech/Electromos/Electromos_3.jpg",
                     "alt": "Epsilon"
+                },
+                {
+                    "url": "../public/images/Club Images/SciTech/Electromos/Electromos_4.jpg",
+                    "alt": "Epsilon"
                 }
             ],
             "carousel_id":["Electromos"]
@@ -212,6 +224,14 @@
                 },
                 {
                     "url":"../public/images/Club Images/SciTech/Ingenuity/Ingenuity_3.jpg",
+                    "alt": "Ingenuity"
+                },
+                {
+                    "url":"../public/images/Club Images/SciTech/Ingenuity/Ingenuity_4.jpeg",
+                    "alt": "Ingenuity"
+                },
+                {
+                    "url":"../public/images/Club Images/SciTech/Ingenuity/Ingenuity_5.jpeg",
                     "alt": "Ingenuity"
                 }
             ],
@@ -294,6 +314,18 @@
                 {
                     "url": "../public/images/Club Images/SciTech/Epsilon/Epsilon_3.jpg",
                     "alt": "Epsilon"
+                },
+                {
+                    "url": "../public/images/Club Images/SciTech/Epsilon/Epsilon_4.jpeg",
+                    "alt": "Epsilon"
+                },
+                {
+                    "url": "../public/images/Club Images/SciTech/Epsilon/Epsilon_5.jpg",
+                    "alt": "Epsilon"
+                },
+                {
+                    "url": "../public/images/Club Images/SciTech/Epsilon/Epsilon_6.jpeg",
+                    "alt": "Epsilon"
                 }
             ],
             "img-active": [
@@ -329,8 +361,23 @@
             "leader": " Sumit Pathak & Nishchay Rajput",
             "about": "We at OpenLake are on a mission to make the open-source contribution culture thrive in IIT Bhilai. We conduct events to promote participation in open-source internship programs like GSoC, Outreachy, MLH etc. We also have our own open-sourced projects for IIT Bhilai students to contribute. We conduct hackathons, technical workshops, OWOC (OpenLake winter of code), and guest sessions by full-time open-source contributors (Yeah, you heard it right, people earn extremely good salaries from open-source contributions). We&#39;re proud to say that every year, starting from the first batch, IIT Bhilai students get selected for the most prestigious open-source programs like Google Summer of Code (GSoC).",
            "activities":"",
-           "img-active":"",
-           "images":"",
+           "img-active":[
+            {
+             "url": "../public/images/Club Images/SciTech/Openlake/Openlake_1.jpg",
+             "alt":"Openlake"
+            }
+           ],
+           "images":[
+            {
+                "url": "../public/images/Club Images/SciTech/Openlake/Openlake_2.jpg",
+                "alt":"Openlake"
+               },
+               {
+                "url": "../public/images/Club Images/SciTech/Openlake/Openlake_3.jpg",
+                "alt":"Openlake"
+               }
+           ],
+           "carousel_id":["Openlake"],
            "list":"",
            "topic":"",
             "socialmedia": [
@@ -355,8 +402,29 @@
             "leader": " Bhavik Shangari & Gaddey Hemanth Chowdary",
             "about": " The majority of new ventures involve significant data analysis. This data is being generated at an incredible rate. Over the last few years, hackathons and other data science competitions have increased. In this situation, we can't afford to fall behind. As a result, the DSAI Club was established at IIT Bhilai to accelerate the data science culture. This club's primary goal is to promote two fields: data science and artificial intelligence. The club will work on projects that will encourage more individuals to join the bandwagon of innovation. The club will also endeavor to develop a research group to solve problems, publish articles, and contribute to the student research culture at IIT Bhilai.",
            "activities":"",
-           "img-active":"",
-           "images":"",
+           "img-active":[
+            {
+                "url":"../public/images/Club Images/SciTech/DSAI/DSAI_1.jpg",
+                "alt":"DSAI"
+            }
+                       
+           ],
+           "images":[
+            {
+                "url":"../public/images/Club Images/SciTech/DSAI/DSAI_2.jpg",
+                "alt":"DSAI"
+            },
+            {
+                "url":"../public/images/Club Images/SciTech/DSAI/DSAI_3.jpg",
+                "alt":"DSAI"
+            },
+            {
+                "url":"../public/images/Club Images/SciTech/DSAI/DSAI_4.jpg",
+                "alt":"DSAI"
+            }
+    
+           ],
+           "carousel_id":["DSAI"],
            "list":"",
            "topic":"",
             "socialmedia": [
@@ -385,8 +453,14 @@
             "leader": " Nikhil Kumar Shrey & Arya Rajesh Lanjewar",
             "about": "Blockchain technology is moving at a rapid pace. A lot of students of our institute are interested in learning blockchain technology, but due to lack of guidance, they end up giving up on learning blockchain and find some other interests. This society will prevent exactly this; we will be guiding students who are interested in learning blockchain, we will cover both, theoretical and practical aspects and make sure that they stand on their own feet. We will teach blockchain, work on blockchain-related projects, conduct hackathons, invite high profile speakers from the industry, and build good relationships with the leading blockchain companies.",
             "activities":"",
-            "img-active":"" ,
+            "img-active":[
+                {
+                    "url":"../public/images/Club Images/SciTech/BIB/BIB_1.jpg",
+                    "alt":"BIB"
+                }
+            ],
             "images":"",
+            "carousel_id":["Openlake"],
             "list":"",
             "socialmedia":"",
             "topic":""     
