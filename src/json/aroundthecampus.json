@@ -35,12 +35,12 @@
                         {
                             "entry_points_to_durg": "Swami Vivekananda Airport",
                             "distance": "54",
-                            "estimated_time": "1-1.5 hrs"
+                            "estimated_time": "1.5-2 hrs"
                         },
                         {
                             "entry_points_to_durg": "Durg Junction Railway Station",
-                            "distance": "7",
-                            "estimated_time": "10-20 min"
+                            "distance": "8",
+                            "estimated_time": "15-25 min"
                         }
                     ]
                 }
@@ -51,7 +51,7 @@
     },
     "transportation": {
         "heading": "Transportation",
-        "text": "Rickshaws are your besties for zipping around the city! If you have stamina,zip around using cycle of your homie &#128521; . You can get cab service also and local trains to travel to raipur city, and bus services are also available."
+        "text": "Rickshaws are your besties for zipping around the city! If you have stamina, zip around using cycle of your homie &#128521; . You can get cab service also and local trains to travel to raipur city, and bus services are also available."
     },
     "foodspots": {
         "heading": "Food spots!",
