@@ -54,7 +54,7 @@ body {
 }
 
 .section {
-  margin: 7rem 0;
+  margin: 7rem 5rem;
   opacity: 0;
 }
 .section--show {
