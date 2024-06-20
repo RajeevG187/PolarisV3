@@ -32,19 +32,6 @@ html {
 body {
   box-sizing: border-box;
 }
-.bckproperty{
-  background-color: rgba(234, 158, 241,0.2)
-}
-
-.bckprp {
-
-
-  background-image: url("../images/logoiit.jpg");
-  background-size: cover;
-  background-repeat:no-repeat ;
-  background-position:center;
-}
-
 
 .line-break {
   background-color: #777;
@@ -494,53 +481,53 @@ body {
   width: 100%;
 }
 .header__home {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(2, 18, 70, 0.73)), url('../images/gallery/n2.jpg');
-    }
+  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(2, 18, 70, 0.73)), url("../images/gallery/n2.jpg");
+}
 .header__nsso {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/Header Images/hero-2.jpeg');
-    }
+  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/Header Images/hero-2.jpeg");
+}
 .header__queries {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/Header Images/hero-3.jpg');
-    }
+  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/Header Images/hero-3.jpg");
+}
 .header__around {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/Header Images/hero-4.jpg');
-    }
+  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/Header Images/hero-4.jpg");
+}
 .header__mentors {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/Header Images/hero-5.jpg');
-    }
+  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/Header Images/hero-5.jpg");
+}
 .header__life {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/gallery/n1.jpg');
-    }
+  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/gallery/n1.jpg");
+}
 .header__scitech {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/Header Images/hero-7.jpg');
-    }
+  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/Header Images/hero-7.jpg");
+}
 .header__cultural {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/Header Images/hero-8.JPG');
-    }
+  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/Header Images/hero-8.JPG");
+}
 .header__outreach {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/Header Images/hero-9.jpg');
-    }
+  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/Header Images/hero-9.jpg");
+}
 .header__academic {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/Header Images/hero-10.jpg');
-    }
+  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/Header Images/hero-10.jpg");
+}
 .header__sports {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/Header Images/hero-11.jpg');
-    }
+  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/Header Images/hero-11.jpg");
+}
 .header__department {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/Header Images/hero-12.jpg');
-    }  
+  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/Header Images/hero-12.jpg");
+}
 .header__coordinators {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/Header Images/hero-13.jpg');
-    }  
+  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/Header Images/hero-13.jpg");
+}
 .header__motorsports {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/gallery/g2.JPG');
-    }
+  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/gallery/g2.JPG");
+}
 .header__documents {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/Header Images/hero-15.jpg');
-    }
+  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/Header Images/hero-15.jpg");
+}
 .header__meraz {
-        background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url('../images/Header Images/hero-14.jpg');
-    }
+  background-image: linear-gradient(rgba(200, 204, 239, 0.463), rgba(4, 26, 100, 0.73)), url("../images/Header Images/hero-14.jpg");
+}
 
 .footer {
   background-color: #000000;
@@ -774,7 +761,7 @@ body {
   }
 }
 .row .col-2-of-3 {
-  width: calc(2 * (100% - 2 * 6rem) / 3 + 6rem);
+  width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
 }
 @media (max-width: 600px) {
   .row .col-2-of-3 {
@@ -790,7 +777,7 @@ body {
   }
 }
 .row .col-2-of-4 {
-  width: calc(2 * (100% - 3 * 6rem) / 4 + 6rem);
+  width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem);
 }
 @media (max-width: 600px) {
   .row .col-2-of-4 {
@@ -798,7 +785,7 @@ body {
   }
 }
 .row .col-3-of-4 {
-  width: calc(3 * (100% - 3 * 6rem) / 4 + 2 * 6rem);
+  width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
 }
 @media (max-width: 600px) {
   .row .col-3-of-4 {
@@ -1370,63 +1357,4 @@ body {
   font-weight: 300;
 }
 
-.c-item{
-  height: 550px;
-}
-.c-img{
-  height: 100%;
-  object-fit: cover;
-}
-
-@media (max-width: 400px) {
-  .c-item {
-    height: 150px;
-  }
-  .c-img{
-    height: 100%;
-    object-fit: cover;
-  }
-}
-
-@media (min-width: 400px) {
-  .c-item {
-    height: 250px;
-  }
-  .c-img{
-    height: 100%;
-    object-fit: cover;
-  }
-}
-
-@media (min-width: 600px) {
-  .c-item {
-    height: 350px;
-  }
-  .c-img{
-    height: 100%;
-    object-fit: cover;
-  }
-}
-
-@media (min-width: 750px) {
-  .c-item {
-    height: 400px;
-  }
-  .c-img{
-    height: 100%;
-    object-fit: cover;
-  }
-}
-
-@media (min-width: 1030px) {
-  .c-item {
-    height: 550px;
-  }
-  .c-img{
-    height: 100%;
-    object-fit: cover;
-  }
-}
 /*# sourceMappingURL=style.css.map */
-
-

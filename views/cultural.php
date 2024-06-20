@@ -68,7 +68,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             </div>
         </header>
 
-        <section class="section">
+        <section style = "margin: 7rem 5rem" class="section">
             <div class="container">
                 <div class="clubs">
 

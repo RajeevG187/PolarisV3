@@ -83,7 +83,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             </div>
         </header>
 
-        <section class="section">
+        <section style = "margin: 7rem 5rem" class="section">
             <div class="container">
                 <h2 class="heading-secondary"><?php echo $data['introduction']['title']; ?></h2>
                 <div class="clubs">
