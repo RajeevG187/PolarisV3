@@ -204,7 +204,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                     <td><?php echo $content['entertainment_hubs']; ?></td>
                                     <td><?php echo $content['highlights']; ?></</td>
                                     <td><?php echo $content['distance_from_campus']; ?></</td>
-                                    <td><a href=<?php echo $content['entertainment_hubs']; ?> >Click Here!</a></td>
+                                    <td><a href="<?php echo $content['google_map']; ?>" target="_blank" >Click Here!</a></td>
                                 </tr>
                             <?php endforeach; ?>
                             
