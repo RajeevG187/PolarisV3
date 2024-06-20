@@ -5,7 +5,7 @@
     },
     "introduction": {
         "general-secretary": "General Secretary - Aditya Prakash",
-        "text": "Education — for many this is probably one of the most important factors of our lives and from a very young age children work their way through the education system before being able to make their own decisions about whether to continue their learning through college, university and further education. As part of our educational syllabus we are expected to learn about a number of subjects, however, one of particular interest to us is physical education and sports, as they have a massive part to play within the education system. Sports teach us key values such as: Teamwork, Respect, Passion, Hard work and many other key attributes that help towards developing an individual’s character. Presence of good sports facilities is a vital tool in developing the above skills. The following sections elaborate on the sports facilities present at IIT Bhilai which will help the students to tackle the challenging curriculum with renewed vigour. For indoor games there is a recreation room in both the hostels. It houses T.T., board games, pool and Television facilities.",
+        "text": "Education — for many this is probably one of the most important factors of our lives and from a very young age children work their way through the education system before being able to make their own decisions about whether to continue their learning through college, university and further education. As part of our educational syllabus we are expected to learn about a number of subjects, however, one subject of particular interest to us is physical education and sports, as they have a massive part to play within the education system. Sports teach us key values such as: Teamwork, Respect, Passion, Hard work and many other key attributes that help towards developing an individual’s character. Presence of good sports facilities is a vital tool in developing the above skills. The following sections elaborate on the sports facilities present at IIT Bhilai which will help the students to tackle the challenging curriculum with renewed vigour. For indoor games there is a recreation room in both the hostels. It houses T.T., board games, pool and Television facilities.",
         "image": "../public/images/Secretaries/Aditya_Prakash.jpg",
         "name":"Aditya Prakash",
         "email": "mailto:President_CoSA@iitbhilai.ac.in"
@@ -16,22 +16,27 @@
             "role": "Co-ordinator: ",
             "leader": "Anil Kumar Mandal",
             "about": "",
-            "facilities": "The club is provided with many facilities ranging from the cricket kits to the flood lights for the practice sessions. The club has a spectacular ground behind Academic Block. The ground has a well maintained pitch with a clean outfield. We are setting up cricket nets for practice in preparation for inter IIT sports meet and various other tournaments.",
+            "facilities": "The club is provided with many facilities ranging from the cricket kits to the flood lights for the practice sessions. The club has a spectacular ground behind MSH hostel. The ground has a well maintained pitch with a clean outfield. We have setted up cricket nets for practice in preparation for inter IIT sports meet and various other tournaments.",
             "objective": "",
             "activities": "",
             "past-events": [
                 {
                     "head": "Past Events: ",
-                    "text": "Prayatna 2k24"
+                    "text": "Prayatna 2k23, Bhilai Premier League"
                 }
             ],    
             "upcoming-events": [
                 {
                     "head": "Upcoming Events: ",
-                    "text": "Prayatna 2k25, Various tournaments in Raipur"
+                    "text": "Prayatna 2k24, Various tournaments in Raipur"
                 }
             ],
-            "image": ""
+            "image": [
+                {
+                    "path" :"../public/images/life/cricket-1.jpg",
+                    "alt": "Cricket"
+                }
+            ]
         },
         {
             "name": "Badminton",
@@ -39,8 +44,8 @@
             "leader": "R. Dheemanth and Sneha Nagmoti",
             "about": "",
             "facilities": "We have 1 badminton court at Kanhar Hostel and we are planning for more courts. ",
-            "objective": "Objective is to provide the new comers an environment where along the academics they will find that sports play a vital role in our life.",
-            "activities": "We have organised two badminton tournaments in last two years and we are planning for more tournaments in the upcoming years. Our main motive is to provide deserving students a better platform like INTER-IIT SPORTS MEET. INTER-IIT is the best platform for us where we can achieve our uniqueness in the sports between the other IITs. As we have already experienced the level of badminton in the INTER-IIT so we are planning to provide all the facilities to the interested students so that they can practice well and perform well in INTER-IIT.",
+            "objective": "Objective is to provide the new comers an environment where along the academics they will find that sports play a vital role in their life.",
+            "activities": "We have organised two badminton tournaments in last two years and we are planning for more tournaments in the upcoming years. Our main motive is to provide deserving students a better platform like INTER-IIT SPORTS MEET. INTER-IIT is the best platform for us where we can achieve our uniqueness in the sports between the other IITs. As we have already experienced the level of badminton in the INTER-IIT so we are planning to provide all the facilities to the interested students so that they can practice well in INTER-IIT.",
             "past-events": "",
             "upcoming-events": "",
             "image": [
@@ -89,7 +94,7 @@
             "name": "Table Tennis",
             "role": "Co-ordinator: ",
             "leader": "Aarya Shadungale and Akshita",
-            "about": "Table Tennis is a fast game that requires skills to win. This is the reason for its popularity all around the world. This year our first TT Boys team participated in INTER IIT Sports Meet 2017 in Madras.",
+            "about": "Table Tennis is a fast game that requires skills to win. This is the reason for its popularity all around the world. Our first TT Boys team participated in INTER IIT Sports Meet 2017 in Madras.",
             "facilities": "We have one TT Table in every Hostel. Sports Coaches and TT Coordinator are always available for any guidance and support.",
             "objective": "",
             "activities": "",
@@ -120,13 +125,22 @@
             "name": "Football",
             "role": "Co-ordinator: ",
             "leader": "Devansh Tejwani",
-            "about": "With almost of thirty regular members, the football club of IIT Bhilai is still growing. We have a standard size football ground and posts. Football came to the lime light during PRAYATNA which is held as a part of our sports curriculum where it became a huge success. Our passionate group of people is led by our coach, Mr. Sumit Tiwari who has a reputation for himself which stands undisputed. We have players who, given the opportunity have potential to prove themselves very valuable on the field. We are yet to represent ourselves in the Inter IIT Sports Meet but that is not an issue anymore, as from this year onwards we have a very capable team that can and will cause serious competition in the tournament. We have also planned to participate in the local football tournaments organised by other institutes and organisations that will contribute to our growth and evolve us into better players.",
+            "about": "With almost of thirty regular members, the football club of IIT Bhilai is still growing. We have a standard size football ground and posts. Football came to the lime light during PRAYATNA which is held as a part of our sports curriculum where it became a huge success. Our passionate group of people is led by our coach, Mr. Sumit Tiwari who has a reputation for himself which stands undisputed. We have players who, given the opportunity have potential to prove themselves very valuable on the field. With our very capable team we represented ourselves in the Inter IIT Sports Meet and caused serious competition in the tournament. We have also planned to participate in the local football tournaments organised by other institutes and organisations that will contribute to our growth and evolve us into better players.",
             "facilities": "",
             "objective": "",
             "activities": "",
             "past-events": "",
             "upcoming-events": "",
-            "image": ""
+            "image": [
+                {
+                    "path" :"../public/images/life/football-1.jpg",
+                    "alt": "Football"
+                },
+                {
+                    "path" :"../public/images/life/football-2.jpg",
+                    "alt": "Football"
+                }
+            ]
         },
         {
             "name": "Chess Club",
@@ -165,13 +179,13 @@
             "past-events": [
                 {
                     "head" : "Events Organised: ",
-                    "text" : "We have organized a intra tournament in first year, in which winners were awarded with prizes and certificate. In second year we have participated in inter iit sport meet and we have organized a league tournament “PRAYATNA” including volleyball, athletics, table tennis, basketball etc."
+                    "text" : "We have organized an intra tournament in first year, in which winners were awarded with prizes and certificate. In second year we have participated in inter iit sport meet and we have organized a league tournament “PRAYATNA” including volleyball, athletics, table tennis, basketball etc."
                 }
             ],
             "upcoming-events": [
                 {
                     "head" : "Future Plans: ",
-                    "text" : "We look forward to work with sports council to organize intra college volleyball tournament each semester. We will try to participate in inter college sport meets with other nearby colleges and also give our best in the upcoming inter iit sports meet organized by IIT Guwahati."
+                    "text" : "We look forward to work with sports council to organize intra college volleyball tournament each semester. We will try to participate in inter college sport meets with other nearby colleges and also give our best in the upcoming inter iit sports meet organized by IIT Indore and IIT Kanpur."
                 }
             ],    
             "image": [
@@ -182,6 +196,32 @@
                 {
                     "path" :"../public/images/life/life_23.jpg",
                     "alt": "Volleyball"
+                }
+            ]
+        },
+        {
+            "name": "Yoga",
+            "role": "Co-ordinator: ",
+            "leader": "Prince Patidaar and Dharmsweta Thakur",
+            "about": "We believe that practice of yoga can transform lives, and we are excited to share this journey with you. Yoga enhances physical and mental health, reducing stress and promoting relaxation. Yoga is the perfect opportunity to rejuvenate your mind, body, and soul. Let’s come together to celebrate health, mindfulness, and community.",
+            "facilities": "",
+            "objective": "",
+            "activities": "",
+            "past-events": [
+                {
+                    "head": "Events Organised: ",
+                    "text": "Yoga was conducted as a tournament in Prayatna, the annual Intra IIT sports league and on behalf of International Yoga Day, yoga sessions were organized."
+                }
+            ],    
+            "upcoming-events": "",
+            "image": [
+                {
+                    "path" :"../public/images/life/yoga-1.jpg",
+                    "alt": "Yoga"
+                },
+                {
+                    "path" :"../public/images/life/yoga-3.jpg",
+                    "alt": "Yoga"
                 }
             ]
         }
