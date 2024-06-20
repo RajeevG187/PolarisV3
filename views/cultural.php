@@ -34,9 +34,9 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="../public/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../public/css/animate.css">
     <link rel="stylesheet" href="../public/css/style.css">
-    <link rel="stylesheet" href="../public/bootstrap/css/bootstrap.min.css">
 
     <title>Polaris - Student Mentorship Program</title>
 
