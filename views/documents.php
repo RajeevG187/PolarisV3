@@ -19,21 +19,25 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 }
 
 if (isset($data['registration_form']['check'])) {
-    // Replace URLs with "To Be Uploaded" if 'check' is 0
+    // Replace URLs with "To Be Announced" if 'check' is 0
     if ($data['registration_form']['check'] == 0) {
         foreach ($data['registration_form']['lists'] as &$subList) {
-            $subList['url'] = "To Be Uploaded";
+            $subList['url'] = "To Be Announced"; // Changed from "To Be Uploaded" to "To Be Announced"
         }
     }
 }
+
+
 if (isset($data['loan']['check'])) {
-    // Replace URLs with "To Be Uploaded" if 'check' is 0
+    // Replace URLs with "To Be Announced" if 'check' is 0
     if ($data['loan']['check'] == 0) {
         foreach ($data['loan']['lists'] as &$subList) {
-            $subList['url'] = "To Be Uploaded";
+            $subList['url'] = "To Be Announced"; // Changed from "To Be Uploaded" to "To Be Announced"
         }
     }
 }
+
+
 
 // // Check if the required keys exist in the decoded data
 // if (!isset($data['header'], $data['introduction'], $data['topics'], $data['gallery'])) {
@@ -94,11 +98,16 @@ if (isset($data['loan']['check'])) {
                   <h2 class="heading-secondary"><?php echo $data['header']['head']; ?><br><span><?php echo $data['registration_form']['head']; ?></span></h2>
                   <p class="documents__text"><?php echo $data['registration_form']['text']; ?></p>
                   <div class="bank">
-                      <ul class="bank__list">
-                        <?php foreach ($data['registration_form']['lists'] as $subList): ?>
-                            <li class="bank__item"><i class="fas fa-download"></i>&nbsp; <?php echo $subList['text']; ?> <a href="<?php echo $subList['url']; ?>" download>Click Here!</a></li>
-                        <?php endforeach; ?>  
-                      </ul>
+                  <ul class="bank__list">
+    <?php foreach ($data['registration_form']['lists'] as $subList): ?>
+        <li class="bank__item"><i class="fas fa-download"></i>&nbsp; <?php echo $subList['text']; ?> 
+            <a href="<?php echo $subList['url'] === 'To Be Announced' ? '#' : $subList['url']; ?>" download>
+                <?php echo $subList['url'] === 'To Be Announced' ? 'To Be Announced' : 'Click Here!'; ?>
+            </a>
+        </li> <!-- Changed to conditionally display "To Be Announced" -->
+    <?php endforeach; ?>  
+</ul>
+
                   </div>
               </div>
           </div>
@@ -113,11 +122,16 @@ if (isset($data['loan']['check'])) {
                     <h2 class="heading-secondary"><span><?php echo $data['loan']['head']; ?></span></h2>
                     <p class="fee__text"><?php echo $data['loan']['text']; ?></p>
                     <div class="bank">
-                      <ul class="bank__list">
-                        <?php foreach ($data['loan']['lists'] as $sub_List): ?>
-                            <li class="bank__item"><i class="fas fa-download"></i>&nbsp; <?php echo $sub_List['text']; ?> <a href="<?php echo $sub_List['url']; ?>" download>Click here.</a></li>
-                        <?php endforeach; ?>
-                      </ul>
+                    <ul class="bank__list">
+    <?php foreach ($data['loan']['lists'] as $sub_List): ?>
+        <li class="bank__item"><i class="fas fa-download"></i>&nbsp; <?php echo $sub_List['text']; ?> 
+            <a href="<?php echo $sub_List['url'] === 'To Be Announced' ? '#' : $sub_List['url']; ?>" download>
+                <?php echo $sub_List['url'] === 'To Be Announced' ? 'To Be Announced' : 'Click here.'; ?>
+            </a>
+        </li> <!-- Changed to conditionally display "To Be Announced" -->
+    <?php endforeach; ?>
+</ul>
+
                     </div>
                     
                 </div>

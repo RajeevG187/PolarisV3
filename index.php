@@ -74,12 +74,13 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             <div class="modal-body">
                 <ul>
                 <li><strong>Important Notice</strong> Registration Schedule
-    <?php if ($data['pdfLink']['check'] == 1): ?> <!-- Change made here -->
+    <?php if ($data['pdfLink']['check'] == 1): ?>
         <a href="public/pdfs/RegistrationSchedule.pdf" target="_blank" class="notification">Click Here!</a>
     <?php else: ?>
         <p>To be announced</p>
     <?php endif; ?>
 </li>
+
 
                     <!-- <li><strong>Important Notice</strong> BTech-2023 Orientation Schedule will be uploaded soon.</li> -->
 
@@ -125,7 +126,6 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                 </ul>
             </div>
         </div>
-
     </div>
 
 
@@ -135,15 +135,17 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             <div class="header__hero-box">
             <h1 class="heading-primary"><?php echo $data['header']['head']; ?></h1>
             <p class="heading-subtitle"><?php echo $data['header']['text']; ?></p>
-            <a href="../public/pdfs/brochure_2023.pdf" class="btn btn-download" 
-    <?php if ($data['brochureLink']['check'] == 1): ?>
-        download
-    <?php else: ?>
-        onclick="return false;" style="pointer-events: none; cursor: not-allowed;"
-    <?php endif; ?>
->
-    Brochure 2023&nbsp; <i class="fas fa-download"></i>
-</a><br />
+            <?php if ($data['brochureLink']['check'] == 1): ?>
+    <a href="../public/pdfs/brochure_2023.pdf" class="btn btn-download" download>
+        Brochure 2023&nbsp; <i class="fas fa-download"></i>
+    </a>
+<?php else: ?>
+    <span class="btn btn-download" style="pointer-events: none; cursor: not-allowed;">
+        To be Announced&nbsp; <i class="fas fa-download"></i>
+    </span>
+<?php endif; ?>
+<br />
+
 
                 <!-- <a href="javascript:void(0);" class="btn btn-download">Brochure 2023 will be uploaded soon.&nbsp; <i class="fas fa-download"></i></a><br/> -->
                 <!-- <a href="#" class="btn btn-live" id="modalBtn">Live Updates &nbsp; <i class="fas fa-sync"></i></a> -->
@@ -155,14 +157,17 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         <div class="container">
             <div class="introduction">
                 <h3 class="heading-secondary">Latest Updates on Website</h3>
-                <p id="blink" style="color:red;">Registration Schedule is uploaded. 
-                <a href="public\pdfs\RegistrationSchedule.pdf" target="_blank" class="notification"
-    <?php if ($data['registrationScheduleDownload']['check'] == 0): ?>
-        onclick="return false;" style="pointer-events: none; cursor: not-allowed;" title="To be announced"
-    <?php endif; ?>
->
-    Click Here to download
-</a>
+                <p id="blink" style="color:red;"> 
+                <?php if ($data['registrationScheduleDownload']['check'] == 1): ?>
+    <a href="public\pdfs\RegistrationSchedule.pdf" target="_blank" class="notification">
+    Registration Schedule is uploaded.Click Here to download
+    </a>
+<?php else: ?>
+    <span class="notification" style="pointer-events: none; cursor: not-allowed;" title="To be announced">
+    Registration Schedule to be Announced
+    </span>
+<?php endif; ?>
+
 </p>
                 <p id="blink" style="color:red;">Hotels near Campus in Durg are uploaded. Kindly visit <a href="aroundthecampus.php" target=blank>Around the campus</a> page for more info.</p>
                 <p id="blink" style="color:red;">Some announcements for Freshers below in this page.</p>
