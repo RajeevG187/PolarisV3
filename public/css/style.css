@@ -68,6 +68,7 @@ body {
 @media (max-width: 1200px) {
   .container {
     margin: 0 5rem;
+    width: auto;
   }
 }
 
@@ -1281,7 +1282,7 @@ body {
 .cultural span {
   font-weight: 700;
 }
-
+.clubs,
 .cultural {
   width: 90%;
   margin: 7rem auto;

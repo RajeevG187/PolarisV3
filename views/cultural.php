@@ -71,30 +71,12 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         <section class="section">
             <div class="container">
                 <div class="clubs">
-
                     <div class="information__box">
                         <div>
                             <h3 class="heading-tertiary">General Secretary -
                                 <?php echo $data['generalsecretary']['name']; ?>
                             </h3><br><br>
-                            <p class="clubs__text">We all, as a part of an elite league of institutes, aspire to work at
-                                the
-                                frontiers of human knowledge, innovate technology, initiate revolutions in science and
-                                propel
-                                national development to new heights. But often in such a competitive environment, work
-                                is
-                                stressed
-                                to the point of mania and this is when comes in the need of recreation. Rediscover your
-                                hobbies and
-                                explore new ones with Clubs at IIT Bhilai. Mind you there is absolutely no bound on
-                                anyone’s
-                                interest which also means that there is no bound on how many clubs you can be in – it is
-                                all
-                                up to
-                                you. Currently the following clubs are functional and conduct their respective
-                                activities at
-                                a
-                                regular basis:</p>
+                            <p class="clubs__text"><?php echo $data['text']["message"]; ?></p>
                             <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow
                                     us:</span>
                                 <a href="https://www.facebook.com/IITBhilai.Cult/" class="outreach__link"
@@ -105,7 +87,6 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
                             <!-- <a href="https://www.facebook.com/IITBhilai.Cult/" class="outreach__link"
                             target="_blank">Facebook</a>, -->
-                            </p>
                             <br>
                         </div>
                         <div>
@@ -177,13 +158,15 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                             </ul>
                         <?php endif; ?>
 
-                        <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow us:</span> <a
-                                href="<?= $club['facebook'] ?>" class="outreach__link">Facebook</a>, <a
-                                href="<?= $club['instagram'] ?>" class="outreach__link">Instagram</a></p>
+                        <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow us:</span> 
+                            <a href="<?= $club['facebook'] ?>" class="outreach__link">Facebook</a>, 
+                            <a href="<?= $club['instagram'] ?>" class="outreach__link">Instagram</a>
+                        </p>
+
                         <br>
 
                         <section class="section">
-                        <div class="container">
+                            <div class="container">
                             <div class="gallery">
                                 <div class="siema">
                                     <div id="<?php echo $club['carousel_id'][0]; ?>" class="carousel slide">
@@ -197,7 +180,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                         </div>
                                         <div class="carousel-inner">
                                             <div class="carousel-item active c-item">
-                                                <img src="<?php echo $club['img-active'][0]['img']; ?>" class="d-block w-100 c-img" alt="<?php echo $club['img-active'][0]['alt']; ?>">
+                                                <img src="<?php echo $club['img-active'][0]['img']; ?>" class="d-block w-100 c-img" alt=<?php echo $club['img-active'][0]['alt']; ?>, >
                                             </div>
                                             <?php foreach($club['images'] as $img): ?>
                                                 <div class="carousel-item c-item">
@@ -216,8 +199,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
+                            </div>
+                        </section>
                     </div>
 
                     <div class="line-break"></div>
@@ -247,9 +230,10 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                             <?php endforeach; ?>
                         </p><br>
                         <p class="outreach__text"><i class="fas fa-arrow-circle-right"></i>&nbsp;<span>Follow us:</span>
-                            <?php if (isset($society['facebook'])): ?><a href="<?= $society['facebook'] ?>"
-                                    class="outreach__link">Facebook</a>,<?php endif; ?> <a href="<?= $society['instagram'] ?>"
-                                class="outreach__link">Instagram</a></p>
+                            <?php if (isset($society['facebook'])): ?>
+                                <a href="<?= $society['facebook'] ?>"class="outreach__link">Facebook</a>,
+                            <?php endif; ?> 
+                            <a href="<?= $society['instagram'] ?>"class="outreach__link">Instagram</a></p>
                         <br>
 
                         <section class="section">
@@ -285,9 +269,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                        </section>
                     </div>
-
                     <div class="line-break"></div>
                 <?php endforeach; ?>
             </div>
@@ -297,9 +280,6 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         <?php require_once ('partials/footer.php'); ?>
 
     </div>
-
-
-
 
 </body>
 
