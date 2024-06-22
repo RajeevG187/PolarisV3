@@ -5,6 +5,7 @@
     },
 
     "registration_form": {
+        "check" : "0",
         "head": "Registration Form\n",
         "text": "The attached respective registration forms are necessary at the time of Registration.\nPlease download and fill the respective forms.\n",
         "lists": [
@@ -27,6 +28,7 @@
         ]
     } ,
     "loan": {
+        "check" : "0",
         "head": "Availing Loan Facility",
         "text": "IIT Bhilai has a tie-up with Union Bank of India to provide education loans to the students of IIT Bhilai with the rate of interest @ 8.15% p.a. (floating) for this financial year 2023-24. \n Loan documents are available below.",
         "lists": [
@@ -37,10 +39,11 @@
         ]
     },
     "fee": {
+        
         "head": "Regarding Fee Payment",
         "text": "",
         "lists": [
-            {
+            { 
                 "text":"To see the detailed Fee Structure , please  ",
                 "url":"https://www.iitbhilai.ac.in/index.php?pid=fee_structure"
             }

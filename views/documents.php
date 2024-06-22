@@ -18,6 +18,23 @@ if (json_last_error() !== JSON_ERROR_NONE) {
     die('Error: Invalid JSON data. ' . json_last_error_msg());
 }
 
+if (isset($data['registration_form']['check'])) {
+    // Replace URLs with "To Be Uploaded" if 'check' is 0
+    if ($data['registration_form']['check'] == 0) {
+        foreach ($data['registration_form']['lists'] as &$subList) {
+            $subList['url'] = "To Be Uploaded";
+        }
+    }
+}
+if (isset($data['loan']['check'])) {
+    // Replace URLs with "To Be Uploaded" if 'check' is 0
+    if ($data['loan']['check'] == 0) {
+        foreach ($data['loan']['lists'] as &$subList) {
+            $subList['url'] = "To Be Uploaded";
+        }
+    }
+}
+
 // // Check if the required keys exist in the decoded data
 // if (!isset($data['header'], $data['introduction'], $data['topics'], $data['gallery'])) {
 //     die('Error: Missing required data in JSON.');

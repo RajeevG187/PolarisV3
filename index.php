@@ -16,6 +16,8 @@ $data = json_decode($json, true);
 if (json_last_error() !== JSON_ERROR_NONE) {
     die('Error: Invalid JSON data. ' . json_last_error_msg());
 }
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -71,8 +73,14 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             </div>
             <div class="modal-body">
                 <ul>
+                <li><strong>Important Notice</strong> Registration Schedule
+    <?php if ($data['pdfLink']['check'] == 1): ?> <!-- Change made here -->
+        <a href="public/pdfs/RegistrationSchedule.pdf" target="_blank" class="notification">Click Here!</a>
+    <?php else: ?>
+        <p>To be announced</p>
+    <?php endif; ?>
+</li>
 
-                    <li><strong>Important Notice</strong> Registrationn Schedule <a href="public\pdfs\RegistrationSchedule.pdf" target="_blank" class="notification">Click Here!</a></li>
                     <!-- <li><strong>Important Notice</strong> BTech-2023 Orientation Schedule will be uploaded soon.</li> -->
 
                     <!-- <li><strong>Important Notice</strong> Admission due to covid <a href="Notice on admission due to covid.pdf" target="_blank" class="notification">Click Here!</a></li>
@@ -80,7 +88,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                         <li><strong>Important Notice</strong> Registration and Orientation program for the new BTech students 2020 <a href="orientation.pdf" target="_blank" class="notification">Click Here!</a></li> -->
 
 
-                    <li>Please see the <a href="../views/documents.php" class="notification" target="_blank">Documents</a> page for registration forms, fee structure, and updated loan details.<br>
+                    <li>Please see the <a href="../views/documents.php" class="notification" target="_blank"  >Documents</a> page for registration forms, fee structure, and updated loan details.<br>
 
 
 
@@ -127,7 +135,16 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             <div class="header__hero-box">
             <h1 class="heading-primary"><?php echo $data['header']['head']; ?></h1>
             <p class="heading-subtitle"><?php echo $data['header']['text']; ?></p>
-                <a href="../public/pdfs/brochure_2023.pdf" class="btn btn-download" download >Brochure 2023&nbsp; <i class="fas fa-download"></i></a><br />
+            <a href="../public/pdfs/brochure_2023.pdf" class="btn btn-download" 
+    <?php if ($data['brochureLink']['check'] == 1): ?>
+        download
+    <?php else: ?>
+        onclick="return false;" style="pointer-events: none; cursor: not-allowed;"
+    <?php endif; ?>
+>
+    Brochure 2023&nbsp; <i class="fas fa-download"></i>
+</a><br />
+
                 <!-- <a href="javascript:void(0);" class="btn btn-download">Brochure 2023 will be uploaded soon.&nbsp; <i class="fas fa-download"></i></a><br/> -->
                 <!-- <a href="#" class="btn btn-live" id="modalBtn">Live Updates &nbsp; <i class="fas fa-sync"></i></a> -->
             </div>
@@ -138,7 +155,15 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         <div class="container">
             <div class="introduction">
                 <h3 class="heading-secondary">Latest Updates on Website</h3>
-                <p id="blink" style="color:red;">Registration Schedule is uploaded. <a href="public\pdfs\RegistrationSchedule.pdf" target="_blank" class="notification">Click Here to download</a></p>
+                <p id="blink" style="color:red;">Registration Schedule is uploaded. 
+                <a href="public\pdfs\RegistrationSchedule.pdf" target="_blank" class="notification"
+    <?php if ($data['registrationScheduleDownload']['check'] == 0): ?>
+        onclick="return false;" style="pointer-events: none; cursor: not-allowed;" title="To be announced"
+    <?php endif; ?>
+>
+    Click Here to download
+</a>
+</p>
                 <p id="blink" style="color:red;">Hotels near Campus in Durg are uploaded. Kindly visit <a href="aroundthecampus.php" target=blank>Around the campus</a> page for more info.</p>
                 <p id="blink" style="color:red;">Some announcements for Freshers below in this page.</p>
             </div>
