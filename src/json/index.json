@@ -1,4 +1,17 @@
 {
+    "pdfLink": {
+    "check": 0
+},
+
+"brochureLink": {
+    "check": 0
+},
+
+"registrationScheduleDownload": {
+    "check": 0
+},
+
+
     "header": {
         "head": "Student Mentorship Program",
         "text": "Of the Student, By the Student, For the Student"
