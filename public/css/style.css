@@ -68,6 +68,7 @@ body {
 @media (max-width: 1200px) {
   .container {
     margin: 0 5rem;
+    width: auto;
   }
 }
 
@@ -1282,7 +1283,6 @@ body {
 .cultural span {
   font-weight: 700;
 }
-
 .clubs,
 .cultural {
   width: 90%;
@@ -1380,6 +1380,55 @@ body {
   object-fit: cover;
 }
 
+@media (max-width: 400px) {
+  .c-item {
+    height: 150px;
+  }
+  .c-img{
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 400px) {
+  .c-item {
+    height: 250px;
+  }
+  .c-img{
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 600px) {
+  .c-item {
+    height: 350px;
+  }
+  .c-img{
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 750px) {
+  .c-item {
+    height: 400px;
+  }
+  .c-img{
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1030px) {
+  .c-item {
+    height: 550px;
+  }
+  .c-img{
+    height: 100%;
+    object-fit: cover;
+  }
+}
 /*# sourceMappingURL=style.css.map */
 
 

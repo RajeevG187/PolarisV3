@@ -69,7 +69,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         <div class="modal-content">
             <div class="modal-header">
                 <span class="close">&times;</span>
-                <h2>Checklist for Freshers 2023</h2>
+                <h2>Checklist for Freshers 2024</h2>
             </div>
             <div class="modal-body">
                 <ul>
@@ -80,7 +80,6 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         <p>To be announced</p>
     <?php endif; ?>
 </li>
-
 
                     <!-- <li><strong>Important Notice</strong> BTech-2023 Orientation Schedule will be uploaded soon.</li> -->
 
@@ -93,7 +92,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
 
 
-                    <li>For any queries regarding IIT Bhilai and 2023-24 admissions please feel free to contact any of the <a href="../views/mentors.php" class="notification" target="_blank">Mentors.</a><br>
+                    <li>For any queries regarding IIT Bhilai and 2024-25 admissions please feel free to contact any of the <a href="../views/mentors.php" class="notification" target="_blank">Mentors.</a><br>
 
                 </ul>
             </div>
@@ -145,8 +144,6 @@ if (json_last_error() !== JSON_ERROR_NONE) {
     </span>
 <?php endif; ?>
 <br />
-
-
                 <!-- <a href="javascript:void(0);" class="btn btn-download">Brochure 2023 will be uploaded soon.&nbsp; <i class="fas fa-download"></i></a><br/> -->
                 <!-- <a href="#" class="btn btn-live" id="modalBtn">Live Updates &nbsp; <i class="fas fa-sync"></i></a> -->
             </div>
@@ -169,7 +166,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 <?php endif; ?>
 
 </p>
-                <p id="blink" style="color:red;">Hotels near Campus in Durg are uploaded. Kindly visit <a href="aroundthecampus.php" target=blank>Around the campus</a> page for more info.</p>
+                <p id="blink" style="color:red;">Hotels near Campus in Durg are uploaded. Kindly visit <a href="../views/aroundthecampus.php" target=blank>Around the campus</a> page for more info.</p>
                 <p id="blink" style="color:red;">Some announcements for Freshers below in this page.</p>
             </div>
         </div>
@@ -190,9 +187,9 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                 <div class="introduction">
                     <h2 class="heading-secondary">Announcements</h2>
                     <ul class="info__list">
-                            <li class="info__item">All the new students who will be admitted to IIT Bhilai in 2023-24 year are required to report to permanent campus of IIT Bhilai for admission.
+                            <li class="info__item">All the new students who will be admitted to IIT Bhilai in 2024-25 year are required to report to permanent campus of IIT Bhilai for admission.
                             </li>
-                            <li class="info__item">The date of reporting is August 02, 2023 from 06:00 am at Hostel building , IIT Bhilai, Permanent Campus, Kutelabhata, Bhilai,Durg - 491001</li>
+                            <li class="info__item">The date of reporting is July 24, 2024 from 06:00 am at Hostel building , IIT Bhilai, Permanent Campus, Kutelabhata, Bhilai,Durg - 491002</li>
                             <li class="info__item">The registration process and academic activities shall commence at 10:00 am.</li>
                     </ul>
                     <p class="introduction__text"> Please keep visting the website for more updates.</p>
