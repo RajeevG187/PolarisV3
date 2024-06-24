@@ -73,11 +73,11 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             </div>
             <div class="modal-body">
                 <ul>
-                <li><strong>Important Notice</strong> Registration Schedule
     <?php if ($data['pdfLink']['check'] == 1): ?>
+        <li><strong>Important Notice</strong> Registration Schedule
         <a href="public/pdfs/RegistrationSchedule.pdf" target="_blank" class="notification">Click Here!</a>
     <?php else: ?>
-        <p>To be announced</p>
+        <li><strong>Important Notice :</strong> Registration Schedule <a class="notification">To Be Announced</a>
     <?php endif; ?>
 </li>
 
@@ -140,7 +140,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
     </a>
 <?php else: ?>
     <span class="btn btn-download" style="pointer-events: none; cursor: not-allowed;">
-        To be Announced&nbsp; <i class="fas fa-download"></i>
+        Brochure 2024-Available Soon!&nbsp; <i class="fas fa-download"></i>
     </span>
 <?php endif; ?>
 <br />
