@@ -14,6 +14,9 @@
                 "contents": "Department of Chemistry"
             },
             {
+                "contents": "Department of Physics"
+            },
+            {
                 "contents": "Department of Computer Science and Engineering"
             },
             {
@@ -23,7 +26,7 @@
                 "contents": "Department of Electronics and Communication Engineering"
             },
             {
-                "contents": "Department of Liberal Arts"
+                "contents": "Department of Mechatronics"
             },
             {
                 "contents": "Department of Materials Science and Metallurgical Engineering"
@@ -35,7 +38,7 @@
                 "contents": "Department of Mechanical Engineering"
             },
             {
-                "contents": "Department of Physics"
+                "contents": "Department of Liberal Arts"
             }
         ]
     },

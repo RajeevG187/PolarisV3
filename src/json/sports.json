@@ -35,6 +35,10 @@
                 {
                     "path" :"../public/images/life/cricket-1.jpg",
                     "alt": "Cricket"
+                },
+                {
+                    "path" :"../public/images/life/cricket-2.jpeg",
+                    "alt": "Cricket"
                 }
             ]
         },
