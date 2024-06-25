@@ -189,8 +189,6 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     <ul class="info__list">
                             <li class="info__item">All the new students who will be admitted to IIT Bhilai in 2024-25 year are required to report to permanent campus of IIT Bhilai for admission.
                             </li>
-                            <li class="info__item">The date of reporting is July 24, 2024 from 06:00 am at Hostel building , IIT Bhilai, Permanent Campus, Kutelabhata, Bhilai,Durg - 491002</li>
-                            <li class="info__item">The registration process and academic activities shall commence at 10:00 am.</li>
                     </ul>
                     <p class="introduction__text"> Please keep visting the website for more updates.</p>
                 </div>
