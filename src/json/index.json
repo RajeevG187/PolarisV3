@@ -363,15 +363,6 @@
                     ],
                     [
                         {
-                            "name": "Sourabh Kumar",
-                            "email": "sourabhkr@iitbhilai.ac.in",
-                            "title": "Website Manager - 2024",
-                            "phone": "9102449434",
-                            "linkedIn": "https://www.linkedin.com/in/sourabh-kumar-9aa80a298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-                            "image": "../public/images/devs/Sourabh_Kumar.jpg",
-                            "instagram": ""
-                        },
-                        {
                             "name": "Amay Dixit",
                             "email": "amayd@iitbhilai.ac.in",
                             "title": "Website Manager - 2024",
@@ -388,9 +379,7 @@
                             "instagram": "https://www.instagram.com/galaba_vamsi/",
                             "linkedIn": "https://www.linkedin.com/in/galaba-vamsi-334758211/",
                             "image": "../public/images/devs/Galaba_Vamsi.jpg"
-                        }
-                    ],
-                    [
+                        },
                         {
                             "name": "Jayant Jaiswal",
                             "email": "jayantj@iitbhilai.ac.in",
@@ -399,7 +388,9 @@
                             "instagram": "",
                             "linkedIn": "",
                             "image": "../public/images/devs/Jayant_Jaiswal.jpg"
-                        },
+                        }
+                    ],
+                    [
                         {
                             "name": "Lakshay Gupta",
                             "email": "lakshayg@iitbhilai.ac.in",
@@ -408,6 +399,15 @@
                             "instagram": "https://www.instagram.com/invites/contact/?igsh=f0diohnt6mro&utm_content=rym9n50",
                             "linkedIn": "https://www.linkedin.com/in/lakshay-gupta-1b0189281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
                             "image": "../public/images/devs/Lakshay_Gupta.jpg"
+                        },
+                        {
+                            "name": "Sourabh Kumar",
+                            "email": "sourabhkr@iitbhilai.ac.in",
+                            "title": "Website Manager - 2024",
+                            "phone": "9102449434",
+                            "linkedIn": "https://www.linkedin.com/in/sourabh-kumar-9aa80a298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                            "image": "../public/images/devs/Sourabh_Kumar.jpg",
+                            "instagram": ""
                         },
                         {
                             "name": "Swarnadip Kar",
