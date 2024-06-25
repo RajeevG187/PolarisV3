@@ -62,9 +62,6 @@
         "youtube-links": [
             {
                 "link": "https://www.youtube.com/embed/ukd0R6y6lq8"
-            },
-            {
-                "link": "https://www.youtube.com/embed/25hhbQJ_NRw"
             }
         ]
     },
@@ -142,8 +139,7 @@
         "head": "Developers",
         "members":[
             {
-                "members-4": [],
-                "members-3": [
+                "members-4": [
                     [
                         {
                             "name": "Sharad Roy",
@@ -171,9 +167,7 @@
                             "instagram": "",
                             "linkedIn": "",
                             "phone": "9473751641"
-                        }
-                    ],
-                    [
+                        },
                         {
                             "name": "Aniket Raj",
                             "image":"../public/images/devs/aniket.jpg",
@@ -182,7 +176,9 @@
                             "instagram": "",
                             "linkedIn": "",
                             "phone": "9521205979"
-                        },
+                        }
+                    ],
+                    [
                         {
                             "name": "Gaurav Verma",
                             "image":"../public/images/devs/gaurav.jpg",
@@ -200,11 +196,7 @@
                             "instagram": "",
                             "linkedIn": "",
                             "phone": "8299278436"
-                        }
-                    ]
-                ],
-                "members-2": [
-                    [
+                        },
                         {
                             "name": "Prachir Agrawal",
                             "image":"../public/images/devs/prachir.jpg",
@@ -242,9 +234,7 @@
                             "instagram": "",
                             "linkedIn": "",
                             "phone": "9981090998"
-                        }
-                    ],
-                    [
+                        },
                         {
                             "name": "Aditya Sankhla",
                             "image":"../public/images/devs/aditya.jpeg",
@@ -282,9 +272,7 @@
                             "instagram": "https://www.instagram.com/rohitashwani288/",
                             "linkedIn": "",
                             "phone": "9260961237"
-                        }
-                    ],
-                    [
+                        },
                         {
                             "name": "Roshan Jha",
                             "image":"../public/images/devs/Roshan_Jha.jpg",
@@ -315,17 +303,6 @@
                             "phone": "9770552422"
                         },
                         {
-                            "name": "Rajeev Goel",
-                            "image":"../public/images/devs/Rajeev_Goel.jpg",
-                            "email": "mailto:rajeevg@iitbhilai.ac.in",
-                            "title": "Website Manager - 2023",
-                            "instagram": "https://instagram.com/rajeevgoel187?igshid=ZDdkNTZiNTM=",
-                            "linkedIn": "https://www.linkedin.com/in/rajeev-goel-176065229/",
-                            "phone": "9307304394"
-                        }
-                    ],
-                    [
-                        {
                             "name": "Ojus Goel",
                             "image":"../public/images/devs/Ojus.jpg",
                             "email": "mailto:ojusg@iitbhilai.ac.in",
@@ -342,8 +319,110 @@
                             "instagram": "https://instagram.com/skp_pathak_?igshid=ZDdkNTZiNTM=",
                             "linkedIn": "",
                             "phone": "8306312679"
+                        },
+                        {
+                            "name": "Rajeev Goel",
+                            "image":"../public/images/devs/Rajeev_Goel.jpg",
+                            "email": "mailto:rajeevg@iitbhilai.ac.in",
+                            "title": "Website Manager - 2023 & 24",
+                            "instagram": "https://instagram.com/rajeevgoel187?igshid=ZDdkNTZiNTM=",
+                            "linkedIn": "https://www.linkedin.com/in/rajeev-goel-176065229/",
+                            "phone": "9307304394"
                         }
-                    ]      
+                    ]
+                ],
+                "members-3": [
+                    [
+                        {
+                            "name": "Slok Tulsyan",
+                            "email": "slokt@iitbhilai.ac.in",
+                            "title": "Website Manager - 2024",
+                            "phone": "9931085103",
+                            "instagram": "https://www.instagram.com/tulsyanslok?igsh=OXoxYW5ua2ZrZHVw",
+                            "linkedIn": "https://www.linkedin.com/in/slok-tulsyan-003786293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                            "image": "../public/images/devs/Slok_Tulsyan.jpg"
+                        },
+                        {
+                            "name": "Swarna Venkata Sai Rohit",
+                            "email": "swarnas@iitbhilai.ac.in",
+                            "title": "Website Manager - 2024",
+                            "phone": "7981544438",
+                            "instagram": "https://www.instagram.com/svsrohit2005/",
+                            "linkedIn": "https://www.linkedin.com/in/svs-rohit-baa147283?trk=contact-info",
+                            "image": "../public/images/devs/Sai_Rohit.jpg"
+                        },
+                        {
+                            "name": "Sneha Nagmoti",
+                            "email": "snehan@iitbhilai.ac.in",
+                            "title": "Website Manager - 2024",
+                            "phone": "9518586628",
+                            "instagram": "https://www.instagram.com/snehanagmoti?igsh=czdubTc0cnMxOWdm",
+                            "linkedIn": "https://www.linkedin.com/in/sneha-nagmoti-2923492b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                            "image": "../public/images/devs/Sneha_Nagmoti.jpg"
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Sourabh Kumar",
+                            "email": "sourabhkr@iitbhilai.ac.in",
+                            "title": "Website Manager - 2024",
+                            "phone": "9102449434",
+                            "linkedIn": "https://www.linkedin.com/in/sourabh-kumar-9aa80a298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                            "image": "../public/images/devs/Sourabh_Kumar.jpg",
+                            "instagram": ""
+                        },
+                        {
+                            "name": "Amay Dixit",
+                            "email": "amayd@iitbhilai.ac.in",
+                            "title": "Website Manager - 2024",
+                            "phone": "7217627792",
+                            "instagram": "https://www.instagram.com/amaydixit05/",
+                            "linkedIn": "https://www.linkedin.com/in/amay-dixit-462113284/",
+                            "image": "../public/images/devs/Amay_Dixit.jpg"
+                          },
+                          {
+                            "name": "Galaba Vamsi",
+                            "email": "galabav@iitbhilai.ac.in",
+                            "title": "Website Manager - 2024",
+                            "phone": "7483047846",
+                            "instagram": "https://www.instagram.com/galaba_vamsi/",
+                            "linkedIn": "https://www.linkedin.com/in/galaba-vamsi-334758211/",
+                            "image": "../public/images/devs/Galaba_Vamsi.jpg"
+                        }
+                    ],
+                    [
+                        {
+                            "name": "Jayant Jaiswal",
+                            "email": "jayantj@iitbhilai.ac.in",
+                            "title": "Website Manager - 2024",
+                            "phone": "9151257674",
+                            "instagram": "",
+                            "linkedIn": "",
+                            "image": "../public/images/devs/Jayant_Jaiswal.jpg"
+                        },
+                        {
+                            "name": "Lakshay Gupta",
+                            "email": "lakshayg@iitbhilai.ac.in",
+                            "title": "Website Manager - 2024",
+                            "phone": "9911118016",
+                            "instagram": "https://www.instagram.com/invites/contact/?igsh=f0diohnt6mro&utm_content=rym9n50",
+                            "linkedIn": "https://www.linkedin.com/in/lakshay-gupta-1b0189281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                            "image": "../public/images/devs/Lakshay_Gupta.jpg"
+                        },
+                        {
+                            "name": "Swarnadip Kar",
+                            "email": "swarnadipk@iitbhilai.ac.in",
+                            "title": "Website Manager - 2024",
+                            "phone": "9593451865",
+                            "instagram": "https://www.instagram.com/_swarnadip_kar_/",
+                            "linkedIn": "https://www.linkedin.com/in/swarnadip-kar-3b617b310/",
+                            "image": "../public/images/devs/SWARNADIP_KAR.jpg"
+                          }
+                    ]
+                ],
+                "members-2": [
+                    
+                          
                 ]
             }
         ]
