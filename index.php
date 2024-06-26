@@ -1,10 +1,13 @@
 <?php
-// Define the path to the JSON file
-$jsonFilePath = '../PolarisV3/src/json/index.json';
+// Define the path to the JSON file using absolute path
+$jsonFilePath = __DIR__ . '/src/json/index.json';
 
 // Check if the JSON file exists and is readable
-if (!file_exists($jsonFilePath) || !is_readable($jsonFilePath)) {
-    die('Error: JSON file not found or not readable.');
+if (!file_exists($jsonFilePath)) {
+    die('Error: JSON file not found. Checked path: ' . $jsonFilePath);
+}
+if (!is_readable($jsonFilePath)) {
+    die('Error: JSON file not readable. Checked path: ' . $jsonFilePath);
 }
 
 // Read JSON file
