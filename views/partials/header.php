@@ -6,15 +6,16 @@ $currentPage= $_SERVER['SCRIPT_NAME'];
   
 // To Get the directory name in  
 // which file is stored. 
+// echo $currentPage;
 $currentPage = substr($currentPage, 1); 
 
 // echo $currentPage;
 
-$jsonFilePathHeader = $currentPage == 'index.php' ? 'src\json\header.json' : '..\src\json\header.json';
+$jsonFilePathHeader = $currentPage == 'index.php' ? 'src/json/header.json' : '../src/json/header.json';
 
 // Check if the JSON file exists and is readable
 if (!file_exists($jsonFilePathHeader) || !is_readable($jsonFilePathHeader)) {
-    die(' Error: JSON file not found or not readable.');
+    die(' Error: JSON file not found or readable.');
 }
 
 // Read JSON file
