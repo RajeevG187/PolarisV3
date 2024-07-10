@@ -112,10 +112,6 @@
                 {
                     "url": "../public/images/Club Images/SciTech/SES/SES_4.jpg",
                     "alt": "SES"
-                },
-                {
-                    "url": "../public/images/Club Images/SciTech/SES/SES_5.jpg",
-                    "alt": "SES"
                 }
             ],
             "carousel_id":["SES"],
@@ -209,10 +205,6 @@
                 {
                     "url": "../public/images/Club Images/SciTech/Electromos/Electromos_3.jpg",
                     "alt": "Epsilon"
-                },
-                {
-                    "url": "../public/images/Club Images/SciTech/Electromos/Electromos_4.jpg",
-                    "alt": "Epsilon"
                 }
             ],
             "carousel_id":["Electromos"]
@@ -240,10 +232,6 @@
                 },
                 {
                     "url":"../public/images/Club Images/SciTech/Ingenuity/Ingenuity_4.jpeg",
-                    "alt": "Ingenuity"
-                },
-                {
-                    "url":"../public/images/Club Images/SciTech/Ingenuity/Ingenuity_5.jpeg",
                     "alt": "Ingenuity"
                 }
             ],
@@ -329,14 +317,6 @@
                 },
                 {
                     "url": "../public/images/Club Images/SciTech/Epsilon/Epsilon_4.jpeg",
-                    "alt": "Epsilon"
-                },
-                {
-                    "url": "../public/images/Club Images/SciTech/Epsilon/Epsilon_5.jpg",
-                    "alt": "Epsilon"
-                },
-                {
-                    "url": "../public/images/Club Images/SciTech/Epsilon/Epsilon_6.jpeg",
                     "alt": "Epsilon"
                 }
             ],
