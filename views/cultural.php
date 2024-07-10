@@ -103,7 +103,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                     </figure>
                                     <div class="dev__name">
                                         <?php echo $data['generalsecretary']['name']; ?><br>Gen
-                                        Sec Sci-Tech
+                                        Sec Cult
                                     </div>
                                 </div>
                             </div>
@@ -208,6 +208,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             </div>
 
             <div class="container">
+                <br><br>
+                <br><br>
                 <h2 class="heading-secondary">Cultural Societies</h2>
                 <?php foreach ($data['society'] as $society): ?>
                     <div class="cultural">

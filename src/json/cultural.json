@@ -37,7 +37,7 @@
         "icon":"../public/images/logo/renaissance.jpg",
         "coordinator": "Lakshay Gupta",
         "description": "Arts club is all about providing a platform for every student to express their imagination,creativity,ideas or a world view through different artworks.The club provides you an environment in finding your hidden talent and endeavors to help the students cope with academic stress and create an enjoyable ambience for them.",
-       "topic":"Objective:",
+       "topic":"Objective: ",
         "list": "The club involves in various events including Meraz (The Cultural Fest) Decoration, participation in Inter IIT Cultural Meet and organizing different activities like organising drawing competition, festival decoration, T-shirt painting, etc in the institute throughout the year.",
         "subject":"Activities: ",
         "txt_blck": 
@@ -137,10 +137,6 @@
                "alt": "Dance Club"
            },
            {
-                "img": "../public/images/Club Images/Cultural/BeatHackers_3.jpg",
-               "alt": "Dance Club"
-           },
-           {
                 "img": "../public/images/Club Images/Cultural/BeatHackers_4.jpg",
                "alt": "Dance Club"
            },
@@ -166,10 +162,6 @@
         "instagram": "https://instagram.com/drishya_iitbhilai?igshid=tw6t1u7prra2",
         "images":
         [
-            
-            {   "img": "../public/images/Club Images/Cultural/Drishya_2.jpg",
-                "alt": "Drama Club"
-            },
             {   "img": "../public/images/Club Images/Cultural/Drishya_3.jpg",
                 "alt": "Drama Club"
             },
@@ -257,7 +249,7 @@
         "icon":"../public/images/logo/tps.jpg",
         "coordinator": "Ganta Srujan",
        "description": "From the very beginning of the IIT Bhilai members of the club have showed their dedication and covered all the events organised inside the institute. We, as the members of the photography club, seek to display our love for photography through the consecutive criticism of our peers, leisure activities that involve photography, and the promotion of photography in and around the IIT Bhilai campus.",
-        "topic":"Activities:",
+        "topic":"Activities: ",
        "list": "The club have captured moments from every event whether it was cultural event or NSS activity in both photos as well as videos. Members of the club have also covered all the editions of PRAYATNA (Intra College Sports Meet). Club has organised photography competitions weekly starting from IIT Bhilai’s first batch itself and giving prizes to winners. There has been a regular interaction among the club members to exchange their knowledge and improve one's skill in photography. The club plays a major role in running the institute's YouTube channel as a content creator and editor ",
         "subject":"Acheivements: ",
         "txt_blck": 
@@ -305,7 +297,7 @@
     "icon":"../public/images/logo/designX.jpg",
     "coordinator": "Sai Surya Talla",
     
-    "description": "DesignX is a newly formed Digital Arts Club of IIT Bhilai.Everyone is Creative. At some point, everyone displays their Creative Skill to the World.We, at DesignX, wish to channel that Creativity to more Artistic and Practical Tasks. DesignX is not only about making some cool designs, but also learning things on the way. DesignX designs posters, certificates and T-Shirts for several Clubs and events at IIT Bhilai.",
+    "description": "DesignX is a newly formed Digital Arts Club of IIT Bhilai. Everyone is Creative. At some point, everyone displays their Creative Skill to the World. We, at DesignX, wish to channel that Creativity to more Artistic and Practical Tasks. DesignX is not only about making some cool designs, but also learning things on the way. DesignX designs posters, certificates and T-Shirts for several Clubs and events at IIT Bhilai.",
     "facebook": "http://fb.me/DesignXIITBhilai",
     "instagram": "https://instagram.com/designx_iitbhilai?igshid=m4rpuanay1jw",
     "images": 
