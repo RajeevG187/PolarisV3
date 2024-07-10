@@ -69,12 +69,12 @@
                 },
                 {
                     "discipline": "Data Science and Artificial Intelligence",
-                    "department": "Data Science and Artificial Intelligence",
+                    "department": "Computer Science and Engineering",
                     "code": "DS"
                 },
                 {
                     "discipline": "Electric Vehicle Technology",
-                    "department": "Electric Vehicle Technology",
+                    "department": "Electrical Engineering",
                     "code": "EV"
                 },
                 {
@@ -109,7 +109,7 @@
                 },
                 {
                     "discipline": "Mechatronics Engineering",
-                    "department": "Mechatronics Engineering",
+                    "department": "Electrical and Mechanical Engineering",
                     "code": "MT"
                 },
                 {
