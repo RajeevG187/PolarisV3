@@ -1,4 +1,9 @@
 <?php
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 $jsonfilepath = '../src/json/cosa.json';
 
 if (!file_exists($jsonfilepath) || !is_readable($jsonfilepath)) {
