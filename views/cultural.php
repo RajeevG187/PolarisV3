@@ -163,8 +163,6 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                             <a href="<?= $club['instagram'] ?>" class="outreach__link">Instagram</a>
                         </p>
 
-                        <br>
-
                         <section class="section">
                             <div class="container">
                             <div class="gallery">
