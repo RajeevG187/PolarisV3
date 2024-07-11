@@ -139,7 +139,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             <p class="heading-subtitle"><?php echo $data['header']['text']; ?></p>
             <?php if ($data['brochureLink']['check'] == 1): ?>
     <a href="../public/pdfs/brochure_2023.pdf" class="btn btn-download" download>
-        Brochure 2023&nbsp; <i class="fas fa-download"></i>
+        Brochure 2024&nbsp; <i class="fas fa-download"></i>
     </a>
 <?php else: ?>
     <span class="btn btn-download" style="pointer-events: none; cursor: not-allowed;">
