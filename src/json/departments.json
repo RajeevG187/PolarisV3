@@ -109,7 +109,7 @@
                 },
                 {
                     "discipline": "Mechatronics Engineering",
-                    "department": "Electrical and Mechanical Engineering",
+                    "department": "Mechatronics Engineering",
                     "code": "MT"
                 },
                 {
@@ -144,7 +144,7 @@
                 "ee": ["Electrical Engineering","Control and Instrumentation","Power Systems and Power Electronics","Electric Vehicle Technology"],
                 "mm": ["Materials Science and Metallurgical Engineering"],
                 "me": ["Mechanical Engineering","Design and Manufacturing","Thermal and Fluids Engineering"],
-                "mt": ["Jointly by Electrical Engineering and Mechanical Engineering","Mechatronics Engineering"],
+                "mt": ["Mechatronics Engineering","Mechatronics Engineering"],
                 "cy": ["Chemistry"],
                 "ph": ["Physics"],
                 "ma": ["Mathematics","Mathematics and computing"],
