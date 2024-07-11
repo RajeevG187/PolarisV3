@@ -200,7 +200,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     <p class="grade__text"><em><?php echo $data['grading']['sub_text']; ?></em></p>
                 </div>
 
-                <div class="table__scroll">
+                <div>
                     <table class="table grade__table">
                         <tr>
                             <th><?php echo $data['table']['head']['col-1']; ?></th>

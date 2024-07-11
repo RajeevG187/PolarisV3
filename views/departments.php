@@ -539,7 +539,7 @@ The curriculum of the department encourages exploration across disciplines, whil
                 <div class="intro-cse">
                     <h2 class="heading-secondary"><?php echo $data['disciplines']['head'];?></h2>
                     <p class="intro-cse__text"><?php echo $data['disciplines']['text'];?></p><br>
-                    <div class="table__scroll">
+                    <div>
                         <table class="table grade__table">
                             <tr>
                                 <th><?php echo $data['disciplines']['table']['head']['col-1'];?></th>
@@ -567,7 +567,7 @@ The curriculum of the department encourages exploration across disciplines, whil
                 <div class="intro-cse">
                     <h2 class="heading-secondary"><?php echo $data['programs']['head']; ?></h2>
                     <p class="intro-cse__text"><?php echo $data['programs']['text']; ?></p><br>
-                    <div class="table__scroll">
+                    <div>
                         <table class="table grade__table">
                             <tr>
                                 <?php foreach ($data['programs']['table']['head'] as $contents): ?>
