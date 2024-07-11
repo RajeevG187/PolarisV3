@@ -1,6 +1,6 @@
 <footer class="footer">
     <div class="row">
-        <div class="col-2-of-3">
+        <div class="col-2-of-4">
             <div class="footer__disclaimer">
                 <div class="footer__title">
                     Disclaimer
@@ -11,7 +11,21 @@
             </div>
         </div>
 
-        <div class="col-1-of-3">
+        <div class="col-1-of-4">
+            <div class="footer__connect">
+                <div class="footer__title">
+                    Contact Us
+                </div>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="" class="footer__link footer__link--facebook"target="_blank">Lorem ipsum dolor sit amet.</a></li>
+                    <li class="footer__item"><a href="" class="footer__link footer__link--twitter"target="_blank">Lorem ipsum dolor sit amet.</a></li>
+                    <li class="footer__item"><a href="" class="footer__link footer__link--instagram"target="_blank">Lorem ipsum dolor sit amet.</a></li>
+                    <li class="footer__item"><a href="" class="footer__link footer__link--linkedin"target="_blank">Lorem ipsum dolor sit amet.</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-1-of-4">
             <div class="footer__connect">
                 <div class="footer__title">
                     Connect
@@ -28,10 +42,10 @@
 
     <div class="footer__copyright">
         <div class="row">
-            <div class="col-2-of-3">
+            <div class="col-3-of-4">
                 <p class="copyright">&copy; 2024 &dash; 2025, Student Mentors, IIT Bhilai</p>
             </div>
-            <div class="col-1-of-3"><p class="love">Made with <i class="fas fa-heart"></i></p></div>
+            <div class="col-1-of-4"><p class="love">Made with <i class="fas fa-heart"></i></p></div>
         </div>
     </div>
 
