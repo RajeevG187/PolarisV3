@@ -267,11 +267,9 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         </div>
         <div class="row">
             <?php foreach ($data['campustour']["youtube-links"] as $link): ?>
-            <div class="col-1-of-2">
                 <div class="campus">
                     <iframe width="560" height="315" src=<?php echo $link['link']; ?> frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
-            </div>
             <?php endforeach; ?>
         </div>
     </section>
