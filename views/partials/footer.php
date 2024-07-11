@@ -18,18 +18,12 @@
                     Contact Us
                 </div>
                 <ul class="footer__list">
-                    <li class="footer__text">Student affairs &nbsp;<a href="studentaffairs@iitbhilai.ac.in" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-envelope"></i></a></li>
-                    <li class="footer__text"><a href="07882991608" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-phone"></i><span>07882991608</span></a></li>
-                    <li class="footer__text">Boys hostel &nbsp;<a href="hostel@iitbhilai.ac.in" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-envelope"></i></a></li>
-                    <li class="footer__text"><a href="+91-9424283715" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-phone"></i><span>+91-9424283715</span></a></li>
-                    <li class="footer__text">Girls hostel &nbsp;<a href="hostel@iitbhilai.ac.in" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-envelope"></i></a></li>
-                    <li class="footer__text"><a href="+91-9406256993" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-phone"></i><span>+91-9406256993</span></a></li>
-                    <li class="footer__text">Academics &nbsp;<a href="academics@iitbhilai.ac.in" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-envelope"></i></a></li>
-                    <li class="footer__text"><a href="07882991609" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-phone"></i><span>07882991609</span></a></li>
-                    <li class="footer__text">Health centre &nbsp;<a href="healthcenter@iitbhilai.ac.in" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-envelope"></i></a></li>
-                    <li class="footer__text"><a href="+91-9424283691" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-phone"></i><span>+91-9424283691</span></a></li>
-                    <li class="footer__text">Transport &nbsp;<a href="traveldesk@iitbhilai.ac.in" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-envelope"></i></a></li>
-                    <li class="footer__text"><a href="+91-9907940717" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-phone"></i><span>+91-9907940717</span></a></li>
+                    <li class="footer__text">Student affairs &nbsp;<a href="studentaffairs@iitbhilai.ac.in" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-envelope"></i></a><a href="tel:07882991608" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-phone"></i></a></li>
+                    <li class="footer__text">Boys hostel &nbsp;<a href="hostel@iitbhilai.ac.in" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-envelope"></i></a><a href="tel:+91-9424283715" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-phone"></i></a></li>
+                    <li class="footer__text">Girls hostel &nbsp;<a href="hostel@iitbhilai.ac.in" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-envelope"></i></a><a href="tel:+91-9406256993" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-phone"></i></a></li>
+                    <li class="footer__text">Academics &nbsp;<a href="academics@iitbhilai.ac.in" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-envelope"></i></a><a href="tel:07882991609" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-phone"></i></a></li>
+                    <li class="footer__text">Health centre &nbsp;<a href="healthcenter@iitbhilai.ac.in" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-envelope"></i></a><a href="tel:+91-9424283691" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-phone"></i></a></li>
+                    <li class="footer__text">Transport &nbsp;<a href="traveldesk@iitbhilai.ac.in" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-envelope"></i></a><a href="tel:+91-9907940717" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-phone"></i></a></li>
                 </ul>
             </div>
         </div>
