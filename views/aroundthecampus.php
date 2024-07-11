@@ -191,7 +191,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     <h2 class="heading-secondary"><?php echo $data['entertainment'][0]['head']; ?></h2>
                     <p class="entertainment__text"><?php echo $data['entertainment'][0]['text']; ?></p>
 
-                    <div class="table__scroll">
+                    <div class="table">
                         <table class="table">
                             <tr>
                                 <th><?php echo $data['entertainment'][0]['entertainment-hubs']['head'][0]['col']; ?></th>

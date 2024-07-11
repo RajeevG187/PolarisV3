@@ -159,7 +159,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                 <h3 class="heading-secondary">Latest Updates on Website</h3>
                 <p id="blink" style="color:red;"> 
                 <?php if ($data['registrationScheduleDownload']['check'] == 1): ?>
-    <a href="public\pdfs\RegistrationSchedule.pdf" target="_blank" class="notification">
+    <a href="public/pdfs/RegistrationSchedule.pdf" target="_blank" class="notification">
     Registration Schedule is uploaded.Click Here to download
     </a>
 <?php else: ?>
