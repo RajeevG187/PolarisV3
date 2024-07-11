@@ -1,5 +1,5 @@
 <?php
-$jsonfilepath = '..\src\json\cosa.json';
+$jsonfilepath = '../src/json/cosa.json';
 
 if (!file_exists($jsonfilepath) || !is_readable($jsonfilepath)) {
     die('Error: JSON file not found or not readable.');
@@ -228,7 +228,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                         <iframe width="1050" height="450" src="https://www.youtube.com/embed/3wTTq6JrtQs?si=TWghItlS4e1koxla" title="YouTube video  player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;     web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                     </div>
-                <?endif;?>
+                <?php endif;?>
 
                 <div class="line-break"></div>
             <?php endforeach; ?>
