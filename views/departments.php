@@ -152,7 +152,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                             </tr>
                             <tr>
                                 <td>Mechatronics Engineering</td>
-                                <td>Jointly by Electrical Engineering and Mechanical Engineering</td>
+                                <td>Mechatronics Engineering</td>
                             </tr>
                             <tr>
                                 <td rowspan="3">Master of Science (MSc)</td>
@@ -206,7 +206,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                             </tr>
                             <tr>
                                 <td>Mechatronics Engineering</td>
-                                <td>Jointly by Electrical Engineering and Mechanical Engineering</td>
+                                <td>Mechatronics Engineering</td>
                             </tr>
                             <tr>
                                 <td rowspan="13">Doctor of Philosophy (PhD)</td>
@@ -253,7 +253,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                             </tr>
                             <tr>
                                 <td>Mechatronics Engineering</td>
-                                <td>Jointly by Electrical Engineering and Mechanical Engineering</td>
+                                <td>Mechatronics Engineering</td>
                             </tr>
                             <tr>
                                 <td>Physics</td>
