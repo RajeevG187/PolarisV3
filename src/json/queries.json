@@ -96,7 +96,39 @@
 
       {
         "ques": "What are the measures taken against Ragging?",
-        "ans": "Yet IIT Bhilai is a ragging free campus, there is a policy against ragging and every students signs a letter to the effect that they will not participate in ragging. Everybody is vigilant to prevent any attempt of ragging. A reported case of ragging is dealt with strictly. "
+        "ans1": [ 
+        {
+          "line":"Ragging got no space in campus!!"
+        }],
+        "ans1.5": "Members of the Anti Ragging Comitee(ARC) are:",
+        "ans2":[
+        {
+          "line":"    1. Dr. Suchetan Pal, Faculty-in-Charge, DoSA - Chairman"
+        },
+        {
+          "line":"    2. Dr. Dhruv Pratap Singh, Faculty-in-Charge, DoAA - Member"
+        },
+        {
+          "line":"    3. Dr. Mahavir Sharma, Warden, Kanhar Hostel (BH-1) - Member"
+        },
+        {
+          "line":"    4. Dr. Anjali Chaudhary, Warden, Indravati Hostel (GH-1) - Member"
+        },
+        {
+          "line":"    5. Dr. Shailendra Kumar, Warden, Shivnath Hostel (MSH) - Member"
+        },
+        {
+          "line":"    6. President, CoSA - Member"
+        }],
+        "ans2.5":"The committee shall carry out the following activities:",
+        "ans3":[
+        {
+          "line":"    1.It shall be the duty of the Anti-Ragging Commitee (ARC) to ensure compliance with the provisions of UGC Regulation on Curbing the Menace of Ragging in Higher Educational Institutions 2009, as well as the provisions of any law for the time being in force concerning ragging."
+        },
+        {
+          "line":"2.To take administrative action in the event or ragging."
+        }   
+      ]
       },
 
       {
