@@ -228,6 +228,37 @@
                     "alt": "Yoga"
                 }
             ]
+        },
+        {
+            "name": "Athletics",
+            "role": "Co-ordinator: ",
+            "leader": "Vikas and Vaishnavi Nitin Pawar",
+            "about": "",
+            "facilities": "The club has provided with many equipments for practice sessions and flood lights for night practice. The club has a spectacular ground behind MSH hostel. Practice for inter iit and sport activities like prayatna will be held here on ground. Sport events like sprints(100m,200m,400m,800m,1500m,5000m), hurdles, shotput, javelin throw, discus throw, high jump, long jump are encouraged.",
+            "objective": "",
+            "activities": "",
+            "past-events": [
+                {
+                    "head": "Past Events: ",
+                    "text": "Prayatna 2k23"
+                }
+            ],    
+            "upcoming-events": [
+                {
+                    "head": "Upcoming Events: ",
+                    "text": "Prayatna 2k24"
+                }
+            ],
+            "image": [
+                {
+                    "path" :"../public/images/life/athletics-1.jpg",
+                    "alt": "Athletics"
+                },
+                {
+                    "path" :"../public/images/life/athletics-2.jpg",
+                    "alt": "Athletics"
+                }
+            ]
         }
     ]    
 }
