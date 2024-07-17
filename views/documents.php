@@ -123,13 +123,13 @@ if (isset($data['loan']['check'])) {
                     <p class="fee__text"><?php echo $data['loan']['text']; ?></p>
                     <div class="bank">
                     <ul class="bank__list">
-    <?php foreach ($data['loan']['lists'] as $sub_List): ?>
+    <!-- <?php foreach ($data['loan']['lists'] as $sub_List): ?>
         <li class="bank__item"><i class="fas fa-download"></i>&nbsp; <?php echo $sub_List['text']; ?> 
             <a href="<?php echo $sub_List['url'] === 'To Be Announced' ? '#' : $sub_List['url']; ?>" download>
                 <?php echo $sub_List['url'] === 'To Be Announced' ? 'To Be Announced' : 'Click here.'; ?>
             </a>
-        </li> <!-- Changed to conditionally display "To Be Announced" -->
-    <?php endforeach; ?>
+        </li> Changed to conditionally display "To Be Announced"
+    <?php endforeach; ?> -->
 </ul>
 
                     </div>

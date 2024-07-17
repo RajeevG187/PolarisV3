@@ -76,20 +76,18 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             </div>
             <div class="modal-body">
                 <ul>
-    <?php if ($data['pdfLink']['check'] == 1): ?>
-        <li><strong>Important Notice</strong> Registration Schedule
-        <a href="public/pdfs/RegistrationSchedule.pdf" target="_blank" class="notification">Click Here!</a>
-    <?php else: ?>
-        <li><strong>Important Notice :</strong> Registration Schedule <a class="notification">To Be Announced</a>
-    <?php endif; ?>
-</li>
+                    <li><strong>Important Notice:</strong> Reporting Instructions
+                        <a href="public/pdfs/Instructions_2024-25-M.pdf" target="_blank" class="notification">Click Here!</a>
+                    </li>
 
-                    <!-- <li><strong>Important Notice</strong> BTech-2023 Orientation Schedule will be uploaded soon.</li> -->
-
-                    <!-- <li><strong>Important Notice</strong> Admission due to covid <a href="Notice on admission due to covid.pdf" target="_blank" class="notification">Click Here!</a></li>
-
-                        <li><strong>Important Notice</strong> Registration and Orientation program for the new BTech students 2020 <a href="orientation.pdf" target="_blank" class="notification">Click Here!</a></li> -->
-
+                    <?php if ($data['pdfLink']['check'] == 1): ?>
+                        <li><strong>Important Notice</strong> Registration Schedule
+                        <a href="public/pdfs/RegistrationSchedule.pdf" target="_blank" class="notification">Click Here!</a>
+                        </li>
+                    <?php else: ?>
+                        <li><strong>Important Notice :</strong> Registration Schedule <a class="notification">To Be Announced</a>
+                    <?php endif; ?>
+                        </li>
 
                     <li>Please see the <a href="../views/documents.php" class="notification" target="_blank"  >Documents</a> page for registration forms, fee structure, and updated loan details.<br>
 
@@ -157,20 +155,20 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         <div class="container">
             <div class="introduction">
                 <h3 class="heading-secondary">Latest Updates on Website</h3>
-                <p id="blink" style="color:red;"> 
+                <p id="blink" style="color:blue;"> 
                 <?php if ($data['registrationScheduleDownload']['check'] == 1): ?>
-    <a href="public/pdfs/RegistrationSchedule.pdf" target="_blank" class="notification">
-    Registration Schedule is uploaded.Click Here to download
-    </a>
-<?php else: ?>
-    <span class="notification" style="pointer-events: none; cursor: not-allowed;" title="To be announced">
-    Registration Schedule to be Announced
-    </span>
-<?php endif; ?>
-
-</p>
-                <p id="blink" style="color:red;">Hotels near Campus in Durg are uploaded. Kindly visit <a href="../views/aroundthecampus.php" target=blank>Around the campus</a> page for more info.</p>
-                <p id="blink" style="color:red;">Some announcements for Freshers below in this page.</p>
+                <a href="public/pdfs/RegistrationSchedule.pdf" target="_blank" class="notification">
+                Registration Schedule is uploaded.Click Here to download
+                </a>
+                <?php else: ?>
+                    <span class="notification" style="pointer-events: none; cursor: not-allowed;" title="To be announced">
+                    Registration Schedule to be Announced
+                    </span>
+                <?php endif; ?>
+                </p>
+                <p id="blink" style="color:blue;">Important Instructions regarding reporting for freshers <a href="public/pdfs/Instructions_2024-25-M.pdf" target=blank>Click Here</a>!</p>
+                <p id="blink" style="color:blue;">Hotels near Campus in Durg are uploaded. Kindly visit <a href="../views/aroundthecampus.php" target=blank>Around the campus</a> page for more info.</p>
+                <p id="blink" style="color:blue;">Some announcements for Freshers below in this page.</p>
             </div>
         </div>
     </section>

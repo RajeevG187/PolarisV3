@@ -336,15 +336,6 @@
                         "image": "../public/images/mentors/Sarthak Gopal Sharma.jpg"
                         },
                         {
-                        "name": "Sneha Nagmoti",
-                        "email": "snehan@iitbhilai.ac.in",
-                        "role": "UG Mentor",
-                        "phone": "9518586628",
-                        "instagram": "https://www.instagram.com/snehanagmoti?igsh=czdubTc0cnMxOWdm",
-                        "linkedin": "https://www.linkedin.com/in/sneha-nagmoti-2923492b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-                        "image": "../public/images/mentors/Sneha Nagmoti.jpg"
-                        },
-                        {
                         "name": "Slok Tulsyan",
                         "email": "slokt@iitbhilai.ac.in",
                         "role": "UG Mentor",
@@ -360,48 +351,48 @@
                         "phone": "9102449434",
                         "linkedin": "https://www.linkedin.com/in/sourabh-kumar-9aa80a298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
                         "image": "../public/images/mentors/Sourabh Kumar.jpg"
-                        }
-                    ],
-                    [
-                        {
-                        "name": "Sudeshna Kumari",
-                        "email": "sudeshnak@iitbhilai.ac.in",
-                        "role": "UG Mentor",
-                        "phone": "9905162379",
-                        "instagram": "https://www.instagram.com/suduku_21?igsh=cXh5cWw2ZGg2azJi",
-                        "linkedin": "https://www.linkedin.com/in/sudeshna-kumari-bb2a7527a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-                        "image": "../public/images/mentors/Sudeshna Kumari.jpg"
                         },
                         {
-                        "name": "Suraj Kumar",
-                        "email": "surajkum@iitbhilai.ac.in",
-                        "role": "UG Mentor",
-                        "phone": "6207918454",
-                        "instagram": "https://www.instagram.com/isuraj77?igsh=a2Jna2xqd2NlcDEz",
-                        "linkedin": "https://www.linkedin.com/in/suraj-kumar-747750303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-                        "image": "../public/images/mentors/Suraj Kumar.jpg"
-                        },
-                        {
-                        "name": "Swagat Baghel",
-                        "email": "swagatb@iitbhilai.ac.in",
-                        "role": "UG Mentor",
-                        "phone": "8457962757",
-                        "instagram": "https://www.instagram.com/swagat_8x8/?next=%2F",
-                        "linkedin": "https://in.linkedin.com/in/swagat-baghel-8x8",
-                        "image": "../public/images/mentors/Swagat Baghel.jpg"
-                        },
-                        {
-                        "name": "Swarna Venkata Sai Rohit",
-                        "email": "swarnas@iitbhilai.ac.in",
-                        "role": "UG Mentor",
-                        "phone": "7981544438",
-                        "instagram": "https://www.instagram.com/svsrohit2005/",
-                        "linkedin": "https://www.linkedin.com/in/svs-rohit-baa147283?trk=contact-info",
-                        "image": "../public/images/mentors/Swarna Venkata Sai Rohit.jpg"
+                          "name": "Sudeshna Kumari",
+                          "email": "sudeshnak@iitbhilai.ac.in",
+                          "role": "UG Mentor",
+                          "phone": "9905162379",
+                          "instagram": "https://www.instagram.com/suduku_21?igsh=cXh5cWw2ZGg2azJi",
+                          "linkedin": "https://www.linkedin.com/in/sudeshna-kumari-bb2a7527a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                          "image": "../public/images/mentors/Sudeshna Kumari.jpg"
                         }
                     ]
-                ],
+                 ],
                 "members-3": [
+                    [
+                      {
+                      "name": "Suraj Kumar",
+                      "email": "surajkum@iitbhilai.ac.in",
+                      "role": "UG Mentor",
+                      "phone": "6207918454",
+                      "instagram": "https://www.instagram.com/isuraj77?igsh=a2Jna2xqd2NlcDEz",
+                      "linkedin": "https://www.linkedin.com/in/suraj-kumar-747750303?utm_source=share&utm_campaign=share_via&utm_content=profile& utm_medium=android_app",
+                      "image": "../public/images/mentors/Suraj Kumar.jpg"
+                      },
+                      {
+                      "name": "Swagat Baghel",
+                      "email": "swagatb@iitbhilai.ac.in",
+                      "role": "UG Mentor",
+                      "phone": "8457962757",
+                      "instagram": "https://www.instagram.com/swagat_8x8/?next=%2F",
+                      "linkedin": "https://in.linkedin.com/in/swagat-baghel-8x8",
+                      "image": "../public/images/mentors/Swagat Baghel.jpg"
+                      },
+                      {
+                      "name": "Swarna Venkata Sai Rohit",
+                      "email": "swarnas@iitbhilai.ac.in",
+                      "role": "UG Mentor",
+                      "phone": "7981544438",
+                      "instagram": "https://www.instagram.com/svsrohit2005/",
+                      "linkedin": "https://www.linkedin.com/in/svs-rohit-baa147283?trk=contact-info",
+                      "image": "../public/images/mentors/Swarna Venkata Sai Rohit.jpg"
+                      }
+                    ],
                     [
                         {
                           "name": "Swarnadip Kar",

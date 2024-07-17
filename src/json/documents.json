@@ -30,7 +30,8 @@
     "loan": {
         "check" : "1",
         "head": "Availing Loan Facility",
-        "text": "IIT Bhilai has a tie-up with Union Bank of India to provide education loans to the students of IIT Bhilai with the rate of interest @ 8.15% p.a. (floating) for this financial year 2023-24. \n Loan documents are available below.",
+        "text": "Documents and details regarding the loan facilities will be updated soon! Keep visiting the website.",
+        "updatetext": "IIT Bhilai has a tie-up with Union Bank of India to provide education loans to the students of IIT Bhilai with the rate of interest @ 8.15% p.a. (floating) for this financial year 2023-24. \n Loan documents are available below.",
         "lists": [
             {
                 "text":"Education Loan Application Form with CheckList. ",
