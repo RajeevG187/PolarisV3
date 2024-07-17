@@ -78,13 +78,13 @@
                         "text": "RC Plane and Drone making"
                     },
                     {
-                        "text": "AstroQuiz 2020-21"
+                        "text": "AstroQuiz"
                     },
                     {
                         "text": "Binge Bang (Binge watch videos on a topic and then have a group discussion or debate)"
                     },
                     {
-                        "text": "StarLight 2020-21 (DIY Telescope making activity)"
+                        "text": "StarLight (DIY Telescope making activity)"
                     },
                     {
                         "text": "Astrophotography night"
@@ -111,10 +111,6 @@
                 },
                 {
                     "url": "../public/images/Club Images/SciTech/SES/SES_4.jpg",
-                    "alt": "SES"
-                },
-                {
-                    "url": "../public/images/Club Images/SciTech/SES/SES_5.jpg",
                     "alt": "SES"
                 }
             ],
@@ -209,10 +205,6 @@
                 {
                     "url": "../public/images/Club Images/SciTech/Electromos/Electromos_3.jpg",
                     "alt": "Epsilon"
-                },
-                {
-                    "url": "../public/images/Club Images/SciTech/Electromos/Electromos_4.jpg",
-                    "alt": "Epsilon"
                 }
             ],
             "carousel_id":["Electromos"]
@@ -240,10 +232,6 @@
                 },
                 {
                     "url":"../public/images/Club Images/SciTech/Ingenuity/Ingenuity_4.jpeg",
-                    "alt": "Ingenuity"
-                },
-                {
-                    "url":"../public/images/Club Images/SciTech/Ingenuity/Ingenuity_5.jpeg",
                     "alt": "Ingenuity"
                 }
             ],
@@ -300,7 +288,7 @@
                     "text": "Robo Kabaddi"
                 },
                 {
-                    "text": "Robo Carnival 2020"
+                    "text": "Robo Carnival"
                 },
                 {
                     "text": "Real Steel and Ro-Boat in Meraz."
@@ -329,14 +317,6 @@
                 },
                 {
                     "url": "../public/images/Club Images/SciTech/Epsilon/Epsilon_4.jpeg",
-                    "alt": "Epsilon"
-                },
-                {
-                    "url": "../public/images/Club Images/SciTech/Epsilon/Epsilon_5.jpg",
-                    "alt": "Epsilon"
-                },
-                {
-                    "url": "../public/images/Club Images/SciTech/Epsilon/Epsilon_6.jpeg",
                     "alt": "Epsilon"
                 }
             ],

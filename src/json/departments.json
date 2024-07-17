@@ -14,6 +14,9 @@
                 "contents": "Department of Chemistry"
             },
             {
+                "contents": "Department of Physics"
+            },
+            {
                 "contents": "Department of Computer Science and Engineering"
             },
             {
@@ -23,7 +26,7 @@
                 "contents": "Department of Electronics and Communication Engineering"
             },
             {
-                "contents": "Department of Liberal Arts"
+                "contents": "Department of Mechatronics"
             },
             {
                 "contents": "Department of Materials Science and Metallurgical Engineering"
@@ -35,7 +38,7 @@
                 "contents": "Department of Mechanical Engineering"
             },
             {
-                "contents": "Department of Physics"
+                "contents": "Department of Liberal Arts"
             }
         ]
     },
@@ -66,12 +69,12 @@
                 },
                 {
                     "discipline": "Data Science and Artificial Intelligence",
-                    "department": "Data Science and Artificial Intelligence",
+                    "department": "Computer Science and Engineering",
                     "code": "DS"
                 },
                 {
                     "discipline": "Electric Vehicle Technology",
-                    "department": "Electric Vehicle Technology",
+                    "department": "Electrical Engineering",
                     "code": "EV"
                 },
                 {
@@ -141,7 +144,7 @@
                 "ee": ["Electrical Engineering","Control and Instrumentation","Power Systems and Power Electronics","Electric Vehicle Technology"],
                 "mm": ["Materials Science and Metallurgical Engineering"],
                 "me": ["Mechanical Engineering","Design and Manufacturing","Thermal and Fluids Engineering"],
-                "mt": ["Jointly by Electrical Engineering and Mechanical Engineering","Mechatronics Engineering"],
+                "mt": ["Mechatronics Engineering","Mechatronics Engineering"],
                 "cy": ["Chemistry"],
                 "ph": ["Physics"],
                 "ma": ["Mathematics","Mathematics and computing"],

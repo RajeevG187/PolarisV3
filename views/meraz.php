@@ -78,8 +78,10 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         <?php foreach ($data["meraz-videos"]['info'] as $item): ?>
           <div class="container" style = "text-align: center;" >
               <h2 class="heading-secondary"><?php echo $item['title']; ?></h2>
+              <div class="campus">
               <iframe width="840" height="472.5" src=<?php echo $item['link']; ?> title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <br><br>
+              </div>
+              <br><br>
               <a href=<?php echo $item['site-link']; ?> class="outreach__link"target="_blank"><p class="introduction__text" style="text-align:center;">Go to - <u><?php echo $item["site-name"]; ?></u></p></a><br>
           </div> 
         <?php endforeach;?>

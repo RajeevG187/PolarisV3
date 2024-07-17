@@ -38,7 +38,7 @@
         "members-3":[
             {
                 "name":"Aditya Prakash",
-                "image":"../public/images/Secretaries/Aditya_Prakash.jpg",
+                "image":"../public/images/Secretaries/Aditya_Prakash.JPG",
                 "email": "mailto:rajaaditya252003@gmail.com",
                 "title": "Gen Sec Sports",
                 "linkedIn": "https://www.linkedin.com/in/aditya-prakash-184970260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -101,7 +101,7 @@
         "info": [
             {
                 "name": "Prayatna",
-                "description":"\"Prayatna\", the annual intra-institute sports tournament is organized every year. Prayatna, which means \"effort\", is aimed to arouse the sportsman spirit of the budding technocrats. This is an amalgamation of team spirit and healthy competitive spirit which goes on in a three-month long array of varied sports fixtures involving eight sports presently offered by the institute, viz table tennis, chess, volleyball, badminton, football, cricket, athletics and basketball. Prayatna is sure to add another feather to the cap of this newly established yet fervently developing institute.",
+                "description":" \"Prayatna\", the annual intra-institute sports tournament is organized every year. Prayatna, which means \"effort\", is aimed to arouse the sportsman spirit of the budding technocrats. This is an amalgamation of team spirit and healthy competitive spirit which goes on in a three-month long array of varied sports fixtures involving eight sports presently offered by the institute, viz table tennis, chess, volleyball, badminton, football, cricket, athletics and basketball. Prayatna is sure to add another feather to the cap of this newly established yet fervently developing institute.",
                 "images": [
                     [
                         {
@@ -241,7 +241,7 @@
             },
             {
                 "name": "Diwali Celebration",
-                "description":"Diwali not only brings out the creativity of students but also helps them bond together – something which symbolises Diwali. Students themselves put efforts in decorating and lighting up hostel with bright and colourful lights. On this special occasion everybody celebrates by lighting fireworks and sky lanterns. This is followed by a DJ night where everyone dances and groove to the mix beats.",
+                "description":" Diwali not only brings out the creativity of students but also helps them bond together – something which symbolises Diwali. Students themselves put efforts in decorating and lighting up hostel with bright and colourful lights. On this special occasion everybody celebrates by lighting fireworks and sky lanterns. This is followed by a DJ night where everyone dances and groove to the mix beats.",
                 "images": [
                     [
                         {
@@ -257,7 +257,7 @@
             },
             {
                 "name": "Holi Celebration",
-                "description":"This festival of colours is celebrated with all the fervour here at IIT Bhilai, students don’t miss the chance to engage themselves in a water fight, smear each other's faces with colourful and vibrant colours. Everyone forgets any personal differences and come together to celebrate this joyous occasion with full vigour and enthusiasm.",
+                "description":" This festival of colours is celebrated with all the fervour here at IIT Bhilai, students don’t miss the chance to engage themselves in a water fight, smear each other's faces with colourful and vibrant colours. Everyone forgets any personal differences and come together to celebrate this joyous occasion with full vigour and enthusiasm.",
                 "images": []
             }
         ]

@@ -127,7 +127,23 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
                     <div class="info">
                         <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data["faq"]["sub-lists"][5]["ques"]; ?></h3>
-                        <p class="info__text"><?php echo $data["faq"]["sub-lists"][5]["ans"]; ?></p>
+                        <?php foreach ($data["faq"]["sub-lists"][5]['ans1'] as $ans): ?>
+                            <p class="info__text"><?php echo $ans["line"]; ?></p>
+                            <?php endforeach;?>
+                            <p class="info__text"> But for full-proof safety we have <b>Anti Ragging Comitee(ARC).</b></p>
+                            <p class="info__text"> <i class="fas fa-arrow-circle-right"></i>&nbsp;<b><?php echo $data["faq"]["sub-lists"][5]["ans1.5"]; ?></b></p>
+
+                            <?php foreach ($data["faq"]["sub-lists"][5]['ans2'] as $ans): ?>
+                            <p class="info__text" id="he-he"><?php echo $ans["line"]; ?></p>
+                            <?php endforeach;?>
+                            <p class="info__text"> <i class="fas fa-arrow-circle-right"></i>&nbsp;<b><?php echo $data["faq"]["sub-lists"][5]["ans2.5"]; ?></b></p>
+                            <!-- <div id="he-he-he" > -->
+                            <?php foreach ($data["faq"]["sub-lists"][5]['ans3'] as $ans): ?>
+                           <p class="info__text"><?php echo $ans["line"]; ?></p>
+                            <?php endforeach;?>
+                            <!-- </div> -->
+                        
+                       
                     </div>
                     <div class="info">
                         <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data["faq"]["sub-lists"][6]["ques"]; ?></h3>

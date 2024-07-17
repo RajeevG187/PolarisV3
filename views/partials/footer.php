@@ -1,6 +1,7 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 <footer class="footer">
     <div class="row">
-        <div class="col-2-of-3">
+        <div class="col-2-of-4">
             <div class="footer__disclaimer">
                 <div class="footer__title">
                     Disclaimer
@@ -11,7 +12,23 @@
             </div>
         </div>
 
-        <div class="col-1-of-3">
+        <div class="col-1-of-4">
+            <div class="footer__connect">
+                <div class="footer__title">
+                    Contact Us
+                </div>
+                <ul class="footer__list">
+                    <li class="footer__text">Student affairs &nbsp;<a href="mailto:studentaffairs@iitbhilai.ac.in" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-envelope"></i></a><a href="tel:07882991608" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-phone"></i></a></li>
+                    <li class="footer__text">Boys hostel &nbsp;<a href="mailto:hostel@iitbhilai.ac.in" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-envelope"></i></a><a href="tel:+91-9424283715" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-phone"></i></a></li>
+                    <li class="footer__text">Girls hostel &nbsp;<a href="mailto:hostel@iitbhilai.ac.in" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-envelope"></i></a><a href="tel:+91-9406256993" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-phone"></i></a></li>
+                    <li class="footer__text">Academics &nbsp;<a href="mailto:academics@iitbhilai.ac.in" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-envelope"></i></a><a href="tel:07882991609" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-phone"></i></a></li>
+                    <li class="footer__text">Health centre &nbsp;<a href="mailto:healthcenter@iitbhilai.ac.in" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-envelope"></i></a><a href="tel:+91-9424283691" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-phone"></i></a></li>
+                    <li class="footer__text">Transport &nbsp;<a href="mailto:traveldesk@iitbhilai.ac.in" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-envelope"></i></a><a href="tel:+91-9907940717" class="footer__link footer__link--facebook"target="_blank"><i class="fas fa-phone"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-1-of-4">
             <div class="footer__connect">
                 <div class="footer__title">
                     Connect
@@ -28,10 +45,10 @@
 
     <div class="footer__copyright">
         <div class="row">
-            <div class="col-2-of-3">
+            <div class="col-3-of-4">
                 <p class="copyright">&copy; 2024 &dash; 2025, Student Mentors, IIT Bhilai</p>
             </div>
-            <div class="col-1-of-3"><p class="love">Made with <i class="fas fa-heart"></i></p></div>
+            <div class="col-1-of-4"><p class="love">Made with <i class="fas fa-heart"></i></p></div>
         </div>
     </div>
 
