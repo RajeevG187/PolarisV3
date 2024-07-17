@@ -259,6 +259,53 @@
                     "alt": "Athletics"
                 }
             ]
+        },
+        {
+            "name": "Gymnasium",
+            "role": "Co-ordinator: ",
+            "leader": "satish paswan",
+            "about": "",
+            "facilities": "The gym at IIT Bhilai welcomes everyone to exercise within its designated hours, offering two convenient slots: from 5 to 9 am in the morning and from 5 to 10 pm in the evening. Equipped with state-of-the-art facilities and ample lighting, the gym provides a conducive environment for individuals to engage in various forms of exercise and fitness routines. Whether it's early morning workouts to start the day energized or evening sessions to unwind after classes or work, the gym ensures a comfortable and well-equipped space for all fitness enthusiasts. ",
+            "objective": "",
+            "activities": "",
+            "past-events": "",    
+            "upcoming-events": "",
+            "image": [
+                {
+                    "path" :"../public/images/life/gym-2.jpg",
+                    "alt": "Athletics"
+                },
+                {
+                    "path" :"../public/images/life/gym-1.jpg",
+                    "alt": "Athletics"
+                }
+            ]
+        },
+        {
+            "name": "Recreational sports",
+            "role": "Co-ordinator: ",
+            "leader": "Gajanand kumawat, Ankit Yaduvanshi",
+            "about": "Recreational sports are the activities that individuals engage in for enjoyment,fun, exercise and socialization, rather than at a competitive or professional level. Under this there are many games like Kabbadi,Baseball,Dodgeball,Kho kho, Carrom, Frisbee, Lagori, Billiards,Tug of War.",
+            "facilities": " As Recreational sports is  newly added under sports council, the club doesn't have much props. But still club provides the facilities of Kabbadi mat in Gopad hostel(Probably), Billiards table in Gopad hostel, carrom boards in each hostel. ",
+            "objective": "",
+            "activities": "",
+            "past-events": "",    
+            "upcoming-events": [
+                {
+                    "head": "Upcoming Events: ",
+                    "text": "Prayatna 2k24, BPL, Shankaracharya kabbadi tournaments"
+                }
+            ],
+            "image": [
+                {
+                    "path" :"",
+                    "alt": ""
+                },
+                {
+                    "path" :"",
+                    "alt": ""
+                }
+            ]
         }
     ]    
 }
