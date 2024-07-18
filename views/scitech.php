@@ -216,7 +216,6 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                 </div>
                             </section>
                         <?php endif; ?>
-
                     <div class="line-break"></div>
                 </div>
             <?php endforeach; ?>
