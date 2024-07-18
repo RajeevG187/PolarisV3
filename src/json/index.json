@@ -1,6 +1,6 @@
 {
     "pdfLink": {
-    "check": 0
+    "check": 1
 },
 
 "brochureLink": {
@@ -8,7 +8,7 @@
 },
 
 "registrationScheduleDownload": {
-    "check": 0
+    "check": 1
 },
 
 
