@@ -1,3 +1,20 @@
+<?php
+$jsonfilepath = '../src/json/cosa.json';
+
+if (!file_exists($jsonfilepath) || !is_readable($jsonfilepath)) {
+    die('Error: JSON file not found or not readable.');
+}
+
+$key = file_get_contents($jsonfilepath);
+$data = json_decode($key, true);
+
+if (json_last_error() !== JSON_ERROR_NONE) {
+    die('Error: Invalid JSON data. ' . json_last_error_msg());
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,8 +54,8 @@
         <header class="header header__life">
             <div class="container">
                 <div class="header__hero-box">
-                    <h1 class="heading-primary">Hostel Life</h1>
-                    <p class="heading-subtitle">Ohh! You'll love it here....</p>
+                    <h1 class="heading-primary">Anti-Ragging Committee</h1>
+                    <p class="heading-subtitle">insert some quote here</p>
                 </div>
             </div>
         </header>

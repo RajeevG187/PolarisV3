@@ -33,6 +33,7 @@
     }
   ],
   "dropdown-links": [
+    { "url": "../views/hostellife.php", "text": "Anti-Ragging", "class": "navbar_antiragging" },
     { "url": "../views/cosa.php", "text": "CoSA", "class": "navbar_cosa" },
     {
       "url": "../views/cultural.php",
