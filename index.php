@@ -81,11 +81,11 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                     </li>
 
                     <?php if ($data['pdfLink']['check'] == 1): ?>
-                        <li><strong>Important Notice</strong> Registration Schedule
-                        <a href="public/pdfs/RegistrationSchedule.pdf" target="_blank" class="notification">Click Here!</a>
+                        <li><strong>Important Notice</strong> Orientation Schedule
+                        <a href="public/pdfs/Orientation_Schedule_2024-25-M.pdf" target="_blank" class="notification">Click Here!</a>
                         </li>
                     <?php else: ?>
-                        <li><strong>Important Notice :</strong> Registration Schedule <a class="notification">To Be Announced</a>
+                        <li><strong>Important Notice :</strong> Orientation Schedule <a class="notification">To Be Announced</a>
                     <?php endif; ?>
                         </li>
 
@@ -157,12 +157,12 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                 <h3 class="heading-secondary">Latest Updates on Website</h3>
                 <p id="blink" style="color:blue;"> 
                 <?php if ($data['registrationScheduleDownload']['check'] == 1): ?>
-                <a href="public/pdfs/RegistrationSchedule.pdf" target="_blank" class="notification">
-                Registration Schedule is uploaded.Click Here to download
+                <a href="public/pdfs/Orientation_Schedule_2024-25-M.pdf" target="_blank" class="notification">
+                Orientation Schedule is uploaded.Click Here to download
                 </a>
                 <?php else: ?>
                     <span class="notification" style="pointer-events: none; cursor: not-allowed;" title="To be announced">
-                    Registration Schedule to be Announced
+                    Orientation Schedule to be Announced
                     </span>
                 <?php endif; ?>
                 </p>
