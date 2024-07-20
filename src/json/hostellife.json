@@ -1,47 +1,51 @@
 {
+    "head": {
+        "heading": "Hostel Life",
+        "text": "Ohh! You'll love it here...."
+    },
     "header": {
-        "heading": "Hostel-Life",
-        "text": ""
+        "heading": "UGC Regulation on Anti Ragging in Higher Educational Institutions",
+        "text": "In exercise of the powers conferred by Clause (g) of Sub-Section (l) of Section 26 of the University Grants Commission Act, 1956, the University Grants Commission hereby makes the following Regulations, namely: "
     },
     "title": {
         "heading": "Title, commencement and applicablity: ",
         "points": [
             {
-                "text": ""
+                "text": "These regulations shall be called the \"UGC Regulations on Curbing the Menace of Ragging in Higher Educational Institutions, 2009\"."
             },
             {
-                "text": ""
+                "text": "They shall come into force with immediate effect."
             },
             {
-                "text": ""
+                "text": "They shall apply to all the universities established or incorporated by or under a Central Act, a Provincial Act or a State Act, to all institutions deemed to be university under Section 3 of the UGC Act, 1956, to all other higher educational institutions, including the departments, constituent units and all the premises (academic, residential, sports, canteen, etc) of such universities, deemed universities and other higher educational institutions, whether located within the campus or outside, and to all means of transportation of students whether public or private."
             }
         ]
     },
     "objective": {
         "heading": "Objective: ",
-        "text": ""
+        "text": "To root out ragging in all its forms from universities, colleges and other educational institutions in the country by prohibiting it by law, preventing its occurrence by following the provisions of these Regulations and punishing those who indulge in ragging as provided for in these Regulations and the appropriate law in force."
     },
     "definitons": {
         "heading": "Definitions: ",
         "note": "For the purposes of these Regulations: ",
         "points": [
             {
-                "text": ""
+                "text": "\"college\" means any institution, whether known as such or by any other name, which provides for a programme of study beyond 12 years of schooling for obtaining qualification from a university and which, in accordance with the rules and regulations of such university, is recognized as competent to provide for such programme of study and present students undergoing such programme of study for the examination for the award of such qualification."
             },
             {
-                "text": ""
+                "text": "\"Head of the institution\" means the 'Vice-Chancellor' in case of a university/deemed to be university, 'Principal' in case of a college, 'Director' in case of an institute."
             },
             {
-                "text": ""
+                "text": "\"institution\" means a higher educational institution (HEI), like a university, a college, an institute, etc. imparting higher education beyond 12 years of schooling leading to a degree (graduate, postgraduate and/or higher level) and/or to a university diploma."
             },
             {
-                "text": ""
+                "text": "\"Ragging\" means the following: Any conduct whether by words spoken or written or by an act which has the effect of teasing, treating or handling with rudeness any other student, indulging in rowdy or undisciplined activities which causes or is likely to cause annoyance, hardship or psychological harm or to raise fear or apprehension thereof in a fresher or a junior student or asking the students to do any act or perform something which such student will not in the ordinary course and which has the effect of causing or generating a sense of shame or embarrassment so as to adversely affect the physique or psyche of a fresher or a junior student."
             },
             {
-                "text": ""
+                "text": "\"Statutory/ReguIatory body\" means a body so constituted by a Central/ State Government legislation for setting and maintaining standards in the relevant areas of higher education, such as the All India Council for Technical Education (AICTE), the Bar Council of India (BCI), the Dental Council of India (DCI), the Distance Education Council (DEC), the Indian Council of Agricultural Research (ICAR), the Indian Nursing Council (INC), the Medical Council of India (MCI), the National Council for Teacher Education (NCTE), the Pharmacy Council of India (PCI), etc. and the State Higher Education Councils."
             },
             {
-                "text": ""
+                "text": "\"University\" means a university established or incorporated by or under a Central Act, a Provincial Act or a State Act, an institution deemed to be university under Section 3 of the UGC Act, 1956, or an institution specially empowered by an Act of Parliament to confer or grant degrees."
             }
         ]
     },
@@ -71,13 +75,13 @@
         "heading": "Measures for prohibition of ragging at the institutional level",
         "points": [
             {
-                "text": ""
+                "text": "The institution shall strictly observe the provisions of the Act of the Central Govemment and the State Governments, if any, or if enacted, considering ragging as a cognizable offence under the law on a par with rape and other atrocities against women and ill-treatment of persons belonging to the SC/ST, and prohibiting ragging in all its forms in all institutions."
             },
             {
-                "text": ""
+                "text": "Ragging in all its forms shall be totally banned in the entire institution, including its departments, constituent units, all its premises (academic, residential, sports, canteen, etc) whether located within the campus or outside and in all means oftransportation of students whether public or private."
             },
             {
-                "text": ""
+                "text": "The institution shall take strict action against those found guilty of ragging and/or of abetting ragging."
             }
         ]
     },
@@ -128,24 +132,82 @@
         "note": [
             {
                 "heading": "At the institution level",
-                "points": []
+                "points": {
+                    "text": "Depending upon the nature and gravity of the offence as established by the AntiRagging Committee of the institution, the possible punishments for those found guilty of ragging at the institution level shall be any one or any combination of the following: ",
+                    "sub-points": [
+                        {
+                            "text": "Suspension from attending classes and academic privileges"
+                        },
+                        {
+                            "text": "Withholding/ withdrawing scholarship/ fellowship and other benefits"
+                        },
+                        {
+                            "text": "Debarring from appearing in any test/ examination or other evaluation process"
+                        },
+                        {
+                            "text": "Withholding results"
+                        },
+                        {
+                            "text": "Debarring from representing the institution in any regional, national or international meet, tournament, youth festival, etc."
+                        },
+                        {
+                            "text": "Suspension/ expulsion from the hostel"
+                        },
+                        {
+                            "text": "Cancellation of admission"
+                        },
+                        {
+                            "text": "Rustication from the institution for period ranging from 1 to 4 semesters"
+                        },
+                        {
+                            "text": "Expulsion from the institution and consequent debarring from admission to any other institution for a specified period"
+                        },
+                        {
+                            "text": "Fine ranging between Rupees 25,000/- and Rupees 1 lakh"
+                        },
+                        {
+                            "text": "Collective punishment: When the persons committing or abetting the crime of ragging are not identified, the institution shall resort to collective punishment."
+                        }
+                    ]
+                }
             },
             {
                 "heading": "At the appointing authority level",
-                "points": []
+                "points": {
+                    "text": "The authorities of the institution, particularly the Head of the institution, shall be responsible to ensure that no incident of ragging takes place in the institution. In case any incident of ragging takes place, the Head shall take prompt and appropriate action against the person(s) whose dereliction of duty lead to the incident. The authority designated to appoint the Head shall, in its turn, take prompt and appropriate action against the Head.",
+                    "sub-points": ""
+                }
             },
             {
                 "heading": "At the UGC/Statutory/Regulatory level",
-                "points": []
+                "points": {
+                    "text": "",
+                    "sub-points": [
+                        {
+                            "text": "Delisting the institution from section 12B of the UGC Act or any similar provision in the Act of the Statutory/Regulatory body concerned."
+                        },
+                        {
+                            "text": "Withholding any grants allocated to it."
+                        },
+                        {
+                            "text": "Declaring the institution ineligible for consideration for any assistance under any of the general or special assistance programmes of the UGC/Statutöry/ Regulatory body concerned."
+                        },
+                        {
+                            "text": "Declaring that the institution does not have the minimum academic standards and warning the potential candidates for admission accordingly through public notice and posting on the UGC Website/ Website of the Statutory/Regulatory body concerned."
+                        },
+                        {
+                            "text": "Taking such other action within its powers as it may deem fit and impose such other penalties as provided till such time as the institution achieves the objective of curbing ragging."
+                        },
+                        {
+                            "text": "Collaborating with one another to work out other possible deterrents."
+                        }
+                    ]
+                }
             }
         ]
     },
-    "head": {
-        "heading": "Hostel Life",
-        "text": "Ohh! You'll love it here...."
-    },
     "about": {
-        "heading": "About",
+        "heading": "Hostel Life",
         "text": "The hostel lifestyle is an integral part of the one’s college life. Here, at IIT Bhilai, the hostel life is much more than just ‘hanging out’. Our student community is very enthusiatic which is why being here is a totally vivid experience. Even though in its infancy, IIT Bhilai has developed a rich student culture where students from different communities come together and have time of their lifetime. As part of student activities we have established the official student body, Council of Student Affairs(CoSA). Under it function various clubs and associations, each having a coordinator. Students are encouraged to actively participate in the clubs whoch interests them. This makes hostel life exciting and fun."
     },
     "location": {
