@@ -33,7 +33,16 @@
     }
   ],
   "dropdown-links": [
-    { "url": "../views/cosa.php", "text": "CoSA", "class": "navbar_cosa" },
+    {
+      "url": "../views/hostellife.php", 
+      "text": "Hostel-life", 
+      "class": "navbar_hostellife" 
+    },
+    { 
+      "url": "../views/cosa.php", 
+      "text": "CoSA", 
+      "class": "navbar_cosa" 
+    },
     {
       "url": "../views/cultural.php",
       "text": "Cultural Council",

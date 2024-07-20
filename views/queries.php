@@ -96,11 +96,6 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                         <p class="info__text"><?php echo $data["faq"]["sub-lists"][1]["moredetails"]; ?><a href="../views/departments.php" target="_blank"><?php echo $data["faq"]["sub-lists"][1]["moredetailsurl"]; ?><a> <?php echo $data["faq"]["sub-lists"][1]["link-moredetails"]; ?></p>
                     </div>
 
-                    <!-- <div class="info">
-                        <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i> What are the facilities and amenities provided in the hostels?</h3>
-                        <p class="info__text">IIT Bhilai is a residential campus, with well facilitated student's hostels.There are four hostels namely Castle Ena, Castle Dio, Castle Tria and Castle Tessera. All hostels are equipped with some sport facilities, recreation rooms, TV room, washing machines, and dining etc. Hostels are rigged with Wi-Fi and LAN access. For more information visit <a href="life.php#hostel__facilities">Polaris &dash; Hostel Facilities</a></p>
-                    </div> -->
-
                     <div class="info">
                         <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data["faq"]["sub-lists"][2]["ques"]; ?></h3>
                         <p class="info__text"><?php echo $data["faq"]["sub-lists"][2]["ans"]; ?></p>
@@ -137,13 +132,12 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                             <p class="info__text" id="he-he"><?php echo $ans["line"]; ?></p>
                             <?php endforeach;?>
                             <p class="info__text"> <i class="fas fa-arrow-circle-right"></i>&nbsp;<b><?php echo $data["faq"]["sub-lists"][5]["ans2.5"]; ?></b></p>
-                            <!-- <div id="he-he-he" > -->
+                            
                             <?php foreach ($data["faq"]["sub-lists"][5]['ans3'] as $ans): ?>
                            <p class="info__text"><?php echo $ans["line"]; ?></p>
-                            <?php endforeach;?>
-                            <!-- </div> -->
-                        
-                       
+                        <?php endforeach;?>
+                        <p class="info__text">For further details you may refer <a href="../public/pdfs/Anti_Ragging.pdf" target=blank>Anti-Ragging Laws</a> followed in our Institute!</p>
+                           
                     </div>
                     <div class="info">
                         <h3 class="heading-tertiary"><i class="far fa-dot-circle"></i><?php echo $data["faq"]["sub-lists"][6]["ques"]; ?></h3>
