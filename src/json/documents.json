@@ -63,5 +63,9 @@
             }
         ],
         "text2":"Direct fund transfer through NEFT/RTGS/Bank transfer mode is discouraged due to reconciliation issue and accordingly institute bank details are not shared."
+    },
+    "waiver":{
+        "text":"Documents for fee waiver",
+        "url":"../public/pdfs/Documents_for_fee_waiver[1].pdf"
     }
 } 
