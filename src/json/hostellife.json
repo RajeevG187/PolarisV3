@@ -1,6 +1,147 @@
 {
     "header": {
-        "head": "Hostel Life",
+        "heading": "Anti Ragging",
+        "text": ""
+    },
+    "title": {
+        "heading": "Title, commencement and applicablity: ",
+        "points": [
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            }
+        ]
+    },
+    "objective": {
+        "heading": "Objective: ",
+        "text": ""
+    },
+    "definitons": {
+        "heading": "Definitions: ",
+        "note": "For the purposes of these Regulations: ",
+        "points": [
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            }
+        ]
+    },
+    "ingredients": {
+        "heading": "Punishable ingredients of Ragging: ",
+        "points": [
+            {"text": "Abetment to ragging"},
+            {"text": "Criminal conspiracy to rag"},
+            {"text": "Unlawful assembly and rioting while ragging"},
+            {"text": "Public nuisance created during ragging"},
+            {"text": "Violation of decency and morals through ragging"},
+            {"text": "Injury to bdy, causing hurt or grievous hurt"},
+            {"text": "Wrongful restraint"},
+            {"text": "Wrongful confinement"},
+            {"text": "Use of criminal force"},
+            {"text": "Assault as well as sexual offences or unnatural offences"},
+            {"text": "Extortion"},
+            {"text": "Criminal trespass"},
+            {"text": "Offences against property"},
+            {"text": "Criminal intimidation"},
+            {"text": "Attempts to commit any or all of the above mentioned offences against the victim(s)"},
+            {"text": "Physical or psychological humiliation"},
+            {"text": "All other offences folllowing from the definition of \"Ragging\""}
+        ]
+    },
+    "prohibition": {
+        "heading": "Measures for prohibition of ragging at the institutional level",
+        "points": [
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            }
+        ]
+    },
+    "prevention": {
+        "heading": "Measures for prevention of ragging at the institutional level",
+        "admission": [
+            {
+                "heading": "Before admissions",
+                "points": []
+            },
+            {
+                "heading": "On admission",
+                "points": []
+            },
+            {
+                "heading": "At the end of the academic year",
+                "points": []
+            },
+            {
+                "heading": "Other measures",
+                "points": []
+            },
+            {
+                "heading": "Measures for encouraging healthy interaction between freshers and seniors",
+                "points": []
+            }
+        ]
+    },
+    "measures": {
+        "heading": "Measures at the UGC/Statutory/Regulatory level",
+        "note": [
+            {
+                "heading": "Regulatory measures",
+                "points": []
+            },
+            {
+                "heading": "Incentives for curbing ragging",
+                "points": []
+            },
+            {
+                "heading": "Monitoring mechanism to ensure compilance",
+                "points": []
+            }
+        ]
+    },
+    "punishment": {
+        "heading": "Punishments: ",
+        "note": [
+            {
+                "heading": "At the institution level",
+                "points": []
+            },
+            {
+                "heading": "At the appointing authority level",
+                "points": []
+            },
+            {
+                "heading": "At the UGC/Statutory/Regulatory level",
+                "points": []
+            }
+        ]
+    },
+    "head": {
+        "heading": "Hostel Life",
         "text": "Ohh! You'll love it here...."
     },
     "about": {
