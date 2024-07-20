@@ -147,7 +147,7 @@ if (isset($data['loan']['check'])) {
                     <p class="fee__text"> <?php echo $data["fee"]["lists"][0]["text"]; ?> <a href=<?php echo $data["fee"]["lists"][0]["url"]; ?> target="_blank">click here.</a></p>
                     <br>
 
-                    <!-- <p class="fee__text">Generate the Fee Payment Challan through SBI Collect Payment Page. <a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm" target="_blank">Click Here!</a><br>For procedure of payment through SBI Collect.<a href="Payment through SBI i collect.pdf" target="_blank"> Click Here!</a></p>
+                    <p class="fee__text">Generate the Fee Payment Challan through SBI Collect Payment Page. <a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm" target="_blank">Click Here!</a></p>
                     <p class="fee__text">No cash payment option will be available at the institute. As enquired for payment mode, following options are made available:</p>
                             <br/>
                             <ul class="sublist">
@@ -157,7 +157,9 @@ if (isset($data['loan']['check'])) {
                                 A student can choose SBI Branch option published in SBI Collect payment options page (at lower left corner) and can go to any SBI branch for paying the fee amount either in cash or otherwise acceptable by the bank.</li>
                             </ul>
                             <br/>
-                    <p class="fee__text"><strong>Note:</strong> Direct fund transfer through NEFT/RTGS/Bank transfer mode is discouraged due to reconciliation issue and accordingly institute bank details are not shared.</p> -->
+                    <p class="fee__text"><strong>Note:</strong> Direct fund transfer through NEFT/RTGS/Bank transfer mode is discouraged due to reconciliation issue and accordingly institute bank details are not shared.</p>
+                    <br>
+                    <a href="<?php echo $data["waiver"]["url"]?>" style="font-size: 30px"><?php echo $data["waiver"]["text"]?></a>
                 </div>
             </div>
         </section>
