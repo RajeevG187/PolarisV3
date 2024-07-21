@@ -1,3 +1,24 @@
+<?php
+// Define the path to the JSON file
+$jsonFilePath = '../src/json/hostellife.json';
+
+// Check if the JSON file exists and is readable
+if (!file_exists($jsonFilePath) || !is_readable($jsonFilePath)) {
+    die('Error: JSON file not found or not readable.');
+}
+
+// Read JSON file
+$json = file_get_contents($jsonFilePath);
+
+// Decode JSON data to PHP associative array
+$data = json_decode($json, true);
+
+// Check if JSON data is valid
+if (json_last_error() !== JSON_ERROR_NONE) {
+    die('Error: Invalid JSON data. ' . json_last_error_msg());
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,125 +58,182 @@
         <header class="header header__life">
             <div class="container">
                 <div class="header__hero-box">
-                    <h1 class="heading-primary">Hostel Life</h1>
-                    <p class="heading-subtitle">Ohh! You'll love it here....</p>
+                    <h1 class="heading-primary"><?php echo $data['head']['heading']; ?></h1>
+                    <p class="heading-subtitle"><?php echo $data['head']['text']; ?></p>
                 </div>
+              
             </div>
         </header>
 
         <section class="section">
             <div class="container">
-                <h2 class="heading-secondary">About</h2>
-                <div class="about">
-                    <p class="about__text">The hostel lifestyle is an integral part of the one’s college life. Here, at IIT Bhilai, the hostel life is much more than just ‘hanging out’. Our student community is very enthusiatic which is why being here is a totally vivid experience. Even though in its infancy, IIT Bhilai has developed a rich student culture where students from different communities come together and have time of their lifetime. As part of student activities we have established the official student body, Council of Student Affairs(CoSA). Under it function various clubs and associations, each having a coordinator. Students are encouraged to actively participate in the clubs whoch interests them. This makes hostel life exciting and fun. </p>
-                </div>
-            </div>
-        </section>
-
-        <div class="line-break"></div>
-
-        <section class="section">
-            <div class="container">
-                <h2 class="heading-secondary" id="hostel__facilities">Facilities Available</h2>
+                <h2 class="heading-secondary"><?php echo $data['header']['heading']; ?> </h2>
                 <div class="facilities">
-                    <h3 class="heading-tertiary">Hostels for girls and boys</h3>
-                    <p class="facilities__text">Staying in campus is fun because of hostel and the environment that it offers. We have two hostels, Castle Ena and Castle Dio. Second, Third and Fourth year boys resides in Castle Ena. All the girls will be residing on ground floor of Castle Dio. First floor of Castle Dio will have accomodation for 1st year boys.</p>
-                    <p class="facilities__text">Note: Wings of the girls hostel will be completely partitioned from the rest of the hostel.</p>
-                </div>
-
-                <div class="facilities">
-                    <h3 class="heading-tertiary">Hostels Capacity</h3>
-                    <p class="facilities__text">In Castle Ena the total capacity is of 302 and in Castle Dio the total capacity is 258.</p>
-                </div>
-
-                <div class="facilities">
-                    <h3 class="heading-tertiary">Types of Rooms</h3>
-
-                    <p class="facilities__text">We have 2 sharing, 3 sharing and 4 sharing rooms in Castle Ena and for the fresher boys, they will be given 3 sharing rooms and 4 sharing rooms for fresher girls, there is still plenty of space left in the rooms.</p>
-                </div>
-
-                <div class="facilities">
-                    <h3 class="heading-tertiary">Other facilities</h3>
+                    <h3 class="heading-tertiary"><?php echo $data['title']['heading']; ?></h3>
 
                     <ul class="info__list">
-                        <li class="info__item">Every student gets a bed, a fan, an almirah, a table and a chair in his room.</li>
-                        <li class="info__item">Toilets are commonly shared with the wing mates and are cleaned twice a day.</li>
-                        <li class="info__item">Fully automated washing machines are kept in the laundry room for saving time and efforts of the students.</li>
-                        <li class="info__item">Recreation cum TV room is there in the hostels for entertainment purpose.</li>
-                        <li class="info__item">For the music lovers, there is a music room equipped with a drum set, congo set, keyboard, guitar and some other instruments.</li>
-                        <li class="info__item">A dance room completely equipped with mirrored walls is set up for tapping your feet. And yes, if you love those drops, then there are bass speakers for you to bounce on.</li>
-                        <li class="info__item">Both the hostels have indoor badminton courts.</li>
-                        <li class="info__item">A snooker table and other indoor games are also provided.</li>
-                        <li class="info__item">A Table Tennis table is also there for "ping-pong" lovers.</li>
-                        <li class="info__item">Air Cooling Ducts are there in each wing in the hostels to keep the rooms cool during summer.</li>
+                    <?php foreach ($data['title']['points'] as $point): ?>
+                                    <li class="info__item"><?php echo $point['text']; ?></li>
+                                <?php endforeach; ?>
                     </ul>
-
-                </div>
-            </div>
-        </section>
-
-        <div class="line-break"></div>
-
-        <section class="section">
-            <div class="container">
-                <h2 class="heading-secondary">Network and Connectivity</h2>
-                <div class="network">
-                    <p class="network__text">Being an IIT it is needless to say that we have an excellent internet connectivity. The <span>NKN (National Knowledge Network)</span> program is the Internet service provider for the institute and supports network speeds of up to 1 GB/s. Although in the elementary stage, the NKN network is useful as it provides connectivity to other institutes, has resources like video lectures, seminars etc. Each student has access to the network through the LAN ports provided in the hostel rooms as well as Wi-Fi (each student is allotted a unique ID-Password for accessing). We also have a DC++ culture in the hostel (Google it and you will learn that DC++ is the life line of IIT hostels). It is a really productive file sharing system with a host server and various other clients linked to it. It comes in handy to share large files, academic softwares and recreational stuff (like movies, games, TV series). Students are encouraged to avail the benefits of the system in the hostel. Apart from the above, all students have access to a common file storage system. Students can use it as a drive to drop/retrieve/share files with peers. </p>
-                </div>
-            </div>
-        </section>
-
-        <div class="line-break"></div>
-
-        <section class="section">
-            <div class="container">
-                <h2 class="heading-secondary">Mess Facilities</h2>
-                <div class="mess">
-                    <p class="mess__text">Currently there are two mess in the campus, one serving in each hostel, Mess provides snacks at evening apart from breakfast, lunch and dinner. Both the hostels have mess night canteens which are open till 3 am in the night. They serve Snacks, Drinks, Fresh Fruit Juices, Noodles, Ice-Creams etc.</p><br>
-
-                    <div class="row">
-                        <div class="col-1-of-2"><img src="..public/image/life/mess-1.jpg" alt="Mess" class="mess__photo"></div>
-                        <div class="col-1-of-2"><img src="..public/image/life/mess-2.jpg" alt="Mess" class="mess__photo"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="line-break"></div>
-
-        <section class="section">
-            <div class="container">
-                <h2 class="heading-secondary">Medical Facilities</h2>
-                <div class="medical">
-                    <p class="medical__text">The hostel has first-aid facilities along with medications for common ailments. If one needs to see a doctor, he can find him adjacent to Castle Tria and Guest House in the Nurse room. A paramedic is always available at the campus and so is the ambulance service (An ambulance vehicle available 24 x 7 in the campus). In case of emergency or any other medical call, one is taken to the nearest hospital: The <span>VY Hospital</span> (Located about 5 km from the campus, distance is covered within 15 min due to presence of wide and less busy roads). It is functional 24 x 7 and has all major facilities.</p>
-                </div>
-            </div>
-        </section>
-
-        <div class="line-break"></div>
-
-        <section class="section">
-            <div class="container">
-                <h2 class="heading-secondary">Transportation Facilities within Campus</h2>
-                <div class="transportation">
-                    <p class="transportation__text">The Castle Ena boys hostel is located at a distance of about 900m from the academic block. A wide road within the campus connects both. There are plenty of options to ply between these two: </p>
-                </div>
-
-                <div class="transportation">
+                    <h3 class="heading-tertiary"><?php echo $data['objective']['heading']; ?></h3>
+                    <p class="facilities__text"><?php echo $data['objective']['text']; ?></p>
+                    <h3 class="heading-tertiary"><?php echo $data['definitons']['heading']; ?></h3>
+                    <p class="facilities__text"><?php echo $data['definitons']['note']; ?></p>
                     <ul class="info__list">
-                        <li class="info__item">You can walk without even breaking a sweat (Can’t guarantee about summers though)</li>
-                        <li class="info__item">Paddle your way to the Acad. Block</li>
-                        <li class="info__item">Lazy enough? Well there is a bus service back and forth from the hostel to the Acad. Block. It runs at scheduled times- generally half and prior to lectures and lunch.</li>
+                    <?php foreach ($data['definitons']['points'] as $point): ?>
+                                    <li class="info__item"><?php echo $point['text']; ?></li>
+                                <?php endforeach; ?>
                     </ul>
+                    <h3 class="heading-tertiary"><?php echo $data['ingredients']['heading']; ?></h3>
+                    <ul class="info__list">
+                    <?php foreach ($data['ingredients']['points'] as $point): ?>
+                                    <li class="info__item"><?php echo $point['text']; ?></li>
+                                <?php endforeach; ?>
+                    </ul>
+                    <h3 class="heading-tertiary"><?php echo $data['prevention']['heading']; ?></h3>
+                    <?php foreach ($data['prevention']['admission'] as $element): ?>
+                    <h5 class="heading-tertiary2"><?php echo $element['heading']; ?></h5>
+                  
+                    <ul class="info__list">
+                    <?php foreach ($element['points'] as $point): ?>
+                                    <li class="info__item"><?php echo $point['text']; ?></li>
+                                   
+                                <?php endforeach; ?>
+                                </ul>
+                                <?php endforeach; ?>
+
+                                <h3 class="heading-tertiary"><?php echo $data['measures']['heading']; ?></h3>
+                    <?php foreach ($data['measures']['note'] as $element): ?>
+                    <h5 class="heading-tertiary2"><?php echo $element['heading']; ?></h5>
+                  
+                    <ul class="info__list">
+                    <?php foreach ($element['points'] as $point): ?>
+                                    <li class="info__item"><?php echo $point['text']; ?></li>
+                                   
+                                <?php endforeach; ?>
+                                </ul>
+                                <?php endforeach; ?>
+
+                                <h3 class="heading-tertiary"><?php echo $data['punishment']['heading']; ?></h3>
+                    <?php foreach ($data['punishment']['note'] as $element): ?>
+                    <h5 class="heading-tertiary2"><?php echo $element['heading']; ?></h5>
+                    <p class="facilities__text"><?php echo $element['points']['text']; ?></p>
+                    <?php
+if (!empty($element['points']['sub-points'])):
+?>
+                    <ul class="info__list">
+                    <?php foreach ($element['points']['sub-points'] as $point): ?>
+                                    <li class="info__item"><?php echo $point['text']; ?></li>
+                                   
+                                <?php endforeach; ?>
+                                </ul>
+                                <?php
+endif;
+?>
+                                <?php endforeach; ?>
+                  
                 </div>
             </div>
         </section>
 
+        <div class="line-break"></div>
 
-        <?php
-        require_once('partials/footer.php');
-        ?>
+    <section class="section">
+        <div class="container">
+            <h2 class="heading-secondary">About</h2>
+            <div class="about">
+                <p class="about__text"><?php echo $data['about']['heading']; ?></p>
+                <p class="about__text"><?php echo $data['about']['text']; ?></p>
+            </div>
+        </div>
+    </section>
+
+    <div class="line-break"></div>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="heading-secondary" id="hostel__facilities"><?php echo $data['facilities']['heading']; ?></h2>
+            <div class="facilities">
+                <h3 class="heading-tertiary"><?php echo $data['facilities']['hostel']['heading']; ?></h3>
+                <p class="facilities__text"><?php echo $data['facilities']['hostel']['text']; ?></p>
+            </div>
+
+            <div class="facilities">
+                <h3 class="heading-tertiary"><?php echo $data['facilities']['capacity']['heading']; ?></h3>
+                <p class="facilities__text"><?php echo $data['facilities']['capacity']['text']; ?></p>
+            </div>
+
+            <div class="facilities">
+                <h3 class="heading-tertiary"><?php echo $data['facilities']['rooms']['heading']; ?></h3>
+                <p class="facilities__text"><?php echo $data['facilities']['rooms']['text']; ?></p>
+            </div>
+
+            <div class="facilities">
+                <h3 class="heading-tertiary">Other facilities</h3>
+                <ul class="info__list">
+                    <?php foreach ($data['facilities']['others']['facilities'] as $facility): ?>
+                        <li class="info__item"><?php echo $facility['text']; ?></li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="line-break"></div>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="heading-secondary">Network and Connectivity</h2>
+            <div class="network">
+                <p class="network__text"><?php echo $data['connectivity']['text']; ?></p>
+            </div>
+        </div>
+    </section>
+
+    <div class="line-break"></div>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="heading-secondary">Mess Facilities</h2>
+            <div class="mess">
+                <p class="mess__text"><?php echo $data['mess']['text']; ?></p>
+                <br>
+                
+            </div>
+        </div>
+    </section>
+
+    <div class="line-break"></div>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="heading-secondary">Medical Facilities</h2>
+            <div class="medical">
+                <p class="medical__text"><?php echo $data['medical']['text']; ?></p>
+            </div>
+        </div>
+    </section>
+
+    <div class="line-break"></div>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="heading-secondary">Transportation Facilities within Campus</h2>
+            <div class="transportation">
+                <p class="transportation__text"><?php echo $data['transportation']['text']; ?></p>
+            </div>
+            <div class="transportation">
+                <ul class="info__list">
+                    <?php foreach ($data['transportation']['facilities'] as $facility): ?>
+                        <li class="info__item"><?php echo $facility['text']; ?></li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <?php require_once('partials/footer.php'); ?>
 </div>
-    </body>
-
+</body>
 </html>
