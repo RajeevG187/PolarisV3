@@ -76,12 +76,16 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             </div>
             <div class="modal-body">
                 <ul>
+                <li>
+                    <strong>Important Notice:</strong> Brochure is Updated on Polaris!!!
+                        <a href="public/pdfs/Brochure_24-25.pdf" target="_blank" class="notification">Click Here!</a>
+                    </li>
                     <li><strong>Important Notice:</strong> Reporting Instructions
                         <a href="public/pdfs/Instructions_2024-25-M.pdf" target="_blank" class="notification">Click Here!</a>
                     </li>
 
                     <?php if ($data['pdfLink']['check'] == 1): ?>
-                        <li><strong>Important Notice</strong> Orientation Schedule
+                        <li><strong>Important Notice</strong> Registration and Orientation Schedule
                         <a href="public/pdfs/Orientation_Schedule_2024-25-M.pdf" target="_blank" class="notification">Click Here!</a>
                         </li>
                     <?php else: ?>
@@ -135,8 +139,9 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             <div class="header__hero-box">
             <h1 class="heading-primary"><?php echo $data['header']['head']; ?></h1>
             <p class="heading-subtitle"><?php echo $data['header']['text']; ?></p>
+
             <?php if ($data['brochureLink']['check'] == 1): ?>
-    <a href="../public/pdfs/brochure_2023.pdf" class="btn btn-download" download>
+    <a href="../public/pdfs/Brochure_24-25.pdf" class="btn btn-download" download>
         Brochure 2024&nbsp; <i class="fas fa-download"></i>
     </a>
 <?php else: ?>
@@ -145,8 +150,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
     </span>
 <?php endif; ?>
 <br />
-                <!-- <a href="javascript:void(0);" class="btn btn-download">Brochure 2023 will be uploaded soon.&nbsp; <i class="fas fa-download"></i></a><br/> -->
-                <!-- <a href="#" class="btn btn-live" id="modalBtn">Live Updates &nbsp; <i class="fas fa-sync"></i></a> -->
+                
             </div>
         </div>
     </header>
@@ -157,8 +161,9 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                 <h3 class="heading-secondary">Latest Updates on Website</h3>
                 <p id="blink" style="color:blue;"> 
                 <?php if ($data['registrationScheduleDownload']['check'] == 1): ?>
-                <a href="public/pdfs/Orientation_Schedule_2024-25-M.pdf" target="_blank" class="notification">
-                Orientation Schedule is uploaded.Click Here to download
+                    Registration & Orientation Schedule is uploaded.
+                <a href="public/pdfs/Orientation_Schedule_2024-25-M.pdf" target=blank class="notification">
+                Click Here!
                 </a>
                 <?php else: ?>
                     <span class="notification" style="pointer-events: none; cursor: not-allowed;" title="To be announced">
@@ -188,7 +193,14 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                 <div class="introduction">
                     <h2 class="heading-secondary">Announcements</h2>
                     <ul class="info__list">
-                            <li class="info__item">All the new students who will be admitted to IIT Bhilai in 2024-25 year are required to report to permanent campus of IIT Bhilai for admission.
+                            <li class="info__item">All the new students who will be admitted to IIT Bhilai in 2024-25 year are required to report to permanent campus of IIT Bhilai for admission on 24th July!
+                            </li>
+                            
+                            <li class="info__item">Consider going through Instructions and Orientation schedule for more information!
+                            </li>
+                            
+                            <li class="info__item">Latest Brochure has been updated on the Website!!!
+                            <a href="public/pdfs/Brochure_24-25.pdf" target="_blank" class="notification">Click Here!</a>
                             </li>
                     </ul>
                     <p class="introduction__text"> Please keep visting the website for more updates.</p>
