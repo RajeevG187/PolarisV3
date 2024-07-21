@@ -1248,6 +1248,64 @@ body {
   object-fit: cover;
 }
 
+.about__text,
+.location__text,
+.facilities__text,
+.network__text,
+.mess__text,
+.medical__text,
+.transportation__text {
+  text-align: justify;
+  font-size: 1.7rem;
+  word-spacing: 3px;
+  font-weight: 300;
+}
+.about span,
+.location span,
+.facilities span,
+.network span,
+.mess span,
+.medical span,
+.transportation span {
+  font-weight: 900;
+}
+.about__photo,
+.location__photo,
+.facilities__photo,
+.network__photo,
+.mess__photo,
+.medical__photo,
+.transportation__photo {
+  width: 100%;
+}
+
+.info {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.info__text {
+  text-align: justify;
+  font-size: 1.7rem;
+  word-spacing: 3px;
+  font-weight: 300;
+}
+
+.info:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.info__list {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.info__item {
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+
+
 .sports__text {
   text-align: justify;
   font-size: 1.7rem;

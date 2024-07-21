@@ -56,19 +56,6 @@
 
         <section class="section">
             <div class="container">
-                <h2 class="heading-secondary">Campus Location</h2>
-                <div class="location">
-                    <p class="location__text">The Permanent Campus of IIT Bhilai is located at Khapri, which is a suburb of Bhilai in the Durg district of Chhattisgarh, India. It is about 10 kilometers from the main city of Bhilai and is well connected through public transport to the railway station, airport, and Raipur City.</p>
-                </div>
-
-                <iframe width="100%" height="400" frameborder="0" style="border:0;margin-top:2rem" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d237995.96834581683!2d81.02956818671873!3d21.244256699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a293d6791e5f399%3A0xfb39e72b5f4501f5!2sIIT%20Bhilai%20Permanent%20Campus!5e0!3m2!1sen!2sin!4v1686500146427!5m2!1sen!2sin" allowfullscreen></iframe>
-            </div>
-        </section>
-
-        <div class="line-break"></div>
-
-        <section class="section">
-            <div class="container">
                 <h2 class="heading-secondary" id="hostel__facilities">Facilities Available</h2>
                 <div class="facilities">
                     <h3 class="heading-tertiary">Hostels for girls and boys</h3>
