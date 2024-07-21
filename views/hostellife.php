@@ -143,7 +143,7 @@ endif;
         <div class="container">
             <h2 class="heading-secondary">About</h2>
             <div class="about">
-                <p class="about__text"><?php echo $data['about']['heading']; ?></p>
+                <h2 class="heading-tertiary"><?php echo $data['about']['heading']; ?></h2>
                 <p class="about__text"><?php echo $data['about']['text']; ?></p>
             </div>
         </div>
