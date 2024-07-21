@@ -234,34 +234,34 @@
             "heading": "Other facilities",
             "facilities": [
                 {
-                    "points":"Every student gets a bed, a fan, an almirah, a table and a chair in his room."
+                    "text":"Every student gets a bed, a fan, an almirah, a table and a chair in his room."
                 },
                 {
-                    "points":"Toilets are commonly shared with the wing mates and are cleaned twice a day."
+                    "text":"Toilets are commonly shared with the wing mates and are cleaned twice a day."
                 },
                 {
-                    "points":"Fully automated washing machines are kept in the laundry room for saving time and efforts of the students."
+                    "text":"Fully automated washing machines are kept in the laundry room for saving time and efforts of the students."
                 },
                 {
-                    "points":"Recreation cum TV room is there in the hostels for entertainment purpose."
+                    "text":"Recreation cum TV room is there in the hostels for entertainment purpose."
                 },
                 {
-                    "points":"For the music lovers, there is a music room equipped with a drum set, congo set, keyboard, guitar and some other instruments."
+                    "text":"For the music lovers, there is a music room equipped with a drum set, congo set, keyboard, guitar and some other instruments."
                 },
                 {
-                    "points":"A dance room completely equipped with mirrored walls is set up for tapping your feet. And yes, if you love those drops, then there are bass speakers for you to bounce on."
+                    "text":"A dance room completely equipped with mirrored walls is set up for tapping your feet. And yes, if you love those drops, then there are bass speakers for you to bounce on."
                 },
                 {
-                    "points":"Both the hostels have indoor badminton courts."
+                    "text":"Both the hostels have indoor badminton courts."
                 },
                 {
-                    "points":"A snooker table and other indoor games are also provided."
+                    "text":"A snooker table and other indoor games are also provided."
                 },
                 {
-                    "points":"A Table Tennis table is also there for \"ping-pong\" lovers."
+                    "text":"A Table Tennis table is also there for \"ping-pong\" lovers."
                 },
                 {
-                    "points":"Air Cooling Ducts are there in each wing in the hostels to keep the rooms cool during summer."
+                    "text":"Air Cooling Ducts are there in each wing in the hostels to keep the rooms cool during summer."
                 }
             ]
         }
@@ -272,15 +272,7 @@
     },
     "mess": {
         "heading": "Mess Facilities",
-        "text": "Currently there are two mess in the campus, one serving in each hostel, Mess provides snacks at evening apart from breakfast, lunch and dinner. Both the hostels have mess night canteens which are open till 3 am in the night. They serve Snacks, Drinks, Fresh Fruit Juices, Noodles, Ice-Creams etc.",
-        "image": [
-            {
-                "url": "images/life/mess-1.jpg"
-            },
-            {
-                "url": "images/life/mess-2.jpg"
-            }
-        ]
+        "text": "Currently there are two mess in the campus, one serving in each hostel, Mess provides snacks at evening apart from breakfast, lunch and dinner. Both the hostels have mess night canteens which are open till 3 am in the night. They serve Snacks, Drinks, Fresh Fruit Juices, Noodles, Ice-Creams etc."
     },
     "medical": {
         "heading": "Medical Facilities",
@@ -291,13 +283,13 @@
         "text": "The Castle Ena boys hostel is located at a distance of about 900m from the academic block. A wide road within the campus connects both. There are plenty of options to ply between these two:",
         "facilities": [
             {
-                "point": "You can walk without even breaking a sweat (Can’t guarantee about summers though)"
+                "text": "You can walk without even breaking a sweat (Can’t guarantee about summers though)"
             },
             {
-                "point": "Paddle your way to the Acad. Block"
+                "text": "Paddle your way to the Acad. Block"
             },
             {
-                "point": "Lazy enough? Well there is a bus service back and forth from the hostel to the Acad. Block. It runs at scheduled times- generally half and prior to lectures and lunch."
+                "text": "Lazy enough? Well there is a bus service back and forth from the hostel to the Acad. Block. It runs at scheduled times- generally half and prior to lectures and lunch."
             }
         ]
     }
