@@ -57,7 +57,7 @@
             {"text": "Unlawful assembly and rioting while ragging"},
             {"text": "Public nuisance created during ragging"},
             {"text": "Violation of decency and morals through ragging"},
-            {"text": "Injury to bdy, causing hurt or grievous hurt"},
+            {"text": "Injury to body, causing hurt or grievous hurt"},
             {"text": "Wrongful restraint"},
             {"text": "Wrongful confinement"},
             {"text": "Use of criminal force"},
@@ -90,7 +90,14 @@
         "admission": [
             {
                 "heading": "Before admissions",
-                "points": []
+                "points": [
+                    {
+                        "text": "The advertisement for admissions shall clearly mention that ragging is totally banned in the institution, and anyone found guilty of ragging and/or abetting ragging is liable to be punished appropriately."
+                    },
+                    {
+                        "text": "The application form for admission/ enrolment shall have a printed undertaking, preferably both in English/Hindi and in one of the regional languages known to the institution and the applicant (English version given in Annexure I, Part l), to be filled up and signed by the candidate to the effect that he/she is aware of the law regarding prohibition of ragging as well as the punishments, and to the effect that he/she has not been expelled and/or debarred from admission by any institution and that he/she, if found guilty of the offence of ragging and/or abetting ragging, is liable to be punished appropriately."
+                    }
+                ]
             },
             {
                 "heading": "On admission",
@@ -213,50 +220,40 @@
     "facilities": {
         "heading": "Facilities Available",
         "hostel": {
-            "heading": "Hostels for girls and boys",
-            "text": "Staying in campus is fun because of hostel and the environment that it offers. We have two hostels, Castle Ena and Castle Dio. Second, Third and Fourth year boys resides in Castle Ena. All the girls will be residing on ground floor of Castle Dio. First floor of Castle Dio will have accomodation for 1st year boys. ",
-            "note": "Note: Wings of the girls hostel will be completely partitioned from the rest of the hostel."
+            "heading": "Hostels",
+            "text": "IIT Bhilai has modern, safe and secure accommodation designed. IIT Bhilai on-campus residences make the students settling in a breeze. Hostels in IIT Bhilai are like a home-away-from-home! IIT Bhilai ensure that the inmates are comfortable and are provided with a congenial environment to pursue their studies. The hostel rooms are well ventilated and adequately furnished. IIT Bhilai provide a separate bed with mattress, a study table, chair and an almirah to each student. The entire hostel premises are Air conditioned, Wi-Fi enabled with 24x7 internet facility. We Have 2 Boys Hostel and 1 Girls Hostel ans also a Married Student Hostel."
         },
         "capacity": {
             "heading": "Hostels Capacity",
-            "text": "In Castle Ena the total capacity is of 302 and in Castle Dio the total capacity is 258."
+            "text": "The Kanhar Hostel (BH1) for boys has a capacity of 476 plus 12 PWD spots, Gopad Hostel (BH2) for boys has a capacity of 486 plus 12 PWD spots, Indravati Hostel (GH1) for girls has a capacity of 316 plus 8 PWD spots, and Shivnath Hostel (MSH) for married scholars has 96 flats."
         },
         "rooms": {
             "heading": "Types of Rooms",
-            "text": "We have 2 sharing, 3 sharing and 4 sharing rooms in Castle Ena and for the fresher boys, they will be given 3 sharing rooms and 4 sharing rooms for fresher girls, there is still plenty of space left in the rooms."
+            "text": "We have single and double occupancy rooms."
         },
         "others": {
             "heading": "Other facilities",
             "facilities": [
                 {
-                    "points":"Every student gets a bed, a fan, an almirah, a table and a chair in his room."
+                    "text":"Rooms have fan, almirah, a table and a chair."
                 },
                 {
-                    "points":"Toilets are commonly shared with the wing mates and are cleaned twice a day."
+                    "text":"Toilets are commonly shared with the wing mates and are cleaned twice a day."
                 },
                 {
-                    "points":"Fully automated washing machines are kept in the laundry room for saving time and efforts of the students."
+                    "text":"Recreation cum TV room is there in the hostels for entertainment purpose."
                 },
                 {
-                    "points":"Recreation cum TV room is there in the hostels for entertainment purpose."
+                    "text":"For the music lovers, there is a music room equipped with a drum set, congo set, keyboard, guitar and some other instruments."
                 },
                 {
-                    "points":"For the music lovers, there is a music room equipped with a drum set, congo set, keyboard, guitar and some other instruments."
+                    "text":"BH1 has indoor badminton court."
                 },
                 {
-                    "points":"A dance room completely equipped with mirrored walls is set up for tapping your feet. And yes, if you love those drops, then there are bass speakers for you to bounce on."
+                    "text":"A Table Tennis table is also there for \"ping-pong\" lovers."
                 },
                 {
-                    "points":"Both the hostels have indoor badminton courts."
-                },
-                {
-                    "points":"A snooker table and other indoor games are also provided."
-                },
-                {
-                    "points":"A Table Tennis table is also there for \"ping-pong\" lovers."
-                },
-                {
-                    "points":"Air Cooling Ducts are there in each wing in the hostels to keep the rooms cool during summer."
+                    "text":"Air Conditioning is present in the hostels to keep the rooms cool during summer."
                 }
             ]
         }
@@ -267,32 +264,21 @@
     },
     "mess": {
         "heading": "Mess Facilities",
-        "text": "Currently there are two mess in the campus, one serving in each hostel, Mess provides snacks at evening apart from breakfast, lunch and dinner. Both the hostels have mess night canteens which are open till 3 am in the night. They serve Snacks, Drinks, Fresh Fruit Juices, Noodles, Ice-Creams etc.",
-        "image": [
-            {
-                "url": "images/life/mess-1.jpg"
-            },
-            {
-                "url": "images/life/mess-2.jpg"
-            }
-        ]
+        "text": "Currently there a large mess in the campus, Mess provides snacks at evening apart from breakfast, lunch and dinner. Mess also haas night canteens open in the night. They serve Snacks, Drinks, Noodles,etc."
     },
     "medical": {
         "heading": "Medical Facilities",
-        "text": "The hostel has first-aid facilities along with medications for common ailments. If one needs to see a doctor, he can find him adjacent to Castle Tria and Guest House in the Nurse room. A paramedic is always available at the campus and so is the ambulance service (An ambulance vehicle available 24 x 7 in the campus). In case of emergency or any other medical call, one is taken to the nearest hospital: The VY Hospital (Located about 5 km from the campus, distance is covered within 15 min due to presence of wide and less busy roads). It is functional 24 x 7 and has all major facilities."
+        "text": "Our institute has a well-established health center with 24/7 emergency support and an ambulance facility. More details about it are available on the IIT Bhilai website. Also, all hostels have first aid boxes available."
     },
     "transportation": {
         "heading": "Transportation Facilities within Campus",
-        "text": "The Castle Ena boys hostel is located at a distance of about 900m from the academic block. A wide road within the campus connects both. There are plenty of options to ply between these two:",
+        "text": "All parts of our campus are very well connected through roads, pedestrian paths, and cycling tracks.",
         "facilities": [
             {
-                "point": "You can walk without even breaking a sweat (Can’t guarantee about summers though)"
+                "text": "You can walk without even breaking a sweat (Can’t guarantee about summers though)."
             },
             {
-                "point": "Paddle your way to the Acad. Block"
-            },
-            {
-                "point": "Lazy enough? Well there is a bus service back and forth from the hostel to the Acad. Block. It runs at scheduled times- generally half and prior to lectures and lunch."
+                "text": "Paddle your way to the Acad. Block."
             }
         ]
     }
