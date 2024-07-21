@@ -14,7 +14,6 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,11 +26,21 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Bitter:700|Dancing+Script:700" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <link rel="stylesheet" href="../public/css/animate.css">
         <link rel="stylesheet" href="../public/css/style.css">
 
         <title>Polaris - Student Mentorship Program</title>
 
+        <style>
+        #blink {
+            font-size: 20px;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        </style>
 
         <meta name="google-site-verification" content="psQtXO_U0R9o5w-fP7i3zrlm_g3nDtP0Mg6-Xg-q73w" />
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -73,12 +82,11 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
         <section class="section">
             <div class="container">
-                <h2 class="heading-secondary">Campus Location</h2>
+                <h2 class="heading-secondary">Anti-Ragging Committee</h2>
                 <div class="location">
-                    <p class="location__text">The Permanent Campus of IIT Bhilai is located at Khapri, which is a suburb of Bhilai in the Durg district of Chhattisgarh, India. It is about 10 kilometers from the main city of Bhilai and is well connected through public transport to the railway station, airport, and Raipur City.</p>
+                    <p class="location__text">add anti ragging committee stuff here</p>
                 </div>
 
-                <iframe width="100%" height="400" frameborder="0" style="border:0;margin-top:2rem" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d237995.96834581683!2d81.02956818671873!3d21.244256699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a293d6791e5f399%3A0xfb39e72b5f4501f5!2sIIT%20Bhilai%20Permanent%20Campus!5e0!3m2!1sen!2sin!4v1686500146427!5m2!1sen!2sin" allowfullscreen></iframe>
             </div>
         </section>
 
@@ -143,10 +151,10 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                 <div class="mess">
                     <p class="mess__text">Currently there are two mess in the campus, one serving in each hostel, Mess provides snacks at evening apart from breakfast, lunch and dinner. Both the hostels have mess night canteens which are open till 3 am in the night. They serve Snacks, Drinks, Fresh Fruit Juices, Noodles, Ice-Creams etc.</p><br>
 
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-1-of-2"><img src="..public/image/life/mess-1.jpg" alt="Mess" class="mess__photo"></div>
                         <div class="col-1-of-2"><img src="..public/image/life/mess-2.jpg" alt="Mess" class="mess__photo"></div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
