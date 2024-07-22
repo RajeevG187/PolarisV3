@@ -165,6 +165,14 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             <div class="facilities">
                 <h3 class="heading-tertiary"><i class="fas fa-arrow-circle-right"></i>&nbsp;<?php echo $data['facilities']['hostel']['heading']; ?></h3>
                 <p class="facilities__text"><?php echo $data['facilities']['hostel']['text']; ?></p>
+                <?php for ($i = 0; $i < count($data['facilities']['hostel']['images']); $i++): ?>
+    <div class="row">
+        <?php foreach ($data['facilities']['hostel']['images'][$i] as $image): ?>
+            <div class="col-1-of-2"><img src="<?php echo $image['img']; ?>" alt="<?php echo $image['alt']; ?>" class="cultural__photo"></div>
+        <?php endforeach; ?>
+    </div>
+<?php endfor; ?>
+
             </div>
 
             <div class="facilities">
@@ -230,6 +238,16 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             <h2 class="heading-secondary">Transportation Facilities within Campus</h2>
             <div class="transportation">
                 <p class="transportation__text"><?php echo $data['transportation']['text']; ?></p>
+                <?php foreach ($data['transportation']['images'] as $image_row): ?>
+    <div class="row">
+        <?php foreach ($image_row as $image): ?>
+            <div class="col-1-of-2">
+                <img src="<?php echo $image['img']; ?>" alt="<?php echo $image['alt']; ?>" class="cultural__photo">
+            </div>
+        <?php endforeach; ?>
+    </div>
+<?php endforeach; ?>
+
             </div>
             <div class="transportation">
                 <ul class="info__list">
