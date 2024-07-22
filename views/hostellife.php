@@ -137,7 +137,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                         </ul>
                                     <?php endif; ?>
                                 <?php endforeach; ?>
-                                <p class="facilities__text">To learn more about it please refer to the <a href="..\public\pdfs\Anti Ragging.pdf"><b>Anti-Ragging Doc</b></a></p>
+                                <p class="facilities__text">To learn more about it please refer to the <a href="..\public\pdfs\Anti Ragging.pdf" target="blank"><b>Anti-Ragging Doc</b></a></p>
                   
                 </div>
             </div>
