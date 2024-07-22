@@ -79,7 +79,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         <div class="container">
             <h2 class="heading-secondary">About</h2>
             <div class="about">
-                <h2 class="heading-tertiary"><?php echo $data['about']['heading']; ?></h2>
+                <h2 class="heading-tertiary"><i class="fas fa-arrow-circle-right"></i>&nbsp;<?php echo $data['about']['heading']; ?></h2>
                 <p class="about__text"><?php echo $data['about']['text']; ?></p>
             </div>
         </div>
@@ -93,22 +93,22 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                 <h2 class="heading-secondary"><?php echo $data['header']['heading']; ?> </h2>
                 <div class="facilities">
                     
-                    <h3 class="heading-tertiary"><?php echo $data['objective']['heading']; ?></h3>
+                    <h3 class="heading-tertiary"><i class="fas fa-arrow-circle-right"></i>&nbsp;<?php echo $data['objective']['heading']; ?></h3>
                     <p class="facilities__text"><?php echo $data['objective']['text']; ?></p>
-                    <h3 class="heading-tertiary"><?php echo $data['definitons']['heading']; ?></h3>
+                    <h3 class="heading-tertiary"><i class="fas fa-arrow-circle-right"></i>&nbsp;<?php echo $data['definitons']['heading']; ?></h3>
                     <p class="facilities__text"><?php echo $data['definitons']['note']; ?></p>
                     <ul class="info__list">
                     <?php foreach ($data['definitons']['points'] as $point): ?>
                                     <li class="info__item"><?php echo $point['text']; ?></li>
                                 <?php endforeach; ?>
                     </ul>
-                    <h3 class="heading-tertiary"><?php echo $data['ingredients']['heading']; ?></h3>
+                    <h3 class="heading-tertiary"><i class="fas fa-arrow-circle-right"></i>&nbsp;<?php echo $data['ingredients']['heading']; ?></h3>
                     <ul class="info__list">
                     <?php foreach ($data['ingredients']['points'] as $point): ?>
                                     <li class="info__item"><?php echo $point['text']; ?></li>
                                 <?php endforeach; ?>
                     </ul>
-                    <h3 class="heading-tertiary"><?php echo $data['prevention']['heading']; ?></h3>
+                    <h3 class="heading-tertiary"><i class="fas fa-arrow-circle-right"></i>&nbsp;<?php echo $data['prevention']['heading']; ?></h3>
                     <?php foreach ($data['prevention']['admission'] as $element): ?>
                   
                     <ul class="info__list">
@@ -119,7 +119,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                 </ul>
                                 <?php endforeach; ?>
 
-                                <h3 class="heading-tertiary"><?php echo $data['punishment']['heading']; ?></h3>
+                                <h3 class="heading-tertiary"><i class="fas fa-arrow-circle-right"></i>&nbsp;<?php echo $data['punishment']['heading']; ?></h3>
                                 <?php foreach ($data['punishment']['note'] as $element): ?>
                                     <h5 class="heading-tertiary2"><?php echo $element['heading']; ?></h5>
                                     <p class="facilities__text"><?php echo $element['points']['text']; ?></p>
@@ -132,7 +132,9 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                         <?php endif; ?>
                                 <?php endforeach; ?>
 
-                                <h3 class="heading-tertiary"><?php echo $data['ARC']['heading']; ?></h3>
+
+                                <h3 class="heading-tertiary"><i class="fas fa-arrow-circle-right"></i>&nbsp;<?php echo $data['ARC']['heading']; ?></h3>
+
                                 <p class="facilities__text"><?php echo $data['ARC']['work']; ?></p>
                                 <?php foreach ($data['ARC']['note'] as $element): ?>
                                     <h5 class="heading-tertiary2"><?php echo $element['heading']; ?></h5>
@@ -161,22 +163,22 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         <div class="container">
             <h2 class="heading-secondary" id="hostel__facilities"><?php echo $data['facilities']['heading']; ?></h2>
             <div class="facilities">
-                <h3 class="heading-tertiary"><?php echo $data['facilities']['hostel']['heading']; ?></h3>
+                <h3 class="heading-tertiary"><i class="fas fa-arrow-circle-right"></i>&nbsp;<?php echo $data['facilities']['hostel']['heading']; ?></h3>
                 <p class="facilities__text"><?php echo $data['facilities']['hostel']['text']; ?></p>
             </div>
 
             <div class="facilities">
-                <h3 class="heading-tertiary"><?php echo $data['facilities']['capacity']['heading']; ?></h3>
+                <h3 class="heading-tertiary"><i class="fas fa-arrow-circle-right"></i>&nbsp;<?php echo $data['facilities']['capacity']['heading']; ?></h3>
                 <p class="facilities__text"><?php echo $data['facilities']['capacity']['text']; ?></p>
             </div>
 
             <div class="facilities">
-                <h3 class="heading-tertiary"><?php echo $data['facilities']['rooms']['heading']; ?></h3>
+                <h3 class="heading-tertiary"><i class="fas fa-arrow-circle-right"></i>&nbsp;<?php echo $data['facilities']['rooms']['heading']; ?></h3>
                 <p class="facilities__text"><?php echo $data['facilities']['rooms']['text']; ?></p>
             </div>
 
             <div class="facilities">
-                <h3 class="heading-tertiary">Other facilities</h3>
+                <h3 class="heading-tertiary"><i class="fas fa-arrow-circle-right"></i>&nbsp;<?php echo $data['facilities']['others']['heading']; ?></h3>
                 <ul class="info__list">
                     <?php foreach ($data['facilities']['others']['facilities'] as $facility): ?>
                         <li class="info__item"><?php echo $facility['text']; ?></li>
