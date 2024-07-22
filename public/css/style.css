@@ -1259,6 +1259,8 @@ body {
   font-size: 1.7rem;
   word-spacing: 3px;
   font-weight: 300;
+  margin-left: 6rem;
+  margin-bottom: 2rem;
 }
 .about span,
 .location span,
