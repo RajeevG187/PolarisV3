@@ -35,7 +35,7 @@
   "dropdown-links": [
     {
       "url": "../views/hostellife.php", 
-      "text": "Hostel-life", 
+      "text": "Campus-life", 
       "class": "navbar_hostellife" 
     },
     { 
