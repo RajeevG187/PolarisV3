@@ -1,25 +1,11 @@
 {
     "head": {
-        "heading": "Hostel Life",
+        "heading": "Campus Life",
         "text": "Ohh! You'll love it here...."
     },
     "header": {
         "heading": "UGC Regulation on Anti Ragging in Higher Educational Institutions",
         "text": "In exercise of the powers conferred by Clause (g) of Sub-Section (l) of Section 26 of the University Grants Commission Act, 1956, the University Grants Commission hereby makes the following Regulations, namely: "
-    },
-    "title": {
-        "heading": "Title, commencement and applicablity: ",
-        "points": [
-            {
-                "text": "These regulations shall be called the \"UGC Regulations on Curbing the Menace of Ragging in Higher Educational Institutions, 2009\"."
-            },
-            {
-                "text": "They shall come into force with immediate effect."
-            },
-            {
-                "text": "They shall apply to all the universities established or incorporated by or under a Central Act, a Provincial Act or a State Act, to all institutions deemed to be university under Section 3 of the UGC Act, 1956, to all other higher educational institutions, including the departments, constituent units and all the premises (academic, residential, sports, canteen, etc) of such universities, deemed universities and other higher educational institutions, whether located within the campus or outside, and to all means of transportation of students whether public or private."
-            }
-        ]
     },
     "objective": {
         "heading": "Objective: ",
@@ -179,8 +165,53 @@
             }
         ]
     },
+    "ARC": {
+        "heading": "Anti Ragging Comitee : ",
+        "work": "Ragging has no place on our campus. To ensure complete safety, we have established an Anti-Ragging Committee (ARC).",
+        "note": [
+            {
+                "heading": "Members of the Anti Ragging Comitee(ARC) are:",
+                "points": {
+                    "sub-points": [
+                        {
+                            "text": "1. Dr. Suchetan Pal, Faculty-in-Charge, DoSA - Chairman"
+                        },
+                        {
+                            "text": "2. Dr. Dhruv Pratap Singh, Faculty-in-Charge, DoAA - Member"
+                        },
+                        {
+                            "text": "3. Dr. Mahavir Sharma, Warden, Kanhar Hostel (BH-1) - Member"
+                        },
+                        {
+                            "text": "4. Dr. Anjali Chaudhary, Warden, Indravati Hostel (GH-1) - Member"
+                        },
+                        {
+                            "text": "5. Dr. Shailendra Kumar, Warden, Shivnath Hostel (MSH) - Member"
+                        },
+                        {
+                            "text": "6. President, CoSA - Member"
+                        }
+                    ]
+                }
+            },
+            {
+                "heading": "The committee shall carry out the following activities:",
+                "points": {
+                    "text": "",
+                    "sub-points": [
+                        {
+                            "text": "1.It shall be the duty of the Anti-Ragging Commitee (ARC) to ensure compliance with the provisions of UGC Regulation on Curbing the Menace of Ragging in Higher Educational Institutions 2009, as well as the provisions of any law for the time being in force concerning ragging."
+                        },
+                        {
+                            "text": "2.To take administrative action in the event or ragging."
+                        }
+                    ]
+                }
+            }
+        ]
+    },
     "about": {
-        "heading": "Hostel Life",
+        "heading": "Campus Life",
         "text": "The hostel lifestyle is an integral part of the one’s college life. Here, at IIT Bhilai, the hostel life is much more than just ‘hanging out’. Our student community is very enthusiatic which is why being here is a totally vivid experience. Even though in its infancy, IIT Bhilai has developed a rich student culture where students from different communities come together and have time of their lifetime. As part of student activities we have established the official student body, Council of Student Affairs(CoSA). Under it function various clubs and associations, each having a coordinator. Students are encouraged to actively participate in the clubs whoch interests them. This makes hostel life exciting and fun."
     },
     "facilities": {

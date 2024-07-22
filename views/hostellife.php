@@ -92,13 +92,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
             <div class="container">
                 <h2 class="heading-secondary"><?php echo $data['header']['heading']; ?> </h2>
                 <div class="facilities">
-                    <h3 class="heading-tertiary"><?php echo $data['title']['heading']; ?></h3>
-
-                    <ul class="info__list">
-                    <?php foreach ($data['title']['points'] as $point): ?>
-                                    <li class="info__item"><?php echo $point['text']; ?></li>
-                                <?php endforeach; ?>
-                    </ul>
+                    
                     <h3 class="heading-tertiary"><?php echo $data['objective']['heading']; ?></h3>
                     <p class="facilities__text"><?php echo $data['objective']['text']; ?></p>
                     <h3 class="heading-tertiary"><?php echo $data['definitons']['heading']; ?></h3>
@@ -127,16 +121,32 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
                                 <h3 class="heading-tertiary"><?php echo $data['punishment']['heading']; ?></h3>
                                 <?php foreach ($data['punishment']['note'] as $element): ?>
-                                <h5 class="heading-tertiary2"><?php echo $element['heading']; ?></h5>
-                                <p class="facilities__text"><?php echo $element['points']['text']; ?></p>
-                                    <?php if (!empty($element['points']['sub-points'])): ?>
-                                        <ul class="info__list">
-                                        <?php foreach ($element['points']['sub-points'] as $point): ?>
-                                            <li class="info__item"><?php echo $point['text']; ?></li>
-                                        <?php endforeach; ?>
-                                        </ul>
-                                    <?php endif; ?>
+                                    <h5 class="heading-tertiary2"><?php echo $element['heading']; ?></h5>
+                                    <p class="facilities__text"><?php echo $element['points']['text']; ?></p>
+                                        <?php if (!empty($element['points']['sub-points'])): ?>
+                                            <ul class="info__list">
+                                            <?php foreach ($element['points']['sub-points'] as $point): ?>
+                                                <li class="info__item"><?php echo $point['text']; ?></li>
+                                            <?php endforeach; ?>
+                                            </ul>
+                                        <?php endif; ?>
                                 <?php endforeach; ?>
+
+                                <h3 class="heading-tertiary"><?php echo $data['ARC']['heading']; ?></h3>
+                                <p class="facilities__text"><?php echo $data['ARC']['work']; ?></p>
+                                <?php foreach ($data['ARC']['note'] as $element): ?>
+                                    <h5 class="heading-tertiary2"><?php echo $element['heading']; ?></h5>
+                                    
+                                        <?php if (!empty($element['points']['sub-points'])): ?>
+                                            <ul class="info__list">
+                                            <?php foreach ($element['points']['sub-points'] as $point): ?>
+                                                <li class="info__item"><?php echo $point['text']; ?></li>
+                                            <?php endforeach; ?>
+                                            </ul>
+                                        <?php endif; ?>
+                                <?php endforeach; ?>
+
+
                                 <p class="facilities__text">To learn more about it please refer to the <a href="..\public\pdfs\Anti Ragging.pdf" target="blank"><b>Anti-Ragging Doc</b></a></p>
                   
                 </div>
