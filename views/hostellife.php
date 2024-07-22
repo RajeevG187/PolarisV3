@@ -76,6 +76,19 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         </header>
 
         <section class="section">
+        <div class="container">
+            <h2 class="heading-secondary">About</h2>
+            <div class="about">
+                <h2 class="heading-tertiary"><?php echo $data['about']['heading']; ?></h2>
+                <p class="about__text"><?php echo $data['about']['text']; ?></p>
+            </div>
+        </div>
+    </section>
+
+    <div class="line-break"></div>
+
+
+        <section class="section">
             <div class="container">
                 <h2 class="heading-secondary"><?php echo $data['header']['heading']; ?> </h2>
                 <div class="facilities">
@@ -142,25 +155,16 @@ if (!empty($element['points']['sub-points'])):
 endif;
 ?>
                                 <?php endforeach; ?>
+                                <p class="facilities__text">To learn more about it please refer to the <a href="..\public\pdfs\Anti Ragging.pdf"><b>Anti-Ragging Doc</b></a></p>
                   
                 </div>
             </div>
+
         </section>
 
         <div class="line-break"></div>
 
-    <section class="section">
-        <div class="container">
-            <h2 class="heading-secondary">About</h2>
-            <div class="about">
-                <h2 class="heading-tertiary"><?php echo $data['about']['heading']; ?></h2>
-                <p class="about__text"><?php echo $data['about']['text']; ?></p>
-            </div>
-        </div>
-    </section>
-
-    <div class="line-break"></div>
-
+   
     <section class="section">
         <div class="container">
             <h2 class="heading-secondary" id="hostel__facilities"><?php echo $data['facilities']['heading']; ?></h2>
