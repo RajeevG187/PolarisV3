@@ -134,6 +134,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 
 
                                 <h3 class="heading-tertiary"><i class="fas fa-arrow-circle-right"></i>&nbsp;<?php echo $data['ARC']['heading']; ?></h3>
+
                                 <p class="facilities__text"><?php echo $data['ARC']['work']; ?></p>
                                 <?php foreach ($data['ARC']['note'] as $element): ?>
                                     <h5 class="heading-tertiary2"><?php echo $element['heading']; ?></h5>
@@ -148,7 +149,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                                 <?php endforeach; ?>
 
 
-                                <p class="facilities__text">To learn more about it please refer to the <a href="..\public\pdfs\Anti Ragging.pdf"><b>Anti-Ragging Doc</b></a></p>
+                                <p class="facilities__text">To learn more about it please refer to the <a href="..\public\pdfs\Anti Ragging.pdf" target="blank"><b>Anti-Ragging Doc</b></a></p>
                   
                 </div>
             </div>
