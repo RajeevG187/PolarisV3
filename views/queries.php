@@ -136,7 +136,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
                             <?php foreach ($data["faq"]["sub-lists"][5]['ans3'] as $ans): ?>
                            <p class="info__text"><?php echo $ans["line"]; ?></p>
                         <?php endforeach;?>
-                        <p class="info__text">For further details regarding the Anti-Ragging Rules you may refer the <a href="../views/hostellife.php" target=blank>Hostel-Life</a> page in the website!</p>
+                        <p class="info__text">For further details regarding the Anti-Ragging Rules you may refer the <a href="../views/hostellife.php" target=blank>Campus-Life</a> page in the website!</p>
                            
                     </div>
                     <div class="info">
