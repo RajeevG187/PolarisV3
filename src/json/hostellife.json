@@ -98,39 +98,6 @@
                         "text": "The application form for admission/ enrolment shall have a printed undertaking, preferably both in English/Hindi and in one of the regional languages known to the institution and the applicant (English version given in Annexure I, Part l), to be filled up and signed by the candidate to the effect that he/she is aware of the law regarding prohibition of ragging as well as the punishments, and to the effect that he/she has not been expelled and/or debarred from admission by any institution and that he/she, if found guilty of the offence of ragging and/or abetting ragging, is liable to be punished appropriately."
                     }
                 ]
-            },
-            {
-                "heading": "On admission",
-                "points": []
-            },
-            {
-                "heading": "At the end of the academic year",
-                "points": []
-            },
-            {
-                "heading": "Other measures",
-                "points": []
-            },
-            {
-                "heading": "Measures for encouraging healthy interaction between freshers and seniors",
-                "points": []
-            }
-        ]
-    },
-    "measures": {
-        "heading": "Measures at the UGC/Statutory/Regulatory level",
-        "note": [
-            {
-                "heading": "Regulatory measures",
-                "points": []
-            },
-            {
-                "heading": "Incentives for curbing ragging",
-                "points": []
-            },
-            {
-                "heading": "Monitoring mechanism to ensure compilance",
-                "points": []
             }
         ]
     },
@@ -216,6 +183,11 @@
     "about": {
         "heading": "Hostel Life",
         "text": "The hostel lifestyle is an integral part of the one’s college life. Here, at IIT Bhilai, the hostel life is much more than just ‘hanging out’. Our student community is very enthusiatic which is why being here is a totally vivid experience. Even though in its infancy, IIT Bhilai has developed a rich student culture where students from different communities come together and have time of their lifetime. As part of student activities we have established the official student body, Council of Student Affairs(CoSA). Under it function various clubs and associations, each having a coordinator. Students are encouraged to actively participate in the clubs whoch interests them. This makes hostel life exciting and fun."
+    },
+    "location": {
+        "heading": "Campus Location",
+        "text": "IIT Bhilai is located in its temporary campus which is inside the premises of The Government Engineering College(GEC), Raipur. The campus is about 12 km from Raipur Junction Railway Station, 16 km from Raipur Airport and 13 km from Pandri Bus Stand, Raipur. Auto Rickshaws are easily available from these places to the campus.",
+        "map_link": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDwxilx3FT8Oe4JCbm8elUIlqN66aMTUEU&q=IIT+Bhilai,Old+Dhamtari+Rd&maptype=satellite"
     },
     "facilities": {
         "heading": "Facilities Available",
