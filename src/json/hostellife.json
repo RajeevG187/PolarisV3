@@ -218,7 +218,29 @@
         "heading": "Facilities Available",
         "hostel": {
             "heading": "Hostels",
-            "text": "IIT Bhilai has modern, safe and secure accommodation designed. IIT Bhilai on-campus residences make the students settling in a breeze. Hostels in IIT Bhilai are like a home-away-from-home! IIT Bhilai ensure that the inmates are comfortable and are provided with a congenial environment to pursue their studies. The hostel rooms are well ventilated and adequately furnished. IIT Bhilai provide a separate bed with mattress, a study table, chair and an almirah to each student. The entire hostel premises are Air conditioned, Wi-Fi enabled with 24x7 internet facility. We Have 2 Boys Hostel and 1 Girls Hostel ans also a Married Student Hostel."
+            "text": "IIT Bhilai has modern, safe and secure accommodation designed. IIT Bhilai on-campus residences make the students settling in a breeze. Hostels in IIT Bhilai are like a home-away-from-home! IIT Bhilai ensure that the inmates are comfortable and are provided with a congenial environment to pursue their studies. The hostel rooms are well ventilated and adequately furnished. IIT Bhilai provide a separate bed with mattress, a study table, chair and an almirah to each student. The entire hostel premises are Air conditioned, Wi-Fi enabled with 24x7 internet facility. We Have 2 Boys Hostel and 1 Girls Hostel ans also a Married Student Hostel.",
+       "images": [
+                    [
+                        {
+                            "img": "../public/images/hostel images/7.jpg",
+                            "alt": "Ciao"
+                        },
+                        {
+                            "img": "../public/images/hostel images/2.jpg",
+                            "alt": "Ciao"
+                        }
+                    ],
+                    [
+                        {
+                            "img": "../public/images/hostel images/4.jpg",
+                            "alt": "Ciao"
+                        },
+                        {
+                            "img": "../public/images/hostel images/6.jpg",
+                            "alt": "Ciao"
+                        }
+                    ]
+                ]
         },
         "capacity": {
             "heading": "Hostels Capacity",
@@ -270,6 +292,18 @@
     "transportation": {
         "heading": "Transportation Facilities within Campus",
         "text": "All parts of our campus are very well connected through roads, pedestrian paths, and cycling tracks.",
+        "images": [
+                    [
+                        {
+                            "img": "../public/images/hostel images/3.jpg",
+                            "alt": "Ciao"
+                        },
+                        {
+                            "img": "../public/images/hostel images/5.jpg",
+                            "alt": "Ciao"
+                        }
+                    ]
+                ],
         "facilities": [
             {
                 "text": "You can walk without even breaking a sweat (Can’t guarantee about summers though)."
