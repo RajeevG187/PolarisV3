@@ -1,7 +1,7 @@
 <?php
 // Define the path to the JSON file
 $jsonFilePath = '../src/json/mentors.json';
-// check (Karan)
+
 // Check if the JSON file exists and is readable
 if (!file_exists($jsonFilePath) || !is_readable($jsonFilePath)) {
     die('Error: JSON file not found or not readable.');
