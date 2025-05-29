@@ -6,7 +6,7 @@ $jsonFilePath = '../src/json/academics.json';
 if (!file_exists($jsonFilePath) || !is_readable($jsonFilePath)) {
     die('Error: JSON file not found or not readable.');
 }
-
+//
 // Read JSON file
 $json = file_get_contents($jsonFilePath);
 
